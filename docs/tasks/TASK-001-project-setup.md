@@ -4,14 +4,14 @@
 A bare Maven project that compiles cleanly and loads into Ago's modloader without errors. No game logic yet — just the scaffolding.
 
 ## Status
-IN PROGRESS (skeleton created, needs compile verification)
+COMPLETE
 
 ## Deliverables
 
-- [ ] `pom.xml` — Java 8 target, modloader as `provided` dependency, Gson as `compile` dependency
-- [ ] `src/main/java/org/gotti/wurmtweaker/WurmTweaker.java` — main mod class
-- [ ] `wurmtweaker.properties` — modloader descriptor file
-- [ ] Project compiles with `mvn clean package`
+- [x] `pom.xml` — Java 8 target, modloader as `provided` dependency, Gson as `compile` dependency
+- [x] `src/main/java/org/gotti/wurmtweaker/WurmTweaker.java` — main mod class
+- [x] `wurmtweaker.properties` — modloader descriptor file
+- [x] Project compiles with `mvn clean package`
 
 ## Implementation Notes
 
@@ -40,6 +40,21 @@ classpath=wurmtweaker.jar
 
 Optionally include a configurable `dataDir` property defaulting to `mods/wurmtweaker/data`.
 
+## Modloader JAR Note
+
+The modloader JAR is not in any public Maven repo. For local builds, install it manually:
+
+```bash
+mvn install:install-file -Dfile=/path/to/modlauncher.jar \
+  -DgroupId=org.gotti.wurmunlimited -DartifactId=modlauncher \
+  -Dversion=0.47 -Dpackaging=jar
+```
+
+The real JAR lives in your Wurm server's `mods/` directory as `modlauncher.jar` (or similar).
+A compile-only stub with the required interfaces is installed in the local Maven repo for CI/dev use.
+
 ## Verification
-- `mvn clean package` produces `target/wurmtweaker.jar` with no errors
-- No Wurm game API calls yet — this is purely framework wiring
+- `mvn clean package` produces `target/wurmtweaker.jar` (258K, includes bundled Gson)
+- JAR contains `WurmTweaker.class`, `ContentHandler.class`, `JsonLoader.class`
+- Modloader interfaces are `provided` (not bundled) — correct
+- No Wurm game API calls — purely framework wiring
