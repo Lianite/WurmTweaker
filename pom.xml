@@ -15,13 +15,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>ago1024</id>
-            <url>https://ago1024.github.io/WurmServerModLauncher/maven/</url>
-        </repository>
-    </repositories>
-
+    <!--
+        The modlauncher artifact is not in a public Maven repo.
+        To build, install the real JAR from your Wurm server's mods/ folder:
+            mvn install:install-file -Dfile=modlauncher.jar \
+              -DgroupId=org.gotti.wurmunlimited -DartifactId=modlauncher \
+              -Dversion=0.47 -Dpackaging=jar
+        A compile-only stub is installed during project setup for local builds.
+    -->
     <dependencies>
         <!-- Ago's modloader — provided by the server at runtime, not bundled -->
         <dependency>
