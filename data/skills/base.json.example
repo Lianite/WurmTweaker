@@ -1,0 +1,2230 @@
+[
+  {
+    "json-type": "skill",
+    "id": 1,
+    "name": "Body",
+    "type": 1,
+    "difficulty": 300000.0,
+    "dependencies": [],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 2,
+    "name": "Mind",
+    "type": 1,
+    "difficulty": 300000.0,
+    "dependencies": [],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 3,
+    "name": "Soul",
+    "type": 1,
+    "difficulty": 300000.0,
+    "dependencies": [],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 100,
+    "name": "Mind logic",
+    "type": 0,
+    "difficulty": 200000.0,
+    "dependencies": [
+      2
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 101,
+    "name": "Mind speed",
+    "type": 0,
+    "difficulty": 200000.0,
+    "dependencies": [
+      2
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 102,
+    "name": "Body strength",
+    "type": 0,
+    "difficulty": 200000.0,
+    "dependencies": [
+      1
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 103,
+    "name": "Body stamina",
+    "type": 0,
+    "difficulty": 200000.0,
+    "dependencies": [
+      1
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 104,
+    "name": "Body control",
+    "type": 0,
+    "difficulty": 150000.0,
+    "dependencies": [
+      1
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 105,
+    "name": "Soul strength",
+    "type": 0,
+    "difficulty": 200000.0,
+    "dependencies": [
+      3
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 106,
+    "name": "Soul depth",
+    "type": 0,
+    "difficulty": 200000.0,
+    "dependencies": [
+      3
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1000,
+    "name": "Swords",
+    "type": 2,
+    "difficulty": 10000.0,
+    "dependencies": [
+      104
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1001,
+    "name": "Knives",
+    "type": 2,
+    "difficulty": 10000.0,
+    "dependencies": [
+      104
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1002,
+    "name": "Shields",
+    "type": 2,
+    "difficulty": 4000.0,
+    "dependencies": [
+      101,
+      104
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1003,
+    "name": "Axes",
+    "type": 2,
+    "difficulty": 10000.0,
+    "dependencies": [
+      102
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1004,
+    "name": "Mauls",
+    "type": 2,
+    "difficulty": 10000.0,
+    "dependencies": [
+      102
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1005,
+    "name": "Carpentry",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      104,
+      100
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1007,
+    "name": "Woodcutting",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      103,
+      102
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1008,
+    "name": "Mining",
+    "type": 4,
+    "difficulty": 8000.0,
+    "dependencies": [
+      103,
+      102,
+      105
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1009,
+    "name": "Digging",
+    "type": 4,
+    "difficulty": 3000.0,
+    "dependencies": [
+      103,
+      102
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1010,
+    "name": "Firemaking",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      100
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1011,
+    "name": "Pottery",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      106,
+      100
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1012,
+    "name": "Tailoring",
+    "type": 2,
+    "difficulty": 20000.0,
+    "dependencies": [
+      100,
+      104
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1013,
+    "name": "Masonry",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      102,
+      100
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1014,
+    "name": "Ropemaking",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      100
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1015,
+    "name": "Smithing",
+    "type": 2,
+    "difficulty": 20000.0,
+    "dependencies": [
+      102,
+      104
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1016,
+    "name": "Weapon smithing",
+    "type": 2,
+    "difficulty": 20000.0,
+    "dependencies": [
+      1015
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1017,
+    "name": "Armour smithing",
+    "type": 2,
+    "difficulty": 20000.0,
+    "dependencies": [
+      1015
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1018,
+    "name": "Cooking",
+    "type": 2,
+    "difficulty": 20000.0,
+    "dependencies": [
+      100,
+      106
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1019,
+    "name": "Nature",
+    "type": 2,
+    "difficulty": 20000.0,
+    "dependencies": [
+      106
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1020,
+    "name": "Miscellaneous items",
+    "type": 4,
+    "difficulty": 20000.0,
+    "dependencies": [
+      100
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1021,
+    "name": "Alchemy",
+    "type": 2,
+    "difficulty": 20000.0,
+    "dependencies": [
+      100
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1022,
+    "name": "Toys",
+    "type": 2,
+    "difficulty": 20000.0,
+    "dependencies": [],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1023,
+    "name": "Fighting",
+    "type": 4,
+    "difficulty": 20000.0,
+    "dependencies": [
+      101,
+      104,
+      102
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1024,
+    "name": "Healing",
+    "type": 2,
+    "difficulty": 20000.0,
+    "dependencies": [
+      106,
+      100
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1025,
+    "name": "Clubs",
+    "type": 2,
+    "difficulty": 10000.0,
+    "dependencies": [
+      102
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1026,
+    "name": "Religion",
+    "type": 2,
+    "difficulty": 20000.0,
+    "dependencies": [
+      106,
+      105
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1027,
+    "name": "Hammers",
+    "type": 2,
+    "difficulty": 10000.0,
+    "dependencies": [
+      102
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1028,
+    "name": "Thievery",
+    "type": 2,
+    "difficulty": 4000.0,
+    "dependencies": [],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": true,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1029,
+    "name": "War machines",
+    "type": 2,
+    "difficulty": 10000.0,
+    "dependencies": [
+      100
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1030,
+    "name": "Archery",
+    "type": 2,
+    "difficulty": 3000.0,
+    "dependencies": [
+      104
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1031,
+    "name": "Bowyery",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1005
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1032,
+    "name": "Fletching",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1005
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 1033,
+    "name": "Polearms",
+    "type": 2,
+    "difficulty": 10000.0,
+    "dependencies": [
+      102
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10001,
+    "name": "Small Axe",
+    "type": 4,
+    "difficulty": 7000.0,
+    "dependencies": [
+      1003
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10002,
+    "name": "Shovel",
+    "type": 4,
+    "difficulty": 7000.0,
+    "dependencies": [
+      1020
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10003,
+    "name": "Hatchet",
+    "type": 4,
+    "difficulty": 7000.0,
+    "dependencies": [
+      1003
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10004,
+    "name": "Rake",
+    "type": 4,
+    "difficulty": 7000.0,
+    "dependencies": [
+      1020
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10005,
+    "name": "Longsword",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1000
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10006,
+    "name": "Medium metal shield",
+    "type": 4,
+    "difficulty": 3000.0,
+    "dependencies": [
+      1002
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10007,
+    "name": "Carving knife",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1001
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10008,
+    "name": "Saw",
+    "type": 4,
+    "difficulty": 3000.0,
+    "dependencies": [
+      1020
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10009,
+    "name": "Pickaxe",
+    "type": 4,
+    "difficulty": 7000.0,
+    "dependencies": [
+      1020
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10010,
+    "name": "Blades smithing",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1016
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10011,
+    "name": "Weapon heads smithing",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1016
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10012,
+    "name": "Chain armour smithing",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1017
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10013,
+    "name": "Plate armour smithing",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1017
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10014,
+    "name": "Shield smithing",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1017
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10015,
+    "name": "Blacksmithing",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1015
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10016,
+    "name": "Cloth tailoring",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1012
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10017,
+    "name": "Leatherworking",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1012
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10018,
+    "name": "Tracking",
+    "type": 4,
+    "difficulty": 2000.0,
+    "dependencies": [
+      100,
+      106
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10019,
+    "name": "Small wooden shield",
+    "type": 4,
+    "difficulty": 3000.0,
+    "dependencies": [
+      1002
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10020,
+    "name": "Medium wooden shield",
+    "type": 4,
+    "difficulty": 3000.0,
+    "dependencies": [
+      1002
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10021,
+    "name": "Large wooden shield",
+    "type": 4,
+    "difficulty": 3000.0,
+    "dependencies": [
+      1002
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10022,
+    "name": "Small metal shield",
+    "type": 4,
+    "difficulty": 3000.0,
+    "dependencies": [
+      1002
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10023,
+    "name": "Large metal shield",
+    "type": 4,
+    "difficulty": 3000.0,
+    "dependencies": [
+      1002
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10024,
+    "name": "Large axe",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1003
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10025,
+    "name": "Huge axe",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1003
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10026,
+    "name": "Hammer",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1020
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10027,
+    "name": "Shortsword",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1000
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10028,
+    "name": "Two handed sword",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1000
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10029,
+    "name": "Butchering knife",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1001
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10030,
+    "name": "Stone chisel",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1020
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10031,
+    "name": "Paving",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      102,
+      105
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10032,
+    "name": "Prospecting",
+    "type": 4,
+    "difficulty": 2000.0,
+    "dependencies": [],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10033,
+    "name": "Fishing",
+    "type": 4,
+    "difficulty": 3000.0,
+    "dependencies": [
+      1019
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10034,
+    "name": "Locksmithing",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1015
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10035,
+    "name": "Repairing",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1020
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10036,
+    "name": "Coal-making",
+    "type": 4,
+    "difficulty": 2000.0,
+    "dependencies": [
+      105,
+      100
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10037,
+    "name": "Dairy food making",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1018
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10038,
+    "name": "Hot food cooking",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1018
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10039,
+    "name": "Baking",
+    "type": 4,
+    "difficulty": 2000.0,
+    "dependencies": [
+      1018
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10040,
+    "name": "Milling",
+    "type": 4,
+    "difficulty": 2000.0,
+    "dependencies": [
+      105,
+      103
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10041,
+    "name": "Metallurgy",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1015
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10042,
+    "name": "Natural substances",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1021
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10043,
+    "name": "Jewelry smithing",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1015
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10044,
+    "name": "Fine carpentry",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1005
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10045,
+    "name": "Gardening",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1019
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10046,
+    "name": "Sickle",
+    "type": 4,
+    "difficulty": 7000.0,
+    "dependencies": [
+      1020
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10047,
+    "name": "Scythe",
+    "type": 4,
+    "difficulty": 7000.0,
+    "dependencies": [
+      1020
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10048,
+    "name": "Forestry",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1019
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10049,
+    "name": "Farming",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1019,
+      102
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10050,
+    "name": "Yoyo",
+    "type": 4,
+    "difficulty": 7000.0,
+    "dependencies": [
+      1022
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10051,
+    "name": "Toy making",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1005
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10052,
+    "name": "Weaponless fighting",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1023
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10053,
+    "name": "Aggressive fighting",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1023,
+      101
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10054,
+    "name": "Defensive fighting",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1023,
+      101
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10055,
+    "name": "Normal fighting",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1023,
+      101
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10056,
+    "name": "First aid",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1024
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10057,
+    "name": "Taunting",
+    "type": 4,
+    "difficulty": 3000.0,
+    "dependencies": [
+      1023
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10058,
+    "name": "Shield bashing",
+    "type": 4,
+    "difficulty": 3000.0,
+    "dependencies": [
+      1023
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10059,
+    "name": "Butchering",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1018,
+      102
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10060,
+    "name": "Milking",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1019
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10061,
+    "name": "Large maul",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1004
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10062,
+    "name": "Medium maul",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1004
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10063,
+    "name": "Small maul",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1004
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10064,
+    "name": "Huge club",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1025
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10065,
+    "name": "Preaching",
+    "type": 4,
+    "difficulty": 2000.0,
+    "dependencies": [
+      1026
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10066,
+    "name": "Prayer",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1026
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10067,
+    "name": "Channeling",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1026
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10068,
+    "name": "Exorcism",
+    "type": 4,
+    "difficulty": 2000.0,
+    "dependencies": [
+      1026
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10069,
+    "name": "Archaeology",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      100,
+      104
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10070,
+    "name": "Warhammer",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1027
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10071,
+    "name": "Foraging",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1019
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10072,
+    "name": "Botanizing",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1019
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10073,
+    "name": "Climbing",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      104,
+      102
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10074,
+    "name": "Stone cutting",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1013
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10075,
+    "name": "Stealing",
+    "type": 4,
+    "difficulty": 2000.0,
+    "dependencies": [
+      1028
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": true,
+    "ignoresEnemies": true,
+    "tickTime": 600000
+  },
+  {
+    "json-type": "skill",
+    "id": 10076,
+    "name": "Lock picking",
+    "type": 4,
+    "difficulty": 2000.0,
+    "dependencies": [
+      1028,
+      104,
+      100
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": true,
+    "ignoresEnemies": true,
+    "tickTime": 600000
+  },
+  {
+    "json-type": "skill",
+    "id": 10077,
+    "name": "Catapults",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1029
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10078,
+    "name": "Animal taming",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1019
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10079,
+    "name": "Short bow",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1030
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10080,
+    "name": "Medium bow",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1030
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10081,
+    "name": "Long bow",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1030
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": true,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10082,
+    "name": "Ship building",
+    "type": 4,
+    "difficulty": 7000.0,
+    "dependencies": [
+      1005
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10083,
+    "name": "Beverages",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1018
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10084,
+    "name": "Traps",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1028,
+      104,
+      100
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": true,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10085,
+    "name": "Animal husbandry",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1019
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10086,
+    "name": "Meditating",
+    "type": 4,
+    "difficulty": 2000.0,
+    "dependencies": [
+      1019
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10087,
+    "name": "Puppeteering",
+    "type": 4,
+    "difficulty": 2000.0,
+    "dependencies": [
+      1022
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10088,
+    "name": "Long spear",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1033
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10089,
+    "name": "Halberd",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1033
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10090,
+    "name": "Staff",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1033
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10091,
+    "name": "Papyrusmaking",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      1019,
+      102
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10092,
+    "name": "Thatching",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      104,
+      100
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": false,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10093,
+    "name": "Ballistae",
+    "type": 4,
+    "difficulty": 2000.0,
+    "dependencies": [
+      1029
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10094,
+    "name": "Trebuchets",
+    "type": 4,
+    "difficulty": 2000.0,
+    "dependencies": [
+      1029
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  },
+  {
+    "json-type": "skill",
+    "id": 10095,
+    "name": "Restoration",
+    "type": 4,
+    "difficulty": 4000.0,
+    "dependencies": [
+      10069
+    ],
+    "decayTime": 1209600000,
+    "slowForPriests": false,
+    "fightSkill": false,
+    "thieverySkill": false,
+    "ignoresEnemies": true,
+    "tickTime": 0
+  }
+]

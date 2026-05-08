@@ -74,9 +74,9 @@ Every file defines one content override. The `"type"` field must match the subfo
 
 | Task | Description | Status |
 |---|---|---|
-| TASK-001 | Maven project skeleton + modloader wiring | In Progress |
-| TASK-002 | JSON loading infrastructure | Pending |
-| TASK-003 | Skills — data model + stub (API research required) | Pending |
+| TASK-001 | Maven project skeleton + modloader wiring | Complete |
+| TASK-002 | JSON loading infrastructure | Complete |
+| TASK-003 | Skills — data model + stub (API research required) | Complete |
 | TASK-004 | Creatures — via `CreatureTemplateBuilder` | Planned |
 | TASK-005 | Items — via `ItemTemplateBuilder` + reflection fallback | Planned |
 

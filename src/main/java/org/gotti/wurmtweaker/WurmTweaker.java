@@ -1,6 +1,7 @@
 package org.gotti.wurmtweaker;
 
 import org.gotti.wurmtweaker.json.JsonLoader;
+import org.gotti.wurmtweaker.skills.SkillHandler;
 import org.gotti.wurmunlimited.modloader.interfaces.Configurable;
 import org.gotti.wurmunlimited.modloader.interfaces.Initable;
 import org.gotti.wurmunlimited.modloader.interfaces.ServerStartedListener;
@@ -26,9 +27,7 @@ public class WurmTweaker implements WurmServerMod, Configurable, Initable, Serve
     @Override
     public void init() {
         jsonLoader = new JsonLoader(dataDir);
-        // Content handlers are registered here as phases are implemented.
-        // Example (uncomment when TASK-003 is complete):
-        // jsonLoader.registerHandler(new SkillHandler());
+        jsonLoader.registerHandler(new SkillHandler());
     }
 
     @Override

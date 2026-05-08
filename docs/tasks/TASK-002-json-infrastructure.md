@@ -4,14 +4,14 @@
 A generic, reusable pipeline that scans `data/<type>/` subdirectories, parses JSON files with Gson, and dispatches parsed objects to registered `ContentHandler` implementations. No content handlers are implemented in this task — only the pipeline.
 
 ## Status
-PENDING (depends on TASK-001)
+COMPLETE
 
 ## Deliverables
 
-- [ ] `src/main/java/org/gotti/wurmtweaker/json/ContentHandler.java` — handler interface
-- [ ] `src/main/java/org/gotti/wurmtweaker/json/JsonLoader.java` — scanner + dispatcher
-- [ ] Unit-testable design (JsonLoader accepts a base path, not hardcoded paths)
-- [ ] Error handling: bad JSON logs filename + error, does NOT throw or crash
+- [x] `src/main/java/org/gotti/wurmtweaker/json/ContentHandler.java` — handler interface
+- [x] `src/main/java/org/gotti/wurmtweaker/json/JsonLoader.java` — scanner + dispatcher
+- [x] Unit-testable design (JsonLoader accepts a base path, not hardcoded paths)
+- [x] Error handling: bad JSON logs filename + error, does NOT throw or crash
 
 ## ContentHandler Interface
 

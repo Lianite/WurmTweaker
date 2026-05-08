@@ -24,6 +24,22 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- Wurm server classes — provided by the server at runtime, not bundled -->
+        <dependency>
+            <groupId>com.wurmonline</groupId>
+            <artifactId>server</artifactId>
+            <version>1.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Wurm shared/common classes — provided by the server at runtime, not bundled -->
+        <dependency>
+            <groupId>com.wurmonline</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0</version>
+            <scope>provided</scope>
+        </dependency>
+
         <!-- Gson — bundled in our JAR -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
@@ -45,7 +61,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-            <!-- Bundle Gson into the output JAR -->
+            <!-- Bundle Gson into the output JAR (must run before assembly) -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
@@ -58,6 +74,28 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- Package distribution zip (must run after shade) -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.3.0</version>
+                <executions>
+                    <execution>
+                        <id>make-dist</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <descriptors>
+                                <descriptor>src/main/assembly/dist.xml</descriptor>
+                            </descriptors>
+                            <appendAssemblyId>true</appendAssemblyId>
                         </configuration>
                     </execution>
                 </executions>

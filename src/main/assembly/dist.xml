@@ -1,0 +1,30 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.1.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.1.0 http://maven.apache.org/xsd/assembly-2.1.0.xsd">
+    <id>dist</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+
+    <files>
+        <!-- Properties file goes in the zip root (drops into mods/) -->
+        <file>
+            <source>wurmtweaker.properties</source>
+            <outputDirectory>/</outputDirectory>
+        </file>
+        <!-- Shaded JAR goes inside the wurmtweaker/ subdirectory -->
+        <file>
+            <source>target/wurmtweaker.jar</source>
+            <outputDirectory>wurmtweaker</outputDirectory>
+        </file>
+    </files>
+
+    <fileSets>
+        <!-- data/ directory goes inside wurmtweaker/ -->
+        <fileSet>
+            <directory>data</directory>
+            <outputDirectory>wurmtweaker/data</outputDirectory>
+        </fileSet>
+    </fileSets>
+</assembly>

@@ -4,7 +4,7 @@
 Define the skill JSON schema and data model. Implement `SkillHandler` that loads skill definitions and applies them via the Wurm skill API. The actual Wurm API call is a **stub** until the API is researched — see the Research Required section below.
 
 ## Status
-PENDING (depends on TASK-002)
+COMPLETE
 
 ## Deliverables
 

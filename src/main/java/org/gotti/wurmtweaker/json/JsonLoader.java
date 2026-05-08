@@ -2,6 +2,8 @@ package org.gotti.wurmtweaker.json;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
 import com.google.gson.JsonSyntaxException;
 
 import java.io.File;
@@ -53,8 +55,14 @@ public class JsonLoader {
 
     private <T> void loadFile(File file, ContentHandler<T> handler) {
         try (FileReader reader = new FileReader(file)) {
-            T definition = gson.fromJson(reader, handler.getDefinitionClass());
-            handler.apply(definition);
+            JsonElement root = JsonParser.parseReader(reader);
+            if (root.isJsonArray()) {
+                for (JsonElement element : root.getAsJsonArray()) {
+                    handler.apply(gson.fromJson(element, handler.getDefinitionClass()));
+                }
+            } else {
+                handler.apply(gson.fromJson(root, handler.getDefinitionClass()));
+            }
         } catch (JsonSyntaxException e) {
             logger.warning("WurmTweaker: failed to parse " + file.getName() + ": " + e.getMessage());
         } catch (IOException e) {
