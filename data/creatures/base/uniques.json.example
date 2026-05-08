@@ -1,0 +1,1031 @@
+[
+  {
+    "json-type": "creature",
+    "id": 20,
+    "name": "Forest giant",
+    "plural": "Forest giants",
+    "longDesc": "With an almost sad look upon its face, this filthy giant might be mistaken for a harmless huge baby.",
+    "modelName": "model.creature.humanoid.giant.forest",
+    "bodyType": 0,
+    "vision": 20,
+    "sex": 0,
+    "types": [ 20, 7, 6, 13, 16, 27, 32, 40, 45 ],
+    "sizeInCentimeters": {
+      "high": 370,
+      "long": 100,
+      "wide": 60
+    },
+    "sounds": {
+      "deathMale": "sound.death.giant",
+      "deathFemale": "sound.death.giant",
+      "hitMale": "sound.combat.hit.giant",
+      "hitFemale": "sound.combat.hit.giant"
+    },
+    "movement": {
+      "speed": 10.0,
+      "moveRate": 1800
+    },
+    "combat": {
+      "baseCombatRating": 76.0,
+      "maxHuntDistance": 40,
+      "aggressivity": 99,
+      "alignment": -20.0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 0.02,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_STUDDED"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 24.0,
+          "kick": 26.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.5
+        }
+      }
+    },
+    "drops": [ 308, 308, 310, 868, 867 ],
+    "meatMaterial": 87,
+    "hasHands": true,
+    "skills": {
+      "100": 5.0,
+      "101": 5.0,
+      "102": 40.0,
+      "103": 60.0,
+      "104": 25.0,
+      "105": 60.0,
+      "106": 19.0,
+      "1023": 80.0,
+      "10052": 65.0,
+      "10064": 60.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 22,
+    "name": "Kyklops",
+    "plural": "Kyklops",
+    "longDesc": "This large drooling one-eyed giant is obviously too stupid to feel any mercy.",
+    "modelName": "model.creature.humanoid.kyklops",
+    "bodyType": 5,
+    "vision": 20,
+    "sex": 0,
+    "types": [ 30, 20, 7, 6, 13, 16, 27, 32, 40, 45 ],
+    "sizeInCentimeters": {
+      "high": 570,
+      "long": 200,
+      "wide": 80
+    },
+    "sounds": {
+      "deathMale": "sound.death.giant",
+      "deathFemale": "sound.death.giant",
+      "hitMale": "sound.combat.hit.giant",
+      "hitFemale": "sound.combat.hit.giant"
+    },
+    "movement": {
+      "speed": 26.0,
+      "moveRate": 1800
+    },
+    "combat": {
+      "baseCombatRating": 86.0,
+      "maxHuntDistance": 40,
+      "aggressivity": 99,
+      "alignment": -10.0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 0.015,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_STUDDED"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 30.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.8
+        }
+      }
+    },
+    "drops": [ 308, 310, 868, 867 ],
+    "meatMaterial": 81,
+    "keepSex": true,
+    "hasHands": true,
+    "skills": {
+      "100": 7.0,
+      "101": 7.0,
+      "102": 80.0,
+      "103": 80.0,
+      "104": 35.0,
+      "105": 55.0,
+      "106": 29.0,
+      "10052": 80.0,
+      "10064": 90.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 26,
+    "name": "Goblin leader",
+    "plural": "Goblin leaders",
+    "longDesc": "Always on the brink of cackling wildly, this creature is possibly insane.",
+    "modelName": "model.creature.humanoid.goblin.leader",
+    "bodyType": 0,
+    "vision": 20,
+    "sex": 0,
+    "types": [ 20, 7, 6, 13, 16, 29, 30, 32, 40, 45 ],
+    "sizeInCentimeters": {
+      "high": 150,
+      "long": 30,
+      "wide": 20
+    },
+    "sounds": {
+      "deathMale": "sound.death.goblin",
+      "deathFemale": "sound.death.goblin",
+      "hitMale": "sound.combat.hit.goblin",
+      "hitFemale": "sound.combat.hit.goblin"
+    },
+    "movement": {
+      "speed": 18.0,
+      "moveRate": 1200
+    },
+    "combat": {
+      "baseCombatRating": 68.0,
+      "maxHuntDistance": 40,
+      "aggressivity": 99,
+      "alignment": -50.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.14,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CHAIN"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 25.0,
+          "handString": "claw",
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.5
+        }
+      }
+    },
+    "drops": [ 303, 868, 867 ],
+    "meatMaterial": 81,
+    "keepSex": true,
+    "hasHands": true,
+    "skills": {
+      "100": 19.0,
+      "101": 25.0,
+      "102": 30.0,
+      "103": 50.0,
+      "104": 25.0,
+      "105": 60.0,
+      "106": 19.0,
+      "1023": 80.0,
+      "10006": 90.0,
+      "10027": 90.0,
+      "10052": 60.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 27,
+    "name": "Troll king",
+    "plural": "Troll kings",
+    "longDesc": "This troll has a scary clever look in his eyes. He surely knows what he is doing.",
+    "modelName": "model.creature.humanoid.troll.king",
+    "bodyType": 0,
+    "vision": 20,
+    "sex": 0,
+    "types": [ 20, 7, 6, 13, 16, 18, 29, 30, 32, 40, 45 ],
+    "sizeInCentimeters": {
+      "high": 270,
+      "long": 60,
+      "wide": 60
+    },
+    "sounds": {
+      "deathMale": "sound.death.troll",
+      "deathFemale": "sound.death.troll",
+      "hitMale": "sound.combat.hit.troll",
+      "hitFemale": "sound.combat.hit.troll"
+    },
+    "movement": {
+      "speed": 20.0,
+      "moveRate": 200
+    },
+    "combat": {
+      "baseCombatRating": 86.0,
+      "maxHuntDistance": 40,
+      "aggressivity": 99,
+      "alignment": -60.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.02,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_RING"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 26.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.7
+        }
+      }
+    },
+    "drops": [ 303, 310, 868, 867 ],
+    "meatMaterial": 81,
+    "keepSex": true,
+    "hasHands": true,
+    "skills": {
+      "100": 15.0,
+      "101": 20.0,
+      "102": 70.0,
+      "103": 70.0,
+      "104": 45.0,
+      "105": 45.0,
+      "106": 29.0,
+      "1023": 80.0,
+      "10052": 80.0,
+      "10064": 90.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 103,
+    "name": "Red dragon hatchling",
+    "plural": "Red dragon hatchlings",
+    "longDesc": "The red dragon hatchling is not as large as a full-grown dragon and unable to fly.",
+    "modelName": "model.creature.drake.red",
+    "bodyType": 6,
+    "vision": 20,
+    "sex": 1,
+    "types": [ 20, 19, 41, 7, 12, 6, 13, 16, 32, 29, 40 ],
+    "sizeInCentimeters": {
+      "high": 170,
+      "long": 100,
+      "wide": 450
+    },
+    "sounds": {
+      "deathMale": "sound.death.dragon",
+      "deathFemale": "sound.death.dragon",
+      "hitMale": "sound.combat.hit.dragon",
+      "hitFemale": "sound.combat.hit.dragon"
+    },
+    "movement": {
+      "speed": 20.0
+    },
+    "combat": {
+      "baseCombatRating": 95.0,
+      "maxHuntDistance": 40,
+      "aggressivity": 500,
+      "alignment": -80.0,
+      "damageType": 2,
+      "combatMoves": [ 1, 2, 3 ],
+      "armor": {
+        "naturalArmour": 0.15,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_LEATHER_DRAGON"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 26.0,
+          "kick": 52.0,
+          "kickString": "wingbuff",
+          "bite": 54.0,
+          "head": 0.0,
+          "headString": "tailwhip",
+          "breath": 1.8
+        }
+      }
+    },
+    "drops": [ 867, 868, 303, 308, 308, 310 ],
+    "meatMaterial": 76,
+    "maxAge": 99,
+    "eggLayer": true,
+    "eggTemplateId": 103,
+    "skills": {
+      "100": 27.0,
+      "101": 40.0,
+      "102": 50.0,
+      "103": 70.0,
+      "104": 65.0,
+      "105": 40.0,
+      "106": 29.0,
+      "1023": 80.0,
+      "10052": 80.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 104,
+    "name": "Blue dragon hatchling",
+    "plural": "Blue dragon hatchlings",
+    "longDesc": "The blue dragon hatchling is not as large as a full-grown dragon and unable to fly.",
+    "modelName": "model.creature.drake.blue",
+    "bodyType": 6,
+    "vision": 20,
+    "sex": 1,
+    "types": [ 20, 19, 41, 7, 12, 6, 13, 16, 32, 29, 40 ],
+    "sizeInCentimeters": {
+      "high": 170,
+      "long": 100,
+      "wide": 450
+    },
+    "sounds": {
+      "deathMale": "sound.death.dragon",
+      "deathFemale": "sound.death.dragon",
+      "hitMale": "sound.combat.hit.dragon",
+      "hitFemale": "sound.combat.hit.dragon"
+    },
+    "movement": {
+      "speed": 20.0
+    },
+    "combat": {
+      "baseCombatRating": 95.0,
+      "maxHuntDistance": 40,
+      "aggressivity": 500,
+      "alignment": -80.0,
+      "damageType": 2,
+      "combatMoves": [ 1, 2 ],
+      "armor": {
+        "naturalArmour": 0.15,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_LEATHER_DRAGON"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 26.0,
+          "kick": 50.0,
+          "kickString": "wingbuff",
+          "bite": 58.0,
+          "head": 0.0,
+          "headString": "tailwhip",
+          "breath": 1.8
+        }
+      }
+    },
+    "drops": [ 867, 868, 303, 308, 308, 310 ],
+    "meatMaterial": 76,
+    "maxAge": 99,
+    "eggLayer": true,
+    "eggTemplateId": 104,
+    "skills": {
+      "100": 27.0,
+      "101": 34.0,
+      "102": 55.0,
+      "103": 65.0,
+      "104": 75.0,
+      "105": 60.0,
+      "106": 29.0,
+      "1023": 80.0,
+      "10052": 80.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 17,
+    "name": "Green dragon hatchling",
+    "plural": "Green dragon hatchlings",
+    "longDesc": "The green dragon hatchling is not as large as a full-grown dragon and unable to fly.",
+    "modelName": "model.creature.drake.green",
+    "bodyType": 6,
+    "vision": 20,
+    "sex": 0,
+    "types": [ 20, 19, 41, 7, 6, 13, 16, 32, 29, 12, 40 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 110,
+      "wide": 480
+    },
+    "sounds": {
+      "deathMale": "sound.death.dragon",
+      "deathFemale": "sound.death.dragon",
+      "hitMale": "sound.combat.hit.dragon",
+      "hitFemale": "sound.combat.hit.dragon"
+    },
+    "movement": {
+      "speed": 20.0,
+      "moveRate": 500
+    },
+    "combat": {
+      "baseCombatRating": 96.0,
+      "maxHuntDistance": 40,
+      "aggressivity": 99,
+      "alignment": -60.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.15,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_LEATHER_DRAGON"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 24.0,
+          "handString": "tailwhip",
+          "kick": 55.0,
+          "kickString": "wingbuff",
+          "bite": 0.0,
+          "head": 56.0,
+          "breath": 1.6
+        }
+      }
+    },
+    "drops": [ 867, 868, 303, 308, 308, 310 ],
+    "meatMaterial": 76,
+    "eggLayer": true,
+    "eggTemplateId": 17,
+    "skills": {
+      "100": 17.0,
+      "101": 27.0,
+      "102": 60.0,
+      "103": 80.0,
+      "104": 65.0,
+      "105": 50.0,
+      "106": 24.0,
+      "1023": 80.0,
+      "10052": 80.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 18,
+    "name": "Black dragon hatchling",
+    "plural": "Black dragon hatchlings",
+    "longDesc": "The black dragon hatchling is not as large as a full-grown dragon and unable to fly.",
+    "modelName": "model.creature.drake.black",
+    "bodyType": 6,
+    "vision": 20,
+    "sex": 1,
+    "types": [ 20, 19, 41, 7, 12, 6, 13, 16, 32, 29, 40 ],
+    "sizeInCentimeters": {
+      "high": 170,
+      "long": 100,
+      "wide": 450
+    },
+    "sounds": {
+      "deathMale": "sound.death.dragon",
+      "deathFemale": "sound.death.dragon",
+      "hitMale": "sound.combat.hit.dragon",
+      "hitFemale": "sound.combat.hit.dragon"
+    },
+    "movement": {
+      "speed": 20.0,
+      "moveRate": 500
+    },
+    "combat": {
+      "baseCombatRating": 98.0,
+      "maxHuntDistance": 40,
+      "aggressivity": 99,
+      "alignment": -70.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.12,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_LEATHER_DRAGON"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 26.0,
+          "handString": "tailwhip",
+          "kick": 56.0,
+          "kickString": "wingbuff",
+          "bite": 0.0,
+          "head": 58.0,
+          "breath": 1.8
+        }
+      }
+    },
+    "drops": [ 867, 868, 303, 308, 308, 310 ],
+    "meatMaterial": 76,
+    "eggLayer": true,
+    "eggTemplateId": 18,
+    "skills": {
+      "100": 27.0,
+      "101": 37.0,
+      "102": 50.0,
+      "103": 70.0,
+      "104": 75.0,
+      "105": 55.0,
+      "106": 29.0,
+      "1023": 80.0,
+      "10052": 85.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 19,
+    "name": "White dragon hatchling",
+    "plural": "White dragon hatchlings",
+    "longDesc": "The white dragon hatchling is not as large as a full-grown dragon and unable to fly.",
+    "modelName": "model.creature.drake.white",
+    "bodyType": 6,
+    "vision": 30,
+    "sex": 1,
+    "types": [ 20, 19, 41, 7, 6, 13, 16, 32, 29, 12, 40 ],
+    "sizeInCentimeters": {
+      "high": 150,
+      "long": 90,
+      "wide": 420
+    },
+    "sounds": {
+      "deathMale": "sound.death.dragon",
+      "deathFemale": "sound.death.dragon",
+      "hitMale": "sound.combat.hit.dragon",
+      "hitFemale": "sound.combat.hit.dragon"
+    },
+    "movement": {
+      "speed": 21.0,
+      "moveRate": 500
+    },
+    "combat": {
+      "baseCombatRating": 95.0,
+      "maxHuntDistance": 40,
+      "aggressivity": 99,
+      "alignment": -60.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.2,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_LEATHER_DRAGON"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 24.0,
+          "handString": "tailwhip",
+          "kick": 53.0,
+          "kickString": "wingbuff",
+          "bite": 0.0,
+          "head": 57.0,
+          "breath": 45.0,
+          "breathString": "burn"
+        }
+      }
+    },
+    "drops": [ 867, 868, 303, 308, 308, 310 ],
+    "meatMaterial": 76,
+    "eggLayer": true,
+    "eggTemplateId": 19,
+    "skills": {
+      "100": 24.0,
+      "101": 30.0,
+      "102": 40.0,
+      "103": 60.0,
+      "104": 55.0,
+      "105": 35.0,
+      "106": 39.0,
+      "1023": 80.0,
+      "10052": 75.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 16,
+    "name": "Red dragon",
+    "plural": "Red dragons",
+    "longDesc": "The menacing huge dragon, with scales in every possible red color.",
+    "modelName": "model.creature.dragon.red",
+    "bodyType": 6,
+    "vision": 20,
+    "sex": 0,
+    "types": [ 20, 19, 41, 7, 6, 13, 16, 32, 29, 12, 40 ],
+    "sizeInCentimeters": {
+      "high": 280,
+      "long": 210,
+      "wide": 666
+    },
+    "sounds": {
+      "deathMale": "sound.death.dragon",
+      "deathFemale": "sound.death.dragon",
+      "hitMale": "sound.combat.hit.dragon",
+      "hitFemale": "sound.combat.hit.dragon"
+    },
+    "movement": {
+      "speed": 35.0,
+      "moveRate": 500
+    },
+    "combat": {
+      "baseCombatRating": 100.0,
+      "maxHuntDistance": 40,
+      "aggressivity": 99,
+      "alignment": -90.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.017,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_SCALE_DRAGON"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 38.0,
+          "handString": "tailwhip",
+          "kick": 53.0,
+          "kickString": "wingbuff",
+          "bite": 0.0,
+          "head": 67.0,
+          "breath": 1.6
+        }
+      }
+    },
+    "drops": [ 867, 868, 303, 308, 308, 310 ],
+    "meatMaterial": 76,
+    "eggLayer": true,
+    "eggTemplateId": 16,
+    "skills": {
+      "100": 60.0,
+      "101": 57.0,
+      "102": 80.0,
+      "103": 99.0,
+      "104": 90.0,
+      "105": 60.0,
+      "106": 30.0,
+      "1023": 80.0,
+      "10052": 95.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 89,
+    "name": "Black dragon",
+    "plural": "Black dragons",
+    "longDesc": "The menacing huge dragon, with scales as dark as the night.",
+    "modelName": "model.creature.dragon.black",
+    "bodyType": 6,
+    "vision": 20,
+    "sex": 0,
+    "types": [ 20, 19, 41, 7, 6, 13, 16, 32, 29, 12, 40 ],
+    "sizeInCentimeters": {
+      "high": 280,
+      "long": 210,
+      "wide": 666
+    },
+    "sounds": {
+      "deathMale": "sound.death.dragon",
+      "deathFemale": "sound.death.dragon",
+      "hitMale": "sound.combat.hit.dragon",
+      "hitFemale": "sound.combat.hit.dragon"
+    },
+    "movement": {
+      "speed": 35.0
+    },
+    "combat": {
+      "baseCombatRating": 100.0,
+      "maxHuntDistance": 40,
+      "aggressivity": 500,
+      "alignment": -90.0,
+      "damageType": 2,
+      "combatMoves": [ 1, 2, 3 ],
+      "armor": {
+        "naturalArmour": 0.2,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_SCALE_DRAGON"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 38.0,
+          "kick": 58.0,
+          "kickString": "wingbuff",
+          "bite": 62.0,
+          "head": 0.0,
+          "headString": "tailwhip",
+          "breath": 1.6
+        }
+      }
+    },
+    "drops": [ 867, 868, 303, 308, 308, 310 ],
+    "meatMaterial": 76,
+    "maxAge": 99,
+    "eggLayer": true,
+    "eggTemplateId": 89,
+    "skills": {
+      "100": 56.0,
+      "101": 57.0,
+      "102": 80.0,
+      "103": 90.0,
+      "104": 90.0,
+      "105": 70.0,
+      "106": 30.0,
+      "1023": 80.0,
+      "10052": 90.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 90,
+    "name": "Green dragon",
+    "plural": "Green dragons",
+    "longDesc": "The menacing huge dragon, with emerald green scales.",
+    "modelName": "model.creature.dragon.green",
+    "bodyType": 6,
+    "vision": 20,
+    "sex": 0,
+    "types": [ 20, 19, 41, 7, 6, 13, 16, 32, 29, 12, 40 ],
+    "sizeInCentimeters": {
+      "high": 280,
+      "long": 210,
+      "wide": 666
+    },
+    "sounds": {
+      "deathMale": "sound.death.dragon",
+      "deathFemale": "sound.death.dragon",
+      "hitMale": "sound.combat.hit.dragon",
+      "hitFemale": "sound.combat.hit.dragon"
+    },
+    "movement": {
+      "speed": 35.0
+    },
+    "combat": {
+      "baseCombatRating": 100.0,
+      "maxHuntDistance": 40,
+      "aggressivity": 500,
+      "alignment": -90.0,
+      "damageType": 2,
+      "combatMoves": [ 1, 2, 3 ],
+      "armor": {
+        "naturalArmour": 0.1,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_SCALE_DRAGON"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 38.0,
+          "kick": 50.0,
+          "kickString": "wingbuff",
+          "bite": 58.0,
+          "head": 0.0,
+          "headString": "tailwhip",
+          "breath": 1.6
+        }
+      }
+    },
+    "drops": [ 867, 868, 303, 308, 308, 310 ],
+    "meatMaterial": 76,
+    "maxAge": 99,
+    "eggLayer": true,
+    "eggTemplateId": 90,
+    "skills": {
+      "100": 56.0,
+      "101": 57.0,
+      "102": 84.0,
+      "103": 90.0,
+      "104": 90.0,
+      "105": 60.0,
+      "106": 30.0,
+      "1023": 80.0,
+      "10052": 90.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 91,
+    "name": "Blue dragon",
+    "plural": "Blue dragons",
+    "longDesc": "The menacing huge dragon, with dark blue scales.",
+    "modelName": "model.creature.dragon.blue",
+    "bodyType": 6,
+    "vision": 20,
+    "sex": 0,
+    "types": [ 20, 19, 41, 7, 6, 13, 16, 32, 29, 12, 40 ],
+    "sizeInCentimeters": {
+      "high": 280,
+      "long": 210,
+      "wide": 666
+    },
+    "sounds": {
+      "deathMale": "sound.death.dragon",
+      "deathFemale": "sound.death.dragon",
+      "hitMale": "sound.combat.hit.dragon",
+      "hitFemale": "sound.combat.hit.dragon"
+    },
+    "movement": {
+      "speed": 35.0
+    },
+    "combat": {
+      "baseCombatRating": 100.0,
+      "maxHuntDistance": 40,
+      "aggressivity": 500,
+      "alignment": -90.0,
+      "damageType": 2,
+      "combatMoves": [ 1, 2, 3 ],
+      "armor": {
+        "naturalArmour": 0.1,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_SCALE_DRAGON"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 38.0,
+          "kick": 50.0,
+          "kickString": "wingbuff",
+          "bite": 63.0,
+          "head": 0.0,
+          "headString": "tailwhip",
+          "breath": 1.6
+        }
+      }
+    },
+    "drops": [ 867, 868, 303, 308, 308, 310 ],
+    "meatMaterial": 76,
+    "maxAge": 99,
+    "eggLayer": true,
+    "eggTemplateId": 91,
+    "skills": {
+      "100": 56.0,
+      "101": 57.0,
+      "102": 80.0,
+      "103": 95.0,
+      "104": 90.0,
+      "105": 60.0,
+      "106": 30.0,
+      "1023": 80.0,
+      "10052": 90.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 92,
+    "name": "White dragon",
+    "plural": "White dragons",
+    "longDesc": "The menacing huge dragon, with snow white scales.",
+    "modelName": "model.creature.dragon.white",
+    "bodyType": 6,
+    "vision": 20,
+    "sex": 0,
+    "types": [ 20, 19, 41, 7, 6, 13, 16, 32, 29, 12, 40 ],
+    "sizeInCentimeters": {
+      "high": 280,
+      "long": 210,
+      "wide": 666
+    },
+    "sounds": {
+      "deathMale": "sound.death.dragon",
+      "deathFemale": "sound.death.dragon",
+      "hitMale": "sound.combat.hit.dragon",
+      "hitFemale": "sound.combat.hit.dragon"
+    },
+    "movement": {
+      "speed": 35.0
+    },
+    "combat": {
+      "baseCombatRating": 100.0,
+      "maxHuntDistance": 40,
+      "aggressivity": 500,
+      "alignment": -90.0,
+      "damageType": 2,
+      "combatMoves": [ 1, 2, 3 ],
+      "armor": {
+        "naturalArmour": 0.1,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_SCALE_DRAGON"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 38.0,
+          "kick": 55.0,
+          "kickString": "wingbuff",
+          "bite": 60.0,
+          "head": 0.0,
+          "headString": "tailwhip",
+          "breath": 1.6
+        }
+      }
+    },
+    "drops": [ 867, 868, 303, 308, 308, 310 ],
+    "meatMaterial": 76,
+    "maxAge": 99,
+    "eggLayer": true,
+    "eggTemplateId": 92,
+    "skills": {
+      "100": 56.0,
+      "101": 57.0,
+      "102": 80.0,
+      "103": 85.0,
+      "104": 90.0,
+      "105": 70.0,
+      "106": 30.0,
+      "1023": 80.0,
+      "10052": 90.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 68,
+    "name": "Avenger of the Light",
+    "plural": "Avengers of the Light",
+    "longDesc": "Some kind of giant lumbers here, hunting humans.",
+    "modelName": "model.creature.humanoid.avenger.light",
+    "bodyType": 0,
+    "vision": 20,
+    "sex": 0,
+    "types": [ 8, 13, 16, 27, 36, 12, 24, 45, 50, 62, 65 ],
+    "sizeInCentimeters": {
+      "high": 370,
+      "long": 100,
+      "wide": 60
+    },
+    "sounds": {
+      "deathMale": "sound.death.giant",
+      "deathFemale": "sound.death.giant",
+      "hitMale": "sound.combat.hit.giant",
+      "hitFemale": "sound.combat.hit.giant"
+    },
+    "movement": {
+      "speed": 10.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 76.0,
+      "maxGroupAttackSize": 25,
+      "maxHuntDistance": 40,
+      "aggressivity": 20,
+      "alignment": -20.0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 0.1,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CHAIN"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 24.0,
+          "kick": 26.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.8
+        }
+      }
+    },
+    "drops": [ 308, 308, 310 ],
+    "meatMaterial": 81,
+    "hasHands": true,
+    "combatMoves": [ 1, 7 ],
+    "skills": {
+      "100": 24.0,
+      "101": 30.0,
+      "102": 40.0,
+      "103": 60.0,
+      "104": 55.0,
+      "105": 80.0,
+      "106": 39.0,
+      "10052": 75.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 70,
+    "name": "Sea Serpent",
+    "plural": "Sea Serpents",
+    "longDesc": "Sea Serpents are said to sleep in the dark caves of the abyss for years, then head to the surface to hunt once they get hungry.",
+    "modelName": "model.creature.snake.serpent.sea",
+    "bodyType": 9,
+    "vision": 20,
+    "sex": 0,
+    "types": [ 8, 38, 6, 13, 16, 29, 44, 40, 37, 61 ],
+    "sizeInCentimeters": {
+      "high": 100,
+      "long": 1000,
+      "wide": 100
+    },
+    "sounds": {
+      "deathMale": "sound.death.snake",
+      "deathFemale": "sound.death.snake",
+      "hitMale": "sound.combat.hit.snake",
+      "hitFemale": "sound.combat.hit.snake"
+    },
+    "movement": {
+      "speed": 0.0,
+      "moveRate": 50
+    },
+    "combat": {
+      "baseCombatRating": 76.0,
+      "maxGroupAttackSize": 25,
+      "maxHuntDistance": 40,
+      "aggressivity": 59,
+      "alignment": -20.0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 0.05,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CHAIN"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "kick": 56.0,
+          "bite": 30.0,
+          "head": 0.0,
+          "breath": 2.0
+        }
+      }
+    },
+    "drops": [ 308, 308, 310 ],
+    "meatMaterial": 85,
+    "maxAge": 400,
+    "maxPopulationOfCreatures": 4,
+    "sizeModX": 200,
+    "sizeModY": 200,
+    "sizeModZ": 200,
+    "offZ": -5.0,
+    "skills": {
+      "100": 24.0,
+      "101": 10.0,
+      "102": 40.0,
+      "103": 60.0,
+      "104": 55.0,
+      "105": 80.0,
+      "106": 5.0,
+      "1023": 80.0,
+      "10052": 85.0
+    }
+  }
+]

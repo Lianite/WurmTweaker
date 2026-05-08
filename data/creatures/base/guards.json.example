@@ -1,0 +1,451 @@
+[
+  {
+    "json-type": "creature",
+    "id": 34,
+    "name": "Jenn-Kellon tower guard",
+    "plural": "Jenn-Kellon tower guards",
+    "longDesc": "This person seems to be able to put up some resistance. These guards will help defend you if you say help.",
+    "modelName": "model.creature.humanoid.human.guard.tower",
+    "bodyType": 0,
+    "vision": 10,
+    "sex": 0,
+    "types": [ 21, 12, 13, 17, 45 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.male",
+      "deathFemale": "sound.death.female",
+      "hitMale": "sound.combat.hit.male",
+      "hitFemale": "sound.combat.hit.female"
+    },
+    "movement": {
+      "speed": 4.0,
+      "moveRate": 200
+    },
+    "combat": {
+      "baseCombatRating": 6.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 30,
+      "aggressivity": 80,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.3
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 7.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 80,
+    "maxAge": 20,
+    "noSkillGain": true,
+    "hasHands": true,
+    "skills": {
+      "100": 15.0,
+      "101": 15.0,
+      "102": 20.0,
+      "103": 21.0,
+      "104": 17.0,
+      "105": 15.0,
+      "106": 17.0,
+      "10005": 45.0,
+      "10020": 45.0,
+      "10052": 45.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 35,
+    "name": "Horde of the Summoned tower guard",
+    "plural": "Horde of the Summoned tower guards",
+    "longDesc": "This person seems to be able to put up some resistance. These guards will help defend you if you say help.",
+    "modelName": "model.creature.humanoid.human.guard.tower",
+    "bodyType": 0,
+    "vision": 10,
+    "sex": 0,
+    "types": [ 21, 12, 13, 17, 45 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.male",
+      "deathFemale": "sound.death.female",
+      "hitMale": "sound.combat.hit.male",
+      "hitFemale": "sound.combat.hit.female"
+    },
+    "movement": {
+      "speed": 4.0,
+      "moveRate": 200
+    },
+    "combat": {
+      "baseCombatRating": 6.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 30,
+      "aggressivity": 80,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.3
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 7.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 80,
+    "maxAge": 20,
+    "noSkillGain": true,
+    "hasHands": true,
+    "skills": {
+      "100": 15.0,
+      "101": 15.0,
+      "102": 20.0,
+      "103": 21.0,
+      "104": 17.0,
+      "105": 15.0,
+      "106": 17.0,
+      "10024": 45.0,
+      "10020": 45.0,
+      "10052": 45.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 36,
+    "name": "Mol-Rehan tower guard",
+    "plural": "Mol-Rehan tower guards",
+    "longDesc": "This person seems to be able to put up some resistance. These guards will help defend you if you say help.",
+    "modelName": "model.creature.humanoid.human.guard.tower",
+    "bodyType": 0,
+    "vision": 10,
+    "sex": 0,
+    "types": [ 21, 12, 13, 17, 45 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.male",
+      "deathFemale": "sound.death.female",
+      "hitMale": "sound.combat.hit.male",
+      "hitFemale": "sound.combat.hit.female"
+    },
+    "movement": {
+      "speed": 4.0,
+      "moveRate": 200
+    },
+    "combat": {
+      "baseCombatRating": 6.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 30,
+      "aggressivity": 80,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.3
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 7.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 80,
+    "maxAge": 20,
+    "noSkillGain": true,
+    "hasHands": true,
+    "skills": {
+      "100": 15.0,
+      "101": 15.0,
+      "102": 20.0,
+      "103": 21.0,
+      "104": 17.0,
+      "105": 15.0,
+      "106": 17.0,
+      "10061": 45.0,
+      "10020": 45.0,
+      "10052": 45.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 67,
+    "name": "Isles tower guard",
+    "plural": "Isles tower guards",
+    "longDesc": "This person seems to be able to put up some resistance. These guards will help defend you if you say help.",
+    "modelName": "model.creature.humanoid.human.guard.tower",
+    "bodyType": 0,
+    "vision": 10,
+    "sex": 0,
+    "types": [ 21, 12, 13, 17, 45 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.male",
+      "deathFemale": "sound.death.female",
+      "hitMale": "sound.combat.hit.male",
+      "hitFemale": "sound.combat.hit.female"
+    },
+    "movement": {
+      "speed": 4.0,
+      "moveRate": 200
+    },
+    "combat": {
+      "baseCombatRating": 6.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 30,
+      "aggressivity": 80,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.3
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 7.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 80,
+    "maxAge": 20,
+    "noSkillGain": true,
+    "hasHands": true,
+    "skills": {
+      "100": 15.0,
+      "101": 15.0,
+      "102": 20.0,
+      "103": 21.0,
+      "104": 17.0,
+      "105": 15.0,
+      "106": 17.0,
+      "10028": 45.0,
+      "10020": 45.0,
+      "10052": 45.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 32,
+    "name": "Spirit templar",
+    "plural": "Spirit templars",
+    "longDesc": "The spirit of a proud knight has decided to protect this place.",
+    "modelName": "model.creature.humanoid.human.spirit.templar",
+    "bodyType": 0,
+    "vision": 45,
+    "sex": 0,
+    "types": [ 22, 23, 12, 13 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.spirit.male",
+      "deathFemale": "sound.death.spirit.female",
+      "hitMale": "sound.combat.hit.spirit.male",
+      "hitFemale": "sound.combat.hit.spirit.female"
+    },
+    "movement": {
+      "speed": 5.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 20.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 100,
+      "aggressivity": 100,
+      "alignment": 70.0,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.3
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 7.0,
+          "kick": 5.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.5
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 2,
+    "hasHands": true,
+    "skills": {
+      "100": 17.0,
+      "101": 27.0,
+      "102": 30.0,
+      "103": 35.0,
+      "104": 30.0,
+      "105": 24.0,
+      "106": 24.0,
+      "10052": 80.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 7,
+    "name": "guardTough",
+    "plural": "guardToughs",
+    "longDesc": "This warrior would pose problems for any intruder.",
+    "modelName": "model.creature.humanoid.human.guard.tower",
+    "bodyType": 0,
+    "vision": 10,
+    "sex": 0,
+    "types": [ 12, 13, 17, 24, 45, 40, 53, 7 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.male",
+      "deathFemale": "sound.death.female",
+      "hitMale": "sound.combat.hit.male",
+      "hitFemale": "sound.combat.hit.female"
+    },
+    "movement": {
+      "speed": 5.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 20.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 70,
+      "aggressivity": 100,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.3
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 7.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 80,
+    "maxAge": 20,
+    "noSkillGain": true,
+    "hasHands": true,
+    "skills": {
+      "100": 18.0,
+      "101": 21.0,
+      "102": 24.0,
+      "103": 31.0,
+      "104": 22.0,
+      "105": 19.0,
+      "106": 17.0,
+      "10005": 90.0,
+      "10006": 60.0,
+      "10020": 60.0,
+      "10021": 60.0,
+      "10023": 60.0,
+      "10024": 60.0,
+      "10025": 60.0,
+      "10028": 60.0,
+      "10052": 90.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 8,
+    "name": "guardBrutal",
+    "plural": "guardBrutals",
+    "longDesc": "Not many people would like to cross this warrior.",
+    "modelName": "model.creature.humanoid.human.guard.tower",
+    "bodyType": 0,
+    "vision": 10,
+    "sex": 0,
+    "types": [ 12, 13, 17, 24, 45, 40, 21, 53, 7 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.male",
+      "deathFemale": "sound.death.female",
+      "hitMale": "sound.combat.hit.male",
+      "hitFemale": "sound.combat.hit.female"
+    },
+    "movement": {
+      "speed": 5.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 23.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 100,
+      "aggressivity": 100,
+      "armor": {
+        "naturalArmour": 0.2
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 7.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 80,
+    "noSkillGain": true,
+    "hasHands": true,
+    "skills": {
+      "100": 30.0,
+      "101": 30.0,
+      "102": 30.0,
+      "103": 36.0,
+      "104": 30.0,
+      "105": 30.0,
+      "106": 30.0,
+      "10001": 80.0,
+      "10005": 90.0,
+      "10006": 90.0,
+      "10020": 80.0,
+      "10021": 80.0,
+      "10023": 80.0,
+      "10024": 80.0,
+      "10025": 80.0,
+      "10028": 80.0,
+      "10052": 90.0
+    }
+  }
+]

@@ -1,11 +1,13 @@
 package org.gotti.wurmtweaker;
 
+import org.gotti.wurmtweaker.creatures.CreatureHandler;
 import org.gotti.wurmtweaker.json.JsonLoader;
 import org.gotti.wurmtweaker.skills.SkillHandler;
 import org.gotti.wurmunlimited.modloader.interfaces.Configurable;
 import org.gotti.wurmunlimited.modloader.interfaces.Initable;
 import org.gotti.wurmunlimited.modloader.interfaces.ServerStartedListener;
 import org.gotti.wurmunlimited.modloader.interfaces.WurmServerMod;
+import org.gotti.wurmunlimited.modsupport.creatures.ModCreatures;
 
 import java.io.File;
 import java.util.Properties;
@@ -17,6 +19,7 @@ public class WurmTweaker implements WurmServerMod, Configurable, Initable, Serve
 
     private File dataDir;
     private JsonLoader jsonLoader;
+    private CreatureHandler creatureHandler;
 
     @Override
     public void configure(Properties properties) {
@@ -27,7 +30,12 @@ public class WurmTweaker implements WurmServerMod, Configurable, Initable, Serve
     @Override
     public void init() {
         jsonLoader = new JsonLoader(dataDir);
-        jsonLoader.registerHandler(new SkillHandler());
+        creatureHandler = new CreatureHandler();
+        jsonLoader.registerHandler(creatureHandler);
+        ModCreatures.init();
+        if (dataDir.exists()) {
+            jsonLoader.loadType("creature");
+        }
     }
 
     @Override
@@ -38,6 +46,8 @@ public class WurmTweaker implements WurmServerMod, Configurable, Initable, Serve
                     + " — create it and add JSON files to customize content.");
             return;
         }
-        jsonLoader.loadAll();
+        creatureHandler.applyPostInit();
+        jsonLoader.registerHandler(new SkillHandler());
+        jsonLoader.loadType("skill");
     }
 }

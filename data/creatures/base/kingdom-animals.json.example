@@ -1,0 +1,377 @@
+[
+  {
+    "json-type": "creature",
+    "id": 37,
+    "name": "Wild boar",
+    "plural": "Wild boars",
+    "longDesc": "A large and strong boar is grunting here.",
+    "modelName": "model.creature.quadraped.boar.wild",
+    "bodyType": 3,
+    "vision": 10,
+    "sex": 0,
+    "types": [ 7, 41, 24, 13, 3, 27, 36, 39 ],
+    "sizeInCentimeters": {
+      "high": 50,
+      "long": 50,
+      "wide": 150
+    },
+    "sounds": {
+      "deathMale": "sound.death.pig",
+      "deathFemale": "sound.death.pig",
+      "hitMale": "sound.combat.hit.pig",
+      "hitFemale": "sound.combat.hit.pig"
+    },
+    "movement": {
+      "speed": 6.0,
+      "moveRate": 300
+    },
+    "combat": {
+      "baseCombatRating": 14.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 10,
+      "aggressivity": 94,
+      "alignment": 10.0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 0.6,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "kick",
+          "kick": 7.0,
+          "bite": 10.0,
+          "head": 0.0,
+          "breath": 1.2
+        }
+      }
+    },
+    "drops": [ 92, 140, 303 ],
+    "meatMaterial": 84,
+    "maxAge": 5,
+    "maxPercentOfCreatures": 0.01,
+    "skills": {
+      "100": 2.0,
+      "101": 8.0,
+      "102": 30.0,
+      "103": 40.0,
+      "104": 35.0,
+      "105": 34.0,
+      "106": 3.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 39,
+    "name": "Mountain gorilla",
+    "plural": "Mountain gorillas",
+    "longDesc": "This normally calm mountain gorilla may suddenly become a very fierce and dangerous foe if annoyed.",
+    "modelName": "model.creature.humanoid.gorilla.mountain",
+    "bodyType": 0,
+    "vision": 10,
+    "sex": 0,
+    "types": [ 7, 24, 13, 3, 30, 27, 36, 39, 45 ],
+    "sizeInCentimeters": {
+      "high": 210,
+      "long": 50,
+      "wide": 50
+    },
+    "sounds": {
+      "deathMale": "sound.death.gorilla",
+      "deathFemale": "sound.death.gorilla",
+      "hitMale": "sound.combat.hit.gorilla",
+      "hitFemale": "sound.combat.hit.gorilla"
+    },
+    "movement": {
+      "speed": 6.0,
+      "moveRate": 300
+    },
+    "combat": {
+      "baseCombatRating": 14.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 10,
+      "aggressivity": 94,
+      "alignment": 10.0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 0.6,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 10.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.2
+        }
+      }
+    },
+    "drops": [ 303, 308, 308 ],
+    "meatMaterial": 78,
+    "maxAge": 10,
+    "maxPercentOfCreatures": 0.01,
+    "hasHands": true,
+    "skills": {
+      "100": 8.0,
+      "101": 10.0,
+      "102": 40.0,
+      "103": 40.0,
+      "104": 25.0,
+      "105": 30.0,
+      "106": 7.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 38,
+    "name": "Anaconda",
+    "plural": "Anacondas",
+    "longDesc": "An over 3 meters long muscle, this grey-green snake is formidable.",
+    "modelName": "model.creature.snake.anaconda",
+    "bodyType": 9,
+    "vision": 10,
+    "sex": 0,
+    "types": [ 7, 3, 29, 12, 6, 39, 24, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 20,
+      "long": 20,
+      "wide": 350
+    },
+    "sounds": {
+      "deathMale": "sound.death.snake",
+      "deathFemale": "sound.death.snake",
+      "hitMale": "sound.combat.hit.snake",
+      "hitFemale": "sound.combat.hit.snake"
+    },
+    "movement": {
+      "speed": 0.0,
+      "moveRate": 50
+    },
+    "combat": {
+      "baseCombatRating": 13.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 10,
+      "aggressivity": 24,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 0.3,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_LEATHER"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "kick": 6.0,
+          "bite": 0.0,
+          "head": 10.0,
+          "breath": 0.8,
+          "breathString": "squeeze"
+        }
+      }
+    },
+    "drops": [ 303, 310 ],
+    "meatMaterial": 86,
+    "maxAge": 100,
+    "maxPercentOfCreatures": 0.02,
+    "skills": {
+      "100": 2.0,
+      "101": 4.0,
+      "102": 30.0,
+      "103": 10.0,
+      "104": 25.0,
+      "105": 30.0,
+      "106": 3.0,
+      "10052": 65.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 40,
+    "name": "Rabid hyena",
+    "plural": "Rabid hyenas",
+    "longDesc": "Normally this doglike creature would act very cowardly, but some sickness seems to have driven it mad and overly aggressive.",
+    "modelName": "model.creature.quadraped.hyena.rabid",
+    "bodyType": 3,
+    "vision": 10,
+    "sex": 0,
+    "types": [ 7, 41, 25, 13, 3, 29, 36, 39 ],
+    "sizeInCentimeters": {
+      "high": 40,
+      "long": 20,
+      "wide": 100
+    },
+    "sounds": {
+      "deathMale": "sound.death.dog",
+      "deathFemale": "sound.death.dog",
+      "hitMale": "sound.combat.hit.dog",
+      "hitFemale": "sound.combat.hit.dog"
+    },
+    "movement": {
+      "speed": 10.0,
+      "moveRate": 300
+    },
+    "combat": {
+      "baseCombatRating": 14.0,
+      "maxGroupAttackSize": 8,
+      "maxHuntDistance": 10,
+      "aggressivity": 94,
+      "alignment": -50.0,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.6,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 12.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.2
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 87,
+    "maxAge": 5,
+    "maxPercentOfCreatures": 0.01,
+    "skills": {
+      "100": 8.0,
+      "101": 10.0,
+      "102": 20.0,
+      "103": 35.0,
+      "104": 45.0,
+      "105": 40.0,
+      "106": 2.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 62,
+    "name": "Lady of the lake",
+    "plural": "Ladies of the lake",
+    "longDesc": "The hazy shape of a female spirit lingers below the waves.",
+    "modelName": "model.creature.humanoid.human.ladylake",
+    "bodyType": 0,
+    "vision": 5,
+    "sex": 1,
+    "types": [ 0, 17, 18, 40, 20, 37 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.male",
+      "deathFemale": "sound.death.female",
+      "hitMale": "sound.combat.hit.male",
+      "hitFemale": "sound.combat.hit.female"
+    },
+    "movement": {
+      "speed": 10.0,
+      "moveRate": 0
+    },
+    "combat": {
+      "baseCombatRating": 99.0,
+      "maxGroupAttackSize": 10,
+      "maxHuntDistance": 3,
+      "aggressivity": 1,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.001
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 20.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.8
+        }
+      }
+    },
+    "drops": [ 308, 308 ],
+    "meatMaterial": 80,
+    "keepSex": true,
+    "hasHands": true,
+    "skills": {
+      "100": 10.0,
+      "101": 10.0,
+      "102": 15.0,
+      "103": 10.0,
+      "104": 15.0,
+      "105": 90.0,
+      "106": 99.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 63,
+    "name": "Cobra King",
+    "plural": "Cobra Kings",
+    "longDesc": "A huge menacing king cobra is guarding here, head swaying back and forth.",
+    "modelName": "model.creature.snake.kingcobra",
+    "bodyType": 9,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 0, 3, 40, 20 ],
+    "sizeInCentimeters": {
+      "high": 20,
+      "long": 20,
+      "wide": 450
+    },
+    "sounds": {
+      "deathMale": "sound.death.snake",
+      "deathFemale": "sound.death.snake",
+      "hitMale": "sound.combat.hit.snake",
+      "hitFemale": "sound.combat.hit.snake"
+    },
+    "movement": {
+      "speed": 10.0,
+      "moveRate": 0
+    },
+    "combat": {
+      "baseCombatRating": 87.0,
+      "maxGroupAttackSize": 10,
+      "maxHuntDistance": 1,
+      "aggressivity": 1,
+      "alignment": -100.0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 0.001,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_LEATHER"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "bite",
+          "kick": 20.0,
+          "bite": 0.0,
+          "head": 30.0,
+          "breath": 0.8,
+          "breathString": "squeeze"
+        }
+      }
+    },
+    "drops": [ 303, 310 ],
+    "meatMaterial": 86,
+    "maxAge": 1000000,
+    "skills": {
+      "100": 42.0,
+      "101": 42.0,
+      "102": 50.0,
+      "103": 30.0,
+      "104": 45.0,
+      "105": 99.0,
+      "106": 3.0,
+      "10052": 95.0
+    }
+  }
+]

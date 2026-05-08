@@ -1,0 +1,73 @@
+[
+  {
+    "json-type": "creature",
+    "id": 114,
+    "name": "NPC Wagoner",
+    "plural": "NPC Wagoners",
+    "longDesc": "A relatively normal person stands here waiting to help transport bulk goods.",
+    "note": "No specific template method found in CreatureTemplateCreator.java — uses default dispatch path. Conditional on Features.Feature.WAGONER."
+  },
+  {
+    "json-type": "creature",
+    "id": 115,
+    "name": "Wagon Creature",
+    "plural": "Wagon Creatures",
+    "longDesc": "The wagon creature is only used for hauling a wagoner's wagon.",
+    "note": "No specific template method found in CreatureTemplateCreator.java — uses default dispatch path. Conditional on Features.Feature.WAGONER."
+  },
+  {
+    "json-type": "creature",
+    "id": 116,
+    "name": "Weapon Test Dummy",
+    "plural": "Weapon Test Dummies",
+    "longDesc": "An immortal that shouts out any damage that it receives, then immediately heals.",
+    "note": "No specific template method found in CreatureTemplateCreator.java — uses default dispatch path. Conditional on Servers.localServer.testServer."
+  },
+  {
+    "json-type": "creature",
+    "id": 119,
+    "name": "Fish",
+    "plural": "fishs",
+    "longDesc": "a fish of some type or other.",
+    "modelName": "model.creature.fish",
+    "bodyType": 9,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 4, 38, 37 ],
+    "sizeInCentimeters": {
+      "high": 10,
+      "long": 10,
+      "wide": 100
+    },
+    "sounds": {
+      "deathMale": "sound.death.snake",
+      "deathFemale": "sound.death.snake",
+      "hitMale": "sound.combat.hit.snake",
+      "hitFemale": "sound.combat.hit.snake"
+    },
+    "movement": {
+      "speed": 0.0
+    },
+    "combat": {
+      "maxHuntDistance": 40,
+      "aggressivity": 100,
+      "armor": {
+        "naturalArmour": 1.0
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 85,
+    "maxAge": 59,
+    "offZ": -1.4,
+    "creatureAI": "FishAI"
+  }
+]

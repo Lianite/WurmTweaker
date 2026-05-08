@@ -1,0 +1,252 @@
+[
+  {
+    "json-type": "creature",
+    "id": 78,
+    "name": "Epiphany of Vynora",
+    "plural": "Epiphanies of Vynora",
+    "longDesc": "This female creature is almost see-through, and you wonder if she is made of water or thoughts alone.",
+    "modelName": "model.creature.humanoid.giant.epiphany",
+    "bodyType": 0,
+    "vision": 20,
+    "sex": 0,
+    "types": [ 8, 24, 13, 16, 27, 62, 36, 12, 40, 45, 47 ],
+    "sizeInCentimeters": {
+      "high": 570,
+      "long": 100,
+      "wide": 60
+    },
+    "sounds": {
+      "deathMale": "sound.death.vynora.epiphany",
+      "deathFemale": "sound.death.vynora.epiphany",
+      "hitMale": "sound.combat.hit.vynora.epiphany",
+      "hitFemale": "sound.combat.hit.vynora.epiphany"
+    },
+    "movement": {
+      "speed": 10.0,
+      "moveRate": 10
+    },
+    "combat": {
+      "baseCombatRating": 96.0,
+      "maxGroupAttackSize": 30,
+      "maxHuntDistance": 10,
+      "aggressivity": 5,
+      "alignment": 100.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.03,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CHAIN"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 24.0,
+          "kick": 26.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.5
+        }
+      }
+    },
+    "drops": [ 683, 683, 308, 308 ],
+    "meatMaterial": 87,
+    "hasHands": true,
+    "paintMode": 1,
+    "glowing": true,
+    "combatMoves": [ 7, 5 ],
+    "skills": {
+      "100": 24.0,
+      "101": 30.0,
+      "102": 50.0,
+      "103": 80.0,
+      "104": 65.0,
+      "105": 80.0,
+      "106": 39.0,
+      "10052": 75.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 79,
+    "name": "Juggernaut of Magranon",
+    "plural": "Juggernauts of Magranon",
+    "longDesc": "A ferocious beast indeed, the juggernaut can crush mountains with its horned forehead.",
+    "modelName": "model.creature.humanoid.giant.juggernaut",
+    "bodyType": 0,
+    "vision": 20,
+    "sex": 0,
+    "types": [ 8, 13, 16, 27, 36, 12, 24, 40, 45, 47, 62 ],
+    "sizeInCentimeters": {
+      "high": 570,
+      "long": 100,
+      "wide": 60
+    },
+    "sounds": {
+      "deathMale": "sound.death.magranon.juggernaut",
+      "deathFemale": "sound.death.magranon.juggernaut",
+      "hitMale": "sound.combat.hit.magranon.juggernaut",
+      "hitFemale": "sound.combat.hit.magranon.juggernaut"
+    },
+    "movement": {
+      "speed": 10.0,
+      "moveRate": 10
+    },
+    "combat": {
+      "baseCombatRating": 96.0,
+      "maxGroupAttackSize": 30,
+      "maxHuntDistance": 10,
+      "aggressivity": 5,
+      "alignment": 100.0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 0.03,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_PLATE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 30.0,
+          "kick": 30.0,
+          "bite": 40.0,
+          "head": 0.0,
+          "breath": 1.5
+        }
+      }
+    },
+    "drops": [ 683, 683, 308, 308 ],
+    "meatMaterial": 87,
+    "hasHands": true,
+    "combatMoves": [ 8, 5, 1 ],
+    "skills": {
+      "100": 14.0,
+      "101": 10.0,
+      "102": 90.0,
+      "103": 90.0,
+      "104": 35.0,
+      "105": 20.0,
+      "106": 19.0,
+      "10052": 75.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 80,
+    "name": "Manifestation of Fo",
+    "plural": "Manifestations of Fo",
+    "longDesc": "Something seems to have gone wrong as Fo tried to create his manifestation. The thorns are not loving at all and it seems very aggressive.",
+    "modelName": "model.creature.humanoid.giant.manifestation",
+    "bodyType": 0,
+    "vision": 20,
+    "sex": 0,
+    "types": [ 8, 13, 16, 27, 36, 12, 24, 40, 45, 47, 62 ],
+    "sizeInCentimeters": {
+      "high": 570,
+      "long": 100,
+      "wide": 60
+    },
+    "sounds": {
+      "deathMale": "sound.death.fo.manifestation",
+      "deathFemale": "sound.death.fo.manifestation",
+      "hitMale": "sound.combat.hit.fo.manifestation",
+      "hitFemale": "sound.combat.hit.fo.manifestation"
+    },
+    "movement": {
+      "speed": 10.0,
+      "moveRate": 10
+    },
+    "combat": {
+      "baseCombatRating": 86.0,
+      "maxGroupAttackSize": 30,
+      "maxHuntDistance": 10,
+      "aggressivity": 5,
+      "alignment": 100.0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 0.03,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_PLATE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 30.0,
+          "kick": 30.0,
+          "bite": 40.0,
+          "head": 0.0,
+          "breath": 1.5
+        }
+      }
+    },
+    "drops": [ 683, 683, 308, 308 ],
+    "meatMaterial": 87,
+    "hasHands": true,
+    "combatMoves": [ 8, 1 ],
+    "skills": {
+      "100": 24.0,
+      "101": 30.0,
+      "102": 70.0,
+      "103": 70.0,
+      "104": 35.0,
+      "105": 50.0,
+      "106": 59.0,
+      "10052": 75.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 81,
+    "name": "Incarnation of Libila",
+    "plural": "Incarnations of Libila",
+    "longDesc": "This terrifying female apparition has something disturbing over it. As if it's just one facet of Libila.",
+    "modelName": "model.creature.humanoid.giant.incarnation",
+    "bodyType": 0,
+    "vision": 20,
+    "sex": 1,
+    "types": [ 8, 13, 16, 27, 36, 12, 62, 24, 25, 40, 45, 47 ],
+    "sizeInCentimeters": {
+      "high": 570,
+      "long": 100,
+      "wide": 60
+    },
+    "sounds": {
+      "deathMale": "sound.death.libila.incarnation",
+      "deathFemale": "sound.death.libila.incarnation",
+      "hitMale": "sound.combat.hit.libila.incarnation",
+      "hitFemale": "sound.combat.hit.libila.incarnation"
+    },
+    "movement": {
+      "speed": 7.0,
+      "moveRate": 10
+    },
+    "combat": {
+      "baseCombatRating": 86.0,
+      "maxGroupAttackSize": 30,
+      "maxHuntDistance": 10,
+      "aggressivity": 5,
+      "alignment": -100.0,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.03,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_PLATE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 30.0,
+          "kick": 30.0,
+          "bite": 40.0,
+          "head": 0.0,
+          "breath": 1.5
+        }
+      }
+    },
+    "drops": [ 683, 683, 308, 308 ],
+    "meatMaterial": 87,
+    "hasHands": true,
+    "combatMoves": [ 7, 2, 1 ],
+    "skills": {
+      "100": 44.0,
+      "101": 30.0,
+      "102": 80.0,
+      "103": 70.0,
+      "104": 45.0,
+      "105": 40.0,
+      "106": 49.0,
+      "10052": 75.0
+    }
+  }
+]

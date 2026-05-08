@@ -1,0 +1,455 @@
+[
+  {
+    "json-type": "creature",
+    "id": 72,
+    "name": "Sol Demon",
+    "plural": "Sol Demons",
+    "longDesc": "This demon has been released from Sol.",
+    "modelName": "model.creature.humanoid.demon.sol",
+    "bodyType": 0,
+    "vision": 7,
+    "sex": 0,
+    "types": [ 8, 13, 16, 29, 30, 36, 39, 24, 40, 45, 46, 50, 55 ],
+    "sizeInCentimeters": {
+      "high": 150,
+      "long": 100,
+      "wide": 150
+    },
+    "sounds": {
+      "deathMale": "sound.death.demon",
+      "deathFemale": "sound.death.demon",
+      "hitMale": "sound.combat.hit.demon",
+      "hitFemale": "sound.combat.hit.demon"
+    },
+    "movement": {
+      "speed": 6.0,
+      "moveRate": 1550
+    },
+    "combat": {
+      "baseCombatRating": 14.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 30,
+      "aggressivity": 49,
+      "alignment": -90.0,
+      "damageType": 4,
+      "armor": {
+        "naturalArmour": 0.5,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CHAIN"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 10.0,
+          "handString": "burn",
+          "kick": 20.0,
+          "bite": 6.0,
+          "head": 12.0,
+          "breath": 1.5
+        }
+      }
+    },
+    "drops": [ 204, 636, 683 ],
+    "meatMaterial": 87,
+    "maxAge": 200,
+    "onFire": true,
+    "fireRadius": 5,
+    "skills": {
+      "100": 6.0,
+      "101": 30.0,
+      "102": 35.0,
+      "103": 30.0,
+      "104": 35.0,
+      "105": 50.0,
+      "106": 20.0,
+      "10052": 70.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 73,
+    "name": "Deathcrawler minion",
+    "plural": "Deathcrawler minions",
+    "longDesc": "The Deathcrawler minions usually spawn in large numbers. They have deadly poisonous bites.",
+    "modelName": "model.creature.deathcrawler",
+    "bodyType": 8,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 7, 13, 16, 29, 39, 24, 40, 46, 50 ],
+    "sizeInCentimeters": {
+      "high": 250,
+      "long": 575,
+      "wide": 198
+    },
+    "sounds": {
+      "deathMale": "sound.death.deathcrawler",
+      "deathFemale": "sound.death.deathcrawler",
+      "hitMale": "sound.combat.hit.deathcrawler",
+      "hitFemale": "sound.combat.hit.deathcrawler"
+    },
+    "movement": {
+      "speed": 8.0,
+      "moveRate": 1500
+    },
+    "combat": {
+      "baseCombatRating": 14.0,
+      "maxGroupAttackSize": 10,
+      "maxHuntDistance": 10,
+      "aggressivity": 34,
+      "alignment": -10.0,
+      "damageType": 5,
+      "armor": {
+        "naturalArmour": 0.3,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CHAIN"
+      },
+      "attacks": {
+        "useNewSystem": true,
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 15.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.1
+        },
+        "primary": [
+          {
+            "name": "strike",
+            "identifier": "AttackIdentifier.STRIKE",
+            "values": {
+              "baseDamage": 8.0,
+              "criticalChance": 0.02,
+              "baseSpeed": 3.0,
+              "attackReach": 2,
+              "weightGroup": 1,
+              "damageType": 1,
+              "usesWeapon": false,
+              "rounds": 3,
+              "waitUntilNextAttack": 1.0
+            }
+          },
+          {
+            "name": "poison strike",
+            "identifier": "AttackIdentifier.STRIKE",
+            "values": {
+              "baseDamage": 8.0,
+              "criticalChance": 0.02,
+              "baseSpeed": 8.0,
+              "attackReach": 2,
+              "weightGroup": 1,
+              "damageType": 5,
+              "usesWeapon": false,
+              "rounds": 3,
+              "waitUntilNextAttack": 1.0
+            }
+          }
+        ],
+        "secondary": [
+          {
+            "name": "bite",
+            "identifier": "AttackIdentifier.BITE",
+            "values": {
+              "baseDamage": 15.0,
+              "criticalChance": 0.08,
+              "baseSpeed": 4.0,
+              "attackReach": 3,
+              "weightGroup": 1,
+              "damageType": 3,
+              "usesWeapon": false,
+              "rounds": 4,
+              "waitUntilNextAttack": 1.1
+            }
+          },
+          {
+            "name": "claw",
+            "identifier": "AttackIdentifier.CLAW",
+            "values": {
+              "baseDamage": 10.0,
+              "criticalChance": 0.04,
+              "baseSpeed": 4.0,
+              "attackReach": 3,
+              "weightGroup": 1,
+              "damageType": 0,
+              "usesWeapon": false,
+              "rounds": 5,
+              "waitUntilNextAttack": 1.2
+            }
+          }
+        ]
+      }
+    },
+    "drops": [ 683, 310 ],
+    "meatMaterial": 87,
+    "maxAge": 200,
+    "boundsValues": [ -1.065511, -2.90318, 1.065511, 3.029689 ],
+    "combatMoves": [ 1 ],
+    "skills": {
+      "100": 3.0,
+      "101": 10.0,
+      "102": 15.0,
+      "103": 20.0,
+      "104": 25.0,
+      "105": 30.0,
+      "106": 5.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 74,
+    "name": "Spawn of Uttacha",
+    "plural": "Spawns of Uttacha",
+    "longDesc": "Uttacha is a vengeful demigod who lives in the depths of an ocean on Valrei. These huge larvae are hungry and confused abominations here.",
+    "modelName": "model.creature.spawn.uttacha",
+    "bodyType": 9,
+    "vision": 5,
+    "sex": 1,
+    "types": [ 7, 13, 16, 29, 39, 24, 40, 46, 50 ],
+    "sizeInCentimeters": {
+      "high": 250,
+      "long": 100,
+      "wide": 150
+    },
+    "sounds": {
+      "deathMale": "sound.death.uttacha.spawn",
+      "deathFemale": "sound.death.uttacha.spawn",
+      "hitMale": "sound.combat.hit.deathcrawler",
+      "hitFemale": "sound.combat.hit.deathcrawler"
+    },
+    "movement": {
+      "speed": 7.0,
+      "moveRate": 1500
+    },
+    "combat": {
+      "baseCombatRating": 12.0,
+      "maxGroupAttackSize": 8,
+      "maxHuntDistance": 10,
+      "aggressivity": 34,
+      "alignment": -10.0,
+      "damageType": 10,
+      "armor": {
+        "naturalArmour": 0.7,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_LEATHER"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "bite",
+          "kick": 15.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.5
+        }
+      }
+    },
+    "drops": [ 153, 683 ],
+    "meatMaterial": 81,
+    "maxAge": 200,
+    "skills": {
+      "100": 3.0,
+      "101": 10.0,
+      "102": 15.0,
+      "103": 50.0,
+      "104": 15.0,
+      "105": 4.0,
+      "106": 2.0,
+      "10052": 30.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 75,
+    "name": "Son of Nogump",
+    "plural": "Sons of Nogump",
+    "longDesc": "Nogump the dirty has given birth to this foul two-headed giant wielding a huge twohanded sword.",
+    "modelName": "model.creature.humanoid.nogump.son",
+    "bodyType": 4,
+    "vision": 20,
+    "sex": 0,
+    "types": [ 30, 8, 13, 16, 27, 24, 40, 45, 46, 50 ],
+    "sizeInCentimeters": {
+      "high": 570,
+      "long": 200,
+      "wide": 80
+    },
+    "sounds": {
+      "deathMale": "sound.death.nogump.son",
+      "deathFemale": "sound.death.nogump.son",
+      "hitMale": "sound.combat.hit.nogump.son",
+      "hitFemale": "sound.combat.hit.nogump.son"
+    },
+    "movement": {
+      "speed": 26.0,
+      "moveRate": 1500
+    },
+    "combat": {
+      "baseCombatRating": 6.0,
+      "maxGroupAttackSize": 10,
+      "maxHuntDistance": 20,
+      "aggressivity": 49,
+      "alignment": 10.0,
+      "armor": {
+        "naturalArmour": 0.3,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_STUDDED"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 30.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [ 683 ],
+    "meatMaterial": 81,
+    "keepSex": true,
+    "hasHands": true,
+    "combatMoves": [ 8, 1 ],
+    "skills": {
+      "100": 7.0,
+      "101": 17.0,
+      "102": 80.0,
+      "103": 80.0,
+      "104": 35.0,
+      "105": 30.0,
+      "106": 29.0,
+      "1000": 90.0,
+      "10028": 90.0,
+      "10052": 80.0,
+      "10053": 80.0,
+      "10054": 50.0,
+      "10055": 70.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 76,
+    "name": "Drakespirit",
+    "plural": "Drakespirits",
+    "longDesc": "Drakespirits are usually found in their gardens on Valrei. They are hungry and aggressive.",
+    "modelName": "model.creature.drake.spirit",
+    "bodyType": 6,
+    "vision": 30,
+    "sex": 1,
+    "types": [ 41, 8, 13, 16, 29, 12, 40, 22, 24, 46, 50 ],
+    "sizeInCentimeters": {
+      "high": 150,
+      "long": 90,
+      "wide": 320
+    },
+    "sounds": {
+      "deathMale": "sound.death.drakespirit",
+      "deathFemale": "sound.death.drakespirit",
+      "hitMale": "sound.combat.hit.drakespirit",
+      "hitFemale": "sound.combat.hit.drakespirit"
+    },
+    "movement": {
+      "speed": 7.0,
+      "moveRate": 500
+    },
+    "combat": {
+      "baseCombatRating": 27.0,
+      "maxGroupAttackSize": 10,
+      "maxHuntDistance": 20,
+      "aggressivity": 49,
+      "alignment": 0.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.1,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_LEATHER_DRAGON"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 10.0,
+          "handString": "claw",
+          "kick": 13.0,
+          "kickString": "claw",
+          "bite": 17.0,
+          "head": 0.0,
+          "headString": "tailwhip",
+          "breath": 1.9
+        }
+      }
+    },
+    "drops": [ 683, 303, 308, 308, 310 ],
+    "meatMaterial": 77,
+    "eggLayer": true,
+    "eggTemplateId": 76,
+    "combatMoves": [ 1, 7 ],
+    "skills": {
+      "100": 34.0,
+      "101": 40.0,
+      "102": 20.0,
+      "103": 30.0,
+      "104": 65.0,
+      "105": 80.0,
+      "106": 39.0,
+      "10052": 75.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 77,
+    "name": "Eaglespirit",
+    "plural": "Eaglespirits",
+    "longDesc": "The Eaglespirits live on a glacier on Valrei. They will attack if hungry or threatened.",
+    "modelName": "model.creature.eagle.spirit",
+    "bodyType": 6,
+    "vision": 30,
+    "sex": 1,
+    "types": [ 41, 8, 13, 16, 29, 12, 24, 40, 22, 46, 50 ],
+    "sizeInCentimeters": {
+      "high": 150,
+      "long": 90,
+      "wide": 320
+    },
+    "sounds": {
+      "deathMale": "sound.death.dragon",
+      "deathFemale": "sound.death.dragon",
+      "hitMale": "sound.combat.hit.dragon",
+      "hitFemale": "sound.combat.hit.dragon"
+    },
+    "movement": {
+      "speed": 7.0,
+      "moveRate": 500
+    },
+    "combat": {
+      "baseCombatRating": 15.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 20,
+      "aggressivity": 49,
+      "alignment": 0.0,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.1,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CHAIN"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 10.0,
+          "kick": 13.0,
+          "kickString": "wingbuff",
+          "bite": 17.0,
+          "head": 0.0,
+          "headString": "tailwhip",
+          "breath": 1.9
+        }
+      }
+    },
+    "drops": [ 683, 303, 308, 308, 310 ],
+    "meatMaterial": 77,
+    "eggLayer": true,
+    "eggTemplateId": 77,
+    "combatMoves": [ 1 ],
+    "skills": {
+      "100": 24.0,
+      "101": 20.0,
+      "102": 20.0,
+      "103": 30.0,
+      "104": 35.0,
+      "105": 50.0,
+      "106": 29.0,
+      "10052": 45.0
+    }
+  }
+]

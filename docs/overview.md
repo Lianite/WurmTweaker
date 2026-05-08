@@ -26,6 +26,15 @@ WurmTweaker replaces all of that with a clean JSON-based content layer, similar 
 3. Each JSON file defines one or more content overrides (e.g., a skill with modified difficulty)
 4. The mod applies those overrides using the modloader's official APIs where available, and reflection only as a last resort
 
+## Key Reference Documents
+
+| Document | When to read it |
+|---|---|
+| `docs/architecture.md` | Module structure, hook lifecycle, JSON conventions |
+| `docs/guardrails.md` | What NOT to do — API research rules |
+| `docs/north-star.md` | Design philosophy |
+| `docs/creature-template-decisions.md` | Schema decisions for creature JSON — read before changing the `combat` block or attack structure |
+
 ## Non-Goals
 
 - This is NOT a client-side mod

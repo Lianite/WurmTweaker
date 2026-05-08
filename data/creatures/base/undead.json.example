@@ -1,0 +1,503 @@
+[
+  {
+    "json-type": "creature",
+    "id": 69,
+    "name": "Zombie",
+    "plural": "Zombies",
+    "longDesc": "A very bleak humanlike creature stands here, looking abscent-minded.",
+    "modelName": "model.creature.humanoid.human.player",
+    "bodyType": 0,
+    "vision": 80,
+    "sex": 0,
+    "types": [ 13, 17, 7, 25, 29 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.combat.death.zombie",
+      "deathFemale": "sound.combat.death.zombie",
+      "hitMale": "sound.combat.hit.zombie",
+      "hitFemale": "sound.combat.hit.zombie"
+    },
+    "movement": {
+      "speed": 5.0,
+      "moveRate": 0
+    },
+    "combat": {
+      "baseCombatRating": 8.0,
+      "maxGroupAttackSize": 3,
+      "maxHuntDistance": 25,
+      "aggressivity": 100,
+      "alignment": -20.0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_LEATHER"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 3.0,
+          "kick": 7.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.6
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 2,
+    "maxAge": 2,
+    "hasHands": true,
+    "paintMode": 1,
+    "skills": {
+      "100": 20.0,
+      "101": 20.0,
+      "102": 30.0,
+      "103": 40.0,
+      "104": 20.0,
+      "105": 20.0,
+      "106": 20.0,
+      "1007": 1.0,
+      "1008": 1.0,
+      "1009": 1.0,
+      "1011": 1.0,
+      "1019": 1.0,
+      "10031": 1.0,
+      "10033": 1.0,
+      "10049": 1.0,
+      "10052": 70.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 87,
+    "name": "Skeleton",
+    "plural": "Skeletons",
+    "longDesc": "This abomination has been animated by powerful magic.",
+    "modelName": "model.creature.humanoid.human.skeleton",
+    "bodyType": 0,
+    "vision": 80,
+    "sex": 0,
+    "types": [ 13, 7, 24 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.combat.death.skeleton",
+      "deathFemale": "sound.combat.death.skeleton",
+      "hitMale": "sound.combat.hit.skeleton",
+      "hitFemale": "sound.combat.hit.skeleton"
+    },
+    "movement": {
+      "speed": 3.0
+    },
+    "combat": {
+      "baseCombatRating": 8.0,
+      "maxGroupAttackSize": 3,
+      "maxHuntDistance": 25,
+      "aggressivity": 0,
+      "alignment": -20.0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CHAIN"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 3.0,
+          "kick": 7.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.6
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 2,
+    "maxAge": 2,
+    "hasHands": true,
+    "physicalResistance": 0.2,
+    "acidVulnerability": 3.0,
+    "fireVulnerability": 2.0,
+    "skills": {
+      "100": 5.0,
+      "101": 10.0,
+      "102": 10.0,
+      "103": 20.0,
+      "104": 20.0,
+      "105": 10.0,
+      "106": 10.0,
+      "10052": 70.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 88,
+    "name": "Wraith",
+    "plural": "Wraiths",
+    "longDesc": "The wraith is born of darkness and shuns the daylight.",
+    "modelName": "model.creature.humanoid.human.spirit.wraith",
+    "bodyType": 0,
+    "vision": 25,
+    "sex": 0,
+    "types": [ 22, 13, 24 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.spirit.male",
+      "deathFemale": "sound.death.spirit.female",
+      "hitMale": "sound.combat.hit.spirit.male",
+      "hitFemale": "sound.combat.hit.spirit.female"
+    },
+    "movement": {
+      "speed": 4.0
+    },
+    "combat": {
+      "baseCombatRating": 24.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 100,
+      "aggressivity": 100,
+      "alignment": -80.0,
+      "damageType": 8,
+      "armor": {
+        "naturalArmour": 0.3
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "kick": 5.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.5
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 2,
+    "maxAge": 100,
+    "hasHands": true,
+    "physicalResistance": 0.3,
+    "fireVulnerability": 2.0,
+    "skills": {
+      "100": 18.0,
+      "101": 21.0,
+      "102": 20.0,
+      "103": 23.0,
+      "104": 40.0,
+      "105": 19.0,
+      "106": 17.0,
+      "10052": 50.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 30,
+    "name": "Spirit avenger",
+    "plural": "Spirit avengers",
+    "longDesc": "This restless spirit vaguely resembles a human being, that for some reason has chosen to guard this place.",
+    "modelName": "model.creature.humanoid.human.spirit.avenger",
+    "bodyType": 0,
+    "vision": 25,
+    "sex": 0,
+    "types": [ 22, 23, 12, 13 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.spirit.male",
+      "deathFemale": "sound.death.spirit.female",
+      "hitMale": "sound.combat.hit.spirit.male",
+      "hitFemale": "sound.combat.hit.spirit.female"
+    },
+    "movement": {
+      "speed": 4.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 8.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 100,
+      "aggressivity": 100,
+      "alignment": 50.0,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.3
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 5.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.5
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 2,
+    "hasHands": true,
+    "skills": {
+      "100": 18.0,
+      "101": 21.0,
+      "102": 30.0,
+      "103": 33.0,
+      "104": 30.0,
+      "105": 19.0,
+      "106": 17.0,
+      "10052": 50.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 28,
+    "name": "Spirit guard",
+    "plural": "Spirit guards",
+    "longDesc": "This fierce spirit vaguely resembles a human warrior, and for some reason guards here.",
+    "modelName": "model.creature.humanoid.human.spirit.guard",
+    "bodyType": 0,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 22, 23, 12, 13 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.spirit.male",
+      "deathFemale": "sound.death.spirit.female",
+      "hitMale": "sound.combat.hit.spirit.male",
+      "hitFemale": "sound.combat.hit.spirit.female"
+    },
+    "movement": {
+      "speed": 3.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 6.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 100,
+      "aggressivity": 100,
+      "alignment": 40.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.4
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 5.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.5
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 2,
+    "noSkillGain": true,
+    "hasHands": true,
+    "skills": {
+      "100": 15.0,
+      "101": 15.0,
+      "102": 30.0,
+      "103": 30.0,
+      "104": 30.0,
+      "105": 15.0,
+      "106": 17.0,
+      "10052": 30.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 29,
+    "name": "Spirit sentry",
+    "plural": "Spirit sentries",
+    "longDesc": "This spirit vaguely resembles a human being, and for some reason guards here.",
+    "modelName": "model.creature.humanoid.human.spirit.sentry",
+    "bodyType": 0,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 22, 23, 12, 13 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.spirit.male",
+      "deathFemale": "sound.death.spirit.female",
+      "hitMale": "sound.combat.hit.spirit.male",
+      "hitFemale": "sound.combat.hit.spirit.female"
+    },
+    "movement": {
+      "speed": 3.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 6.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 100,
+      "aggressivity": 100,
+      "alignment": -40.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.4
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 5.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.5
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 2,
+    "noSkillGain": true,
+    "hasHands": true,
+    "skills": {
+      "100": 15.0,
+      "101": 15.0,
+      "102": 30.0,
+      "103": 30.0,
+      "104": 30.0,
+      "105": 15.0,
+      "106": 17.0,
+      "10052": 30.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 31,
+    "name": "Spirit brute",
+    "plural": "Spirit brutes",
+    "longDesc": "This fierce spirit seems restless and upset but for some reason has chosen to guard this place.",
+    "modelName": "model.creature.humanoid.human.spirit.brute",
+    "bodyType": 0,
+    "vision": 25,
+    "sex": 0,
+    "types": [ 22, 23, 12, 13 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.spirit.male",
+      "deathFemale": "sound.death.spirit.female",
+      "hitMale": "sound.combat.hit.spirit.male",
+      "hitFemale": "sound.combat.hit.spirit.female"
+    },
+    "movement": {
+      "speed": 4.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 8.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 100,
+      "aggressivity": 100,
+      "alignment": -50.0,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.3
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 5.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.5
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 2,
+    "hasHands": true,
+    "skills": {
+      "100": 18.0,
+      "101": 21.0,
+      "102": 30.0,
+      "103": 33.0,
+      "104": 30.0,
+      "105": 19.0,
+      "106": 17.0,
+      "10052": 50.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 33,
+    "name": "Spirit shadow",
+    "plural": "Spirit shadows",
+    "longDesc": "A dark humanoid shadow looms about, its intentions unclear.",
+    "modelName": "model.creature.humanoid.human.spirit.shadow",
+    "bodyType": 0,
+    "vision": 45,
+    "sex": 0,
+    "types": [ 22, 23, 12, 13 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.spirit.male",
+      "deathFemale": "sound.death.spirit.female",
+      "hitMale": "sound.combat.hit.spirit.male",
+      "hitFemale": "sound.combat.hit.spirit.female"
+    },
+    "movement": {
+      "speed": 5.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 20.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 100,
+      "aggressivity": 100,
+      "alignment": -70.0,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.3
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 7.0,
+          "handString": "claw",
+          "kick": 5.0,
+          "kickString": "claw",
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.5
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 2,
+    "hasHands": true,
+    "skills": {
+      "100": 17.0,
+      "101": 27.0,
+      "102": 30.0,
+      "103": 35.0,
+      "104": 30.0,
+      "105": 24.0,
+      "106": 24.0,
+      "10052": 80.0
+    }
+  }
+]

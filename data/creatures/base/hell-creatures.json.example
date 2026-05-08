@@ -1,0 +1,421 @@
+[
+  {
+    "json-type": "creature",
+    "id": 57,
+    "name": "Lava fiend",
+    "plural": "Lava fiends",
+    "longDesc": "These lava creatures enter the surface through lava pools, probably in order to hunt. Or burn.",
+    "modelName": "model.creature.humanoid.lavacreature",
+    "bodyType": 0,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 7, 6, 13, 16, 40, 29, 30, 34, 32, 36, 39, 45, 55, 61 ],
+    "sizeInCentimeters": {
+      "high": 150,
+      "long": 100,
+      "wide": 150
+    },
+    "sounds": {
+      "deathMale": "sound.death.lizard",
+      "deathFemale": "sound.death.lizard",
+      "hitMale": "sound.combat.hit.lizard",
+      "hitFemale": "sound.combat.hit.lizard"
+    },
+    "movement": {
+      "speed": 6.0,
+      "moveRate": 1500
+    },
+    "combat": {
+      "baseCombatRating": 16.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 10,
+      "aggressivity": 34,
+      "alignment": -20.0,
+      "damageType": 4,
+      "armor": {
+        "naturalArmour": 0.5,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_PLATE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 10.0,
+          "handString": "burn",
+          "kick": 10.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [ 204, 446, 636 ],
+    "meatMaterial": 87,
+    "maxAge": 200,
+    "maxPercentOfCreatures": 0.03,
+    "onFire": false,
+    "glowing": false,
+    "subterranean": true,
+    "skills": {
+      "100": 12.0,
+      "101": 14.0,
+      "102": 25.0,
+      "103": 30.0,
+      "104": 35.0,
+      "105": 90.0,
+      "106": 5.0,
+      "10052": 50.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 83,
+    "name": "Hell Horse",
+    "plural": "Hell Horses",
+    "longDesc": "This fiery creature is rumoured to be the mounts of the demons of Sol.",
+    "modelName": "model.creature.quadraped.horse.hell",
+    "bodyType": 1,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 7, 41, 3, 14, 9, 27, 32, 6, 39, 55 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 50,
+      "wide": 250
+    },
+    "sounds": {
+      "deathMale": "sound.death.horse",
+      "deathFemale": "sound.death.horse",
+      "hitMale": "sound.combat.hit.horse",
+      "hitFemale": "sound.combat.hit.horse"
+    },
+    "movement": {
+      "speed": 5.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 9.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 5,
+      "aggressivity": 0,
+      "alignment": -40.0,
+      "damageType": 4,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 7.0,
+          "handString": "kick",
+          "kick": 10.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.8
+        }
+      }
+    },
+    "drops": [ 307, 306, 140, 71, 309, 308, 308 ],
+    "meatMaterial": 79,
+    "maxAge": 200,
+    "maxPercentOfCreatures": 0.03,
+    "childTemplateId": 117,
+    "isHorse": true,
+    "onFire": false,
+    "glowing": true,
+    "colorRed": 255,
+    "colorGreen": 255,
+    "colorBlue": 255,
+    "combatMoves": [ 10 ],
+    "colourNames": [ "ash", "cinder", "envious", "shadow", "pestilential", "nightshade", "incandescent", "molten" ],
+    "skills": {
+      "100": 7.0,
+      "101": 7.0,
+      "102": 35.0,
+      "103": 40.0,
+      "104": 20.0,
+      "105": 72.0,
+      "106": 5.0,
+      "10052": 38.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 117,
+    "name": "Hell Foal",
+    "plural": "Hell Foals",
+    "longDesc": "This fiery creature is rumoured to grow up to be a mount of the demons of Sol.",
+    "modelName": "model.creature.quadraped.horse.hell.foal",
+    "bodyType": 1,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 7, 3, 14, 9, 27, 32, 6, 39, 55, 63 ],
+    "sizeInCentimeters": {
+      "high": 100,
+      "long": 50,
+      "wide": 75
+    },
+    "sounds": {
+      "deathMale": "sound.death.horse",
+      "deathFemale": "sound.death.horse",
+      "hitMale": "sound.combat.hit.horse",
+      "hitFemale": "sound.combat.hit.horse"
+    },
+    "movement": {
+      "speed": 3.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 5.0,
+      "maxGroupAttackSize": 2,
+      "maxHuntDistance": 5,
+      "aggressivity": 0,
+      "alignment": -40.0,
+      "damageType": 4,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 4.0,
+          "handString": "kick",
+          "kick": 4.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.2
+        }
+      }
+    },
+    "drops": [ 307, 306, 140, 71, 309, 308, 308 ],
+    "meatMaterial": 79,
+    "maxAge": 100,
+    "maxPercentOfCreatures": 0.015,
+    "adultFemaleTemplateId": 83,
+    "adultMaleTemplateId": 83,
+    "isHorse": true,
+    "onFire": false,
+    "glowing": true,
+    "colorRed": 255,
+    "colorGreen": 255,
+    "colorBlue": 255,
+    "corpseName": "hellhorse.foal.",
+    "colourNames": [ "ash", "cinder", "envious", "shadow", "pestilential", "nightshade", "incandescent", "molten" ],
+    "skills": {
+      "100": 3.0,
+      "101": 3.0,
+      "102": 15.0,
+      "103": 15.0,
+      "104": 10.0,
+      "105": 35.0,
+      "106": 2.0,
+      "10052": 15.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 84,
+    "name": "Hell Hound",
+    "plural": "Hell Hounds",
+    "longDesc": "The hell hound is said to be spies and assassins for the demons of Sol.",
+    "modelName": "model.creature.quadraped.dog.hell",
+    "bodyType": 3,
+    "vision": 7,
+    "sex": 0,
+    "types": [ 7, 6, 13, 3, 29, 36, 39, 32, 46, 55, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 40,
+      "long": 20,
+      "wide": 100
+    },
+    "sounds": {
+      "deathMale": "sound.death.dog",
+      "deathFemale": "sound.death.dog",
+      "hitMale": "sound.combat.hit.dog",
+      "hitFemale": "sound.combat.hit.dog"
+    },
+    "movement": {
+      "speed": 10.0,
+      "moveRate": 300
+    },
+    "combat": {
+      "baseCombatRating": 14.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 10,
+      "aggressivity": 94,
+      "alignment": -60.0,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.6,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_LEATHER"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 12.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.2
+        }
+      }
+    },
+    "drops": [ 204 ],
+    "meatMaterial": 74,
+    "maxAge": 35,
+    "maxPercentOfCreatures": 0.03,
+    "onFire": false,
+    "glowing": true,
+    "colorRed": 255,
+    "colorGreen": 255,
+    "colorBlue": 255,
+    "skills": {
+      "100": 10.0,
+      "101": 15.0,
+      "102": 20.0,
+      "103": 25.0,
+      "104": 45.0,
+      "105": 60.0,
+      "106": 12.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 85,
+    "name": "Hell Scorpious",
+    "plural": "Hell Scorpii",
+    "longDesc": "The pets of the demons of Sol are very playful.",
+    "modelName": "model.creature.multiped.scorpion.hell",
+    "bodyType": 8,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 7, 6, 13, 16, 29, 32, 34, 39, 46, 55, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 130,
+      "long": 30,
+      "wide": 20
+    },
+    "sounds": {
+      "deathMale": "sound.death.insect",
+      "deathFemale": "sound.death.insect",
+      "hitMale": "sound.combat.hit.insect",
+      "hitFemale": "sound.combat.hit.insect"
+    },
+    "movement": {
+      "speed": 8.0,
+      "moveRate": 1700
+    },
+    "combat": {
+      "baseCombatRating": 18.0,
+      "maxGroupAttackSize": 5,
+      "maxHuntDistance": 7,
+      "aggressivity": 64,
+      "alignment": -40.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.3,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_STUDDED"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 14.0,
+          "handString": "claw",
+          "kick": 13.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.75,
+          "breathString": "sting"
+        }
+      }
+    },
+    "drops": [ 439 ],
+    "meatMaterial": 82,
+    "maxAge": 100,
+    "maxPercentOfCreatures": 0.02,
+    "onFire": false,
+    "glowing": false,
+    "color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255
+    },
+    "skills": {
+      "100": 2.0,
+      "101": 5.0,
+      "102": 30.0,
+      "103": 40.0,
+      "104": 15.0,
+      "105": 70.0,
+      "106": 4.0,
+      "10052": 44.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 56,
+    "name": "Lava spider",
+    "plural": "Lava spiders",
+    "longDesc": "Lava spiders usually lurk in their lava pools, catching curious prey.",
+    "modelName": "model.creature.multiped.spider.lava",
+    "bodyType": 8,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 7, 6, 13, 3, 29, 39, 55, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 150,
+      "long": 100,
+      "wide": 150
+    },
+    "sounds": {
+      "deathMale": "sound.death.spider",
+      "deathFemale": "sound.death.spider",
+      "hitMale": "sound.combat.hit.spider",
+      "hitFemale": "sound.combat.hit.spider"
+    },
+    "movement": {
+      "speed": 6.0,
+      "moveRate": 500
+    },
+    "combat": {
+      "baseCombatRating": 13.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 10,
+      "aggressivity": 54,
+      "alignment": -50.0,
+      "damageType": 4,
+      "armor": {
+        "naturalArmour": 0.6,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_PLATE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 7.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.9
+        }
+      }
+    },
+    "drops": [ 204, 636 ],
+    "meatMaterial": 82,
+    "maxAge": 200,
+    "maxPercentOfCreatures": 0.05,
+    "onFire": true,
+    "fireRadius": 40,
+    "glowing": true,
+    "denName": "spider lair",
+    "denMaterial": 15,
+    "subterranean": true,
+    "skills": {
+      "100": 8.0,
+      "101": 10.0,
+      "102": 20.0,
+      "103": 35.0,
+      "104": 45.0,
+      "105": 40.0,
+      "106": 2.0,
+      "10052": 70.0
+    }
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "json-type": "creature",
+    "id": 46,
+    "name": "Santa Claus",
+    "plural": "Santa Clauses",
+    "longDesc": "Santa Claus is standing here, with a jolly face behind his huge white beard.",
+    "modelName": "model.creature.humanoid.human.santa",
+    "bodyType": 0,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 0, 4, 17 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.male",
+      "deathFemale": "sound.death.female",
+      "hitMale": "sound.combat.hit.male",
+      "hitFemale": "sound.combat.hit.female"
+    },
+    "movement": {
+      "speed": 1.0,
+      "moveRate": 0
+    },
+    "combat": {
+      "baseCombatRating": 99.0,
+      "maxHuntDistance": 3,
+      "aggressivity": 0,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 1.0
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 2.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.8
+        }
+      }
+    },
+    "drops": [ 310 ],
+    "meatMaterial": 80,
+    "keepSex": true,
+    "hasHands": true,
+    "skills": {
+      "100": 10.0,
+      "101": 10.0,
+      "102": 15.0,
+      "103": 10.0,
+      "104": 15.0,
+      "105": 99.0,
+      "106": 24.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 47,
+    "name": "Evil Santa",
+    "plural": "Evil Santas",
+    "longDesc": "Some sort of Santa Claus is standing here, with a fat belly, yellow eyes, and a bad breath.",
+    "modelName": "model.creature.humanoid.human.evilsanta",
+    "bodyType": 0,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 0, 4, 17 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.male",
+      "deathFemale": "sound.death.female",
+      "hitMale": "sound.combat.hit.male",
+      "hitFemale": "sound.combat.hit.female"
+    },
+    "movement": {
+      "speed": 1.0,
+      "moveRate": 0
+    },
+    "combat": {
+      "baseCombatRating": 99.0,
+      "maxHuntDistance": 3,
+      "aggressivity": 0,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 1.0
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 2.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.8
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 80,
+    "keepSex": true,
+    "hasHands": true,
+    "skills": {
+      "100": 10.0,
+      "101": 10.0,
+      "102": 15.0,
+      "103": 10.0,
+      "104": 15.0,
+      "105": 99.0,
+      "106": 24.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 53,
+    "name": "Easter bunny",
+    "plural": "Easter bunnies",
+    "longDesc": "Wow, the mystical easter bunny skips around here joyfully!",
+    "modelName": "model.creature.quadraped.easterbunny",
+    "bodyType": 3,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 8, 3, 4, 30, 35 ],
+    "sizeInCentimeters": {
+      "high": 20,
+      "long": 30,
+      "wide": 50
+    },
+    "sounds": {
+      "deathMale": "sound.death.wolf",
+      "deathFemale": "sound.death.wolf",
+      "hitMale": "sound.combat.hit.wolf",
+      "hitFemale": "sound.combat.hit.wolf"
+    },
+    "movement": {
+      "speed": 11.0,
+      "moveRate": 1900
+    },
+    "combat": {
+      "baseCombatRating": 50.0,
+      "maxGroupAttackSize": 15,
+      "maxHuntDistance": 0,
+      "aggressivity": 0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.85,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 9.0,
+          "kickString": "claw",
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 2.0
+        }
+      }
+    },
+    "drops": [ 92, 305, 466 ],
+    "meatMaterial": 78,
+    "maxAge": 3,
+    "eggLayer": true,
+    "skills": {
+      "100": 3.0,
+      "101": 6.0,
+      "102": 5.0,
+      "103": 70.0,
+      "104": 25.0,
+      "105": 20.0,
+      "106": 10.0,
+      "10052": 40.0
+    }
+  }
+]

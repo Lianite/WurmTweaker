@@ -1,0 +1,827 @@
+[
+  {
+    "json-type": "creature",
+    "id": 96,
+    "name": "Sheep",
+    "plural": "Sheep",
+    "longDesc": "A mythical beast of legends, it stares back at you with blood filled eyes and froth around the mouth.",
+    "modelName": "model.creature.quadraped.sheep",
+    "bodyType": 1,
+    "vision": 3,
+    "sex": 1,
+    "types": [ 7, 3, 43, 14, 54, 15, 9, 28, 32, 49, 35, 52 ],
+    "sizeInCentimeters": {
+      "high": 50,
+      "long": 50,
+      "wide": 30
+    },
+    "sounds": {
+      "deathMale": "sound.death.deer",
+      "deathFemale": "sound.death.deer",
+      "hitMale": "sound.combat.hit.deer",
+      "hitFemale": "sound.combat.hit.deer"
+    },
+    "movement": {
+      "speed": 1.0
+    },
+    "combat": {
+      "baseCombatRating": 1.0,
+      "maxGroupAttackSize": 2,
+      "maxHuntDistance": 5,
+      "aggressivity": 100,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 1.0
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 1.0,
+          "kick": 0.0,
+          "bite": 1.0,
+          "head": 0.0,
+          "breath": 0.5
+        }
+      }
+    },
+    "drops": [ 140, 309, 308, 308 ],
+    "meatMaterial": 83,
+    "maxAge": 100,
+    "keepSex": true,
+    "childTemplateId": 101,
+    "mateTemplateId": 102,
+    "maxPercentOfCreatures": 0.03,
+    "skills": {
+      "100": 5.0,
+      "101": 4.0,
+      "102": 17.0,
+      "103": 25.0,
+      "104": 17.0,
+      "105": 10.0,
+      "106": 1.0,
+      "10052": 8.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 101,
+    "name": "Lamb",
+    "plural": "Lambs",
+    "longDesc": "A small cuddly ball of fluff.",
+    "modelName": "model.creature.quadraped.lamb",
+    "bodyType": 1,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 7, 3, 43, 14, 54, 9, 28, 32, 49, 35, 63 ],
+    "sizeInCentimeters": {
+      "high": 50,
+      "long": 30,
+      "wide": 30
+    },
+    "sounds": {
+      "deathMale": "sound.death.deer",
+      "deathFemale": "sound.death.deer",
+      "hitMale": "sound.combat.hit.deer",
+      "hitFemale": "sound.combat.hit.deer"
+    },
+    "movement": {
+      "speed": 1.0
+    },
+    "combat": {
+      "baseCombatRating": 1.0,
+      "maxHuntDistance": 5,
+      "aggressivity": 100,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_NONE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "kick": 1.0,
+          "bite": 1.0,
+          "head": 0.0,
+          "breath": 0.5
+        }
+      }
+    },
+    "drops": [ 140, 309, 308, 308 ],
+    "meatMaterial": 83,
+    "maxAge": 100,
+    "adultFemaleTemplateId": 96,
+    "adultMaleTemplateId": 102,
+    "skills": {
+      "100": 3.0,
+      "101": 2.0,
+      "102": 7.0,
+      "103": 7.0,
+      "104": 7.0,
+      "105": 5.0,
+      "106": 1.0,
+      "10052": 5.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 102,
+    "name": "Ram",
+    "plural": "Rams",
+    "longDesc": "A mythical beast of legends, it stares back at you with blood filled eyes and froth around the mouth.",
+    "modelName": "model.creature.quadraped.sheep",
+    "bodyType": 1,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 7, 3, 43, 14, 54, 9, 28, 32, 49, 35, 52 ],
+    "sizeInCentimeters": {
+      "high": 50,
+      "long": 50,
+      "wide": 30
+    },
+    "sounds": {
+      "deathMale": "sound.death.deer",
+      "deathFemale": "sound.death.deer",
+      "hitMale": "sound.combat.hit.deer",
+      "hitFemale": "sound.combat.hit.deer"
+    },
+    "movement": {
+      "speed": 1.0
+    },
+    "combat": {
+      "baseCombatRating": 5.0,
+      "maxGroupAttackSize": 3,
+      "maxHuntDistance": 5,
+      "aggressivity": 100,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 1.0,
+          "handString": "headbutt",
+          "kick": 0.0,
+          "bite": 1.0,
+          "head": 0.0,
+          "breath": 0.5
+        }
+      }
+    },
+    "drops": [ 140, 309, 308, 308, 304, 304 ],
+    "meatMaterial": 83,
+    "maxAge": 100,
+    "keepSex": true,
+    "childTemplateId": 101,
+    "mateTemplateId": 96,
+    "maxPercentOfCreatures": 0.05,
+    "skills": {
+      "100": 6.0,
+      "101": 6.0,
+      "102": 23.0,
+      "103": 35.0,
+      "104": 18.0,
+      "105": 20.0,
+      "106": 3.0,
+      "10052": 22.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 64,
+    "name": "Horse",
+    "plural": "Horses",
+    "longDesc": "Horses like this one have many uses.",
+    "modelName": "model.creature.quadraped.horse",
+    "bodyType": 1,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 7, 12, 41, 43, 3, 14, 9, 28, 32 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 50,
+      "wide": 250
+    },
+    "sounds": {
+      "deathMale": "sound.death.horse",
+      "deathFemale": "sound.death.horse",
+      "hitMale": "sound.combat.hit.horse",
+      "hitFemale": "sound.combat.hit.horse"
+    },
+    "movement": {
+      "speed": 1.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 6.0,
+      "maxGroupAttackSize": 3,
+      "maxHuntDistance": 5,
+      "aggressivity": 0,
+      "alignment": 100.0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 2.5,
+          "handString": "kick",
+          "kick": 1.5,
+          "bite": 2.0,
+          "head": 0.0,
+          "breath": 1.5
+        }
+      }
+    },
+    "drops": [ 307, 306, 140, 71, 309, 308, 308 ],
+    "meatMaterial": 79,
+    "maxAge": 200,
+    "maxPercentOfCreatures": 0.1,
+    "childTemplateId": 65,
+    "isHorse": true,
+    "colourNames": [ "grey", "brown", "gold", "black", "white", "piebald pinto", "blood bay", "ebony black", "skewbald pinto", "gold buckskin", "black silver", "appaloosa", "chestnut" ],
+    "skills": {
+      "100": 7.0,
+      "101": 7.0,
+      "102": 25.0,
+      "103": 40.0,
+      "104": 20.0,
+      "105": 22.0,
+      "106": 5.0,
+      "10052": 28.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 65,
+    "name": "Foal",
+    "plural": "Foals",
+    "longDesc": "A foal skips around here merrily.",
+    "modelName": "model.creature.quadraped.foal",
+    "bodyType": 1,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 7, 12, 3, 43, 14, 9, 28, 32, 63 ],
+    "sizeInCentimeters": {
+      "high": 100,
+      "long": 50,
+      "wide": 50
+    },
+    "sounds": {
+      "deathMale": "sound.death.horse",
+      "deathFemale": "sound.death.horse",
+      "hitMale": "sound.combat.hit.horse",
+      "hitFemale": "sound.combat.hit.horse"
+    },
+    "movement": {
+      "speed": 1.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 3.0,
+      "maxGroupAttackSize": 2,
+      "maxHuntDistance": 5,
+      "aggressivity": 0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_NONE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "kick",
+          "kick": 1.0,
+          "bite": 1.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [ 307, 140, 306, 71, 309, 308, 308 ],
+    "meatMaterial": 79,
+    "maxAge": 100,
+    "adultFemaleTemplateId": 64,
+    "adultMaleTemplateId": 64,
+    "isHorse": true,
+    "colourNames": [ "grey", "brown", "gold", "black", "white", "piebald pinto", "blood bay", "ebony black", "skewbald pinto", "gold buckskin", "black silver", "appaloosa", "chestnut" ],
+    "skills": {
+      "100": 3.0,
+      "101": 2.0,
+      "102": 10.0,
+      "103": 10.0,
+      "104": 10.0,
+      "105": 5.0,
+      "106": 1.0,
+      "10052": 5.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 82,
+    "name": "Bison",
+    "plural": "Bison",
+    "longDesc": "The bison are impressive creatures when moving in hordes.",
+    "modelName": "model.creature.quadraped.bison",
+    "bodyType": 1,
+    "vision": 10,
+    "sex": 0,
+    "types": [ 7, 3, 43, 14, 9, 28, 32, 49, 35, 15 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 50,
+      "wide": 250
+    },
+    "sounds": {
+      "deathMale": "sound.death.bison",
+      "deathFemale": "sound.death.bison",
+      "hitMale": "sound.combat.hit.bison",
+      "hitFemale": "sound.combat.hit.bison"
+    },
+    "movement": {
+      "speed": 5.0,
+      "moveRate": 30
+    },
+    "combat": {
+      "baseCombatRating": 4.0,
+      "bonusCombatRating": 14.0,
+      "maxGroupAttackSize": 3,
+      "maxHuntDistance": 5,
+      "aggressivity": 10,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 0.3
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 5.0,
+          "handString": "kick",
+          "kick": 10.0,
+          "bite": 4.0,
+          "head": 0.0,
+          "breath": 0.8
+        }
+      }
+    },
+    "drops": [ 307, 306, 140, 71, 309, 308, 308, 304, 304 ],
+    "meatMaterial": 73,
+    "maxAge": 50,
+    "maxPercentOfCreatures": 0.01,
+    "skills": {
+      "100": 5.0,
+      "101": 4.0,
+      "102": 25.0,
+      "103": 30.0,
+      "104": 23.0,
+      "105": 10.0,
+      "106": 3.0,
+      "10052": 15.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 50,
+    "name": "Calf",
+    "plural": "Calves",
+    "longDesc": "This calf looks happy and free.",
+    "modelName": "model.creature.quadraped.calf",
+    "bodyType": 1,
+    "vision": 6,
+    "sex": 0,
+    "types": [ 7, 3, 14, 43, 9, 28, 32, 49, 35, 63 ],
+    "sizeInCentimeters": {
+      "high": 100,
+      "long": 50,
+      "wide": 100
+    },
+    "sounds": {
+      "deathMale": "sound.death.cow.brown",
+      "deathFemale": "sound.death.cow.brown",
+      "hitMale": "sound.combat.hit.cow.brown",
+      "hitFemale": "sound.combat.hit.cow.brown"
+    },
+    "movement": {
+      "speed": 1.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 3.0,
+      "maxGroupAttackSize": 2,
+      "maxHuntDistance": 5,
+      "aggressivity": 0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_NONE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "kick",
+          "kick": 1.0,
+          "bite": 1.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [ 307, 140, 306, 71, 309, 308, 308 ],
+    "meatMaterial": 73,
+    "maxAge": 100,
+    "adultFemaleTemplateId": 3,
+    "adultMaleTemplateId": 49,
+    "skills": {
+      "100": 3.0,
+      "101": 2.0,
+      "102": 10.0,
+      "103": 10.0,
+      "104": 10.0,
+      "105": 5.0,
+      "106": 1.0,
+      "10052": 5.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 49,
+    "name": "Bull",
+    "plural": "Bulls",
+    "longDesc": "This bull looks pretty menacing.",
+    "modelName": "model.creature.quadraped.bull",
+    "bodyType": 1,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 7, 41, 3, 43, 14, 9, 28, 32 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 50,
+      "wide": 250
+    },
+    "sounds": {
+      "deathMale": "sound.death.cow.brown",
+      "deathFemale": "sound.death.cow.brown",
+      "hitMale": "sound.combat.hit.cow.brown",
+      "hitFemale": "sound.combat.hit.cow.brown"
+    },
+    "movement": {
+      "speed": 2.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 4.0,
+      "maxGroupAttackSize": 3,
+      "maxHuntDistance": 5,
+      "aggressivity": 10,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 1.0
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 2.0,
+          "handString": "kick",
+          "kick": 3.0,
+          "bite": 4.0,
+          "head": 0.0,
+          "breath": 0.5
+        }
+      }
+    },
+    "drops": [ 307, 306, 140, 71, 309, 308, 308, 312, 312 ],
+    "meatMaterial": 73,
+    "maxAge": 50,
+    "maxPercentOfCreatures": 0.02,
+    "keepSex": true,
+    "mateTemplateId": 3,
+    "skills": {
+      "100": 5.0,
+      "101": 4.0,
+      "102": 25.0,
+      "103": 30.0,
+      "104": 23.0,
+      "105": 10.0,
+      "106": 3.0,
+      "10052": 15.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 45,
+    "name": "Hen",
+    "plural": "Hens",
+    "longDesc": "A fine hen proudly prods around here.",
+    "modelName": "model.creature.humanoid.hen",
+    "bodyType": 7,
+    "vision": 3,
+    "sex": 1,
+    "types": [ 7, 3, 14, 43, 28, 32, 35, 49, 64 ],
+    "sizeInCentimeters": {
+      "high": 30,
+      "long": 14,
+      "wide": 50
+    },
+    "sounds": {
+      "deathMale": "sound.death.hen",
+      "deathFemale": "sound.death.hen",
+      "hitMale": "sound.combat.hit.hen",
+      "hitFemale": "sound.combat.hit.hen"
+    },
+    "movement": {
+      "speed": 0.5,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 1.0,
+      "maxHuntDistance": 1,
+      "aggressivity": 0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_NONE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 1.0,
+          "kickString": "claw",
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.5
+        }
+      }
+    },
+    "drops": [ 140, 1352, 1352, 1352 ],
+    "meatMaterial": 77,
+    "maxAge": 20,
+    "maxPercentOfCreatures": 0.02,
+    "keepSex": true,
+    "eggLayer": true,
+    "eggTemplateId": 48,
+    "colourNames": [ "white", "brown", "black" ],
+    "skills": {
+      "100": 5.0,
+      "101": 4.0,
+      "102": 3.0,
+      "103": 1.0,
+      "104": 15.0,
+      "105": 5.0,
+      "106": 1.0,
+      "10052": 5.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 52,
+    "name": "Rooster",
+    "plural": "Roosters",
+    "longDesc": "A proud rooster struts around here.",
+    "modelName": "model.creature.humanoid.rooster",
+    "bodyType": 7,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 7, 3, 14, 43, 28, 32, 64 ],
+    "sizeInCentimeters": {
+      "high": 30,
+      "long": 14,
+      "wide": 50
+    },
+    "sounds": {
+      "deathMale": "sound.death.hen",
+      "deathFemale": "sound.death.hen",
+      "hitMale": "sound.combat.hit.hen",
+      "hitFemale": "sound.combat.hit.hen"
+    },
+    "movement": {
+      "speed": 0.5,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 1.0,
+      "maxGroupAttackSize": 2,
+      "maxHuntDistance": 1,
+      "aggressivity": 0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_NONE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 1.0,
+          "kickString": "claw",
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [ 140, 1352, 1352, 1352 ],
+    "meatMaterial": 77,
+    "maxAge": 30,
+    "maxPercentOfCreatures": 0.002,
+    "keepSex": true,
+    "colourNames": [ "brown", "white", "black" ],
+    "skills": {
+      "100": 5.0,
+      "101": 4.0,
+      "102": 5.0,
+      "103": 5.0,
+      "104": 25.0,
+      "105": 10.0,
+      "106": 1.0,
+      "10052": 10.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 48,
+    "name": "Chicken",
+    "plural": "Chickens",
+    "longDesc": "A cute chicken struts around here.",
+    "modelName": "model.creature.humanoid.chicken",
+    "bodyType": 7,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 7, 3, 14, 43, 28, 32, 63 ],
+    "sizeInCentimeters": {
+      "high": 10,
+      "long": 5,
+      "wide": 10
+    },
+    "sounds": {
+      "deathMale": "sound.death.hen",
+      "deathFemale": "sound.death.hen",
+      "hitMale": "sound.combat.hit.hen",
+      "hitFemale": "sound.combat.hit.hen"
+    },
+    "movement": {
+      "speed": 0.5,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 1.0,
+      "maxHuntDistance": 1,
+      "aggressivity": 0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_NONE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 1.0,
+          "kickString": "claw",
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.5
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 77,
+    "maxAge": 20,
+    "adultFemaleTemplateId": 45,
+    "adultMaleTemplateId": 52,
+    "colourNames": [ "white", "brown", "black" ],
+    "skills": {
+      "100": 5.0,
+      "101": 4.0,
+      "102": 1.0,
+      "103": 1.0,
+      "104": 5.0,
+      "105": 5.0,
+      "106": 1.0,
+      "10052": 1.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 44,
+    "name": "Pig",
+    "plural": "Pigs",
+    "longDesc": "A pig is here, wallowing in the mud.",
+    "modelName": "model.creature.quadraped.pig",
+    "bodyType": 3,
+    "vision": 10,
+    "sex": 0,
+    "types": [ 7, 3, 43, 27, 14, 32 ],
+    "sizeInCentimeters": {
+      "high": 50,
+      "long": 50,
+      "wide": 150
+    },
+    "sounds": {
+      "deathMale": "sound.death.pig",
+      "deathFemale": "sound.death.pig",
+      "hitMale": "sound.combat.hit.pig",
+      "hitFemale": "sound.combat.hit.pig"
+    },
+    "movement": {
+      "speed": 1.0,
+      "moveRate": 20
+    },
+    "combat": {
+      "baseCombatRating": 2.0,
+      "maxGroupAttackSize": 3,
+      "maxHuntDistance": 10,
+      "aggressivity": 54,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "kick",
+          "kick": 2.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.8
+        }
+      }
+    },
+    "drops": [ 303, 140, 310, 308, 308 ],
+    "meatMaterial": 84,
+    "maxAge": 100,
+    "maxPercentOfCreatures": 0.03,
+    "skills": {
+      "100": 2.0,
+      "101": 4.0,
+      "102": 10.0,
+      "103": 10.0,
+      "104": 15.0,
+      "105": 10.0,
+      "106": 3.0,
+      "10052": 5.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 3,
+    "name": "Brown cow",
+    "plural": "Brown cows",
+    "longDesc": "A brown docile cow.",
+    "modelName": "model.creature.quadraped.cow",
+    "bodyType": 1,
+    "vision": 3,
+    "sex": 1,
+    "types": [ 7, 41, 3, 43, 14, 15, 9, 28, 32, 49, 35 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 50,
+      "wide": 250
+    },
+    "sounds": {
+      "deathMale": "sound.death.cow.brown",
+      "deathFemale": "sound.death.cow.brown",
+      "hitMale": "sound.combat.hit.cow.brown",
+      "hitFemale": "sound.combat.hit.cow.brown"
+    },
+    "movement": {
+      "speed": 1.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 1.0,
+      "maxGroupAttackSize": 2,
+      "maxHuntDistance": 5,
+      "aggressivity": 0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 1.0
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 1.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 2.0,
+          "breath": 0.5
+        }
+      }
+    },
+    "drops": [ 307, 306, 140, 71, 309, 308, 308 ],
+    "meatMaterial": 73,
+    "maxAge": 100,
+    "maxPercentOfCreatures": 0.02,
+    "keepSex": true,
+    "childTemplateId": 50,
+    "mateTemplateId": 49,
+    "skills": {
+      "100": 5.0,
+      "101": 4.0,
+      "102": 20.0,
+      "103": 30.0,
+      "104": 20.0,
+      "105": 10.0,
+      "106": 1.0,
+      "10052": 8.0
+    }
+  }
+]

@@ -1,0 +1,478 @@
+[
+  {
+    "json-type": "creature",
+    "id": 113,
+    "name": "NPC Human",
+    "plural": "NPC Humans",
+    "longDesc": "A relatively normal person stands here waiting for something to happen.",
+    "modelName": "model.creature.humanoid.human.player",
+    "bodyType": 0,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 0, 4, 17 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.male",
+      "deathFemale": "sound.death.female",
+      "hitMale": "sound.combat.hit.male",
+      "hitFemale": "sound.combat.hit.female"
+    },
+    "movement": {
+      "speed": 1.0
+    },
+    "combat": {
+      "baseCombatRating": 99.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 3,
+      "aggressivity": 0,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 1.0
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 2.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.8
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 80,
+    "hasHands": true,
+    "skills": {
+      "100": 10.0,
+      "101": 10.0,
+      "102": 15.0,
+      "103": 10.0,
+      "104": 15.0,
+      "105": 99.0,
+      "106": 24.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 66,
+    "name": "Child",
+    "plural": "Children",
+    "longDesc": "A small child is here, exploring the world.",
+    "modelName": "model.creature.humanoid.human.child",
+    "bodyType": 0,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 7, 14, 27, 32, 45 ],
+    "sizeInCentimeters": {
+      "high": 100,
+      "long": 30,
+      "wide": 20
+    },
+    "sounds": {
+      "deathMale": "sound.death.male.child",
+      "deathFemale": "sound.death.female.child",
+      "hitMale": "sound.combat.hit.male.child",
+      "hitFemale": "sound.combat.hit.female.child"
+    },
+    "movement": {
+      "speed": 2.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 3.0,
+      "maxHuntDistance": 25,
+      "aggressivity": 10,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_NONE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "kick": 3.0,
+          "bite": 2.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 80,
+    "maxAge": 10,
+    "adultFemaleTemplateId": 1,
+    "adultMaleTemplateId": 1,
+    "hasHands": true,
+    "skills": {
+      "100": 3.0,
+      "101": 2.0,
+      "102": 10.0,
+      "103": 10.0,
+      "104": 10.0,
+      "105": 5.0,
+      "106": 1.0,
+      "10052": 5.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 61,
+    "name": "Guide",
+    "plural": "Guides",
+    "longDesc": "A rather stressed out person is here giving instructions on how to survive to everyone who just arrived.",
+    "modelName": "model.creature.humanoid.human.guide",
+    "bodyType": 0,
+    "vision": 5,
+    "sex": 1,
+    "types": [ 0, 4, 17 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.male",
+      "deathFemale": "sound.death.female",
+      "hitMale": "sound.combat.hit.male",
+      "hitFemale": "sound.combat.hit.female"
+    },
+    "movement": {
+      "speed": 1.0,
+      "moveRate": 0
+    },
+    "combat": {
+      "baseCombatRating": 99.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 3,
+      "aggressivity": 0,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 1.0
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 2.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.8
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 80,
+    "keepSex": true,
+    "tutorial": true,
+    "hasHands": true,
+    "skills": {
+      "100": 10.0,
+      "101": 10.0,
+      "102": 15.0,
+      "103": 10.0,
+      "104": 15.0,
+      "105": 99.0,
+      "106": 24.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 60,
+    "name": "Tormentor",
+    "plural": "Tormentors",
+    "longDesc": "A particularly grim person stands here, trying to sort things out.",
+    "modelName": "model.creature.humanoid.human.guide",
+    "bodyType": 0,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 0, 4, 17 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.male",
+      "deathFemale": "sound.death.female",
+      "hitMale": "sound.combat.hit.male",
+      "hitFemale": "sound.combat.hit.female"
+    },
+    "movement": {
+      "speed": 1.0,
+      "moveRate": 0
+    },
+    "combat": {
+      "baseCombatRating": 99.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 3,
+      "aggressivity": 0,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 1.0
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 2.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.8
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 80,
+    "keepSex": true,
+    "tutorial": true,
+    "hasHands": true,
+    "skills": {
+      "100": 10.0,
+      "101": 10.0,
+      "102": 15.0,
+      "103": 10.0,
+      "104": 15.0,
+      "105": 99.0,
+      "106": 24.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 41,
+    "name": "Bartender",
+    "plural": "Bartenders",
+    "longDesc": "A fat and jolly bartender, eager to help people settling in.",
+    "modelName": "model.creature.humanoid.human.bartender",
+    "bodyType": 0,
+    "vision": 2,
+    "sex": 0,
+    "types": [ 0, 4, 17, 26 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.male",
+      "deathFemale": "sound.death.female",
+      "hitMale": "sound.combat.hit.male",
+      "hitFemale": "sound.combat.hit.female"
+    },
+    "movement": {
+      "speed": 1.0,
+      "moveRate": 0
+    },
+    "combat": {
+      "baseCombatRating": 79.0,
+      "maxHuntDistance": 3,
+      "aggressivity": 0,
+      "armor": {
+        "naturalArmour": 1.0
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 2.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.8
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 80,
+    "hasHands": true,
+    "skills": {
+      "100": 10.0,
+      "101": 10.0,
+      "102": 15.0,
+      "103": 10.0,
+      "104": 15.0,
+      "105": 99.0,
+      "106": 14.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 2,
+    "name": "Joe the Stupe",
+    "plural": "Joe the Stupes",
+    "longDesc": "A hollow-eyed person is standing here, potentially dangerous but stupid as ever.",
+    "modelName": "model.creature.humanoid.human.player",
+    "bodyType": 0,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 12, 13, 17 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.male",
+      "deathFemale": "sound.death.female",
+      "hitMale": "sound.combat.hit.male",
+      "hitFemale": "sound.combat.hit.female"
+    },
+    "movement": {
+      "speed": 2.0,
+      "moveRate": 0
+    },
+    "combat": {
+      "maxHuntDistance": 5,
+      "aggressivity": 0,
+      "armor": {
+        "naturalArmour": 0.2
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 3.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.5
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 87,
+    "skills": {
+      "100": 20.0,
+      "101": 20.0,
+      "102": 20.0,
+      "103": 60.0,
+      "104": 20.0,
+      "105": 20.0,
+      "106": 20.0,
+      "10052": 10.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 9,
+    "name": "Salesman",
+    "plural": "Salesman",
+    "longDesc": "An envoy from the king, buying and selling items.",
+    "modelName": "model.creature.humanoid.human.salesman",
+    "bodyType": 0,
+    "vision": 2,
+    "sex": 0,
+    "types": [ 0, 1, 4, 5, 12, 17 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.male",
+      "deathFemale": "sound.death.female",
+      "hitMale": "sound.combat.hit.male",
+      "hitFemale": "sound.combat.hit.female"
+    },
+    "movement": {
+      "speed": 1.0,
+      "moveRate": 0
+    },
+    "combat": {
+      "baseCombatRating": 70.0,
+      "maxHuntDistance": 3,
+      "aggressivity": 0,
+      "armor": {
+        "naturalArmour": 1.0
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 2.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.8
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 80,
+    "hasHands": true,
+    "skills": {
+      "100": 30.0,
+      "101": 30.0,
+      "102": 15.0,
+      "103": 10.0,
+      "104": 15.0,
+      "105": 99.0,
+      "106": 4.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 1,
+    "name": "Human",
+    "plural": "Humans",
+    "longDesc": "Another explorer.",
+    "modelName": "model.creature.humanoid.human.player",
+    "bodyType": 0,
+    "vision": 80,
+    "sex": 0,
+    "types": [ 1, 12, 13, 17, 45, 7 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 20,
+      "wide": 35
+    },
+    "sounds": {
+      "deathMale": "sound.death.male",
+      "deathFemale": "sound.death.female",
+      "hitMale": "sound.combat.hit.male",
+      "hitFemale": "sound.combat.hit.female"
+    },
+    "movement": {
+      "speed": 1.0,
+      "moveRate": 0
+    },
+    "combat": {
+      "baseCombatRating": 4.0,
+      "maxGroupAttackSize": 7,
+      "maxHuntDistance": 25,
+      "aggressivity": 100,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 2.0,
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.5
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 80,
+    "childTemplateId": 66,
+    "adultFemaleTemplateId": 1,
+    "adultMaleTemplateId": 1,
+    "hasHands": true,
+    "skills": {
+      "1": null,
+      "2": null,
+      "3": null,
+      "100": null,
+      "101": null,
+      "102": null,
+      "103": null,
+      "104": null,
+      "105": null,
+      "106": null,
+      "1023": null
+    }
+  }
+]

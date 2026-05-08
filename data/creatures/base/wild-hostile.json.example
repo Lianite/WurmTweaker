@@ -1,0 +1,517 @@
+[
+  {
+    "json-type": "creature",
+    "id": 10,
+    "name": "Black wolf",
+    "plural": "Black wolves",
+    "longDesc": "This dark shadow of the forests glares hungrily at you.",
+    "modelName": "model.creature.quadraped.wolf.black",
+    "bodyType": 3,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 8, 3, 6, 13, 32, 29, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 80,
+      "long": 30,
+      "wide": 150
+    },
+    "sounds": {
+      "deathMale": "sound.death.wolf",
+      "deathFemale": "sound.death.wolf",
+      "hitMale": "sound.combat.hit.wolf",
+      "hitFemale": "sound.combat.hit.wolf"
+    },
+    "movement": {
+      "speed": 3.0,
+      "moveRate": 1500
+    },
+    "combat": {
+      "baseCombatRating": 6.0,
+      "maxGroupAttackSize": 3,
+      "maxHuntDistance": 20,
+      "aggressivity": 60,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.85,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 5.0,
+          "kickString": "claw",
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.2
+        }
+      }
+    },
+    "drops": [ 140, 92, 305, 302 ],
+    "meatMaterial": 74,
+    "maxAge": 70,
+    "maxPercentOfCreatures": 0.08,
+    "denName": "wolf den",
+    "denMaterial": 15,
+    "skills": {
+      "100": 6.0,
+      "101": 7.0,
+      "102": 20.0,
+      "103": 30.0,
+      "104": 25.0,
+      "105": 20.0,
+      "106": 1.0,
+      "10052": 10.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 12,
+    "name": "Brown bear",
+    "plural": "Brown bears",
+    "longDesc": "The brown bear has a distinctive hump on the shoulders, and long deadly claws on the front paws.",
+    "modelName": "model.creature.quadraped.bear.brown",
+    "bodyType": 2,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 8, 41, 3, 6, 12, 13, 32, 29, 39, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 230,
+      "long": 50,
+      "wide": 50
+    },
+    "sounds": {
+      "deathMale": "sound.death.bear",
+      "deathFemale": "sound.death.bear",
+      "hitMale": "sound.combat.hit.bear",
+      "hitFemale": "sound.combat.hit.bear"
+    },
+    "movement": {
+      "speed": 7.0,
+      "moveRate": 1500
+    },
+    "combat": {
+      "baseCombatRating": 9.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 10,
+      "aggressivity": 70,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 0.75,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_STUDDED"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "maul",
+          "kick": 10.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.2
+        }
+      }
+    },
+    "drops": [ 92, 303, 302 ],
+    "meatMaterial": 72,
+    "maxAge": 200,
+    "maxPercentOfCreatures": 0.04,
+    "denName": "bear cave",
+    "denMaterial": 15,
+    "skills": {
+      "100": 4.0,
+      "101": 4.0,
+      "102": 30.0,
+      "103": 30.0,
+      "104": 30.0,
+      "105": 30.0,
+      "106": 4.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 42,
+    "name": "Black bear",
+    "plural": "Black bears",
+    "longDesc": "The black bear looks pretty kind, but has strong, highly curved claws ready to render you to pieces.",
+    "modelName": "model.creature.quadraped.bear.black",
+    "bodyType": 2,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 7, 3, 6, 13, 29, 32, 39, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 160,
+      "long": 50,
+      "wide": 50
+    },
+    "sounds": {
+      "deathMale": "sound.death.bear",
+      "deathFemale": "sound.death.bear",
+      "hitMale": "sound.combat.hit.bear",
+      "hitFemale": "sound.combat.hit.bear"
+    },
+    "movement": {
+      "speed": 4.0,
+      "moveRate": 1500
+    },
+    "combat": {
+      "baseCombatRating": 9.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 10,
+      "aggressivity": 80,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 0.8,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_STUDDED"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "maul",
+          "kick": 11.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [ 303, 302 ],
+    "meatMaterial": 72,
+    "maxAge": 200,
+    "maxPercentOfCreatures": 0.05,
+    "denName": "bear cave",
+    "denMaterial": 15,
+    "skills": {
+      "100": 4.0,
+      "101": 4.0,
+      "102": 26.0,
+      "103": 26.0,
+      "104": 26.0,
+      "105": 30.0,
+      "106": 4.0,
+      "10052": 30.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 13,
+    "name": "Large rat",
+    "plural": "Large rats",
+    "longDesc": "This is an unnaturally large version of a standard black rat.",
+    "modelName": "model.creature.quadraped.rat.large",
+    "bodyType": 3,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 7, 3, 6, 12, 13, 27, 32, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 20,
+      "long": 10,
+      "wide": 50
+    },
+    "sounds": {
+      "deathMale": "sound.death.rat",
+      "deathFemale": "sound.death.rat",
+      "hitMale": "sound.combat.hit.rat",
+      "hitFemale": "sound.combat.hit.rat"
+    },
+    "movement": {
+      "speed": 1.0,
+      "moveRate": 400
+    },
+    "combat": {
+      "baseCombatRating": 2.0,
+      "maxGroupAttackSize": 2,
+      "maxHuntDistance": 10,
+      "aggressivity": 40,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 2.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.7
+        }
+      }
+    },
+    "drops": [ 313, 310, 308, 308 ],
+    "meatMaterial": 78,
+    "maxAge": 30,
+    "maxPercentOfCreatures": 0.03,
+    "denName": "garbage pile",
+    "subterranean": true,
+    "skills": {
+      "100": 6.0,
+      "101": 8.0,
+      "102": 5.0,
+      "103": 10.0,
+      "104": 10.0,
+      "105": 15.0,
+      "106": 1.0,
+      "10052": 2.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 14,
+    "name": "Mountain lion",
+    "plural": "Mountain lions",
+    "longDesc": "Looking like a huge cat, it is tawny-coloured, with a small head and small, rounded, black-tipped ears.",
+    "modelName": "model.creature.quadraped.lion.mountain",
+    "bodyType": 3,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 7, 3, 6, 13, 30, 32, 29, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 60,
+      "long": 30,
+      "wide": 90
+    },
+    "sounds": {
+      "deathMale": "sound.death.lion",
+      "deathFemale": "sound.death.lion",
+      "hitMale": "sound.combat.hit.lion",
+      "hitFemale": "sound.combat.hit.lion"
+    },
+    "movement": {
+      "speed": 3.0,
+      "moveRate": 1200
+    },
+    "combat": {
+      "baseCombatRating": 3.0,
+      "maxGroupAttackSize": 2,
+      "maxHuntDistance": 10,
+      "aggressivity": 40,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.95,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 5.0,
+          "kickString": "claw",
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [ 92, 305, 313, 308, 308 ],
+    "meatMaterial": 75,
+    "maxAge": 100,
+    "maxPercentOfCreatures": 0.01,
+    "denName": "mountain lion hideout",
+    "denMaterial": 15,
+    "skills": {
+      "100": 7.0,
+      "101": 8.0,
+      "102": 15.0,
+      "103": 15.0,
+      "104": 3.0,
+      "105": 25.0,
+      "106": 4.0,
+      "10052": 6.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 15,
+    "name": "Wild cat",
+    "plural": "Wild cats",
+    "longDesc": "A small wild cat, fierce and aggressive.",
+    "modelName": "model.creature.quadraped.cat.wild",
+    "bodyType": 3,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 7, 3, 6, 32, 29, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 20,
+      "long": 10,
+      "wide": 300
+    },
+    "sounds": {
+      "deathMale": "sound.death.cat",
+      "deathFemale": "sound.death.cat",
+      "hitMale": "sound.combat.hit.cat",
+      "hitFemale": "sound.combat.hit.cat"
+    },
+    "movement": {
+      "speed": 1.0,
+      "moveRate": 500
+    },
+    "combat": {
+      "baseCombatRating": 2.0,
+      "maxGroupAttackSize": 2,
+      "maxHuntDistance": 5,
+      "aggressivity": 10,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 3.0,
+          "kickString": "claw",
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.7
+        }
+      }
+    },
+    "drops": [ 313 ],
+    "meatMaterial": 75,
+    "maxAge": 40,
+    "maxPercentOfCreatures": 0.02,
+    "denName": "wildcat hideout",
+    "denMaterial": 15,
+    "skills": {
+      "100": 6.0,
+      "101": 8.0,
+      "102": 8.0,
+      "103": 10.0,
+      "104": 13.0,
+      "105": 20.0,
+      "106": 1.0,
+      "10052": 3.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 58,
+    "name": "Crocodile",
+    "plural": "Crocodiles",
+    "longDesc": "This meat-eating reptile swims very well but may also perform quick rushes on land in order to catch you.",
+    "modelName": "model.creature.quadraped.crocodile",
+    "bodyType": 3,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 6, 41, 7, 3, 13, 32, 29, 12, 39, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 80,
+      "long": 30,
+      "wide": 120
+    },
+    "sounds": {
+      "deathMale": "sound.death.croc",
+      "deathFemale": "sound.death.croc",
+      "hitMale": "sound.combat.hit.croc",
+      "hitFemale": "sound.combat.hit.croc"
+    },
+    "movement": {
+      "speed": 6.0,
+      "moveRate": 400
+    },
+    "combat": {
+      "baseCombatRating": 9.0,
+      "bonusCombatRating": 7.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 6,
+      "aggressivity": 40,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.35,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_PLATE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 10.0,
+          "kickString": "claw",
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.2
+        }
+      }
+    },
+    "drops": [ 92, 305, 71, 310 ],
+    "meatMaterial": 78,
+    "maxAge": 200,
+    "maxPercentOfCreatures": 0.04,
+    "denName": "crocodile lair",
+    "denMaterial": 15,
+    "skills": {
+      "100": 6.0,
+      "101": 12.0,
+      "102": 35.0,
+      "103": 20.0,
+      "104": 35.0,
+      "105": 65.0,
+      "106": 1.0,
+      "10052": 50.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 86,
+    "name": "Worg",
+    "plural": "Worgs",
+    "longDesc": "This wolf-like creature is unnaturally big and clumsy. The Worg seems finicky and nervous, which makes it unpredictable and dangerous to deal with.",
+    "modelName": "model.creature.quadraped.wolf.worg",
+    "bodyType": 3,
+    "vision": 7,
+    "sex": 0,
+    "types": [ 7, 6, 13, 3, 29, 36, 39 ],
+    "sizeInCentimeters": {
+      "high": 40,
+      "long": 20,
+      "wide": 100
+    },
+    "sounds": {
+      "deathMale": "sound.death.dog",
+      "deathFemale": "sound.death.dog",
+      "hitMale": "sound.combat.hit.dog",
+      "hitFemale": "sound.combat.hit.dog"
+    },
+    "movement": {
+      "speed": 10.0,
+      "moveRate": 300
+    },
+    "combat": {
+      "baseCombatRating": 14.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 10,
+      "aggressivity": 94,
+      "alignment": -60.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.2,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_STUDDED"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 12.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.2
+        }
+      }
+    },
+    "drops": [],
+    "meatMaterial": 87,
+    "maxAge": 4,
+    "skills": {
+      "100": 10.0,
+      "101": 15.0,
+      "102": 25.0,
+      "103": 35.0,
+      "104": 25.0,
+      "105": 20.0,
+      "106": 12.0,
+      "10052": 50.0
+    }
+  }
+]

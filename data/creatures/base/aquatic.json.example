@@ -1,0 +1,574 @@
+[
+  {
+    "json-type": "creature",
+    "id": 97,
+    "name": "Blue whale",
+    "plural": "Blue whales",
+    "longDesc": "These gigantic creatures travel huge distances looking for food, while singing their mysterious songs.",
+    "modelName": "model.creature.fish.blue.whale",
+    "bodyType": 9,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 8, 38, 13, 3, 29, 44, 48, 37, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 200,
+      "long": 1000,
+      "wide": 300
+    },
+    "sounds": {
+      "deathMale": "sound.death.snake",
+      "deathFemale": "sound.death.snake",
+      "hitMale": "sound.combat.hit.snake",
+      "hitFemale": "sound.combat.hit.snake"
+    },
+    "movement": {
+      "speed": 0.0
+    },
+    "combat": {
+      "baseCombatRating": 18.0,
+      "bonusCombatRating": 12.0,
+      "maxGroupAttackSize": 20,
+      "maxHuntDistance": 40,
+      "aggressivity": 100,
+      "alignment": -20.0,
+      "damageType": 3,
+      "armor": {
+        "naturalArmour": 0.3,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CHAIN"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "kick": 25.0,
+          "bite": 15.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [ 308, 308 ],
+    "meatMaterial": 85,
+    "maxAge": 80,
+    "hasHands": false,
+    "offZ": -1.4,
+    "maxPopulationOfCreatures": 3,
+    "skills": {
+      "100": 14.0,
+      "101": 10.0,
+      "102": 50.0,
+      "103": 50.0,
+      "104": 20.0,
+      "105": 40.0,
+      "106": 5.0,
+      "10052": 85.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 98,
+    "name": "Seal cub",
+    "plural": "Seal cubs",
+    "longDesc": "A young seal, waiting to be fed luscious fish.",
+    "modelName": "model.creature.fish.seal.cub",
+    "bodyType": 9,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 8, 12, 35, 3, 29, 44, 48, 51, 32, 63 ],
+    "sizeInCentimeters": {
+      "high": 80,
+      "long": 90,
+      "wide": 70
+    },
+    "sounds": {
+      "deathMale": "sound.death.snake",
+      "deathFemale": "sound.death.snake",
+      "hitMale": "sound.combat.hit.snake",
+      "hitFemale": "sound.combat.hit.snake"
+    },
+    "movement": {
+      "speed": 0.0
+    },
+    "combat": {
+      "baseCombatRating": 1.0,
+      "maxGroupAttackSize": 2,
+      "maxHuntDistance": 40,
+      "aggressivity": 100,
+      "alignment": -20.0,
+      "damageType": 3,
+      "armor": {
+        "naturalArmour": 0.7,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CHAIN"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "kick": 8.0,
+          "bite": 5.0,
+          "head": 0.0,
+          "breath": 0.5
+        }
+      }
+    },
+    "drops": [ 140, 140, 71, 71, 310 ],
+    "meatMaterial": 85,
+    "maxAge": 20,
+    "hasHands": false,
+    "offZ": -1.4,
+    "adultFemaleTemplateId": 93,
+    "adultMaleTemplateId": 93,
+    "skills": {
+      "100": 6.0,
+      "101": 8.0,
+      "102": 10.0,
+      "103": 15.0,
+      "104": 15.0,
+      "105": 10.0,
+      "106": 15.0,
+      "10052": 15.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 99,
+    "name": "Dolphin",
+    "plural": "Dolphins",
+    "longDesc": "A playful dolphin. They have been known to defend sailors in distress from their natural enemy, the shark.",
+    "modelName": "model.creature.fish.dolphin",
+    "bodyType": 9,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 8, 38, 13, 16, 29, 44, 48, 37, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 80,
+      "long": 250,
+      "wide": 50
+    },
+    "sounds": {
+      "deathMale": "sound.death.snake",
+      "deathFemale": "sound.death.snake",
+      "hitMale": "sound.combat.hit.snake",
+      "hitFemale": "sound.combat.hit.snake"
+    },
+    "movement": {
+      "speed": 0.0
+    },
+    "combat": {
+      "baseCombatRating": 9.0,
+      "bonusCombatRating": 7.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 40,
+      "aggressivity": 100,
+      "alignment": -20.0,
+      "damageType": 3,
+      "armor": {
+        "naturalArmour": 0.7,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CHAIN"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "kick": 16.0,
+          "bite": 10.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [ 308, 308 ],
+    "meatMaterial": 85,
+    "maxAge": 80,
+    "hasHands": false,
+    "offZ": -1.4,
+    "maxPopulationOfCreatures": 150,
+    "skills": {
+      "100": 14.0,
+      "101": 10.0,
+      "102": 25.0,
+      "103": 50.0,
+      "104": 65.0,
+      "105": 40.0,
+      "106": 5.0,
+      "10052": 60.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 100,
+    "name": "Octopus",
+    "plural": "Octopi",
+    "longDesc": "Larger specimen have been known to pull whole ships down into the abyss. Luckily this one is small.",
+    "modelName": "model.creature.fish.octopus",
+    "bodyType": 9,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 8, 38, 13, 16, 29, 44, 48, 37, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 100,
+      "long": 100,
+      "wide": 100
+    },
+    "sounds": {
+      "deathMale": "sound.death.snake",
+      "deathFemale": "sound.death.snake",
+      "hitMale": "sound.combat.hit.snake",
+      "hitFemale": "sound.combat.hit.snake"
+    },
+    "movement": {
+      "speed": 0.0
+    },
+    "combat": {
+      "baseCombatRating": 9.0,
+      "bonusCombatRating": 7.0,
+      "maxGroupAttackSize": 3,
+      "maxHuntDistance": 40,
+      "aggressivity": 100,
+      "alignment": -20.0,
+      "damageType": 3,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CHAIN"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "kick": 14.0,
+          "bite": 12.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [ 308, 308, 752 ],
+    "meatMaterial": 85,
+    "maxAge": 80,
+    "hasHands": false,
+    "offZ": -1.4,
+    "maxPercentOfCreatures": 0.01,
+    "maxPopulationOfCreatures": 150,
+    "skills": {
+      "100": 14.0,
+      "101": 10.0,
+      "102": 35.0,
+      "103": 40.0,
+      "104": 45.0,
+      "105": 40.0,
+      "106": 5.0,
+      "10052": 60.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 93,
+    "name": "Seal",
+    "plural": "Seals",
+    "longDesc": "These creatures love to bathe in the sun and go for a swim hunting fish.",
+    "modelName": "model.creature.fish.seal",
+    "bodyType": 9,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 8, 12, 35, 3, 29, 44, 48, 51, 32, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 100,
+      "long": 100,
+      "wide": 100
+    },
+    "sounds": {
+      "deathMale": "sound.death.snake",
+      "deathFemale": "sound.death.snake",
+      "hitMale": "sound.combat.hit.snake",
+      "hitFemale": "sound.combat.hit.snake"
+    },
+    "movement": {
+      "speed": 0.0
+    },
+    "combat": {
+      "baseCombatRating": 7.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 40,
+      "aggressivity": 100,
+      "alignment": -20.0,
+      "damageType": 3,
+      "armor": {
+        "naturalArmour": 0.7,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CHAIN"
+      },
+      "attacks": {
+        "useNewSystem": true,
+        "legacy": {
+          "hand": 0.0,
+          "kick": 8.0,
+          "bite": 5.0,
+          "head": 0.0,
+          "breath": 0.5
+        },
+        "primary": [
+          {
+            "name": "bite",
+            "identifier": "AttackIdentifier.BITE",
+            "values": {
+              "baseDamage": 8.0,
+              "criticalChance": 0.04,
+              "baseSpeed": 5.0,
+              "attackReach": 2,
+              "weightGroup": 1,
+              "damageType": 3,
+              "usesWeapon": false,
+              "rounds": 3,
+              "waitUntilNextAttack": 1.0
+            }
+          },
+          {
+            "name": "strike",
+            "identifier": "AttackIdentifier.STRIKE",
+            "values": {
+              "baseDamage": 5.0,
+              "criticalChance": 0.04,
+              "baseSpeed": 6.0,
+              "attackReach": 2,
+              "weightGroup": 1,
+              "damageType": 1,
+              "usesWeapon": false,
+              "rounds": 2,
+              "waitUntilNextAttack": 1.0
+            }
+          }
+        ],
+        "secondary": [
+          {
+            "name": "bite",
+            "identifier": "AttackIdentifier.BITE",
+            "values": {
+              "baseDamage": 7.0,
+              "criticalChance": 0.1,
+              "baseSpeed": 7.0,
+              "attackReach": 2,
+              "weightGroup": 1,
+              "damageType": 0,
+              "usesWeapon": false,
+              "rounds": 4,
+              "waitUntilNextAttack": 1.1
+            }
+          },
+          {
+            "name": "headbutt",
+            "identifier": "AttackIdentifier.HEADBUTT",
+            "values": {
+              "baseDamage": 7.0,
+              "criticalChance": 0.1,
+              "baseSpeed": 7.0,
+              "attackReach": 2,
+              "weightGroup": 1,
+              "damageType": 0,
+              "usesWeapon": false,
+              "rounds": 4,
+              "waitUntilNextAttack": 1.1
+            }
+          }
+        ]
+      }
+    },
+    "drops": [ 140, 140, 71, 71, 310 ],
+    "meatMaterial": 85,
+    "maxAge": 40,
+    "hasHands": false,
+    "childTemplateId": 98,
+    "offZ": -1.4,
+    "maxPercentOfCreatures": 0.02,
+    "boundsValues": [ -0.975, -0.9, 0.975, 0.9 ],
+    "skills": {
+      "100": 6.0,
+      "101": 8.0,
+      "102": 20.0,
+      "103": 30.0,
+      "104": 45.0,
+      "105": 10.0,
+      "106": 15.0,
+      "10052": 25.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 94,
+    "name": "Tortoise",
+    "plural": "Tortoises",
+    "longDesc": "The tortoise is pretty harmless but can pinch you quite bad with its bite.",
+    "modelName": "model.creature.quadraped.tortoise",
+    "bodyType": 3,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 7, 3, 6, 35, 44, 28, 32, 51, 48, 12, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 30,
+      "long": 30,
+      "wide": 30
+    },
+    "sounds": {
+      "deathMale": "sound.death.insect",
+      "deathFemale": "sound.death.insect",
+      "hitMale": "sound.combat.hit.insect",
+      "hitFemale": "sound.combat.hit.insect"
+    },
+    "movement": {
+      "speed": 0.0
+    },
+    "combat": {
+      "baseCombatRating": 12.0,
+      "maxGroupAttackSize": 3,
+      "maxHuntDistance": 10,
+      "aggressivity": 50,
+      "armor": {
+        "naturalArmour": 0.3,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_PLATE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "kick": 12.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.3
+        }
+      }
+    },
+    "drops": [ 898, 308, 308, 92 ],
+    "meatMaterial": 85,
+    "maxAge": 100,
+    "maxPercentOfCreatures": 0.02,
+    "skills": {
+      "100": 14.0,
+      "101": 6.0,
+      "102": 22.0,
+      "103": 5.0,
+      "104": 6.0,
+      "105": 30.0,
+      "106": 24.0,
+      "10052": 36.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 95,
+    "name": "Crab",
+    "plural": "Crabs",
+    "longDesc": "Crabs are known to hide well and walk sideways.",
+    "modelName": "model.creature.quadraped.crab",
+    "bodyType": 3,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 7, 3, 6, 13, 27, 32, 51, 48, 12, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 30,
+      "long": 30,
+      "wide": 30
+    },
+    "sounds": {
+      "deathMale": "sound.death.insect",
+      "deathFemale": "sound.death.insect",
+      "hitMale": "sound.combat.hit.insect",
+      "hitFemale": "sound.combat.hit.insect"
+    },
+    "movement": {
+      "speed": 5.0
+    },
+    "combat": {
+      "baseCombatRating": 5.0,
+      "maxGroupAttackSize": 3,
+      "maxHuntDistance": 10,
+      "aggressivity": 50,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.7,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_PLATE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 6.0,
+          "kickString": "claw",
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.8
+        }
+      }
+    },
+    "drops": [ 900, 900, 308, 308, 900 ],
+    "meatMaterial": 85,
+    "maxAge": 100,
+    "maxPercentOfCreatures": 0.03,
+    "skills": {
+      "100": 4.0,
+      "101": 6.0,
+      "102": 12.0,
+      "103": 5.0,
+      "104": 16.0,
+      "105": 20.0,
+      "106": 4.0,
+      "10052": 16.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 71,
+    "name": "Huge shark",
+    "plural": "Huge sharks",
+    "longDesc": "These huge sharks were apparently not just a rumour. How horrendous!",
+    "modelName": "model.creature.fish.shark.huge",
+    "bodyType": 9,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 8, 38, 6, 13, 16, 29, 44, 40, 48, 37, 61 ],
+    "sizeInCentimeters": {
+      "high": 100,
+      "long": 1000,
+      "wide": 100
+    },
+    "sounds": {
+      "deathMale": "sound.death.snake",
+      "deathFemale": "sound.death.snake",
+      "hitMale": "sound.combat.hit.snake",
+      "hitFemale": "sound.combat.hit.snake"
+    },
+    "movement": {
+      "speed": 0.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 12.0,
+      "bonusCombatRating": 12.0,
+      "maxGroupAttackSize": 8,
+      "maxHuntDistance": 40,
+      "aggressivity": 59,
+      "alignment": -20.0,
+      "damageType": 3,
+      "armor": {
+        "naturalArmour": 0.2,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CHAIN"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "kick": 16.0,
+          "bite": 10.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [ 308, 308, 310 ],
+    "meatMaterial": 85,
+    "maxAge": 40,
+    "offZ": -1.4,
+    "skills": {
+      "100": 14.0,
+      "101": 10.0,
+      "102": 20.0,
+      "103": 50.0,
+      "104": 45.0,
+      "105": 40.0,
+      "106": 5.0,
+      "1023": 80.0,
+      "10052": 85.0
+    }
+  }
+]

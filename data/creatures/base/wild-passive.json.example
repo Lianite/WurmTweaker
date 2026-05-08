@@ -1,0 +1,320 @@
+[
+  {
+    "json-type": "creature",
+    "id": 21,
+    "name": "Unicorn",
+    "plural": "Unicorns",
+    "longDesc": "A bright white unicorn with a slender twisted horn.",
+    "modelName": "model.creature.quadraped.unicorn",
+    "bodyType": 1,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 7, 41, 3, 32, 28, 9, 39, 35 ],
+    "sizeInCentimeters": {
+      "high": 180,
+      "long": 50,
+      "wide": 250
+    },
+    "sounds": {
+      "deathMale": "sound.death.horse",
+      "deathFemale": "sound.death.horse",
+      "hitMale": "sound.combat.hit.horse",
+      "hitFemale": "sound.combat.hit.horse"
+    },
+    "movement": {
+      "speed": 6.0,
+      "moveRate": 1500
+    },
+    "combat": {
+      "baseCombatRating": 11.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance": 10,
+      "aggressivity": 60,
+      "alignment": 100.0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 0.7,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 10.0,
+          "handString": "kick",
+          "kick": 8.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.6
+        }
+      }
+    },
+    "drops": [ 92, 311, 71 ],
+    "meatMaterial": 79,
+    "maxAge": 400,
+    "maxPercentOfCreatures": 0.02,
+    "childTemplateId": 118,
+    "denName": "unicorn rustle",
+    "skills": {
+      "100": 14.0,
+      "101": 14.0,
+      "102": 30.0,
+      "103": 20.0,
+      "104": 30.0,
+      "105": 60.0,
+      "106": 14.0,
+      "10052": 35.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 118,
+    "name": "Unicorn Foal",
+    "plural": "Unicorn Foals",
+    "longDesc": "A small bright white unicorn foal with a budding horn.",
+    "modelName": "model.creature.quadraped.unicorn.foal",
+    "bodyType": 1,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 7, 3, 9, 28, 32, 63, 35, 39 ],
+    "sizeInCentimeters": {
+      "high": 100,
+      "long": 50,
+      "wide": 75
+    },
+    "sounds": {
+      "deathMale": "sound.death.horse",
+      "deathFemale": "sound.death.horse",
+      "hitMale": "sound.combat.hit.horse",
+      "hitFemale": "sound.combat.hit.horse"
+    },
+    "movement": {
+      "speed": 2.0,
+      "moveRate": 900
+    },
+    "combat": {
+      "baseCombatRating": 5.0,
+      "maxGroupAttackSize": 2,
+      "maxHuntDistance": 5,
+      "aggressivity": 20,
+      "alignment": 100.0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 0.9,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 4.0,
+          "handString": "kick",
+          "kick": 3.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.2
+        }
+      }
+    },
+    "drops": [ 311, 71, 309 ],
+    "meatMaterial": 79,
+    "maxAge": 100,
+    "corpseName": "unicorn.foal.",
+    "adultFemaleTemplateId": 21,
+    "adultMaleTemplateId": 21,
+    "skills": {
+      "100": 6.0,
+      "101": 5.0,
+      "102": 15.0,
+      "103": 10.0,
+      "104": 15.0,
+      "105": 30.0,
+      "106": 10.0,
+      "10052": 15.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 51,
+    "name": "Dog",
+    "plural": "Dogs",
+    "longDesc": "Occasionally this dog will bark and scratch itself behind the ears.",
+    "modelName": "model.creature.quadraped.dog",
+    "bodyType": 3,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 8, 3, 13, 43, 32, 27, 12 ],
+    "sizeInCentimeters": {
+      "high": 80,
+      "long": 30,
+      "wide": 120
+    },
+    "sounds": {
+      "deathMale": "sound.death.dog",
+      "deathFemale": "sound.death.dog",
+      "hitMale": "sound.combat.hit.dog",
+      "hitFemale": "sound.combat.hit.dog"
+    },
+    "movement": {
+      "speed": 2.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 3.0,
+      "maxGroupAttackSize": 2,
+      "maxHuntDistance": 20,
+      "aggressivity": 10,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.95,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 3.0,
+          "kickString": "claw",
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.2
+        }
+      }
+    },
+    "drops": [ 92, 140, 305, 313 ],
+    "meatMaterial": 74,
+    "maxAge": 70,
+    "maxPercentOfCreatures": 0.01,
+    "denMaterial": 15,
+    "skills": {
+      "100": 6.0,
+      "101": 7.0,
+      "102": 15.0,
+      "103": 20.0,
+      "104": 25.0,
+      "105": 15.0,
+      "106": 1.0,
+      "10052": 7.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 54,
+    "name": "Deer",
+    "plural": "Deer",
+    "longDesc": "A fallow deer is here, watching for enemies.",
+    "modelName": "model.creature.quadraped.deer",
+    "bodyType": 1,
+    "vision": 10,
+    "sex": 0,
+    "types": [ 7, 3, 9, 28, 32, 49, 35, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 70,
+      "long": 50,
+      "wide": 50
+    },
+    "sounds": {
+      "deathMale": "sound.death.deer",
+      "deathFemale": "sound.death.deer",
+      "hitMale": "sound.combat.hit.deer",
+      "hitFemale": "sound.combat.hit.deer"
+    },
+    "movement": {
+      "speed": 1.0,
+      "moveRate": 30
+    },
+    "combat": {
+      "baseCombatRating": 2.0,
+      "maxGroupAttackSize": 3,
+      "maxHuntDistance": 5,
+      "aggressivity": 10,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 1.0,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_NONE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 1.0,
+          "handString": "kick",
+          "kick": 0.5,
+          "bite": 1.0,
+          "head": 0.0,
+          "breath": 1.5
+        }
+      }
+    },
+    "drops": [ 307, 306, 71, 140, 309, 308, 308, 310 ],
+    "meatMaterial": 78,
+    "maxAge": 100,
+    "maxPercentOfCreatures": 0.005,
+    "skills": {
+      "100": 5.0,
+      "101": 4.0,
+      "102": 15.0,
+      "103": 20.0,
+      "104": 33.0,
+      "105": 10.0,
+      "106": 8.0,
+      "10052": 10.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 55,
+    "name": "Pheasant",
+    "plural": "Pheasants",
+    "longDesc": "The pheasant slowly paces here, vigilant as always.",
+    "modelName": "model.creature.humanoid.pheasant",
+    "bodyType": 7,
+    "vision": 3,
+    "sex": 0,
+    "types": [ 7, 3, 28, 32, 35, 49, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 30,
+      "long": 14,
+      "wide": 50
+    },
+    "sounds": {
+      "deathMale": "sound.death.pheasant",
+      "deathFemale": "sound.death.pheasant",
+      "hitMale": "sound.combat.hit.pheasant",
+      "hitFemale": "sound.combat.hit.pheasant"
+    },
+    "movement": {
+      "speed": 1.0,
+      "moveRate": 100
+    },
+    "combat": {
+      "baseCombatRating": 1.0,
+      "maxGroupAttackSize": 2,
+      "maxHuntDistance": 1,
+      "aggressivity": 0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 1.0
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 1.5,
+          "kickString": "claw",
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.0
+        }
+      }
+    },
+    "drops": [ 140, 1352, 1352, 1352, 1352, 1352 ],
+    "meatMaterial": 78,
+    "maxAge": 100,
+    "maxPercentOfCreatures": 0.01,
+    "skills": {
+      "100": 5.0,
+      "101": 4.0,
+      "102": 5.0,
+      "103": 5.0,
+      "104": 25.0,
+      "105": 10.0,
+      "106": 1.0,
+      "10052": 7.0
+    }
+  }
+]

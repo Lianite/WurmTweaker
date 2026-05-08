@@ -1,0 +1,265 @@
+[
+  {
+    "json-type": "creature",
+    "id": 105,
+    "name": "Fog Spider",
+    "plural": "Fog Spiders",
+    "longDesc": "Usually only encountered under foggy conditions, this creature is often considered an Omen.",
+    "modelName": "model.creature.multiped.spider.fog",
+    "bodyType": 8,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 7, 6, 13, 3, 29, 39 ],
+    "sizeInCentimeters": {
+      "high": 150,
+      "long": 100,
+      "wide": 150
+    },
+    "sounds": {
+      "deathMale": "sound.death.spider",
+      "deathFemale": "sound.death.spider",
+      "hitMale": "sound.combat.hit.spider",
+      "hitFemale": "sound.combat.hit.spider"
+    },
+    "movement": {
+      "speed": 3.0
+    },
+    "combat": {
+      "baseCombatRating": 15.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 15,
+      "aggressivity": 500,
+      "alignment": 0.0,
+      "damageType": 5,
+      "armor": {
+        "naturalArmour": 0.2,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_PLATE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 11,
+          "kickPvp": 14,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.8
+        }
+      },
+      "combatMoves": [ 11 ]
+    },
+    "drops": [],
+    "meatMaterial": 82,
+    "maxAge": 30,
+    "maxPercentOfCreatures": 0.01,
+    "skills": {
+      "100": 8.0,
+      "101": 12.0,
+      "102": 25.0,
+      "103": 35.0,
+      "104": 45.0,
+      "105": 40.0,
+      "106": 2.0,
+      "10052": 70.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 25,
+    "name": "Huge spider",
+    "plural": "Huge spiders",
+    "longDesc": "Monstrously huge and fast, these spiders love to be played with.",
+    "modelName": "model.creature.multiped.spider.huge",
+    "bodyType": 8,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 7, 6, 13, 3, 29, 39, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 150,
+      "long": 100,
+      "wide": 150
+    },
+    "sounds": {
+      "deathMale": "sound.death.spider",
+      "deathFemale": "sound.death.spider",
+      "hitMale": "sound.combat.hit.spider",
+      "hitFemale": "sound.combat.hit.spider"
+    },
+    "movement": {
+      "speed": 0.0,
+      "moveRate": 500
+    },
+    "combat": {
+      "baseCombatRating": 10.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 10,
+      "aggressivity": 74,
+      "alignment": -50.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.7,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_PLATE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 6.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.2
+        }
+      }
+    },
+    "drops": [ 636, 308, 308, 308, 308 ],
+    "meatMaterial": 82,
+    "maxAge": 100,
+    "maxPercentOfCreatures": 0.08,
+    "denName": "spider lair",
+    "denMaterial": 15,
+    "skills": {
+      "100": 8.0,
+      "101": 10.0,
+      "102": 20.0,
+      "103": 35.0,
+      "104": 45.0,
+      "105": 40.0,
+      "106": 2.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 43,
+    "name": "Cave bug",
+    "plural": "Cave bugs",
+    "longDesc": "Some kind of unnaturally large and deformed insect lunges at you from the dark. It has a grey carapace, with small patches of lichen growing here and there.",
+    "modelName": "model.creature.quadraped.insect.cavebug",
+    "bodyType": 3,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 7, 3, 6, 13, 27, 32, 34, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 30,
+      "long": 30,
+      "wide": 30
+    },
+    "sounds": {
+      "deathMale": "sound.death.insect",
+      "deathFemale": "sound.death.insect",
+      "hitMale": "sound.combat.hit.insect",
+      "hitFemale": "sound.combat.hit.insect"
+    },
+    "movement": {
+      "speed": 3.0,
+      "moveRate": 50
+    },
+    "combat": {
+      "baseCombatRating": 5.0,
+      "maxGroupAttackSize": 2,
+      "maxHuntDistance": 10,
+      "aggressivity": 30,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.9,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_PLATE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 6.0,
+          "kickString": "claw",
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.6
+        }
+      }
+    },
+    "drops": [ 439, 439, 439, 439, 439, 439, 439, 439, 439 ],
+    "meatMaterial": 82,
+    "maxAge": 100,
+    "maxPercentOfCreatures": 0.03,
+    "denName": "cave bug mound",
+    "denMaterial": 15,
+    "subterranean": true,
+    "skills": {
+      "100": 7.0,
+      "101": 8.0,
+      "102": 10.0,
+      "103": 5.0,
+      "104": 13.0,
+      "105": 40.0,
+      "106": 4.0,
+      "10052": 16.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 59,
+    "name": "Scorpion",
+    "plural": "Scorpions",
+    "longDesc": "The monstruously large type of scorpion found in woods and caves here is fairly aggressive.",
+    "modelName": "model.creature.multiped.scorpion",
+    "bodyType": 8,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 7, 41, 6, 13, 16, 29, 32, 34, 39, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 130,
+      "long": 30,
+      "wide": 20
+    },
+    "sounds": {
+      "deathMale": "sound.death.insect",
+      "deathFemale": "sound.death.insect",
+      "hitMale": "sound.combat.hit.insect",
+      "hitFemale": "sound.combat.hit.insect"
+    },
+    "movement": {
+      "speed": 6.0,
+      "moveRate": 1700
+    },
+    "combat": {
+      "baseCombatRating": 8.0,
+      "bonusCombatRating": 8.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 7,
+      "aggressivity": 64,
+      "alignment": -40.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.4,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_STUDDED"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 10.0,
+          "handString": "claw",
+          "kick": 13.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.75,
+          "breathString": "sting"
+        }
+      }
+    },
+    "drops": [ 92, 439 ],
+    "meatMaterial": 82,
+    "maxAge": 100,
+    "maxPercentOfCreatures": 0.05,
+    "denName": "scorpion stone",
+    "denMaterial": 15,
+    "noServerSounds": true,
+    "skills": {
+      "100": 2.0,
+      "101": 25.0,
+      "102": 20.0,
+      "103": 20.0,
+      "104": 15.0,
+      "105": 40.0,
+      "106": 2.0,
+      "10052": 24.0
+    }
+  }
+]

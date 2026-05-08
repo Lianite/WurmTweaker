@@ -1,0 +1,439 @@
+[
+  {
+    "json-type": "creature",
+    "id": 106,
+    "name": "Rift Beast",
+    "plural": "Rift Beasts",
+    "longDesc": "These vile creatures emerge from the rift in great numbers.",
+    "modelName": "model.creature.quadraped.beast.rift",
+    "bodyType": 3,
+    "vision": 8,
+    "sex": 0,
+    "types": [ 7, 13, 3, 29, 6, 12 ],
+    "sizeInCentimeters": {
+      "high": 40,
+      "long": 20,
+      "wide": 100
+    },
+    "sounds": {
+      "deathMale": "sound.death.dog",
+      "deathFemale": "sound.death.dog",
+      "hitMale": "sound.combat.hit.dog",
+      "hitFemale": "sound.combat.hit.dog"
+    },
+    "movement": {
+      "speed": 12.0
+    },
+    "combat": {
+      "baseCombatRating": 14.0,
+      "maxGroupAttackSize": 8,
+      "maxHuntDistance": 10,
+      "aggressivity": 300,
+      "alignment": -50.0,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.3,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CLOTH"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 0.0,
+          "handString": "claw",
+          "kick": 14.0,
+          "bite": 15.0,
+          "head": 0.0,
+          "breath": 1.6
+        }
+      }
+    },
+    "drops": [ 636 ],
+    "meatMaterial": 74,
+    "maxAge": 50,
+    "maxPercentOfCreatures": 0.01,
+    "skills": {
+      "100": 8.0,
+      "101": 10.0,
+      "102": 20.0,
+      "103": 25.0,
+      "104": 35.0,
+      "105": 30.0,
+      "106": 2.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 107,
+    "name": "Rift Jackal",
+    "plural": "Rift Jackals",
+    "longDesc": "The Jackals accompany the Beasts as they spew out of the rift.",
+    "modelName": "model.creature.humanoid.jackal.rift",
+    "bodyType": 0,
+    "vision": 8,
+    "sex": 0,
+    "types": [ 7, 6, 13, 16, 40, 29, 30, 34, 39, 45, 55, 18, 12 ],
+    "sizeInCentimeters": {
+      "high": 150,
+      "long": 100,
+      "wide": 150
+    },
+    "sounds": {
+      "deathMale": "sound.death.troll",
+      "deathFemale": "sound.death.troll",
+      "hitMale": "sound.combat.hit.troll",
+      "hitFemale": "sound.combat.hit.troll"
+    },
+    "movement": {
+      "speed": 15.0
+    },
+    "combat": {
+      "baseCombatRating": 19.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 10,
+      "aggressivity": 700,
+      "alignment": -20.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.2,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_CHAIN"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 6.0,
+          "handString": "burn",
+          "kick": 10.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.4
+        }
+      }
+    },
+    "drops": [ 636 ],
+    "meatMaterial": 81,
+    "maxAge": 50,
+    "maxPercentOfCreatures": 0.01,
+    "skills": {
+      "100": 12.0,
+      "101": 14.0,
+      "102": 25.0,
+      "103": 30.0,
+      "104": 25.0,
+      "105": 30.0,
+      "106": 12.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 108,
+    "name": "Rift Ogre",
+    "plural": "Rift Ogres",
+    "longDesc": "The Rift Ogres seem to bully Beasts and Jackals into following orders.",
+    "modelName": "model.creature.humanoid.ogre.rift",
+    "bodyType": 0,
+    "vision": 8,
+    "sex": 0,
+    "types": [ 7, 6, 13, 16, 40, 29, 30, 34, 39, 45, 55, 18, 12 ],
+    "sizeInCentimeters": {
+      "high": 450,
+      "long": 100,
+      "wide": 150
+    },
+    "sounds": {
+      "deathMale": "sound.death.troll",
+      "deathFemale": "sound.death.troll",
+      "hitMale": "sound.combat.hit.troll",
+      "hitFemale": "sound.combat.hit.troll"
+    },
+    "movement": {
+      "speed": 20.0
+    },
+    "combat": {
+      "baseCombatRating": 19.0,
+      "maxGroupAttackSize": 8,
+      "maxHuntDistance": 10,
+      "aggressivity": 700,
+      "alignment": -20.0,
+      "damageType": 0,
+      "armor": {
+        "naturalArmour": 0.1,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_STUDDED"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 10.0,
+          "handString": "burn",
+          "kick": 10.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.4
+        }
+      }
+    },
+    "drops": [ 636 ],
+    "meatMaterial": 81,
+    "maxAge": 50,
+    "maxPercentOfCreatures": 0.01,
+    "skills": {
+      "100": 12.0,
+      "101": 14.0,
+      "102": 25.0,
+      "103": 30.0,
+      "104": 25.0,
+      "105": 30.0,
+      "106": 12.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 109,
+    "name": "Rift Warmaster",
+    "plural": "Rift Warmasters",
+    "longDesc": "These plan and lead attacks from the rift.",
+    "modelName": "model.creature.humanoid.warmaster.rift",
+    "bodyType": 0,
+    "vision": 8,
+    "sex": 0,
+    "types": [ 7, 6, 13, 16, 40, 29, 30, 34, 39, 45, 55, 18, 12 ],
+    "sizeInCentimeters": {
+      "high": 450,
+      "long": 100,
+      "wide": 150
+    },
+    "sounds": {
+      "deathMale": "sound.death.troll",
+      "deathFemale": "sound.death.troll",
+      "hitMale": "sound.combat.hit.troll",
+      "hitFemale": "sound.combat.hit.troll"
+    },
+    "movement": {
+      "speed": 32.0
+    },
+    "combat": {
+      "baseCombatRating": 19.0,
+      "maxGroupAttackSize": 20,
+      "maxHuntDistance": 20,
+      "aggressivity": 700,
+      "alignment": -20.0,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.03,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_PLATE"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 20.0,
+          "handString": "burn",
+          "kick": 40.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.6
+        }
+      }
+    },
+    "drops": [ 636 ],
+    "meatMaterial": 74,
+    "maxAge": 50,
+    "maxPercentOfCreatures": 0.01,
+    "skills": {
+      "100": 12.0,
+      "101": 14.0,
+      "102": 25.0,
+      "103": 30.0,
+      "104": 25.0,
+      "105": 30.0,
+      "106": 12.0,
+      "10052": 40.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 110,
+    "name": "Rift Caster",
+    "plural": "Rift Casters",
+    "longDesc": "Proficient spell casters, but they seem to avoid direct contact.",
+    "modelName": "model.creature.humanoid.jackal.rift.caster",
+    "bodyType": 0,
+    "vision": 8,
+    "sex": 0,
+    "types": [ 7, 6, 13, 16, 40, 29, 30, 34, 39, 45, 55, 18, 12 ],
+    "sizeInCentimeters": {
+      "high": 150,
+      "long": 100,
+      "wide": 150
+    },
+    "sounds": {
+      "deathMale": "sound.death.troll",
+      "deathFemale": "sound.death.troll",
+      "hitMale": "sound.combat.hit.troll",
+      "hitFemale": "sound.combat.hit.troll"
+    },
+    "movement": {
+      "speed": 15.0
+    },
+    "combat": {
+      "baseCombatRating": 14.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 10,
+      "aggressivity": 700,
+      "alignment": -20.0,
+      "damageType": 4,
+      "armor": {
+        "naturalArmour": 0.2,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_STUDDED"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 6.0,
+          "handString": "burn",
+          "kick": 10.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.4
+        }
+      }
+    },
+    "drops": [ 636 ],
+    "meatMaterial": 74,
+    "maxAge": 50,
+    "maxPercentOfCreatures": 0.001,
+    "skills": {
+      "100": 32.0,
+      "101": 34.0,
+      "102": 20.0,
+      "103": 20.0,
+      "104": 20.0,
+      "105": 20.0,
+      "106": 15.0,
+      "10052": 40.0,
+      "10067": 50.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 111,
+    "name": "Rift Ogre Mage",
+    "plural": "Rift Ogre Magi",
+    "longDesc": "Ogre Mages have mysterious powers.",
+    "modelName": "model.creature.humanoid.ogre.rift.mage",
+    "bodyType": 0,
+    "vision": 8,
+    "sex": 0,
+    "types": [ 7, 6, 13, 16, 40, 29, 30, 34, 39, 45, 55, 18, 12 ],
+    "sizeInCentimeters": {
+      "high": 350,
+      "long": 100,
+      "wide": 150
+    },
+    "sounds": {
+      "deathMale": "sound.death.troll",
+      "deathFemale": "sound.death.troll",
+      "hitMale": "sound.combat.hit.troll",
+      "hitFemale": "sound.combat.hit.troll"
+    },
+    "movement": {
+      "speed": 20.0
+    },
+    "combat": {
+      "baseCombatRating": 19.0,
+      "maxGroupAttackSize": 8,
+      "maxHuntDistance": 10,
+      "aggressivity": 700,
+      "alignment": -50.0,
+      "damageType": 9,
+      "armor": {
+        "naturalArmour": 0.1,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_LEATHER_DRAGON"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 10.0,
+          "handString": "burn",
+          "kick": 10.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.4
+        }
+      }
+    },
+    "drops": [ 636 ],
+    "meatMaterial": 81,
+    "maxAge": 50,
+    "maxPercentOfCreatures": 0.001,
+    "skills": {
+      "100": 42.0,
+      "101": 44.0,
+      "102": 20.0,
+      "103": 20.0,
+      "104": 20.0,
+      "105": 30.0,
+      "106": 15.0,
+      "10052": 50.0,
+      "10067": 50.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 112,
+    "name": "Rift Summoner",
+    "plural": "Rift Summoners",
+    "longDesc": "Summoners seem to be able to call for aid from the Rift.",
+    "modelName": "model.creature.humanoid.jackal.rift.summoner",
+    "bodyType": 0,
+    "vision": 8,
+    "sex": 0,
+    "types": [ 7, 6, 13, 16, 40, 29, 30, 34, 39, 45, 55, 18, 12 ],
+    "sizeInCentimeters": {
+      "high": 150,
+      "long": 100,
+      "wide": 150
+    },
+    "sounds": {
+      "deathMale": "sound.death.troll",
+      "deathFemale": "sound.death.troll",
+      "hitMale": "sound.combat.hit.troll",
+      "hitFemale": "sound.combat.hit.troll"
+    },
+    "movement": {
+      "speed": 15.0
+    },
+    "combat": {
+      "baseCombatRating": 12.0,
+      "maxGroupAttackSize": 6,
+      "maxHuntDistance": 10,
+      "aggressivity": 700,
+      "alignment": -30.0,
+      "damageType": 1,
+      "armor": {
+        "naturalArmour": 0.2,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_STUDDED"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 6.0,
+          "handString": "claw",
+          "kick": 10.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.4
+        }
+      }
+    },
+    "drops": [ 636 ],
+    "meatMaterial": 74,
+    "maxAge": 50,
+    "maxPercentOfCreatures": 0.001,
+    "skills": {
+      "100": 18.0,
+      "101": 14.0,
+      "102": 40.0,
+      "103": 30.0,
+      "104": 25.0,
+      "105": 40.0,
+      "106": 15.0,
+      "10052": 45.0,
+      "10067": 60.0
+    }
+  }
+]

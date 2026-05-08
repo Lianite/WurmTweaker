@@ -35,6 +35,15 @@ public class JsonLoader {
         }
     }
 
+    public void loadType(String typeName) {
+        ContentHandler<?> handler = handlers.get(typeName);
+        if (handler == null) {
+            logger.warning("WurmTweaker: no handler registered for type '" + typeName + "'");
+            return;
+        }
+        loadType(handler);
+    }
+
     private <T> void loadType(ContentHandler<T> handler) {
         File typeDir = new File(baseDir, handler.getTypeName());
         if (!typeDir.exists()) {

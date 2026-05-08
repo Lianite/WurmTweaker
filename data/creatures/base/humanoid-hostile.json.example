@@ -1,0 +1,137 @@
+[
+  {
+    "json-type": "creature",
+    "id": 11,
+    "name": "Troll",
+    "plural": "Trolls",
+    "longDesc": "A dark green stinking troll. Always hungry. Always deadly.",
+    "modelName": "model.creature.humanoid.troll.standard",
+    "bodyType": 0,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 7, 6, 40, 13, 16, 18, 29, 30, 32, 36, 39, 45, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 230,
+      "long": 50,
+      "wide": 50
+    },
+    "sounds": {
+      "deathMale": "sound.death.troll",
+      "deathFemale": "sound.death.troll",
+      "hitMale": "sound.combat.hit.troll",
+      "hitFemale": "sound.combat.hit.troll"
+    },
+    "movement": {
+      "speed": 8.0,
+      "moveRate": 1700
+    },
+    "combat": {
+      "baseCombatRating": 12.0,
+      "bonusCombatRating": 5.0,
+      "maxGroupAttackSize": 8,
+      "maxHuntDistance": 10,
+      "aggressivity": 94,
+      "alignment": -50.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.4,
+        "armourType": "ArmourTemplate.ARMOUR_TYPE_STUDDED"
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 4.0,
+          "handString": "claw",
+          "kick": 12.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 1.2
+        }
+      }
+    },
+    "drops": [ 303, 310 ],
+    "meatMaterial": 81,
+    "maxAge": 300,
+    "maxPercentOfCreatures": 0.06,
+    "leaderTemplateId": 27,
+    "denName": "troll mound",
+    "denMaterial": 15,
+    "subterranean": true,
+    "hasHands": true,
+    "skills": {
+      "100": 8.0,
+      "101": 10.0,
+      "102": 40.0,
+      "103": 40.0,
+      "104": 25.0,
+      "105": 39.0,
+      "106": 7.0,
+      "10052": 40.0,
+      "10064": 70.0
+    }
+  },
+  {
+    "json-type": "creature",
+    "id": 23,
+    "name": "Goblin",
+    "plural": "Goblins",
+    "longDesc": "This small, dirty creature looks at you greedily, and would go into a frenzy if you show pain.",
+    "modelName": "model.creature.humanoid.goblin.standard",
+    "bodyType": 0,
+    "vision": 5,
+    "sex": 0,
+    "types": [ 7, 6, 13, 16, 29, 30, 32, 34, 45, 60, 61 ],
+    "sizeInCentimeters": {
+      "high": 130,
+      "long": 30,
+      "wide": 20
+    },
+    "sounds": {
+      "deathMale": "sound.death.goblin",
+      "deathFemale": "sound.death.goblin",
+      "hitMale": "sound.combat.hit.goblin",
+      "hitFemale": "sound.combat.hit.goblin"
+    },
+    "movement": {
+      "speed": 3.0,
+      "moveRate": 1500
+    },
+    "combat": {
+      "baseCombatRating": 6.0,
+      "maxGroupAttackSize": 2,
+      "maxHuntDistance": 10,
+      "aggressivity": 94,
+      "alignment": -40.0,
+      "damageType": 2,
+      "armor": {
+        "naturalArmour": 0.7
+      },
+      "attacks": {
+        "legacy": {
+          "hand": 5.0,
+          "handString": "claw",
+          "kick": 0.0,
+          "bite": 0.0,
+          "head": 0.0,
+          "breath": 0.7
+        }
+      }
+    },
+    "drops": [ 1250 ],
+    "meatMaterial": 81,
+    "maxAge": 100,
+    "maxPercentOfCreatures": 0.06,
+    "leaderTemplateId": 26,
+    "denName": "goblin hut",
+    "hasHands": true,
+    "skills": {
+      "100": 12.0,
+      "101": 15.0,
+      "102": 20.0,
+      "103": 20.0,
+      "104": 15.0,
+      "105": 26.0,
+      "106": 7.0,
+      "10052": 14.0
+    }
+  }
+]
