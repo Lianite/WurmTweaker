@@ -22,7 +22,7 @@
       "hitFemale": "sound.combat.hit.wolf"
     },
     "movement": {
-      "speed": 3.0,
+      "speed": 1.2,
       "moveRate": 1500
     },
     "combat": {
@@ -37,13 +37,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 3.0,
           "handString": "claw",
-          "kick": 5.0,
-          "kickString": "claw",
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 5.0,
           "head": 0.0,
-          "breath": 1.2
+          "breath": 0.0
         }
       }
     },
@@ -87,7 +86,7 @@
       "hitFemale": "sound.combat.hit.bear"
     },
     "movement": {
-      "speed": 7.0,
+      "speed": 1.2,
       "moveRate": 1500
     },
     "combat": {
@@ -101,14 +100,79 @@
         "armourType": "ArmourTemplate.ARMOUR_TYPE_STUDDED"
       },
       "attacks": {
+        "useNewSystem": true,
         "legacy": {
-          "hand": 0.0,
+          "hand": 7.0,
           "handString": "maul",
-          "kick": 10.0,
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 10.0,
           "head": 0.0,
-          "breath": 1.2
-        }
+          "breath": 0.0
+        },
+        "primary": [
+          {
+            "name": "maul",
+            "identifier": "AttackIdentifier.STRIKE",
+            "values": {
+              "baseDamage": 7.0,
+              "criticalChance": 0.01,
+              "baseSpeed": 6.0,
+              "attackReach": 3,
+              "weightGroup": 1,
+              "damageType": 0,
+              "usesWeapon": false,
+              "rounds": 2,
+              "waitUntilNextAttack": 1.0
+            }
+          },
+          {
+            "name": "gnaw",
+            "identifier": "AttackIdentifier.BITE",
+            "values": {
+              "baseDamage": 5.0,
+              "criticalChance": 0.02,
+              "baseSpeed": 8.0,
+              "attackReach": 3,
+              "weightGroup": 1,
+              "damageType": 3,
+              "usesWeapon": false,
+              "rounds": 4,
+              "waitUntilNextAttack": 1.1
+            }
+          }
+        ],
+        "secondary": [
+          {
+            "name": "bite",
+            "identifier": "AttackIdentifier.BITE",
+            "values": {
+              "baseDamage": 10.0,
+              "criticalChance": 0.05,
+              "baseSpeed": 6.0,
+              "attackReach": 2,
+              "weightGroup": 1,
+              "damageType": 3,
+              "usesWeapon": false,
+              "rounds": 3,
+              "waitUntilNextAttack": 1.1
+            }
+          },
+          {
+            "name": "scratch",
+            "identifier": "AttackIdentifier.STRIKE",
+            "values": {
+              "baseDamage": 7.0,
+              "criticalChance": 0.05,
+              "baseSpeed": 6.0,
+              "attackReach": 2,
+              "weightGroup": 1,
+              "damageType": 1,
+              "usesWeapon": false,
+              "rounds": 8,
+              "waitUntilNextAttack": 1.0
+            }
+          }
+        ]
       }
     },
     "drops": [ 92, 303, 302 ],
@@ -117,6 +181,7 @@
     "maxPercentOfCreatures": 0.04,
     "denName": "bear cave",
     "denMaterial": 15,
+    "boundsValues": [ -0.5, -1.0, 0.5, 1.42 ],
     "skills": {
       "100": 4.0,
       "101": 4.0,
@@ -151,7 +216,7 @@
       "hitFemale": "sound.combat.hit.bear"
     },
     "movement": {
-      "speed": 4.0,
+      "speed": 1.0,
       "moveRate": 1500
     },
     "combat": {
@@ -166,12 +231,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 4.0,
           "handString": "maul",
-          "kick": 11.0,
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 11.0,
           "head": 0.0,
-          "breath": 1.0
+          "breath": 0.0
         }
       }
     },
@@ -215,7 +280,7 @@
       "hitFemale": "sound.combat.hit.rat"
     },
     "movement": {
-      "speed": 1.0,
+      "speed": 0.7,
       "moveRate": 400
     },
     "combat": {
@@ -230,12 +295,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 1.0,
           "handString": "claw",
-          "kick": 2.0,
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 2.0,
           "head": 0.0,
-          "breath": 0.7
+          "breath": 0.0
         }
       }
     },
@@ -279,7 +344,7 @@
       "hitFemale": "sound.combat.hit.lion"
     },
     "movement": {
-      "speed": 3.0,
+      "speed": 1.0,
       "moveRate": 1200
     },
     "combat": {
@@ -294,13 +359,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 3.0,
           "handString": "claw",
-          "kick": 5.0,
-          "kickString": "claw",
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 5.0,
           "head": 0.0,
-          "breath": 1.0
+          "breath": 0.0
         }
       }
     },
@@ -344,7 +408,7 @@
       "hitFemale": "sound.combat.hit.cat"
     },
     "movement": {
-      "speed": 1.0,
+      "speed": 0.7,
       "moveRate": 500
     },
     "combat": {
@@ -359,13 +423,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 1.0,
           "handString": "claw",
-          "kick": 3.0,
-          "kickString": "claw",
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 3.0,
           "head": 0.0,
-          "breath": 0.7
+          "breath": 0.0
         }
       }
     },
@@ -409,7 +472,7 @@
       "hitFemale": "sound.combat.hit.croc"
     },
     "movement": {
-      "speed": 6.0,
+      "speed": 1.2,
       "moveRate": 400
     },
     "combat": {
@@ -425,13 +488,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 6.0,
           "handString": "claw",
-          "kick": 10.0,
-          "kickString": "claw",
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 10.0,
           "head": 0.0,
-          "breath": 1.2
+          "breath": 0.0
         }
       }
     },
@@ -475,7 +537,7 @@
       "hitFemale": "sound.combat.hit.dog"
     },
     "movement": {
-      "speed": 10.0,
+      "speed": 1.2,
       "moveRate": 300
     },
     "combat": {
@@ -491,12 +553,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 10.0,
           "handString": "claw",
-          "kick": 12.0,
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 12.0,
           "head": 0.0,
-          "breath": 1.2
+          "breath": 0.0
         }
       }
     },

@@ -33,9 +33,7 @@ public class WurmTweaker implements WurmServerMod, Configurable, Initable, Serve
         creatureHandler = new CreatureHandler();
         jsonLoader.registerHandler(creatureHandler);
         ModCreatures.init();
-        if (dataDir.exists()) {
-            jsonLoader.loadType("creature");
-        }
+        jsonLoader.loadType("creature");
     }
 
     @Override

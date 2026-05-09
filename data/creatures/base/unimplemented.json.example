@@ -46,11 +46,12 @@
       "hitFemale": "sound.combat.hit.snake"
     },
     "movement": {
-      "speed": 0.0
+      "speed": 1.0,
+      "moveRate": 100
     },
     "combat": {
       "maxHuntDistance": 40,
-      "aggressivity": 100,
+      "aggressivity": 59,
       "armor": {
         "naturalArmour": 1.0
       },
@@ -60,13 +61,12 @@
           "kick": 0.0,
           "bite": 0.0,
           "head": 0.0,
-          "breath": 1.0
+          "breath": 0.0
         }
       }
     },
     "drops": [],
     "meatMaterial": 85,
-    "maxAge": 59,
     "offZ": -1.4,
     "creatureAI": "FishAI"
   }

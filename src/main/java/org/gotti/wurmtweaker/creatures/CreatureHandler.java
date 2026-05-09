@@ -16,6 +16,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
@@ -26,6 +27,22 @@ public class CreatureHandler implements ContentHandler<CreatureDefinition> {
 
     // FISH_CID = 119 is the last vanilla creature template ID
     private static final int MAX_VANILLA_ID = 119;
+
+    private static final Map<String, ArmourTemplate.ArmourType> ARMOUR_TYPES;
+    static {
+        ARMOUR_TYPES = new LinkedHashMap<String, ArmourTemplate.ArmourType>();
+        ARMOUR_TYPES.put("ARMOUR_TYPE_NONE",           ArmourTemplate.ARMOUR_TYPE_NONE);
+        ARMOUR_TYPES.put("ARMOUR_TYPE_LEATHER",        ArmourTemplate.ARMOUR_TYPE_LEATHER);
+        ARMOUR_TYPES.put("ARMOUR_TYPE_STUDDED",        ArmourTemplate.ARMOUR_TYPE_STUDDED);
+        ARMOUR_TYPES.put("ARMOUR_TYPE_CHAIN",          ArmourTemplate.ARMOUR_TYPE_CHAIN);
+        ARMOUR_TYPES.put("ARMOUR_TYPE_PLATE",          ArmourTemplate.ARMOUR_TYPE_PLATE);
+        ARMOUR_TYPES.put("ARMOUR_TYPE_RING",           ArmourTemplate.ARMOUR_TYPE_RING);
+        ARMOUR_TYPES.put("ARMOUR_TYPE_CLOTH",          ArmourTemplate.ARMOUR_TYPE_CLOTH);
+        ARMOUR_TYPES.put("ARMOUR_TYPE_SCALE",          ArmourTemplate.ARMOUR_TYPE_SCALE);
+        ARMOUR_TYPES.put("ARMOUR_TYPE_SPLINT",         ArmourTemplate.ARMOUR_TYPE_SPLINT);
+        ARMOUR_TYPES.put("ARMOUR_TYPE_LEATHER_DRAGON", ArmourTemplate.ARMOUR_TYPE_LEATHER_DRAGON);
+        ARMOUR_TYPES.put("ARMOUR_TYPE_SCALE_DRAGON",   ArmourTemplate.ARMOUR_TYPE_SCALE_DRAGON);
+    }
 
     private final List<CreatureDefinition> pendingDefs = new ArrayList<>();
 
@@ -139,15 +156,15 @@ public class CreatureHandler implements ContentHandler<CreatureDefinition> {
         CreatureDefinition.Attacks       atk = cbt != null ? cbt.attacks : null;
         CreatureDefinition.LegacyAttacks leg = atk != null ? atk.legacy : null;
 
-        // Armour type — strip "ArmourTemplate." prefix before field lookup
+        // Armour type — strip optional "ArmourTemplate." prefix, then look up in static map
         if (arm != null && arm.armourType != null) {
-            try {
-                String key = arm.armourType.replaceFirst("^ArmourTemplate\\.", "");
-                Field f = ArmourTemplate.ArmourType.class.getDeclaredField(key);
-                template.setArmourType((ArmourTemplate.ArmourType) f.get(null));
-            } catch (Exception e) {
+            String key = arm.armourType.replaceFirst("^ArmourTemplate\\.", "");
+            ArmourTemplate.ArmourType armourType = ARMOUR_TYPES.get(key);
+            if (armourType != null) {
+                template.setArmourType(armourType);
+            } else {
                 logger.warning("WurmTweaker: unknown armourType '" + arm.armourType
-                        + "' for creature id=" + def.id);
+                        + "' for creature id=" + def.id + ". Valid values: " + ARMOUR_TYPES.keySet());
             }
         }
 
@@ -198,13 +215,12 @@ public class CreatureHandler implements ContentHandler<CreatureDefinition> {
         if (def.onFire      != null) template.setOnFire(def.onFire);
         if (def.fireRadius  != null) template.setFireRadius(def.fireRadius.byteValue());
 
-        // Color — flat fields first, color object as fallback
-        Integer red   = def.colorRed   != null ? def.colorRed   : (def.color != null ? def.color.red   : null);
-        Integer green = def.colorGreen != null ? def.colorGreen : (def.color != null ? def.color.green : null);
-        Integer blue  = def.colorBlue  != null ? def.colorBlue  : (def.color != null ? def.color.blue  : null);
-        if (red   != null) template.setColorRed(red);
-        if (green != null) template.setColorGreen(green);
-        if (blue  != null) template.setColorBlue(blue);
+        // Color
+        if (def.color != null) {
+            if (def.color.red   != null) template.setColorRed(def.color.red);
+            if (def.color.green != null) template.setColorGreen(def.color.green);
+            if (def.color.blue  != null) template.setColorBlue(def.color.blue);
+        }
 
         // Direct field assignment — offZ is public; hasHands/isHorse are package-private
         if (def.hasHands != null) setField(template, "hasHands", def.hasHands);

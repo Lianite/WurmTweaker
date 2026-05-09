@@ -22,7 +22,7 @@
       "hitFemale": "sound.combat.hit.female"
     },
     "movement": {
-      "speed": 4.0,
+      "speed": 1.0,
       "moveRate": 200
     },
     "combat": {
@@ -36,11 +36,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 7.0,
-          "kick": 0.0,
+          "hand": 4.0,
+          "kick": 7.0,
           "bite": 0.0,
           "head": 0.0,
-          "breath": 1.0
+          "breath": 0.0
         }
       }
     },
@@ -85,7 +85,7 @@
       "hitFemale": "sound.combat.hit.female"
     },
     "movement": {
-      "speed": 4.0,
+      "speed": 1.0,
       "moveRate": 200
     },
     "combat": {
@@ -99,11 +99,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 7.0,
-          "kick": 0.0,
+          "hand": 4.0,
+          "kick": 7.0,
           "bite": 0.0,
           "head": 0.0,
-          "breath": 1.0
+          "breath": 0.0
         }
       }
     },
@@ -148,7 +148,7 @@
       "hitFemale": "sound.combat.hit.female"
     },
     "movement": {
-      "speed": 4.0,
+      "speed": 1.0,
       "moveRate": 200
     },
     "combat": {
@@ -162,11 +162,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 7.0,
-          "kick": 0.0,
+          "hand": 4.0,
+          "kick": 7.0,
           "bite": 0.0,
           "head": 0.0,
-          "breath": 1.0
+          "breath": 0.0
         }
       }
     },
@@ -211,7 +211,7 @@
       "hitFemale": "sound.combat.hit.female"
     },
     "movement": {
-      "speed": 4.0,
+      "speed": 1.0,
       "moveRate": 200
     },
     "combat": {
@@ -225,11 +225,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 7.0,
-          "kick": 0.0,
+          "hand": 4.0,
+          "kick": 7.0,
           "bite": 0.0,
           "head": 0.0,
-          "breath": 1.0
+          "breath": 0.0
         }
       }
     },
@@ -274,7 +274,7 @@
       "hitFemale": "sound.combat.hit.spirit.female"
     },
     "movement": {
-      "speed": 5.0,
+      "speed": 1.5,
       "moveRate": 100
     },
     "combat": {
@@ -289,11 +289,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 7.0,
-          "kick": 5.0,
-          "bite": 0.0,
+          "hand": 5.0,
+          "kick": 7.0,
+          "bite": 5.0,
           "head": 0.0,
-          "breath": 1.5
+          "breath": 0.0
         }
       }
     },
@@ -334,7 +334,7 @@
       "hitFemale": "sound.combat.hit.female"
     },
     "movement": {
-      "speed": 5.0,
+      "speed": 1.0,
       "moveRate": 100
     },
     "combat": {
@@ -348,11 +348,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 7.0,
-          "kick": 0.0,
+          "hand": 5.0,
+          "kick": 7.0,
           "bite": 0.0,
           "head": 0.0,
-          "breath": 1.0
+          "breath": 0.0
         }
       }
     },
@@ -403,7 +403,7 @@
       "hitFemale": "sound.combat.hit.female"
     },
     "movement": {
-      "speed": 5.0,
+      "speed": 1.0,
       "moveRate": 100
     },
     "combat": {
@@ -416,11 +416,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 7.0,
-          "kick": 0.0,
+          "hand": 5.0,
+          "kick": 7.0,
           "bite": 0.0,
           "head": 0.0,
-          "breath": 1.0
+          "breath": 0.0
         }
       }
     },

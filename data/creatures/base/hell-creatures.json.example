@@ -22,7 +22,7 @@
       "hitFemale": "sound.combat.hit.lizard"
     },
     "movement": {
-      "speed": 6.0,
+      "speed": 1.0,
       "moveRate": 1500
     },
     "combat": {
@@ -38,12 +38,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 10.0,
+          "hand": 6.0,
           "handString": "burn",
           "kick": 10.0,
-          "bite": 0.0,
+          "bite": 10.0,
           "head": 0.0,
-          "breath": 1.0
+          "breath": 0.0
         }
       }
     },
@@ -88,7 +88,7 @@
       "hitFemale": "sound.combat.hit.horse"
     },
     "movement": {
-      "speed": 5.0,
+      "speed": 1.8,
       "moveRate": 100
     },
     "combat": {
@@ -104,12 +104,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 7.0,
+          "hand": 5.0,
           "handString": "kick",
-          "kick": 10.0,
-          "bite": 0.0,
+          "kick": 7.0,
+          "bite": 10.0,
           "head": 0.0,
-          "breath": 1.8
+          "breath": 0.0
         }
       }
     },
@@ -121,9 +121,11 @@
     "isHorse": true,
     "onFire": false,
     "glowing": true,
-    "colorRed": 255,
-    "colorGreen": 255,
-    "colorBlue": 255,
+    "color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255
+    },
     "combatMoves": [ 10 ],
     "colourNames": [ "ash", "cinder", "envious", "shadow", "pestilential", "nightshade", "incandescent", "molten" ],
     "skills": {
@@ -160,7 +162,7 @@
       "hitFemale": "sound.combat.hit.horse"
     },
     "movement": {
-      "speed": 3.0,
+      "speed": 1.2,
       "moveRate": 100
     },
     "combat": {
@@ -176,12 +178,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 4.0,
+          "hand": 3.0,
           "handString": "kick",
           "kick": 4.0,
-          "bite": 0.0,
+          "bite": 4.0,
           "head": 0.0,
-          "breath": 1.2
+          "breath": 0.0
         }
       }
     },
@@ -194,9 +196,11 @@
     "isHorse": true,
     "onFire": false,
     "glowing": true,
-    "colorRed": 255,
-    "colorGreen": 255,
-    "colorBlue": 255,
+    "color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255
+    },
     "corpseName": "hellhorse.foal.",
     "colourNames": [ "ash", "cinder", "envious", "shadow", "pestilential", "nightshade", "incandescent", "molten" ],
     "skills": {
@@ -233,7 +237,7 @@
       "hitFemale": "sound.combat.hit.dog"
     },
     "movement": {
-      "speed": 10.0,
+      "speed": 1.2,
       "moveRate": 300
     },
     "combat": {
@@ -249,12 +253,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 10.0,
           "handString": "claw",
-          "kick": 12.0,
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 12.0,
           "head": 0.0,
-          "breath": 1.2
+          "breath": 0.0
         }
       }
     },
@@ -264,9 +268,11 @@
     "maxPercentOfCreatures": 0.03,
     "onFire": false,
     "glowing": true,
-    "colorRed": 255,
-    "colorGreen": 255,
-    "colorBlue": 255,
+    "color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255
+    },
     "skills": {
       "100": 10.0,
       "101": 15.0,
@@ -301,7 +307,7 @@
       "hitFemale": "sound.combat.hit.insect"
     },
     "movement": {
-      "speed": 8.0,
+      "speed": 0.75,
       "moveRate": 1700
     },
     "combat": {
@@ -317,12 +323,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 14.0,
+          "hand": 8.0,
           "handString": "claw",
-          "kick": 13.0,
-          "bite": 0.0,
+          "kick": 14.0,
+          "bite": 13.0,
           "head": 0.0,
-          "breath": 0.75,
+          "breath": 0.0,
           "breathString": "sting"
         }
       }
@@ -372,7 +378,7 @@
       "hitFemale": "sound.combat.hit.spider"
     },
     "movement": {
-      "speed": 6.0,
+      "speed": 0.9,
       "moveRate": 500
     },
     "combat": {
@@ -388,12 +394,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 6.0,
           "handString": "claw",
-          "kick": 7.0,
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 7.0,
           "head": 0.0,
-          "breath": 0.9
+          "breath": 0.0
         }
       }
     },

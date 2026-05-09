@@ -22,7 +22,7 @@
       "hitFemale": "sound.combat.hit.horse"
     },
     "movement": {
-      "speed": 6.0,
+      "speed": 1.6,
       "moveRate": 1500
     },
     "combat": {
@@ -38,12 +38,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 10.0,
+          "hand": 6.0,
           "handString": "kick",
-          "kick": 8.0,
-          "bite": 0.0,
+          "kick": 10.0,
+          "bite": 8.0,
           "head": 0.0,
-          "breath": 1.6
+          "breath": 0.0
         }
       }
     },
@@ -87,7 +87,7 @@
       "hitFemale": "sound.combat.hit.horse"
     },
     "movement": {
-      "speed": 2.0,
+      "speed": 1.2,
       "moveRate": 900
     },
     "combat": {
@@ -103,12 +103,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 4.0,
+          "hand": 2.0,
           "handString": "kick",
-          "kick": 3.0,
-          "bite": 0.0,
+          "kick": 4.0,
+          "bite": 3.0,
           "head": 0.0,
-          "breath": 1.2
+          "breath": 0.0
         }
       }
     },
@@ -152,7 +152,7 @@
       "hitFemale": "sound.combat.hit.dog"
     },
     "movement": {
-      "speed": 2.0,
+      "speed": 1.2,
       "moveRate": 100
     },
     "combat": {
@@ -167,13 +167,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 2.0,
           "handString": "claw",
-          "kick": 3.0,
-          "kickString": "claw",
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 3.0,
           "head": 0.0,
-          "breath": 1.2
+          "breath": 0.0
         }
       }
     },
@@ -216,7 +215,7 @@
       "hitFemale": "sound.combat.hit.deer"
     },
     "movement": {
-      "speed": 1.0,
+      "speed": 1.5,
       "moveRate": 30
     },
     "combat": {
@@ -233,10 +232,10 @@
         "legacy": {
           "hand": 1.0,
           "handString": "kick",
-          "kick": 0.5,
-          "bite": 1.0,
-          "head": 0.0,
-          "breath": 1.5
+          "kick": 1.0,
+          "bite": 0.5,
+          "head": 1.0,
+          "breath": 0.0
         }
       }
     },
@@ -292,13 +291,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 1.0,
           "handString": "claw",
-          "kick": 1.5,
-          "kickString": "claw",
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 1.5,
           "head": 0.0,
-          "breath": 1.0
+          "breath": 0.0
         }
       }
     },

@@ -22,7 +22,7 @@
       "hitFemale": "sound.combat.hit.vynora.epiphany"
     },
     "movement": {
-      "speed": 10.0,
+      "speed": 1.5,
       "moveRate": 10
     },
     "combat": {
@@ -38,11 +38,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 24.0,
-          "kick": 26.0,
-          "bite": 0.0,
+          "hand": 10.0,
+          "kick": 24.0,
+          "bite": 26.0,
           "head": 0.0,
-          "breath": 1.5
+          "breath": 0.0
         }
       }
     },
@@ -86,7 +86,7 @@
       "hitFemale": "sound.combat.hit.magranon.juggernaut"
     },
     "movement": {
-      "speed": 10.0,
+      "speed": 1.5,
       "moveRate": 10
     },
     "combat": {
@@ -102,11 +102,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 30.0,
+          "hand": 10.0,
           "kick": 30.0,
-          "bite": 40.0,
-          "head": 0.0,
-          "breath": 1.5
+          "bite": 30.0,
+          "head": 40.0,
+          "breath": 0.0
         }
       }
     },
@@ -148,7 +148,7 @@
       "hitFemale": "sound.combat.hit.fo.manifestation"
     },
     "movement": {
-      "speed": 10.0,
+      "speed": 1.5,
       "moveRate": 10
     },
     "combat": {
@@ -164,11 +164,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 30.0,
+          "hand": 10.0,
           "kick": 30.0,
-          "bite": 40.0,
-          "head": 0.0,
-          "breath": 1.5
+          "bite": 30.0,
+          "head": 40.0,
+          "breath": 0.0
         }
       }
     },
@@ -210,7 +210,7 @@
       "hitFemale": "sound.combat.hit.libila.incarnation"
     },
     "movement": {
-      "speed": 7.0,
+      "speed": 1.5,
       "moveRate": 10
     },
     "combat": {
@@ -226,11 +226,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 30.0,
+          "hand": 7.0,
           "kick": 30.0,
-          "bite": 40.0,
-          "head": 0.0,
-          "breath": 1.5
+          "bite": 30.0,
+          "head": 40.0,
+          "breath": 0.0
         }
       }
     },

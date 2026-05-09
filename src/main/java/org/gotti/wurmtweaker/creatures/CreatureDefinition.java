@@ -56,9 +56,6 @@ public class CreatureDefinition {
     public float[]  boundsValues;
     public Float    offZ;
     public String[] colourNames;
-    public Integer  colorRed;
-    public Integer  colorGreen;
-    public Integer  colorBlue;
     public ColorDef color;
     public String   creatureAI;
     public String   note;

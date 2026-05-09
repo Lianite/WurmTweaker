@@ -22,13 +22,14 @@
       "hitFemale": "sound.combat.hit.dog"
     },
     "movement": {
-      "speed": 12.0
+      "speed": 1.6,
+      "moveRate": 300
     },
     "combat": {
       "baseCombatRating": 14.0,
       "maxGroupAttackSize": 8,
       "maxHuntDistance": 10,
-      "aggressivity": 300,
+      "aggressivity": 90,
       "alignment": -50.0,
       "damageType": 1,
       "armor": {
@@ -37,12 +38,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 12.0,
           "handString": "claw",
-          "kick": 14.0,
-          "bite": 15.0,
-          "head": 0.0,
-          "breath": 1.6
+          "kick": 0.0,
+          "bite": 14.0,
+          "head": 15.0,
+          "breath": 0.0
         }
       }
     },
@@ -84,13 +85,14 @@
       "hitFemale": "sound.combat.hit.troll"
     },
     "movement": {
-      "speed": 15.0
+      "speed": 1.4,
+      "moveRate": 700
     },
     "combat": {
       "baseCombatRating": 19.0,
       "maxGroupAttackSize": 6,
       "maxHuntDistance": 10,
-      "aggressivity": 700,
+      "aggressivity": 80,
       "alignment": -20.0,
       "damageType": 2,
       "armor": {
@@ -99,12 +101,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 6.0,
+          "hand": 15.0,
           "handString": "burn",
-          "kick": 10.0,
-          "bite": 0.0,
+          "kick": 6.0,
+          "bite": 10.0,
           "head": 0.0,
-          "breath": 1.4
+          "breath": 0.0
         }
       }
     },
@@ -146,13 +148,14 @@
       "hitFemale": "sound.combat.hit.troll"
     },
     "movement": {
-      "speed": 20.0
+      "speed": 1.4,
+      "moveRate": 700
     },
     "combat": {
       "baseCombatRating": 19.0,
       "maxGroupAttackSize": 8,
       "maxHuntDistance": 10,
-      "aggressivity": 700,
+      "aggressivity": 84,
       "alignment": -20.0,
       "damageType": 0,
       "armor": {
@@ -161,12 +164,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 10.0,
+          "hand": 20.0,
           "handString": "burn",
           "kick": 10.0,
-          "bite": 0.0,
+          "bite": 10.0,
           "head": 0.0,
-          "breath": 1.4
+          "breath": 0.0
         }
       }
     },
@@ -208,13 +211,14 @@
       "hitFemale": "sound.combat.hit.troll"
     },
     "movement": {
-      "speed": 32.0
+      "speed": 1.6,
+      "moveRate": 700
     },
     "combat": {
       "baseCombatRating": 19.0,
       "maxGroupAttackSize": 20,
       "maxHuntDistance": 20,
-      "aggressivity": 700,
+      "aggressivity": 94,
       "alignment": -20.0,
       "damageType": 1,
       "armor": {
@@ -223,12 +227,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 20.0,
+          "hand": 32.0,
           "handString": "burn",
-          "kick": 40.0,
-          "bite": 0.0,
+          "kick": 20.0,
+          "bite": 40.0,
           "head": 0.0,
-          "breath": 1.6
+          "breath": 0.0
         }
       }
     },
@@ -270,13 +274,14 @@
       "hitFemale": "sound.combat.hit.troll"
     },
     "movement": {
-      "speed": 15.0
+      "speed": 1.4,
+      "moveRate": 700
     },
     "combat": {
       "baseCombatRating": 14.0,
       "maxGroupAttackSize": 6,
       "maxHuntDistance": 10,
-      "aggressivity": 700,
+      "aggressivity": 90,
       "alignment": -20.0,
       "damageType": 4,
       "armor": {
@@ -285,12 +290,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 6.0,
+          "hand": 15.0,
           "handString": "burn",
-          "kick": 10.0,
-          "bite": 0.0,
+          "kick": 6.0,
+          "bite": 10.0,
           "head": 0.0,
-          "breath": 1.4
+          "breath": 0.0
         }
       }
     },
@@ -333,13 +338,14 @@
       "hitFemale": "sound.combat.hit.troll"
     },
     "movement": {
-      "speed": 20.0
+      "speed": 1.4,
+      "moveRate": 700
     },
     "combat": {
       "baseCombatRating": 19.0,
       "maxGroupAttackSize": 8,
       "maxHuntDistance": 10,
-      "aggressivity": 700,
+      "aggressivity": 90,
       "alignment": -50.0,
       "damageType": 9,
       "armor": {
@@ -348,12 +354,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 10.0,
+          "hand": 20.0,
           "handString": "burn",
           "kick": 10.0,
-          "bite": 0.0,
+          "bite": 10.0,
           "head": 0.0,
-          "breath": 1.4
+          "breath": 0.0
         }
       }
     },
@@ -396,13 +402,14 @@
       "hitFemale": "sound.combat.hit.troll"
     },
     "movement": {
-      "speed": 15.0
+      "speed": 1.4,
+      "moveRate": 700
     },
     "combat": {
       "baseCombatRating": 12.0,
       "maxGroupAttackSize": 6,
       "maxHuntDistance": 10,
-      "aggressivity": 700,
+      "aggressivity": 70,
       "alignment": -30.0,
       "damageType": 1,
       "armor": {
@@ -411,12 +418,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 6.0,
+          "hand": 15.0,
           "handString": "claw",
-          "kick": 10.0,
-          "bite": 0.0,
+          "kick": 6.0,
+          "bite": 10.0,
           "head": 0.0,
-          "breath": 1.4
+          "breath": 0.0
         }
       }
     },

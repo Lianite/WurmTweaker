@@ -22,7 +22,7 @@
       "hitFemale": "sound.combat.hit.demon"
     },
     "movement": {
-      "speed": 6.0,
+      "speed": 1.5,
       "moveRate": 1550
     },
     "combat": {
@@ -38,12 +38,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 10.0,
+          "hand": 6.0,
           "handString": "burn",
-          "kick": 20.0,
-          "bite": 6.0,
-          "head": 12.0,
-          "breath": 1.5
+          "kick": 10.0,
+          "bite": 20.0,
+          "head": 6.0,
+          "breath": 12.0
         }
       }
     },
@@ -86,7 +86,7 @@
       "hitFemale": "sound.combat.hit.deathcrawler"
     },
     "movement": {
-      "speed": 8.0,
+      "speed": 1.1,
       "moveRate": 1500
     },
     "combat": {
@@ -103,12 +103,12 @@
       "attacks": {
         "useNewSystem": true,
         "legacy": {
-          "hand": 0.0,
+          "hand": 8.0,
           "handString": "claw",
-          "kick": 15.0,
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 15.0,
           "head": 0.0,
-          "breath": 1.1
+          "breath": 0.0
         },
         "primary": [
           {
@@ -215,7 +215,7 @@
       "hitFemale": "sound.combat.hit.deathcrawler"
     },
     "movement": {
-      "speed": 7.0,
+      "speed": 0.5,
       "moveRate": 1500
     },
     "combat": {
@@ -231,12 +231,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 7.0,
           "handString": "bite",
-          "kick": 15.0,
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 15.0,
           "head": 0.0,
-          "breath": 0.5
+          "breath": 0.0
         }
       }
     },
@@ -277,7 +277,7 @@
       "hitFemale": "sound.combat.hit.nogump.son"
     },
     "movement": {
-      "speed": 26.0,
+      "speed": 1.0,
       "moveRate": 1500
     },
     "combat": {
@@ -292,11 +292,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 30.0,
-          "kick": 0.0,
+          "hand": 26.0,
+          "kick": 30.0,
           "bite": 0.0,
           "head": 0.0,
-          "breath": 1.0
+          "breath": 0.0
         }
       }
     },
@@ -344,7 +344,7 @@
       "hitFemale": "sound.combat.hit.drakespirit"
     },
     "movement": {
-      "speed": 7.0,
+      "speed": 1.9,
       "moveRate": 500
     },
     "combat": {
@@ -360,14 +360,14 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 10.0,
+          "hand": 7.0,
           "handString": "claw",
-          "kick": 13.0,
+          "kick": 10.0,
           "kickString": "claw",
-          "bite": 17.0,
-          "head": 0.0,
+          "bite": 13.0,
+          "head": 17.0,
           "headString": "tailwhip",
-          "breath": 1.9
+          "breath": 0.0
         }
       }
     },
@@ -410,7 +410,7 @@
       "hitFemale": "sound.combat.hit.dragon"
     },
     "movement": {
-      "speed": 7.0,
+      "speed": 1.9,
       "moveRate": 500
     },
     "combat": {
@@ -426,13 +426,13 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 10.0,
-          "kick": 13.0,
+          "hand": 7.0,
+          "kick": 10.0,
           "kickString": "wingbuff",
-          "bite": 17.0,
-          "head": 0.0,
+          "bite": 13.0,
+          "head": 17.0,
           "headString": "tailwhip",
-          "breath": 1.9
+          "breath": 0.0
         }
       }
     },

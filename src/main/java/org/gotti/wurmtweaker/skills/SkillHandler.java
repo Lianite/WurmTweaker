@@ -84,7 +84,7 @@ public class SkillHandler implements ContentHandler<SkillDefinition> {
 
     @Override
     public String getTypeName() {
-        return "skills";
+        return "skill";
     }
 
     @Override

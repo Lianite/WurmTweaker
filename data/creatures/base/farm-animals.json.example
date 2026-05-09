@@ -22,13 +22,14 @@
       "hitFemale": "sound.combat.hit.deer"
     },
     "movement": {
-      "speed": 1.0
+      "speed": 0.5,
+      "moveRate": 100
     },
     "combat": {
       "baseCombatRating": 1.0,
       "maxGroupAttackSize": 2,
       "maxHuntDistance": 5,
-      "aggressivity": 100,
+      "aggressivity": 0,
       "damageType": 0,
       "armor": {
         "naturalArmour": 1.0
@@ -36,10 +37,10 @@
       "attacks": {
         "legacy": {
           "hand": 1.0,
-          "kick": 0.0,
-          "bite": 1.0,
-          "head": 0.0,
-          "breath": 0.5
+          "kick": 1.0,
+          "bite": 0.0,
+          "head": 1.0,
+          "breath": 0.0
         }
       }
     },
@@ -84,12 +85,13 @@
       "hitFemale": "sound.combat.hit.deer"
     },
     "movement": {
-      "speed": 1.0
+      "speed": 0.5,
+      "moveRate": 100
     },
     "combat": {
       "baseCombatRating": 1.0,
       "maxHuntDistance": 5,
-      "aggressivity": 100,
+      "aggressivity": 0,
       "damageType": 0,
       "armor": {
         "naturalArmour": 1.0,
@@ -97,11 +99,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
-          "kick": 1.0,
+          "hand": 1.0,
+          "kick": 0.0,
           "bite": 1.0,
-          "head": 0.0,
-          "breath": 0.5
+          "head": 1.0,
+          "breath": 0.0
         }
       }
     },
@@ -144,13 +146,14 @@
       "hitFemale": "sound.combat.hit.deer"
     },
     "movement": {
-      "speed": 1.0
+      "speed": 0.5,
+      "moveRate": 100
     },
     "combat": {
       "baseCombatRating": 5.0,
       "maxGroupAttackSize": 3,
       "maxHuntDistance": 5,
-      "aggressivity": 100,
+      "aggressivity": 7,
       "damageType": 0,
       "armor": {
         "naturalArmour": 1.0,
@@ -160,10 +163,10 @@
         "legacy": {
           "hand": 1.0,
           "handString": "headbutt",
-          "kick": 0.0,
-          "bite": 1.0,
-          "head": 0.0,
-          "breath": 0.5
+          "kick": 1.0,
+          "bite": 0.0,
+          "head": 1.0,
+          "breath": 0.0
         }
       }
     },
@@ -208,7 +211,7 @@
       "hitFemale": "sound.combat.hit.horse"
     },
     "movement": {
-      "speed": 1.0,
+      "speed": 1.5,
       "moveRate": 100
     },
     "combat": {
@@ -224,12 +227,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 2.5,
+          "hand": 1.0,
           "handString": "kick",
-          "kick": 1.5,
-          "bite": 2.0,
-          "head": 0.0,
-          "breath": 1.5
+          "kick": 2.5,
+          "bite": 1.5,
+          "head": 2.0,
+          "breath": 0.0
         }
       }
     },
@@ -289,12 +292,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 1.0,
           "handString": "kick",
-          "kick": 1.0,
+          "kick": 0.0,
           "bite": 1.0,
-          "head": 0.0,
-          "breath": 1.0
+          "head": 1.0,
+          "breath": 0.0
         }
       }
     },
@@ -339,7 +342,7 @@
       "hitFemale": "sound.combat.hit.bison"
     },
     "movement": {
-      "speed": 5.0,
+      "speed": 0.8,
       "moveRate": 30
     },
     "combat": {
@@ -356,10 +359,10 @@
         "legacy": {
           "hand": 5.0,
           "handString": "kick",
-          "kick": 10.0,
-          "bite": 4.0,
-          "head": 0.0,
-          "breath": 0.8
+          "kick": 5.0,
+          "bite": 10.0,
+          "head": 4.0,
+          "breath": 0.0
         }
       }
     },
@@ -416,12 +419,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 1.0,
           "handString": "kick",
-          "kick": 1.0,
+          "kick": 0.0,
           "bite": 1.0,
-          "head": 0.0,
-          "breath": 1.0
+          "head": 1.0,
+          "breath": 0.0
         }
       }
     },
@@ -464,7 +467,7 @@
       "hitFemale": "sound.combat.hit.cow.brown"
     },
     "movement": {
-      "speed": 2.0,
+      "speed": 0.5,
       "moveRate": 100
     },
     "combat": {
@@ -480,10 +483,10 @@
         "legacy": {
           "hand": 2.0,
           "handString": "kick",
-          "kick": 3.0,
-          "bite": 4.0,
-          "head": 0.0,
-          "breath": 0.5
+          "kick": 2.0,
+          "bite": 3.0,
+          "head": 4.0,
+          "breath": 0.0
         }
       }
     },
@@ -541,13 +544,13 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 0.5,
           "handString": "claw",
-          "kick": 1.0,
+          "kick": 0.0,
           "kickString": "claw",
-          "bite": 0.0,
+          "bite": 1.0,
           "head": 0.0,
-          "breath": 0.5
+          "breath": 0.0
         }
       }
     },
@@ -593,7 +596,7 @@
       "hitFemale": "sound.combat.hit.hen"
     },
     "movement": {
-      "speed": 0.5,
+      "speed": 1.0,
       "moveRate": 100
     },
     "combat": {
@@ -608,13 +611,13 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 0.5,
           "handString": "claw",
-          "kick": 1.0,
+          "kick": 0.0,
           "kickString": "claw",
-          "bite": 0.0,
+          "bite": 1.0,
           "head": 0.0,
-          "breath": 1.0
+          "breath": 0.0
         }
       }
     },
@@ -672,13 +675,13 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 0.5,
           "handString": "claw",
-          "kick": 1.0,
+          "kick": 0.0,
           "kickString": "claw",
-          "bite": 0.0,
+          "bite": 1.0,
           "head": 0.0,
-          "breath": 0.5
+          "breath": 0.0
         }
       }
     },
@@ -722,7 +725,7 @@
       "hitFemale": "sound.combat.hit.pig"
     },
     "movement": {
-      "speed": 1.0,
+      "speed": 0.8,
       "moveRate": 20
     },
     "combat": {
@@ -737,12 +740,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 1.0,
           "handString": "kick",
-          "kick": 2.0,
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 2.0,
           "head": 0.0,
-          "breath": 0.8
+          "breath": 0.0
         }
       }
     },
@@ -784,7 +787,7 @@
       "hitFemale": "sound.combat.hit.cow.brown"
     },
     "movement": {
-      "speed": 1.0,
+      "speed": 0.5,
       "moveRate": 100
     },
     "combat": {
@@ -799,10 +802,10 @@
       "attacks": {
         "legacy": {
           "hand": 1.0,
-          "kick": 0.0,
+          "kick": 1.0,
           "bite": 0.0,
           "head": 2.0,
-          "breath": 0.5
+          "breath": 0.0
         }
       }
     },

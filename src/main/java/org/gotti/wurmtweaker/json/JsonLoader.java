@@ -9,7 +9,9 @@ import com.google.gson.JsonSyntaxException;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
 
@@ -45,21 +47,32 @@ public class JsonLoader {
     }
 
     private <T> void loadType(ContentHandler<T> handler) {
-        File typeDir = new File(baseDir, handler.getTypeName());
-        if (!typeDir.exists()) {
-            logger.info("WurmTweaker: no data directory for type '" + handler.getTypeName() + "' — skipping.");
+        if (!baseDir.exists()) {
+            logger.warning("WurmTweaker: data directory not found: " + baseDir.getAbsolutePath());
             return;
         }
-
-        File[] files = typeDir.listFiles(f -> f.isFile() && f.getName().endsWith(".json"));
-        if (files == null || files.length == 0) {
-            logger.info("WurmTweaker: no JSON files found in " + typeDir.getPath());
+        List<File> files = collectJsonFiles(baseDir);
+        if (files.isEmpty()) {
+            logger.info("WurmTweaker: no JSON files found under " + baseDir.getPath());
             return;
         }
-
         for (File file : files) {
             loadFile(file, handler);
         }
+    }
+
+    private List<File> collectJsonFiles(File dir) {
+        List<File> result = new ArrayList<File>();
+        File[] entries = dir.listFiles();
+        if (entries == null) return result;
+        for (File entry : entries) {
+            if (entry.isDirectory()) {
+                result.addAll(collectJsonFiles(entry));
+            } else if (entry.isFile() && entry.getName().endsWith(".json")) {
+                result.add(entry);
+            }
+        }
+        return result;
     }
 
     private <T> void loadFile(File file, ContentHandler<T> handler) {
@@ -67,15 +80,24 @@ public class JsonLoader {
             JsonElement root = JsonParser.parseReader(reader);
             if (root.isJsonArray()) {
                 for (JsonElement element : root.getAsJsonArray()) {
-                    handler.apply(gson.fromJson(element, handler.getDefinitionClass()));
+                    dispatchIfMatch(element, file, handler);
                 }
             } else {
-                handler.apply(gson.fromJson(root, handler.getDefinitionClass()));
+                dispatchIfMatch(root, file, handler);
             }
         } catch (JsonSyntaxException e) {
             logger.warning("WurmTweaker: failed to parse " + file.getName() + ": " + e.getMessage());
         } catch (IOException e) {
             logger.warning("WurmTweaker: could not read " + file.getName() + ": " + e.getMessage());
+        }
+    }
+
+    private <T> void dispatchIfMatch(JsonElement element, File file, ContentHandler<T> handler) {
+        if (!element.isJsonObject()) return;
+        JsonElement typeEl = element.getAsJsonObject().get("json-type");
+        if (typeEl == null) return;
+        if (handler.getTypeName().equals(typeEl.getAsString())) {
+            handler.apply(gson.fromJson(element, handler.getDefinitionClass()));
         }
     }
 }

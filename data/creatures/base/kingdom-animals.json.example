@@ -22,7 +22,7 @@
       "hitFemale": "sound.combat.hit.pig"
     },
     "movement": {
-      "speed": 6.0,
+      "speed": 1.2,
       "moveRate": 300
     },
     "combat": {
@@ -38,12 +38,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 6.0,
           "handString": "kick",
-          "kick": 7.0,
-          "bite": 10.0,
-          "head": 0.0,
-          "breath": 1.2
+          "kick": 0.0,
+          "bite": 7.0,
+          "head": 10.0,
+          "breath": 0.0
         }
       }
     },
@@ -85,7 +85,7 @@
       "hitFemale": "sound.combat.hit.gorilla"
     },
     "movement": {
-      "speed": 6.0,
+      "speed": 1.2,
       "moveRate": 300
     },
     "combat": {
@@ -101,12 +101,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 6.0,
           "handString": "claw",
-          "kick": 10.0,
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 10.0,
           "head": 0.0,
-          "breath": 1.2
+          "breath": 0.0
         }
       }
     },
@@ -149,7 +149,7 @@
       "hitFemale": "sound.combat.hit.snake"
     },
     "movement": {
-      "speed": 0.0,
+      "speed": 0.8,
       "moveRate": 50
     },
     "combat": {
@@ -165,10 +165,10 @@
       "attacks": {
         "legacy": {
           "hand": 0.0,
-          "kick": 6.0,
-          "bite": 0.0,
-          "head": 10.0,
-          "breath": 0.8,
+          "kick": 0.0,
+          "bite": 6.0,
+          "head": 0.0,
+          "breath": 10.0,
           "breathString": "squeeze"
         }
       }
@@ -211,7 +211,7 @@
       "hitFemale": "sound.combat.hit.dog"
     },
     "movement": {
-      "speed": 10.0,
+      "speed": 1.2,
       "moveRate": 300
     },
     "combat": {
@@ -227,12 +227,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 10.0,
           "handString": "claw",
-          "kick": 12.0,
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 12.0,
           "head": 0.0,
-          "breath": 1.2
+          "breath": 0.0
         }
       }
     },
@@ -274,7 +274,7 @@
       "hitFemale": "sound.combat.hit.female"
     },
     "movement": {
-      "speed": 10.0,
+      "speed": 0.8,
       "moveRate": 0
     },
     "combat": {
@@ -288,11 +288,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 20.0,
-          "kick": 0.0,
+          "hand": 10.0,
+          "kick": 20.0,
           "bite": 0.0,
           "head": 0.0,
-          "breath": 0.8
+          "breath": 0.0
         }
       }
     },
@@ -334,7 +334,7 @@
       "hitFemale": "sound.combat.hit.snake"
     },
     "movement": {
-      "speed": 10.0,
+      "speed": 0.8,
       "moveRate": 0
     },
     "combat": {
@@ -350,12 +350,12 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 10.0,
           "handString": "bite",
-          "kick": 20.0,
-          "bite": 0.0,
-          "head": 30.0,
-          "breath": 0.8,
+          "kick": 0.0,
+          "bite": 20.0,
+          "head": 0.0,
+          "breath": 30.0,
           "breathString": "squeeze"
         }
       }

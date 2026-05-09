@@ -22,14 +22,15 @@
       "hitFemale": "sound.combat.hit.snake"
     },
     "movement": {
-      "speed": 0.0
+      "speed": 1.0,
+      "moveRate": 100
     },
     "combat": {
       "baseCombatRating": 18.0,
       "bonusCombatRating": 12.0,
       "maxGroupAttackSize": 20,
       "maxHuntDistance": 40,
-      "aggressivity": 100,
+      "aggressivity": 59,
       "alignment": -20.0,
       "damageType": 3,
       "armor": {
@@ -39,10 +40,10 @@
       "attacks": {
         "legacy": {
           "hand": 0.0,
-          "kick": 25.0,
-          "bite": 15.0,
-          "head": 0.0,
-          "breath": 1.0
+          "kick": 0.0,
+          "bite": 25.0,
+          "head": 15.0,
+          "breath": 0.0
         }
       }
     },
@@ -86,13 +87,14 @@
       "hitFemale": "sound.combat.hit.snake"
     },
     "movement": {
-      "speed": 0.0
+      "speed": 0.5,
+      "moveRate": 100
     },
     "combat": {
       "baseCombatRating": 1.0,
       "maxGroupAttackSize": 2,
       "maxHuntDistance": 40,
-      "aggressivity": 100,
+      "aggressivity": 59,
       "alignment": -20.0,
       "damageType": 3,
       "armor": {
@@ -102,10 +104,10 @@
       "attacks": {
         "legacy": {
           "hand": 0.0,
-          "kick": 8.0,
-          "bite": 5.0,
-          "head": 0.0,
-          "breath": 0.5
+          "kick": 0.0,
+          "bite": 8.0,
+          "head": 5.0,
+          "breath": 0.0
         }
       }
     },
@@ -150,14 +152,15 @@
       "hitFemale": "sound.combat.hit.snake"
     },
     "movement": {
-      "speed": 0.0
+      "speed": 1.0,
+      "moveRate": 100
     },
     "combat": {
       "baseCombatRating": 9.0,
       "bonusCombatRating": 7.0,
       "maxGroupAttackSize": 4,
       "maxHuntDistance": 40,
-      "aggressivity": 100,
+      "aggressivity": 59,
       "alignment": -20.0,
       "damageType": 3,
       "armor": {
@@ -167,10 +170,10 @@
       "attacks": {
         "legacy": {
           "hand": 0.0,
-          "kick": 16.0,
-          "bite": 10.0,
-          "head": 0.0,
-          "breath": 1.0
+          "kick": 0.0,
+          "bite": 16.0,
+          "head": 10.0,
+          "breath": 0.0
         }
       }
     },
@@ -179,6 +182,7 @@
     "maxAge": 80,
     "hasHands": false,
     "offZ": -1.4,
+    "maxPercentOfCreatures": 0.01,
     "maxPopulationOfCreatures": 150,
     "skills": {
       "100": 14.0,
@@ -214,14 +218,15 @@
       "hitFemale": "sound.combat.hit.snake"
     },
     "movement": {
-      "speed": 0.0
+      "speed": 1.0,
+      "moveRate": 100
     },
     "combat": {
       "baseCombatRating": 9.0,
       "bonusCombatRating": 7.0,
       "maxGroupAttackSize": 3,
       "maxHuntDistance": 40,
-      "aggressivity": 100,
+      "aggressivity": 59,
       "alignment": -20.0,
       "damageType": 3,
       "armor": {
@@ -231,10 +236,10 @@
       "attacks": {
         "legacy": {
           "hand": 0.0,
-          "kick": 14.0,
-          "bite": 12.0,
-          "head": 0.0,
-          "breath": 1.0
+          "kick": 0.0,
+          "bite": 14.0,
+          "head": 12.0,
+          "breath": 0.0
         }
       }
     },
@@ -279,13 +284,14 @@
       "hitFemale": "sound.combat.hit.snake"
     },
     "movement": {
-      "speed": 0.0
+      "speed": 0.5,
+      "moveRate": 100
     },
     "combat": {
       "baseCombatRating": 7.0,
       "maxGroupAttackSize": 4,
       "maxHuntDistance": 40,
-      "aggressivity": 100,
+      "aggressivity": 59,
       "alignment": -20.0,
       "damageType": 3,
       "armor": {
@@ -296,10 +302,10 @@
         "useNewSystem": true,
         "legacy": {
           "hand": 0.0,
-          "kick": 8.0,
-          "bite": 5.0,
-          "head": 0.0,
-          "breath": 0.5
+          "kick": 0.0,
+          "bite": 8.0,
+          "head": 5.0,
+          "breath": 0.0
         },
         "primary": [
           {
@@ -343,7 +349,7 @@
               "baseSpeed": 7.0,
               "attackReach": 2,
               "weightGroup": 1,
-              "damageType": 0,
+              "damageType": 3,
               "usesWeapon": false,
               "rounds": 4,
               "waitUntilNextAttack": 1.1
@@ -409,13 +415,14 @@
       "hitFemale": "sound.combat.hit.insect"
     },
     "movement": {
-      "speed": 0.0
+      "speed": 0.3,
+      "moveRate": 50
     },
     "combat": {
       "baseCombatRating": 12.0,
       "maxGroupAttackSize": 3,
       "maxHuntDistance": 10,
-      "aggressivity": 50,
+      "aggressivity": 10,
       "armor": {
         "naturalArmour": 0.3,
         "armourType": "ArmourTemplate.ARMOUR_TYPE_PLATE"
@@ -423,10 +430,10 @@
       "attacks": {
         "legacy": {
           "hand": 0.0,
-          "kick": 12.0,
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 12.0,
           "head": 0.0,
-          "breath": 0.3
+          "breath": 0.0
         }
       }
     },
@@ -468,13 +475,14 @@
       "hitFemale": "sound.combat.hit.insect"
     },
     "movement": {
-      "speed": 5.0
+      "speed": 0.8,
+      "moveRate": 50
     },
     "combat": {
       "baseCombatRating": 5.0,
       "maxGroupAttackSize": 3,
       "maxHuntDistance": 10,
-      "aggressivity": 50,
+      "aggressivity": 30,
       "damageType": 1,
       "armor": {
         "naturalArmour": 0.7,
@@ -482,13 +490,13 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 5.0,
           "handString": "claw",
-          "kick": 6.0,
+          "kick": 0.0,
           "kickString": "claw",
-          "bite": 0.0,
+          "bite": 6.0,
           "head": 0.0,
-          "breath": 0.8
+          "breath": 0.0
         }
       }
     },
@@ -530,7 +538,7 @@
       "hitFemale": "sound.combat.hit.snake"
     },
     "movement": {
-      "speed": 0.0,
+      "speed": 1.0,
       "moveRate": 100
     },
     "combat": {
@@ -548,10 +556,10 @@
       "attacks": {
         "legacy": {
           "hand": 0.0,
-          "kick": 16.0,
-          "bite": 10.0,
-          "head": 0.0,
-          "breath": 1.0
+          "kick": 0.0,
+          "bite": 16.0,
+          "head": 10.0,
+          "breath": 0.0
         }
       }
     },

@@ -22,7 +22,7 @@
       "hitFemale": "sound.combat.hit.zombie"
     },
     "movement": {
-      "speed": 5.0,
+      "speed": 0.6,
       "moveRate": 0
     },
     "combat": {
@@ -38,11 +38,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 3.0,
-          "kick": 7.0,
-          "bite": 0.0,
+          "hand": 5.0,
+          "kick": 3.0,
+          "bite": 7.0,
           "head": 0.0,
-          "breath": 0.6
+          "breath": 0.0
         }
       }
     },
@@ -93,13 +93,14 @@
       "hitFemale": "sound.combat.hit.skeleton"
     },
     "movement": {
-      "speed": 3.0
+      "speed": 0.6,
+      "moveRate": 0
     },
     "combat": {
       "baseCombatRating": 8.0,
       "maxGroupAttackSize": 3,
       "maxHuntDistance": 25,
-      "aggressivity": 0,
+      "aggressivity": 100,
       "alignment": -20.0,
       "damageType": 0,
       "armor": {
@@ -109,10 +110,10 @@
       "attacks": {
         "legacy": {
           "hand": 3.0,
-          "kick": 7.0,
-          "bite": 0.0,
+          "kick": 3.0,
+          "bite": 7.0,
           "head": 0.0,
-          "breath": 0.6
+          "breath": 0.0
         }
       }
     },
@@ -157,7 +158,8 @@
       "hitFemale": "sound.combat.hit.spirit.female"
     },
     "movement": {
-      "speed": 4.0
+      "speed": 1.5,
+      "moveRate": 100
     },
     "combat": {
       "baseCombatRating": 24.0,
@@ -171,11 +173,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
-          "kick": 5.0,
-          "bite": 0.0,
+          "hand": 4.0,
+          "kick": 0.0,
+          "bite": 5.0,
           "head": 0.0,
-          "breath": 1.5
+          "breath": 0.0
         }
       }
     },
@@ -219,7 +221,7 @@
       "hitFemale": "sound.combat.hit.spirit.female"
     },
     "movement": {
-      "speed": 4.0,
+      "speed": 1.5,
       "moveRate": 100
     },
     "combat": {
@@ -234,11 +236,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 5.0,
-          "kick": 0.0,
+          "hand": 4.0,
+          "kick": 5.0,
           "bite": 0.0,
           "head": 0.0,
-          "breath": 1.5
+          "breath": 0.0
         }
       }
     },
@@ -279,7 +281,7 @@
       "hitFemale": "sound.combat.hit.spirit.female"
     },
     "movement": {
-      "speed": 3.0,
+      "speed": 1.5,
       "moveRate": 100
     },
     "combat": {
@@ -294,11 +296,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 5.0,
-          "kick": 0.0,
+          "hand": 3.0,
+          "kick": 5.0,
           "bite": 0.0,
           "head": 0.0,
-          "breath": 1.5
+          "breath": 0.0
         }
       }
     },
@@ -340,7 +342,7 @@
       "hitFemale": "sound.combat.hit.spirit.female"
     },
     "movement": {
-      "speed": 3.0,
+      "speed": 1.5,
       "moveRate": 100
     },
     "combat": {
@@ -355,11 +357,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 5.0,
-          "kick": 0.0,
+          "hand": 3.0,
+          "kick": 5.0,
           "bite": 0.0,
           "head": 0.0,
-          "breath": 1.5
+          "breath": 0.0
         }
       }
     },
@@ -401,7 +403,7 @@
       "hitFemale": "sound.combat.hit.spirit.female"
     },
     "movement": {
-      "speed": 4.0,
+      "speed": 1.5,
       "moveRate": 100
     },
     "combat": {
@@ -416,11 +418,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 5.0,
-          "kick": 0.0,
+          "hand": 4.0,
+          "kick": 5.0,
           "bite": 0.0,
           "head": 0.0,
-          "breath": 1.5
+          "breath": 0.0
         }
       }
     },
@@ -461,7 +463,7 @@
       "hitFemale": "sound.combat.hit.spirit.female"
     },
     "movement": {
-      "speed": 5.0,
+      "speed": 1.5,
       "moveRate": 100
     },
     "combat": {
@@ -476,13 +478,13 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 7.0,
+          "hand": 5.0,
           "handString": "claw",
-          "kick": 5.0,
+          "kick": 7.0,
           "kickString": "claw",
-          "bite": 0.0,
+          "bite": 5.0,
           "head": 0.0,
-          "breath": 1.5
+          "breath": 0.0
         }
       }
     },

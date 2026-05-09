@@ -22,7 +22,7 @@
       "hitFemale": "sound.combat.hit.giant"
     },
     "movement": {
-      "speed": 10.0,
+      "speed": 1.5,
       "moveRate": 1800
     },
     "combat": {
@@ -31,17 +31,18 @@
       "aggressivity": 99,
       "alignment": -20.0,
       "damageType": 0,
+      "combatMoves": [ 1, 5, 6 ],
       "armor": {
         "naturalArmour": 0.02,
         "armourType": "ArmourTemplate.ARMOUR_TYPE_STUDDED"
       },
       "attacks": {
         "legacy": {
-          "hand": 24.0,
-          "kick": 26.0,
-          "bite": 0.0,
+          "hand": 10.0,
+          "kick": 24.0,
+          "bite": 26.0,
           "head": 0.0,
-          "breath": 1.5
+          "breath": 0.0
         }
       }
     },
@@ -84,7 +85,7 @@
       "hitFemale": "sound.combat.hit.giant"
     },
     "movement": {
-      "speed": 26.0,
+      "speed": 1.8,
       "moveRate": 1800
     },
     "combat": {
@@ -93,17 +94,18 @@
       "aggressivity": 99,
       "alignment": -10.0,
       "damageType": 0,
+      "combatMoves": [ 4, 1, 6 ],
       "armor": {
         "naturalArmour": 0.015,
         "armourType": "ArmourTemplate.ARMOUR_TYPE_STUDDED"
       },
       "attacks": {
         "legacy": {
-          "hand": 30.0,
-          "kick": 0.0,
+          "hand": 26.0,
+          "kick": 30.0,
           "bite": 0.0,
           "head": 0.0,
-          "breath": 1.8
+          "breath": 0.0
         }
       }
     },
@@ -146,7 +148,7 @@
       "hitFemale": "sound.combat.hit.goblin"
     },
     "movement": {
-      "speed": 18.0,
+      "speed": 1.5,
       "moveRate": 1200
     },
     "combat": {
@@ -155,18 +157,19 @@
       "aggressivity": 99,
       "alignment": -50.0,
       "damageType": 2,
+      "combatMoves": [ 4 ],
       "armor": {
         "naturalArmour": 0.14,
         "armourType": "ArmourTemplate.ARMOUR_TYPE_CHAIN"
       },
       "attacks": {
         "legacy": {
-          "hand": 25.0,
+          "hand": 18.0,
           "handString": "claw",
-          "kick": 0.0,
+          "kick": 25.0,
           "bite": 0.0,
           "head": 0.0,
-          "breath": 1.5
+          "breath": 0.0
         }
       }
     },
@@ -211,7 +214,7 @@
       "hitFemale": "sound.combat.hit.troll"
     },
     "movement": {
-      "speed": 20.0,
+      "speed": 1.7,
       "moveRate": 200
     },
     "combat": {
@@ -220,18 +223,19 @@
       "aggressivity": 99,
       "alignment": -60.0,
       "damageType": 2,
+      "combatMoves": [ 4, 1 ],
       "armor": {
         "naturalArmour": 0.02,
         "armourType": "ArmourTemplate.ARMOUR_TYPE_RING"
       },
       "attacks": {
         "legacy": {
-          "hand": 0.0,
+          "hand": 20.0,
           "handString": "claw",
-          "kick": 26.0,
-          "bite": 0.0,
+          "kick": 0.0,
+          "bite": 26.0,
           "head": 0.0,
-          "breath": 1.7
+          "breath": 0.0
         }
       }
     },
@@ -275,12 +279,13 @@
       "hitFemale": "sound.combat.hit.dragon"
     },
     "movement": {
-      "speed": 20.0
+      "speed": 1.8,
+      "moveRate": 500
     },
     "combat": {
       "baseCombatRating": 95.0,
       "maxHuntDistance": 40,
-      "aggressivity": 500,
+      "aggressivity": 99,
       "alignment": -80.0,
       "damageType": 2,
       "combatMoves": [ 1, 2, 3 ],
@@ -290,19 +295,18 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 26.0,
-          "kick": 52.0,
+          "hand": 20.0,
+          "kick": 26.0,
           "kickString": "wingbuff",
-          "bite": 54.0,
-          "head": 0.0,
+          "bite": 52.0,
+          "head": 54.0,
           "headString": "tailwhip",
-          "breath": 1.8
+          "breath": 0.0
         }
       }
     },
     "drops": [ 867, 868, 303, 308, 308, 310 ],
     "meatMaterial": 76,
-    "maxAge": 99,
     "eggLayer": true,
     "eggTemplateId": 103,
     "skills": {
@@ -340,12 +344,13 @@
       "hitFemale": "sound.combat.hit.dragon"
     },
     "movement": {
-      "speed": 20.0
+      "speed": 1.8,
+      "moveRate": 500
     },
     "combat": {
       "baseCombatRating": 95.0,
       "maxHuntDistance": 40,
-      "aggressivity": 500,
+      "aggressivity": 99,
       "alignment": -80.0,
       "damageType": 2,
       "combatMoves": [ 1, 2 ],
@@ -355,19 +360,18 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 26.0,
-          "kick": 50.0,
+          "hand": 20.0,
+          "kick": 26.0,
           "kickString": "wingbuff",
-          "bite": 58.0,
-          "head": 0.0,
+          "bite": 50.0,
+          "head": 58.0,
           "headString": "tailwhip",
-          "breath": 1.8
+          "breath": 0.0
         }
       }
     },
     "drops": [ 867, 868, 303, 308, 308, 310 ],
     "meatMaterial": 76,
-    "maxAge": 99,
     "eggLayer": true,
     "eggTemplateId": 104,
     "skills": {
@@ -405,7 +409,7 @@
       "hitFemale": "sound.combat.hit.dragon"
     },
     "movement": {
-      "speed": 20.0,
+      "speed": 1.6,
       "moveRate": 500
     },
     "combat": {
@@ -414,19 +418,20 @@
       "aggressivity": 99,
       "alignment": -60.0,
       "damageType": 2,
+      "combatMoves": [ 1, 2, 5 ],
       "armor": {
         "naturalArmour": 0.15,
         "armourType": "ArmourTemplate.ARMOUR_TYPE_LEATHER_DRAGON"
       },
       "attacks": {
         "legacy": {
-          "hand": 24.0,
-          "handString": "tailwhip",
-          "kick": 55.0,
+          "hand": 20.0,
+          "kick": 24.0,
           "kickString": "wingbuff",
-          "bite": 0.0,
+          "bite": 55.0,
           "head": 56.0,
-          "breath": 1.6
+          "headString": "tailwhip",
+          "breath": 0.0
         }
       }
     },
@@ -469,7 +474,7 @@
       "hitFemale": "sound.combat.hit.dragon"
     },
     "movement": {
-      "speed": 20.0,
+      "speed": 1.8,
       "moveRate": 500
     },
     "combat": {
@@ -478,19 +483,20 @@
       "aggressivity": 99,
       "alignment": -70.0,
       "damageType": 2,
+      "combatMoves": [ 1, 2, 6 ],
       "armor": {
         "naturalArmour": 0.12,
         "armourType": "ArmourTemplate.ARMOUR_TYPE_LEATHER_DRAGON"
       },
       "attacks": {
         "legacy": {
-          "hand": 26.0,
-          "handString": "tailwhip",
-          "kick": 56.0,
+          "hand": 20.0,
+          "kick": 26.0,
           "kickString": "wingbuff",
-          "bite": 0.0,
+          "bite": 56.0,
           "head": 58.0,
-          "breath": 1.8
+          "headString": "tailwhip",
+          "breath": 0.0
         }
       }
     },
@@ -533,7 +539,7 @@
       "hitFemale": "sound.combat.hit.dragon"
     },
     "movement": {
-      "speed": 21.0,
+      "speed": 1.9,
       "moveRate": 500
     },
     "combat": {
@@ -542,18 +548,19 @@
       "aggressivity": 99,
       "alignment": -60.0,
       "damageType": 2,
+      "combatMoves": [ 1, 2 ],
       "armor": {
         "naturalArmour": 0.2,
         "armourType": "ArmourTemplate.ARMOUR_TYPE_LEATHER_DRAGON"
       },
       "attacks": {
         "legacy": {
-          "hand": 24.0,
-          "handString": "tailwhip",
-          "kick": 53.0,
+          "hand": 21.0,
+          "kick": 24.0,
           "kickString": "wingbuff",
-          "bite": 0.0,
+          "bite": 53.0,
           "head": 57.0,
+          "headString": "tailwhip",
           "breath": 45.0,
           "breathString": "burn"
         }
@@ -598,7 +605,7 @@
       "hitFemale": "sound.combat.hit.dragon"
     },
     "movement": {
-      "speed": 35.0,
+      "speed": 1.6,
       "moveRate": 500
     },
     "combat": {
@@ -607,19 +614,20 @@
       "aggressivity": 99,
       "alignment": -90.0,
       "damageType": 2,
+      "combatMoves": [ 1, 2, 3 ],
       "armor": {
         "naturalArmour": 0.017,
         "armourType": "ArmourTemplate.ARMOUR_TYPE_SCALE_DRAGON"
       },
       "attacks": {
         "legacy": {
-          "hand": 38.0,
-          "handString": "tailwhip",
-          "kick": 53.0,
+          "hand": 35.0,
+          "kick": 38.0,
           "kickString": "wingbuff",
-          "bite": 0.0,
+          "bite": 53.0,
           "head": 67.0,
-          "breath": 1.6
+          "headString": "tailwhip",
+          "breath": 0.0
         }
       }
     },
@@ -662,12 +670,13 @@
       "hitFemale": "sound.combat.hit.dragon"
     },
     "movement": {
-      "speed": 35.0
+      "speed": 1.6,
+      "moveRate": 500
     },
     "combat": {
       "baseCombatRating": 100.0,
       "maxHuntDistance": 40,
-      "aggressivity": 500,
+      "aggressivity": 99,
       "alignment": -90.0,
       "damageType": 2,
       "combatMoves": [ 1, 2, 3 ],
@@ -677,19 +686,18 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 38.0,
-          "kick": 58.0,
+          "hand": 35.0,
+          "kick": 38.0,
           "kickString": "wingbuff",
-          "bite": 62.0,
-          "head": 0.0,
+          "bite": 58.0,
+          "head": 62.0,
           "headString": "tailwhip",
-          "breath": 1.6
+          "breath": 0.0
         }
       }
     },
     "drops": [ 867, 868, 303, 308, 308, 310 ],
     "meatMaterial": 76,
-    "maxAge": 99,
     "eggLayer": true,
     "eggTemplateId": 89,
     "skills": {
@@ -727,12 +735,13 @@
       "hitFemale": "sound.combat.hit.dragon"
     },
     "movement": {
-      "speed": 35.0
+      "speed": 1.6,
+      "moveRate": 500
     },
     "combat": {
       "baseCombatRating": 100.0,
       "maxHuntDistance": 40,
-      "aggressivity": 500,
+      "aggressivity": 99,
       "alignment": -90.0,
       "damageType": 2,
       "combatMoves": [ 1, 2, 3 ],
@@ -742,19 +751,18 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 38.0,
-          "kick": 50.0,
+          "hand": 35.0,
+          "kick": 38.0,
           "kickString": "wingbuff",
-          "bite": 58.0,
-          "head": 0.0,
+          "bite": 50.0,
+          "head": 58.0,
           "headString": "tailwhip",
-          "breath": 1.6
+          "breath": 0.0
         }
       }
     },
     "drops": [ 867, 868, 303, 308, 308, 310 ],
     "meatMaterial": 76,
-    "maxAge": 99,
     "eggLayer": true,
     "eggTemplateId": 90,
     "skills": {
@@ -792,12 +800,13 @@
       "hitFemale": "sound.combat.hit.dragon"
     },
     "movement": {
-      "speed": 35.0
+      "speed": 1.6,
+      "moveRate": 500
     },
     "combat": {
       "baseCombatRating": 100.0,
       "maxHuntDistance": 40,
-      "aggressivity": 500,
+      "aggressivity": 99,
       "alignment": -90.0,
       "damageType": 2,
       "combatMoves": [ 1, 2, 3 ],
@@ -807,19 +816,18 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 38.0,
-          "kick": 50.0,
+          "hand": 35.0,
+          "kick": 38.0,
           "kickString": "wingbuff",
-          "bite": 63.0,
-          "head": 0.0,
+          "bite": 50.0,
+          "head": 63.0,
           "headString": "tailwhip",
-          "breath": 1.6
+          "breath": 0.0
         }
       }
     },
     "drops": [ 867, 868, 303, 308, 308, 310 ],
     "meatMaterial": 76,
-    "maxAge": 99,
     "eggLayer": true,
     "eggTemplateId": 91,
     "skills": {
@@ -857,12 +865,13 @@
       "hitFemale": "sound.combat.hit.dragon"
     },
     "movement": {
-      "speed": 35.0
+      "speed": 1.6,
+      "moveRate": 500
     },
     "combat": {
       "baseCombatRating": 100.0,
       "maxHuntDistance": 40,
-      "aggressivity": 500,
+      "aggressivity": 99,
       "alignment": -90.0,
       "damageType": 2,
       "combatMoves": [ 1, 2, 3 ],
@@ -872,19 +881,18 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 38.0,
-          "kick": 55.0,
+          "hand": 35.0,
+          "kick": 38.0,
           "kickString": "wingbuff",
-          "bite": 60.0,
-          "head": 0.0,
+          "bite": 55.0,
+          "head": 60.0,
           "headString": "tailwhip",
-          "breath": 1.6
+          "breath": 0.0
         }
       }
     },
     "drops": [ 867, 868, 303, 308, 308, 310 ],
     "meatMaterial": 76,
-    "maxAge": 99,
     "eggLayer": true,
     "eggTemplateId": 92,
     "skills": {
@@ -922,7 +930,7 @@
       "hitFemale": "sound.combat.hit.giant"
     },
     "movement": {
-      "speed": 10.0,
+      "speed": 1.8,
       "moveRate": 100
     },
     "combat": {
@@ -938,11 +946,11 @@
       },
       "attacks": {
         "legacy": {
-          "hand": 24.0,
-          "kick": 26.0,
-          "bite": 0.0,
+          "hand": 10.0,
+          "kick": 24.0,
+          "bite": 26.0,
           "head": 0.0,
-          "breath": 1.8
+          "breath": 0.0
         }
       }
     },
@@ -984,7 +992,7 @@
       "hitFemale": "sound.combat.hit.snake"
     },
     "movement": {
-      "speed": 0.0,
+      "speed": 2.0,
       "moveRate": 50
     },
     "combat": {
@@ -1001,10 +1009,10 @@
       "attacks": {
         "legacy": {
           "hand": 0.0,
-          "kick": 56.0,
-          "bite": 30.0,
-          "head": 0.0,
-          "breath": 2.0
+          "kick": 0.0,
+          "bite": 56.0,
+          "head": 30.0,
+          "breath": 0.0
         }
       }
     },
