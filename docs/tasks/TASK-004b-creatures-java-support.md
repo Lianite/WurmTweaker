@@ -1,7 +1,7 @@
 # TASK-004b: Creatures — Java Support for Redesigned JSON Schema
 
 ## Status
-PLANNED (depends on TASK-004)
+COMPLETE
 
 ## Goal
 
@@ -26,9 +26,9 @@ The JSON schema is defined in `data/creatures/base/*.json.example`. The Java imp
 
 ## Deliverables
 
-- [ ] `CreatureDefinition.java` — restructured POJO with all nested inner classes
-- [ ] `CreatureHandler.java` — updated field paths + ~40 new fields applied
-- [ ] Build passes: `mvn clean package`
+- [x] `CreatureDefinition.java` — restructured POJO with all nested inner classes
+- [x] `CreatureHandler.java` — updated field paths + ~40 new fields applied
+- [x] Build passes: `mvn clean package`
 
 ---
 

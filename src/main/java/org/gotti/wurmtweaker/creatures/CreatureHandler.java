@@ -1,18 +1,21 @@
 package org.gotti.wurmtweaker.creatures;
 
 import com.wurmonline.server.combat.ArmourTemplate;
+import com.wurmonline.server.creatures.AttackAction;
+import com.wurmonline.server.creatures.AttackValues;
 import com.wurmonline.server.creatures.CreatureTemplate;
 import com.wurmonline.server.creatures.CreatureTemplateFactory;
 import com.wurmonline.server.creatures.NoSuchCreatureTemplateException;
+import com.wurmonline.server.skills.Skills;
 import org.gotti.wurmtweaker.json.ContentHandler;
 import org.gotti.wurmunlimited.modsupport.CreatureTemplateBuilder;
 import org.gotti.wurmunlimited.modsupport.creatures.ModCreature;
 import org.gotti.wurmunlimited.modsupport.creatures.ModCreatures;
 
+import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
@@ -23,31 +26,6 @@ public class CreatureHandler implements ContentHandler<CreatureDefinition> {
 
     // FISH_CID = 119 is the last vanilla creature template ID
     private static final int MAX_VANILLA_ID = 119;
-
-    // Maps JSON behavior tag → private field name on CreatureTemplate
-    private static final Map<String, String> BEHAVIOR_FIELDS = new LinkedHashMap<>();
-
-    static {
-        BEHAVIOR_FIELDS.put("ANIMAL",        "animal");
-        BEHAVIOR_FIELDS.put("MONSTER",       "monster");
-        BEHAVIOR_FIELDS.put("HUNTER",        "hunter");
-        BEHAVIOR_FIELDS.put("LEADABLE",      "leadable");
-        BEHAVIOR_FIELDS.put("GRAZER",        "grazer");
-        BEHAVIOR_FIELDS.put("HERBIVORE",     "herbivore");
-        BEHAVIOR_FIELDS.put("CARNIVORE",     "carnivore");
-        BEHAVIOR_FIELDS.put("OMNIVORE",      "omnivore");
-        BEHAVIOR_FIELDS.put("HERD",          "herd");
-        BEHAVIOR_FIELDS.put("SWIMMING",      "swimming");
-        BEHAVIOR_FIELDS.put("FLEEING",       "fleeing");
-        BEHAVIOR_FIELDS.put("DOMESTIC",      "domestic");
-        BEHAVIOR_FIELDS.put("MILKABLE",      "milkable");
-        BEHAVIOR_FIELDS.put("WOOL_PRODUCER", "woolProducer");
-        BEHAVIOR_FIELDS.put("CLIMBER",       "climber");
-        BEHAVIOR_FIELDS.put("INVULNERABLE",  "invulnerable");
-        BEHAVIOR_FIELDS.put("MOVE_RANDOM",   "moveRandom");
-        BEHAVIOR_FIELDS.put("MOVE_LOCAL",    "moveLocal");
-        BEHAVIOR_FIELDS.put("MOVE_GLOBAL",   "moveGlobal");
-    }
 
     private final List<CreatureDefinition> pendingDefs = new ArrayList<>();
 
@@ -108,61 +86,199 @@ public class CreatureHandler implements ContentHandler<CreatureDefinition> {
         short wide   = def.sizeInCentimeters != null && def.sizeInCentimeters.wide != null
                        ? def.sizeInCentimeters.wide : (short) 100;
 
-        return new CreatureTemplateBuilder(def.id)
+        CreatureDefinition.Movement     mov = def.movement;
+        CreatureDefinition.Combat       cbt = def.combat;
+        CreatureDefinition.Armor        arm = cbt != null ? cbt.armor : null;
+        CreatureDefinition.LegacyAttacks leg = cbt != null && cbt.attacks != null ? cbt.attacks.legacy : null;
+
+        CreatureTemplateBuilder builder = new CreatureTemplateBuilder(def.id)
                 .name(def.name)
                 .plural(def.plural != null ? def.plural : def.name + "s")
                 .description(def.longDesc != null ? def.longDesc : "A " + def.name + ".")
                 .modelName(def.modelName)
+                .types(def.types != null ? def.types : new int[0])
                 .vision(def.vision != null ? def.vision : (short) 50)
                 .sex(def.sex != null ? def.sex : (byte) 0)
                 .bodyType(def.bodyType != null ? def.bodyType : (byte) 0)
                 .dimension(high, length, wide)
-                .naturalArmour(def.naturalArmour != null ? def.naturalArmour : 1.0f)
-                .speed(def.speed != null ? def.speed : 5.0f)
-                .aggressive(def.aggressivity != null ? def.aggressivity : 0)
+                .naturalArmour(arm != null && arm.naturalArmour != null ? arm.naturalArmour : 1.0f)
+                .speed(mov != null && mov.speed != null ? mov.speed : 5.0f)
+                .aggressive(cbt != null && cbt.aggressivity != null ? cbt.aggressivity : 0)
                 .damages(
-                        def.handDamage   != null ? def.handDamage   : 0f,
-                        def.kickDamage   != null ? def.kickDamage   : 0f,
-                        def.biteDamage   != null ? def.biteDamage   : 0f,
-                        def.headDamage   != null ? def.headDamage   : 0f,
-                        def.breathDamage != null ? def.breathDamage : 0f)
-                .moveRate(def.moveRate != null ? def.moveRate : 60)
-                .maxHuntDist(def.maxHuntDistance != null ? def.maxHuntDistance : 20)
+                        leg != null && leg.hand   != null ? leg.hand   : 0f,
+                        leg != null && leg.kick   != null ? leg.kick   : 0f,
+                        leg != null && leg.bite   != null ? leg.bite   : 0f,
+                        leg != null && leg.head   != null ? leg.head   : 0f,
+                        leg != null && leg.breath != null ? leg.breath : 0f)
+                .moveRate(mov != null && mov.moveRate != null ? mov.moveRate : 60)
+                .maxHuntDist(cbt != null && cbt.maxHuntDistance != null ? cbt.maxHuntDistance : 20)
                 .meatMaterial(def.meatMaterial != null ? def.meatMaterial : (byte) 0)
                 .deathSounds(sound(def.sounds, true,  true),
                              sound(def.sounds, true,  false))
                 .hitSounds(  sound(def.sounds, false, true),
                              sound(def.sounds, false, false))
-                .baseCombatRating(def.baseCombatRating != null ? def.baseCombatRating : 1.0f)
+                .baseCombatRating(cbt != null && cbt.baseCombatRating != null ? cbt.baseCombatRating : 1.0f)
                 .defaultSkills();
+
+        if (def.drops != null) {
+            builder.itemsButchered(def.drops);
+        }
+
+        if (def.skills != null) {
+            for (Map.Entry<String, Double> entry : def.skills.entrySet()) {
+                builder.skill(Integer.parseInt(entry.getKey()), entry.getValue().floatValue());
+            }
+        }
+
+        return builder;
     }
 
     private void applySetters(CreatureTemplate template, CreatureDefinition def) {
-        if (def.armourType != null) {
+        CreatureDefinition.Combat        cbt = def.combat;
+        CreatureDefinition.Armor         arm = cbt != null ? cbt.armor : null;
+        CreatureDefinition.Attacks       atk = cbt != null ? cbt.attacks : null;
+        CreatureDefinition.LegacyAttacks leg = atk != null ? atk.legacy : null;
+
+        // Armour type — strip "ArmourTemplate." prefix before field lookup
+        if (arm != null && arm.armourType != null) {
             try {
-                // WHY: ArmourType is not a standard Java enum, so valueOf() is unavailable;
-                // reflective field lookup works for both enum-style and static-constant classes.
-                Field f = ArmourTemplate.ArmourType.class.getDeclaredField(def.armourType.toUpperCase());
+                String key = arm.armourType.replaceFirst("^ArmourTemplate\\.", "");
+                Field f = ArmourTemplate.ArmourType.class.getDeclaredField(key);
                 template.setArmourType((ArmourTemplate.ArmourType) f.get(null));
             } catch (Exception e) {
-                logger.warning("WurmTweaker: unknown armourType '" + def.armourType
+                logger.warning("WurmTweaker: unknown armourType '" + arm.armourType
                         + "' for creature id=" + def.id);
             }
         }
-        if (def.baseCombatRating != null)  template.setBaseCombatRating(def.baseCombatRating);
-        if (def.bonusCombatRating != null) template.setBonusCombatRating(def.bonusCombatRating);
-        if (def.maxAge != null)            template.setMaxAge(def.maxAge);
-        if (def.alignment != null)         template.setAlignment(def.alignment);
 
-        if (def.behaviors != null) {
-            for (String tag : def.behaviors) {
-                String fieldName = BEHAVIOR_FIELDS.get(tag.toUpperCase());
-                if (fieldName != null) {
-                    setBoolean(template, fieldName, true);
-                } else {
-                    logger.warning("WurmTweaker: unknown behavior '" + tag
-                            + "' for creature id=" + def.id);
+        // Combat rating and alignment
+        if (cbt != null && cbt.baseCombatRating  != null) template.setBaseCombatRating(cbt.baseCombatRating);
+        if (cbt != null && cbt.bonusCombatRating != null) template.setBonusCombatRating(cbt.bonusCombatRating);
+        if (cbt != null && cbt.alignment         != null) template.setAlignment(cbt.alignment);
+        if (cbt != null && cbt.maxGroupAttackSize != null) template.setMaxGroupAttackSize(cbt.maxGroupAttackSize);
+        if (cbt != null && cbt.damageType        != null) template.setCombatDamageType(cbt.damageType.byteValue());
+
+        // Age and spawn control
+        if (def.maxAge               != null) template.setMaxAge(def.maxAge);
+        if (def.maxPercentOfCreatures != null) template.setMaxPercentOfCreatures(def.maxPercentOfCreatures);
+
+        // Den
+        if (def.denName     != null) template.setDenName(def.denName);
+        if (def.denMaterial != null) template.setDenMaterial(def.denMaterial.byteValue());
+
+        // Behaviour flags
+        if (def.subterranean  != null) template.setSubterranean(def.subterranean);
+        if (def.tutorial      != null) template.setTutorial(def.tutorial);
+        if (def.noSkillGain   != null) template.setNoSkillgain(def.noSkillGain);
+        if (def.noServerSounds != null) template.setNoServerSounds(def.noServerSounds);
+        if (def.keepSex       != null) template.setKeepSex(def.keepSex);
+
+        // Corpse name
+        if (def.corpseName != null) template.setCorpseName(def.corpseName);
+
+        // Breeding
+        if (def.eggLayer           != null) template.setEggLayer(def.eggLayer);
+        if (def.eggTemplateId      != null) template.setEggTemplateId(def.eggTemplateId);
+        if (def.childTemplateId    != null) template.setChildTemplateId(def.childTemplateId);
+        if (def.mateTemplateId     != null) template.setMateTemplateId(def.mateTemplateId);
+        if (def.adultFemaleTemplateId != null) template.setAdultFemaleTemplateId(def.adultFemaleTemplateId);
+        if (def.adultMaleTemplateId   != null) template.setAdultMaleTemplateId(def.adultMaleTemplateId);
+        if (def.leaderTemplateId   != null) template.setLeaderTemplateId(def.leaderTemplateId);
+
+        // Bounds
+        if (def.boundsValues != null && def.boundsValues.length >= 4) {
+            template.setBoundsValues(def.boundsValues[0], def.boundsValues[1],
+                                     def.boundsValues[2], def.boundsValues[3]);
+        }
+
+        // Cosmetics
+        if (def.colourNames != null) template.setColourNames(def.colourNames);
+        if (def.glowing     != null) template.setGlowing(def.glowing);
+        if (def.paintMode   != null) template.setPaintMode(def.paintMode);
+        if (def.onFire      != null) template.setOnFire(def.onFire);
+        if (def.fireRadius  != null) template.setFireRadius(def.fireRadius.byteValue());
+
+        // Color — flat fields first, color object as fallback
+        Integer red   = def.colorRed   != null ? def.colorRed   : (def.color != null ? def.color.red   : null);
+        Integer green = def.colorGreen != null ? def.colorGreen : (def.color != null ? def.color.green : null);
+        Integer blue  = def.colorBlue  != null ? def.colorBlue  : (def.color != null ? def.color.blue  : null);
+        if (red   != null) template.setColorRed(red);
+        if (green != null) template.setColorGreen(green);
+        if (blue  != null) template.setColorBlue(blue);
+
+        // Direct field assignment — offZ is public; hasHands/isHorse are package-private
+        if (def.hasHands != null) setField(template, "hasHands", def.hasHands);
+        if (def.isHorse  != null) setField(template, "isHorse",  def.isHorse);
+        if (def.offZ     != null) template.offZ = def.offZ;
+
+        // Combat moves — prefer combat.combatMoves over top-level
+        int[] moves = cbt != null && cbt.combatMoves != null ? cbt.combatMoves : def.combatMoves;
+        if (moves != null) template.setCombatMoves(moves);
+
+        // Attack strings
+        if (leg != null) {
+            if (leg.handString   != null) template.setHandDamString(leg.handString);
+            if (leg.kickString   != null) template.setKickDamString(leg.kickString);
+            if (leg.headString   != null) template.setHeadbuttDamString(leg.headString);
+            if (leg.breathString != null) template.setBreathDamString(leg.breathString);
+        }
+
+        // New attack system
+        if (atk != null && Boolean.TRUE.equals(atk.useNewSystem)) {
+            template.setUsesNewAttacks(true);
+            if (atk.primary != null) {
+                for (CreatureDefinition.AttackEntry e : atk.primary) {
+                    AttackAction action = buildAttackAction(e, def.id);
+                    if (action != null) template.addPrimaryAttack(action);
                 }
+            }
+            if (atk.secondary != null) {
+                for (CreatureDefinition.AttackEntry e : atk.secondary) {
+                    AttackAction action = buildAttackAction(e, def.id);
+                    if (action != null) template.addSecondaryAttack(action);
+                }
+            }
+        }
+
+        // Resistance / vulnerability — public fields, direct assignment
+        if (def.physicalResistance    != null) template.physicalResistance    = def.physicalResistance;
+        if (def.physicalVulnerability != null) template.physicalVulnerability = def.physicalVulnerability;
+        if (def.acidResistance        != null) template.acidResistance        = def.acidResistance;
+        if (def.acidVulnerability     != null) template.acidVulnerability     = def.acidVulnerability;
+        if (def.fireResistance        != null) template.fireResistance        = def.fireResistance;
+        if (def.fireVulnerability     != null) template.fireVulnerability     = def.fireVulnerability;
+        if (def.coldResistance        != null) template.coldResistance        = def.coldResistance;
+        if (def.coldVulnerability     != null) template.coldVulnerability     = def.coldVulnerability;
+        if (def.diseaseResistance     != null) template.diseaseResistance     = def.diseaseResistance;
+        if (def.diseaseVulnerability  != null) template.diseaseVulnerability  = def.diseaseVulnerability;
+        if (def.pierceResistance      != null) template.pierceResistance      = def.pierceResistance;
+        if (def.pierceVulnerability   != null) template.pierceVulnerability   = def.pierceVulnerability;
+        if (def.slashResistance       != null) template.slashResistance       = def.slashResistance;
+        if (def.slashVulnerability    != null) template.slashVulnerability    = def.slashVulnerability;
+        if (def.crushResistance       != null) template.crushResistance       = def.crushResistance;
+        if (def.crushVulnerability    != null) template.crushVulnerability    = def.crushVulnerability;
+        if (def.biteResistance        != null) template.biteResistance        = def.biteResistance;
+        if (def.biteVulnerability     != null) template.biteVulnerability     = def.biteVulnerability;
+        if (def.poisonResistance      != null) template.poisonResistance      = def.poisonResistance;
+        if (def.poisonVulnerability   != null) template.poisonVulnerability   = def.poisonVulnerability;
+        if (def.waterResistance       != null) template.waterResistance       = def.waterResistance;
+        if (def.waterVulnerability    != null) template.waterVulnerability    = def.waterVulnerability;
+        if (def.internalResistance    != null) template.internalResistance    = def.internalResistance;
+        if (def.internalVulnerability != null) template.internalVulnerability = def.internalVulnerability;
+
+        // Drops — butcheredItems is private final, override via reflection
+        if (def.drops != null) setField(template, "butcheredItems", def.drops);
+
+        // Skills
+        if (def.skills != null) {
+            try {
+                Skills skills = template.getSkills();
+                for (Map.Entry<String, Double> entry : def.skills.entrySet()) {
+                    skills.learn(Integer.parseInt(entry.getKey()), entry.getValue().floatValue());
+                }
+            } catch (Exception e) {
+                logger.warning("WurmTweaker: could not apply skills for creature id=" + def.id
+                        + ": " + e.getMessage());
             }
         }
     }
@@ -170,15 +286,21 @@ public class CreatureHandler implements ContentHandler<CreatureDefinition> {
     private void applyReflectedFinalFields(CreatureTemplate template, CreatureDefinition def) {
         // WHY: these fields are private final in CreatureTemplate with no public setters;
         // reflection is the only way to override values set at construction time for vanilla templates.
-        if (def.speed != null)        setField(template, "speed",           def.speed);
-        if (def.aggressivity != null) setField(template, "aggressivity",    def.aggressivity);
-        if (def.naturalArmour != null)setField(template, "naturalArmour",   def.naturalArmour);
-        if (def.handDamage != null)   setField(template, "handDamage",      def.handDamage);
-        if (def.kickDamage != null)   setField(template, "kickDamage",      def.kickDamage);
-        if (def.biteDamage != null)   setField(template, "biteDamage",      def.biteDamage);
-        if (def.headDamage != null)   setField(template, "headButtDamage",  def.headDamage);
-        if (def.breathDamage != null) setField(template, "breathDamage",    def.breathDamage);
-        if (def.moveRate != null)     setField(template, "moveRate",        def.moveRate);
+        CreatureDefinition.Movement     mov = def.movement;
+        CreatureDefinition.Combat       cbt = def.combat;
+        CreatureDefinition.Armor        arm = cbt != null ? cbt.armor : null;
+        CreatureDefinition.LegacyAttacks leg = cbt != null && cbt.attacks != null ? cbt.attacks.legacy : null;
+
+        if (mov != null && mov.speed    != null) setField(template, "speed",          mov.speed);
+        if (mov != null && mov.moveRate != null) setField(template, "moveRate",        mov.moveRate);
+        if (cbt != null && cbt.aggressivity   != null) setField(template, "aggressivity",  cbt.aggressivity);
+        if (arm != null && arm.naturalArmour  != null) setField(template, "naturalArmour", arm.naturalArmour);
+        if (leg != null && leg.hand   != null) setField(template, "handDamage",      leg.hand);
+        if (leg != null && leg.kick   != null) setField(template, "kickDamage",      leg.kick);
+        if (leg != null && leg.bite   != null) setField(template, "biteDamage",      leg.bite);
+        if (leg != null && leg.head   != null) setField(template, "headButtDamage",  leg.head);
+        if (leg != null && leg.breath != null) setField(template, "breathDamage",    leg.breath);
+
         if (def.sounds != null) {
             CreatureDefinition.Sounds s = def.sounds;
             if (s.deathMale   != null) setField(template, "deathSoundMale",   s.deathMale);
@@ -188,24 +310,46 @@ public class CreatureHandler implements ContentHandler<CreatureDefinition> {
         }
     }
 
-    // --- Reflection helpers ---
-
-    private static void setBoolean(Object target, String fieldName, boolean value) {
+    @SuppressWarnings("unchecked")
+    private AttackAction buildAttackAction(CreatureDefinition.AttackEntry e, int creatureId) {
+        if (e.identifier == null || e.values == null) {
+            logger.warning("WurmTweaker: attack entry for creature id=" + creatureId
+                    + " missing identifier or values — skipping");
+            return null;
+        }
         try {
-            Field f = findField(target.getClass(), fieldName);
-            f.setAccessible(true);
-            f.setBoolean(target, value);
-        } catch (Exception e) {
-            logger.warning("WurmTweaker: could not set boolean field '" + fieldName
-                    + "': " + e.getMessage());
+            String key = e.identifier.replaceFirst("^AttackIdentifier\\.", "");
+            Class<?> identifierCls = Class.forName("com.wurmonline.server.creatures.AttackIdentifier");
+            Object identifier = Enum.valueOf((Class<Enum>) identifierCls, key);
+
+            CreatureDefinition.AttackValues v = e.values;
+            AttackValues attackValues = new AttackValues(
+                    v.baseDamage          != null ? v.baseDamage.floatValue()          : 0f,
+                    v.criticalChance      != null ? v.criticalChance.floatValue()      : 0f,
+                    v.baseSpeed           != null ? v.baseSpeed.floatValue()           : 1f,
+                    v.attackReach         != null ? v.attackReach                      : 1,
+                    v.weightGroup         != null ? v.weightGroup                      : 0,
+                    v.damageType          != null ? v.damageType.byteValue()           : (byte) 0,
+                    v.usesWeapon          != null ? v.usesWeapon                       : false,
+                    v.rounds              != null ? v.rounds                           : 1,
+                    v.waitUntilNextAttack != null ? v.waitUntilNextAttack.floatValue() : 0f
+            );
+
+            Constructor<?> ctor = AttackAction.class.getDeclaredConstructor(
+                    String.class, identifierCls, AttackValues.class);
+            return (AttackAction) ctor.newInstance(e.name, identifier, attackValues);
+        } catch (Exception ex) {
+            logger.warning("WurmTweaker: could not build AttackAction for creature id=" + creatureId
+                    + ": " + ex.getMessage());
+            return null;
         }
     }
+
+    // --- Reflection helpers ---
 
     private static void setField(Object target, String fieldName, Object value) {
         try {
             Field f = findField(target.getClass(), fieldName);
-            // WHY: removing final modifier before assignment — same pattern used by SkillHandler
-            // for SkillList.skillArray; required to overwrite private final fields at runtime.
             f.setAccessible(true);
             Field modifiers = Field.class.getDeclaredField("modifiers");
             modifiers.setAccessible(true);
@@ -241,13 +385,13 @@ public class CreatureHandler implements ContentHandler<CreatureDefinition> {
     private static String sound(CreatureDefinition.Sounds sounds, boolean isDeath, boolean isMale) {
         if (sounds == null) return "";
         if (isDeath) {
-            if (isMale) return sounds.deathMale   != null ? sounds.deathMale   : "";
+            if (isMale) return sounds.deathMale != null ? sounds.deathMale : "";
             String fallback = sounds.deathMale != null ? sounds.deathMale : "";
             return sounds.deathFemale != null ? sounds.deathFemale : fallback;
         } else {
-            if (isMale) return sounds.hitMale     != null ? sounds.hitMale     : "";
+            if (isMale) return sounds.hitMale != null ? sounds.hitMale : "";
             String fallback = sounds.hitMale != null ? sounds.hitMale : "";
-            return sounds.hitFemale   != null ? sounds.hitFemale   : fallback;
+            return sounds.hitFemale != null ? sounds.hitFemale : fallback;
         }
     }
 }
