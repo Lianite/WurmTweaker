@@ -1,5 +1,6 @@
 package org.gotti.wurmtweaker.creatures;
 
+import com.wurmonline.mesh.Tiles;
 import com.wurmonline.server.combat.ArmourTemplate;
 import com.wurmonline.server.creatures.AttackAction;
 import com.wurmonline.server.creatures.AttackValues;
@@ -7,8 +8,10 @@ import com.wurmonline.server.creatures.CreatureTemplate;
 import com.wurmonline.server.creatures.CreatureTemplateFactory;
 import com.wurmonline.server.creatures.NoSuchCreatureTemplateException;
 import com.wurmonline.server.skills.Skills;
+import com.wurmonline.server.zones.EncounterType;
 import org.gotti.wurmtweaker.json.ContentHandler;
 import org.gotti.wurmunlimited.modsupport.CreatureTemplateBuilder;
+import org.gotti.wurmunlimited.modsupport.creatures.EncounterBuilder;
 import org.gotti.wurmunlimited.modsupport.creatures.ModCreature;
 import org.gotti.wurmunlimited.modsupport.creatures.ModCreatures;
 
@@ -44,6 +47,31 @@ public class CreatureHandler implements ContentHandler<CreatureDefinition> {
         ARMOUR_TYPES.put("ARMOUR_TYPE_SCALE_DRAGON",   ArmourTemplate.ARMOUR_TYPE_SCALE_DRAGON);
     }
 
+    private static final Map<String, Byte> TILE_TYPES;
+    private static final Map<String, Byte> ELEVATIONS;
+    static {
+        TILE_TYPES = new LinkedHashMap<String, Byte>();
+        TILE_TYPES.put("grass",    (byte) Tiles.Tile.TILE_GRASS.id);
+        TILE_TYPES.put("steppe",   (byte) Tiles.Tile.TILE_STEPPE.id);
+        TILE_TYPES.put("tree",     (byte) Tiles.Tile.TILE_TREE.id);
+        TILE_TYPES.put("sand",     (byte) Tiles.Tile.TILE_SAND.id);
+        TILE_TYPES.put("clay",     (byte) Tiles.Tile.TILE_CLAY.id);
+        TILE_TYPES.put("marsh",    (byte) Tiles.Tile.TILE_MARSH.id);
+        TILE_TYPES.put("mycelium", (byte) Tiles.Tile.TILE_MYCELIUM.id);
+        TILE_TYPES.put("rock",     (byte) Tiles.Tile.TILE_ROCK.id);
+        TILE_TYPES.put("cave",     (byte) Tiles.Tile.TILE_CAVE.id);
+        TILE_TYPES.put("lava",     (byte) Tiles.Tile.TILE_LAVA.id);
+
+        ELEVATIONS = new LinkedHashMap<String, Byte>();
+        ELEVATIONS.put("ground",      EncounterType.ELEVATION_GROUND);
+        ELEVATIONS.put("water",       EncounterType.ELEVATION_WATER);
+        ELEVATIONS.put("deep-water",  EncounterType.ELEVATION_DEEP_WATER);
+        ELEVATIONS.put("flying",      EncounterType.ELEVATION_FLYING);
+        ELEVATIONS.put("flying-high", EncounterType.ELEVATION_FLYING_HIGH);
+        ELEVATIONS.put("beach",       EncounterType.ELEVATION_BEACH);
+        ELEVATIONS.put("cave",        EncounterType.ELEVATION_CAVES);
+    }
+
     private final List<CreatureDefinition> pendingDefs = new ArrayList<>();
 
     @Override
@@ -73,6 +101,43 @@ public class CreatureHandler implements ContentHandler<CreatureDefinition> {
                 @Override
                 public CreatureTemplateBuilder createCreateTemplateBuilder() {
                     return buildTemplate(def);
+                }
+
+                @Override
+                public void addEncounters() {
+                    if (def.spawns == null) return;
+                    for (CreatureDefinition.SpawnEntry entry : def.spawns) {
+                        if (entry.tile == null || entry.elevation == null) {
+                            logger.warning("WurmTweaker: spawn entry for creature id=" + def.id
+                                    + " missing tile or elevation — skipping");
+                            continue;
+                        }
+                        Byte tileId = TILE_TYPES.get(entry.tile);
+                        Byte elevId = ELEVATIONS.get(entry.elevation);
+                        if (tileId == null) {
+                            logger.warning("WurmTweaker: unknown spawn tile '" + entry.tile
+                                    + "' for creature id=" + def.id
+                                    + " — skipping. Valid values: " + TILE_TYPES.keySet());
+                            continue;
+                        }
+                        if (elevId == null) {
+                            logger.warning("WurmTweaker: unknown spawn elevation '" + entry.elevation
+                                    + "' for creature id=" + def.id
+                                    + " — skipping. Valid values: " + ELEVATIONS.keySet());
+                            continue;
+                        }
+                        int count  = entry.count  != null ? entry.count  : 1;
+                        int chance = entry.chance != null ? entry.chance : 1;
+                        try {
+                            new EncounterBuilder(tileId, elevId)
+                                    .addCreatures(def.id, count)
+                                    .build(chance);
+                        } catch (RuntimeException e) {
+                            logger.warning("WurmTweaker: failed to register spawn for creature id="
+                                    + def.id + " tile=" + entry.tile
+                                    + " elevation=" + entry.elevation + ": " + e.getMessage());
+                        }
+                    }
                 }
             });
         }

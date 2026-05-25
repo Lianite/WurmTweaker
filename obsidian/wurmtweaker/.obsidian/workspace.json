@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Skill IDs.md",
+                "file": "Reference/Item Template Fields.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Skill IDs"
+              "title": "Item Template Fields"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reference/Skill IDs.md",
+                "file": "Reference/Item Template Fields.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Skill IDs"
+              "title": "Backlinks for Item Template Fields"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reference/Skill IDs.md",
+                "file": "Reference/Item Template Fields.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Skill IDs"
+              "title": "Outgoing links from Item Template Fields"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reference/Skill IDs.md",
+                "file": "Reference/Item Template Fields.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Skill IDs"
+              "title": "Outline of Item Template Fields"
             }
           }
         ]
@@ -185,28 +185,36 @@
   },
   "active": "12d6dc4d63b9764d",
   "lastOpenFiles": [
+    "Reference/Item Template Fields.md.tmp.4748.1e94894985fe",
+    "Reference/Item Sizes.md",
+    "Reference/Item Sizes.md.tmp.4748.e13c9038b802",
+    "Reference/Item Template Fields.md.tmp.4748.4fcffecae6e4",
+    "Reference/Item Materials.md.tmp.4748.449c5dee98d6",
+    "Reference/Item Types.md.tmp.4748.ba12ddc750d6",
+    "Reference/Item Materials.md",
+    "Reference/Item Types.md",
+    "Reference/Item Template Fields.md",
+    "Tasks/TASK-005 Items.md",
+    "Reference/Item Materials.md.tmp.4748.f82f19ba1c5d",
+    "Reference/Item Types.md.tmp.4748.31e6e629eda5",
+    "Reference/Item Template Fields.md.tmp.4748.ade0d9bbb6b1",
+    "Tasks/TASK-005 Items.md.tmp.4748.2e0ffedcc726",
+    "Tasks/TASK-004c Creature Spawns.md",
+    "Tasks/TASK-004b Creatures Java Support.md",
+    "Reference/Creature Types.md",
+    "Tasks/TASK-006 Spawn Groups.md.tmp.28420.feb7e355388b",
+    "Tasks/TASK-006 Spawn Groups.md.tmp.28420.3fb3d2091cbd",
+    "Reference/Spawn Tiles.md",
+    "Tasks/TASK-006 Spawn Groups.md",
+    "Reference/Skill IDs.md",
     "Database/dbcreatures-table.md",
     "Database/dbcreatures.sql.md",
-    "Database/dbcreatures-table.md.tmp.28420.9367b74c6c01",
-    "Database/dbcreatures-table.md.tmp.28420.9888af1a945e",
     "Design/Overview.md",
-    "Database",
-    "Reference/Skill IDs.md",
-    "Reference/Creature Types.md",
     "Tasks/TASK-004 Creatures.md",
-    "Reference/Creature Types.md.tmp.28420.1929f73401fe",
-    "Reference/Skill IDs.md.tmp.28420.b0cc53b75aee",
     "Design/Creature Template Decisions.md",
-    "Design/Creature Template Decisions.md.tmp.28420.7662be277f3b",
     "Design/Guardrails.md",
-    "Design/Guardrails.md.tmp.28420.ae69fcf09cad",
     "Design/Architecture.md",
-    "Design/Architecture.md.tmp.28420.991617c160b4",
     "Design/North Star.md",
-    "Design/North Star.md.tmp.28420.6c35ccfb2092",
-    "Design/Overview.md.tmp.28420.dea0eb9ba4dc",
-    "Tasks/TASK-005 Items.md",
-    "Tasks/TASK-004b Creatures Java Support.md",
     "Tasks/TASK-003 Skills.md",
     "Tasks/TASK-002 JSON Infrastructure.md",
     "Tasks/TASK-001 Project Setup.md",

@@ -1,5 +1,6 @@
 package org.gotti.wurmtweaker;
 
+import org.gotti.wurmtweaker.creatures.CreatureDbHooks;
 import org.gotti.wurmtweaker.creatures.CreatureHandler;
 import org.gotti.wurmtweaker.json.JsonLoader;
 import org.gotti.wurmtweaker.skills.SkillHandler;
@@ -29,6 +30,7 @@ public class WurmTweaker implements WurmServerMod, Configurable, Initable, Serve
 
     @Override
     public void init() {
+        CreatureDbHooks.register();
         jsonLoader = new JsonLoader(dataDir);
         creatureHandler = new CreatureHandler();
         jsonLoader.registerHandler(creatureHandler);

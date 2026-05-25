@@ -57,6 +57,8 @@ public class CreatureDefinition {
     public Float    offZ;
     public String[] colourNames;
     public ColorDef color;
+    public List<SpawnEntry> spawns;
+
     public String   creatureAI;
     public String   note;
 
@@ -163,5 +165,12 @@ public class CreatureDefinition {
         public Integer red;
         public Integer green;
         public Integer blue;
+    }
+
+    public static class SpawnEntry {
+        public String  tile;
+        public String  elevation;
+        public Integer count;
+        public Integer chance;
     }
 }

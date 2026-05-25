@@ -7,7 +7,11 @@
       "Bash(Select-Object Name, FullName)",
       "PowerShell(Get-ChildItem -Path \"j:\\\\Git\\\\WurmTweaker\" -Force | Select-Object Name, @{Name='Type'; Expression={if\\($_.PSIsContainer\\){'Dir'}else{'File'}}})",
       "PowerShell(Get-ChildItem -Path \"j:\\\\Git\\\\WurmTweaker\\\\docs\" -Recurse -Force 2>$null | Where-Object {!$_.PSIsContainer} | Select-Object FullName)",
-      "PowerShell(Get-ChildItem -Path \"j:\\\\Git\\\\WurmTweaker\\\\obsidian\" -Recurse -Force 2>$null | Where-Object {!$_.PSIsContainer} | Select-Object FullName)"
+      "PowerShell(Get-ChildItem -Path \"j:\\\\Git\\\\WurmTweaker\\\\obsidian\" -Recurse -Force 2>$null | Where-Object {!$_.PSIsContainer} | Select-Object FullName)",
+      "Bash(mvn clean *)",
+      "Bash(dir target\\\\wurmtweaker.jar)",
+      "Bash(jar tf *)",
+      "Bash(findstr spawnTiles)"
     ]
   }
 }
