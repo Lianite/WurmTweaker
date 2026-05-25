@@ -42,7 +42,7 @@ The mod builder API lives in `ItemTemplateBuilder.java` (modsupport).
 | `imageNumber` | integer | Inventory icon ID (stored as short on template) |
 | `behaviourType` | integer | Behavior flags (stored as short on template) |
 | `combatDamage` | integer | Weapon damage value |
-| `decayTime` | integer | Seconds; Long.MAX_VALUE = no decay |
+| `decayTime` | integer (long) | Seconds; Long.MAX_VALUE = no decay |
 | `dimensions` | object | See nested object below |
 | `primarySkill` | integer | Skill ID — see [[Skill IDs]]; -10 = none |
 | `bodySpaces` | integer[] | Body slot IDs where item can be worn |
@@ -89,17 +89,23 @@ All values in centimeters.
 | `grows` | integer | templateId of grown form |
 | `harvestsTo` | integer | templateId of harvest result |
 | `dyeAmountGrams` | integer | Dye amount override |
-| `dyePrimaryAmountRequired` | integer | Primary dye required |
-| `dyeSecondaryAmountRequired` | integer | Secondary dye required |
-| `secondaryItemName` | string | Secondary item name |
-| `secondaryItemTemplateId` | integer | Secondary item template ID |
+| `dyeSecondaryAmountRequired` | integer | Secondary dye required — paired with `secondaryItemName` |
+| `secondaryItemName` | string | Secondary item name — paired with `dyeSecondaryAmountRequired` |
 | `updateExisting` | boolean | Update existing item instances in the world |
 
 ## Implementation Notes
 
-- `imageNumber` and `behaviourType` are shorts on `ItemTemplate` but delivered as integers from JSON. Confirm that `ItemTemplateBuilder` accepts these or that reflection handles the int-to-short cast.
-- `itemTypes` is the most nuanced field — `ItemTemplate` exposes 167 boolean properties all derived from whether a given `ITEM_TYPE_*` constant appears in this array. An item like wheat has 6 type flags. Getting this array right is critical for correct item behavior.
-- The old `modSupport-interface.js` called `assignTypes(types)` directly on the template. Check if `ItemTemplateBuilder` wraps this call.
+- **All 19 constructor fields are `private final`** — modifying vanilla templates requires reflection to strip the FINAL modifier before setting. Use the same `setField()` helper pattern as `CreatureHandler`.
+- `imageNumber` and `behaviourType` are `final short` — deliver as JSON integers, cast to `(short)` at apply time via `setField()`.
+- `material` is `byte` — deliver as JSON integer, cast to `(byte)` at apply time.
+- `bodySpaces` is `byte[]` — JSON delivers `int[]`, convert loop-cast before setting.
+- `itemTypes` — JSON delivers `int[]`, convert to `short[]`, then call `template.assignTypes(short[])` directly (public method). This sets all 167 derived boolean flags correctly.
+- `difficulty` is `float` — JSON `"number"` type, use `.floatValue()` from the POJO Float field.
+- `decayTime` is `long` — JSON integer maps to Long in the POJO; Long.MAX_VALUE = no decay.
+- `secondaryItemTemplateId` does not exist. The setter is `setSecondryItem(String name, int dyeSecondaryAmountRequired)` — note Wurm typo "Secndry".
+- `dyeAmountGrams` maps to the public `setDyeAmountGrams(int)` method.
+- Private methods (`setAlcoholStrength`, `setFoodGroup`, `setCrushsTo`, `setPickSeeds`, `setGrows`, `setHarvestsTo`) require `ReflectionUtil.callPrivateMethod()`.
+- `fragmentAmount` has no setter — use `setField()` directly on the field.
 
 ## Full JSON Schema
 
@@ -181,10 +187,8 @@ All values in centimeters.
     "grows":                       { "type": "integer" },
     "harvestsTo":                  { "type": "integer" },
     "dyeAmountGrams":              { "type": "integer" },
-    "dyePrimaryAmountRequired":    { "type": "integer" },
     "dyeSecondaryAmountRequired":  { "type": "integer" },
     "secondaryItemName":           { "type": "string" },
-    "secondaryItemTemplateId":     { "type": "integer" },
     "updateExisting":              { "type": "boolean" }
   }
 }

@@ -2,9 +2,7 @@
 
 ## Goal
 
-JSON-driven item customization using `ItemTemplateBuilder` where possible, and documented reflection for fields not covered by the builder. This is the final content phase.
-
-Item templates are defined across six `ItemTemplateCreator*.java` files, all registered through `ItemTemplateFactory.java`.
+JSON-driven item system — **modify existing vanilla templates** or **create brand-new templates** by dropping JSON files into `data/items/`. The handler detects which path to take based on the lookup key in the JSON definition. This is the final content phase.
 
 ## Status
 
@@ -34,91 +32,212 @@ Item modifications MUST happen in `onItemTemplatesCreated()`. This fires after `
 
 ## Known Fields
 
-### Required Fields
+### Lookup / Creation Key (exactly one required)
 
-| JSON Field | Java Type | Notes |
+| JSON Key | Type | Meaning |
 |---|---|---|
-| `templateId` | int | Integer template ID for lookup |
-| `size` | int | 1=TINY 2=SMALL 3=MEDIUM 4=LARGE 5=HUGE |
-| `name` | String | Singular item name |
-| `plural` | String | Plural item name |
-| `descriptions` | object | Nested: `superb`, `normal`, `bad`, `rotten`, `long` |
-| `itemTypes` | int[] | ITEM_TYPE_* constants (0–259) |
-| `imageNumber` | short | Inventory icon (JSON int, cast to short on apply) |
-| `behaviourType` | short | Behavior flags (JSON int, cast to short on apply) |
-| `combatDamage` | int | Weapon damage value |
-| `decayTime` | int | Seconds; `Long.MAX_VALUE` = no decay |
-| `dimensions` | object | Nested: `x`, `y`, `z` in centimeters |
-| `primarySkill` | int | Skill ID; -10 = none |
-| `bodySpaces` | int[] | Where item can be worn |
-| `modelName` | String | 3D model path |
-| `difficulty` | double | Crafting difficulty |
-| `weight` | int | Weight in grams |
-| `material` | int | MATERIAL_* constant (0–96) |
-| `value` | int | Coin value in irons |
-| `isPurchased` | boolean | Whether item can be bought from vendors |
+| `templateId` | int | Modify existing template by numeric ID |
+| `templateName` | String | Modify existing template by name (resolves via `ItemList`) |
+| `identifier` | String | Create new template via `ItemTemplateBuilder` — ID persists across restarts |
 
-### Optional Fields
+`identifier` → creation path (all required fields must be present). `templateId`/`templateName` → modification path (only changed fields needed).
 
-| JSON Field | Java Type | Notes |
+### Core Fields (required for creation; optional for modification)
+
+| JSON Key | POJO Type | ItemTemplate Field | Template Type | Notes |
+|---|---|---|---|---|
+| `name` | String | `name` | private final String | — |
+| `plural` | String | `plural` | private final String | — |
+| `size` | Integer | `size` | private final int | 1=TINY…5=HUGE |
+| `imageNumber` | Integer | `imageNumber` | public final short | Cast int→short on apply |
+| `behaviourType` | Integer | `behaviourType` | private final short | Cast int→short on apply |
+| `combatDamage` | Integer | `combatDamage` | private final int | — |
+| `decayTime` | Long | `decayTime` | private final long | — |
+| `primarySkill` | Integer | `primarySkill` | private final int | -10 = none |
+| `modelName` | String | `modelName` | private final String | — |
+| `difficulty` | Float | `difficulty` | private final float | — |
+| `weight` | Integer | `weight` | private final int | Grams |
+| `material` | Integer | `material` | private final byte | Cast int→byte on apply |
+| `value` | Integer | `value` | private final int | Irons |
+| `isPurchased` | Boolean | `isPurchased` | private final boolean | — |
+
+#### Descriptions (each private final String)
+
+| JSON Key | POJO Field | ItemTemplate Field |
 |---|---|---|
-| `containerSize` | object | Nested: `x`, `y`, `z` — for containers |
-| `nutrition` | object | Nested: `calories`, `carbs`, `fats`, `proteins` |
-| `foodGroup` | int | Food group enum |
-| `alcoholStrength` | int | Alcohol potency |
-| `maxItemCount` | int | Max items in container |
-| `maxItemWeight` | int | Max weight per contained item (grams) |
-| `fragmentAmount` | int | Fragment count |
-| `crushsTo` | int | templateId of result when crushed |
-| `pickSeeds` | int | templateId of seed when picked |
-| `grows` | int | templateId of grown form |
-| `harvestsTo` | int | templateId of harvest result |
-| `dyeAmountGrams` | int | Dye amount override |
-| `dyePrimaryAmountRequired` | int | Primary dye amount required |
-| `dyeSecondaryAmountRequired` | int | Secondary dye amount required |
-| `secondaryItemName` | String | Secondary item name |
-| `secondaryItemTemplateId` | int | Secondary item template ID |
-| `updateExisting` | boolean | Whether to update existing item instances |
+| `descriptions.superb` | `descriptionSuperb` | `itemDescriptionSuperb` |
+| `descriptions.normal` | `descriptionNormal` | `itemDescriptionNormal` |
+| `descriptions.bad` | `descriptionBad` | `itemDescriptionBad` |
+| `descriptions.rotten` | `descriptionRotten` | `itemDescriptionRotten` |
+| `descriptions.long` | `descriptionLong` | `itemDescriptionLong` |
 
-## Research Required Before Implementing
+#### Dimensions (each private final int)
 
-1. **What does `ItemTemplateBuilder` expose?**
-   Check `org.gotti.wurmunlimited.modsupport.ItemTemplateBuilder` for all setter methods. Map each required field above to either "use builder" or "use reflection."
+| JSON Key | POJO Field | ItemTemplate Field |
+|---|---|---|
+| `dimensions.x` | `centimetersX` | `centimetersX` |
+| `dimensions.y` | `centimetersY` | `centimetersY` |
+| `dimensions.z` | `centimetersZ` | `centimetersZ` |
 
-2. **How are `itemTypes` flags set?**
-   Items can have many type flags (e.g. wheat has 6). The old JS code calls `assignTypes(types)` on the template. Check if `ItemTemplateBuilder` wraps this, or whether we call it via reflection. There are 167 boolean properties on `ItemTemplate` all derived from whether a given `ITEM_TYPE_*` constant is present — setting this array correctly is critical.
+#### Body Spaces and Item Types
 
-3. **`imageNumber` and `behaviourType` are shorts — JSON delivers ints.**
-   Confirm whether `ItemTemplateBuilder` accepts int/short, or whether `ReflectionUtil.setPrivateField()` handles the int-to-short cast.
+| JSON Key | POJO Type | ItemTemplate Type | Notes |
+|---|---|---|---|
+| `bodySpaces` | int[] | private final byte[] | Convert int[]→byte[] on apply |
+| `itemTypes` | int[] | (set via method) | Convert int[]→short[], call `assignTypes(short[])` |
 
-4. **Template lookup is by integer `templateId`.**
-   Confirmed from schema and old JS baseline. Consider name-based lookup as a fallback.
+### Optional Fields — Public Setters
+
+| JSON Key | POJO Type | Apply Method |
+|---|---|---|
+| `containerSize` | Nested {x,y,z} | `setContainerSize(int, int, int)` |
+| `maxItemCount` | Integer | `setMaxItemCount(int)` |
+| `maxItemWeight` | Integer | `setMaxItemWeight(int)` |
+| `nutrition` | Nested {calories,carbs,fats,proteins} | `setNutritionValues(int,int,int,int)` |
+| `dyeAmountGrams` | Integer | `setDyeAmountGrams(int)` |
+| `secondaryItemName` | String | `setSecondryItem(String, int)` — Wurm typo |
+| `dyeSecondaryAmountRequired` | Integer | `setSecondryItem(String, int)` — paired with above |
+
+### Optional Fields — Private Methods (ReflectionUtil)
+
+| JSON Key | POJO Type | Private Method |
+|---|---|---|
+| `alcoholStrength` | Integer | `setAlcoholStrength` |
+| `foodGroup` | Integer | `setFoodGroup` |
+| `crushsTo` | Integer | `setCrushsTo` |
+| `pickSeeds` | Integer | `setPickSeeds` |
+| `grows` | Integer | `setGrows` |
+| `harvestsTo` | Integer | `setHarvestsTo` |
+
+### Optional Fields — Direct Field Reflection
+
+| JSON Key | POJO Type | ItemTemplate Field |
+|---|---|---|
+| `fragmentAmount` | Integer | `fragmentAmount` (no setter) |
+
+## Research Findings
+
+1. **ItemTemplateBuilder covers all fields** but is for creating new templates — we bypass it. Modification path: `ItemTemplateFactory.getInstance().getTemplateOrNull(int)` → mutate directly.
+
+2. **`assignTypes(short[])`** is public on `ItemTemplate`. Call it directly after converting JSON `int[]` to `short[]`.
+
+3. **`imageNumber` and `behaviourType`** are `private final short`. Use our own `setFinalField()` helper (same pattern as CreatureHandler) with an explicit `(short)` cast. `ReflectionUtil.setPrivateField()` does NOT strip FINAL — we need our own helper.
+
+4. **Template lookup** supports both `templateId` (int) and `templateName` (String). For name lookup, use `ItemIdParser` from the modloader (`org.gotti.wurmunlimited.modsupport.items.ItemIdParser`) to resolve via `ItemList` constants.
+
+5. **`isPurchased` vs `isTraded`** — builder calls it `isTraded`; the actual `ItemTemplate` field is `isPurchased`. Use `isPurchased` everywhere.
+
+6. **`ReflectionUtil`** is on the classpath (modlauncher JAR, `provided` scope). Use `callPrivateMethod()` for the six private setter methods. Do NOT use `setPrivateField()` for final fields — implement `setFinalField()` instead.
+
+7. **`ModItems`** (`org.gotti.wurmunlimited.modsupport.items.ModItems`) is a runtime model-name hook, not a template registry. Not needed for TASK-005. Relevant only if per-item model overrides are needed in the future.
+
+8. **Schema corrections:**
+   - `secondaryItemTemplateId` removed — does not exist on `ItemTemplate`
+   - `dyeAmountGrams` replaces `dyePrimaryAmountRequired` (matches the public setter name)
+   - `decayTime` POJO type is `Long` (not Integer)
+   - `difficulty` POJO type is `Float` (not double)
+
+## Implementation Plan
+
+### Template Lookup
+
+Support both `templateId` (int) and `templateName` (String) in `ItemDefinition`. Priority: `templateId` if set, else resolve `templateName` via `new ItemIdParser().parse(templateName)`. If neither set, log and skip.
+
+### Reflection Helpers
+
+**`setFinalField(Object target, String fieldName, Object value)`** — strips FINAL modifier, then sets. Same pattern as `CreatureHandler.setField()`.
+
+**`ReflectionUtil.callPrivateMethod()`** — use for the six private non-final setter methods (alcoholStrength, foodGroup, crushsTo, pickSeeds, grows, harvestsTo). Already on classpath.
+
+### Apply Strategy
+
+- **Group A — core final fields:** `setField()` helper with type cast at call site
+- **Group B — itemTypes:** convert `int[]` → `short[]`, call `template.assignTypes(short[])`
+- **Group C — public setters:** call directly on template
+- **Group D — private methods:** `ReflectionUtil.callPrivateMethod(template, ReflectionUtil.getMethod(ItemTemplate.class, "methodName"), value)`
+- **Group E — no setter (fragmentAmount):** `setField()` helper
+
+### Type Conversions at Apply Time
+
+| From (JSON/POJO) | To (template) | How |
+|---|---|---|
+| Integer | short | `(short)(int)` value |
+| Integer | byte | `(byte)(int)` value |
+| int[] | short[] | loop cast |
+| int[] | byte[] | loop cast |
+| Float | float | `.floatValue()` |
+
+### ItemDefinition POJO Design
+
+All fields except `templateId` are boxed types (Integer, Long, Float, Boolean) so Gson leaves them null when absent. Use nested static inner classes for `Descriptions` and `Dimensions`.
+
+### Handler Flow
+
+```
+onItemTemplatesCreated() → jsonLoader.loadType("item")
+
+ItemHandler.handle(ItemDefinition def):
+  if def.identifier != null:
+    // Creation path
+    validate all required fields non-null → log error and return if not
+    builder = new ItemTemplateBuilder(def.identifier)
+    builder.name(...).size(...).descriptions(...).itemTypes(toShortArray(...))
+           .imageNumber((short)...).behaviourType((short)...)...
+    template = builder.build()
+    apply optional post-build setters (containerSize, nutrition, etc.)
+  else:
+    // Modification path
+    template = lookupTemplate(def)  // by templateId or templateName
+    if null → log error, return
+    apply Group A (setFinalField: core private final fields)
+    apply Group B (assignTypes(short[]))
+    apply Group C (public setters)
+    apply Group D (ReflectionUtil.callPrivateMethod)
+    apply Group E (setFinalField: fragmentAmount)
+```
 
 ## Example JSON
 
-`data/items/longsword.json`:
+**Modification:**
 ```json
 {
   "type": "item",
   "templateId": 7,
-  "name": "steel longsword",
-  "plural": "steel longswords",
-  "descriptions": {
-    "superb": "a superb steel longsword",
-    "normal": "a steel longsword",
-    "bad": "a poorly made steel longsword",
-    "rotten": "a ruined steel longsword",
-    "long": "A longsword forged from steel."
-  },
-  "dimensions": { "x": 5, "y": 80, "z": 1 },
   "combatDamage": 22,
   "weight": 1200,
   "difficulty": 35.0
 }
 ```
 
+**Creation:**
+```json
+{
+  "type": "item",
+  "identifier": "wurmtweaker:runedblade",
+  "name": "runed blade",
+  "plural": "runed blades",
+  "descriptions": { "superb": "...", "normal": "...", "bad": "...", "rotten": "...", "long": "..." },
+  "itemTypes": [2, 16, 35, 37],
+  "imageNumber": 128,
+  "behaviourType": 0,
+  "combatDamage": 28,
+  "decayTime": 9072000,
+  "dimensions": { "x": 4, "y": 90, "z": 1 },
+  "primarySkill": 102,
+  "bodySpaces": [],
+  "modelName": "model.weapon.sword.longsword",
+  "difficulty": 50.0,
+  "weight": 1100,
+  "material": 9,
+  "value": 40000,
+  "isPurchased": false
+}
+```
+
 ## Verification
 
-- Drop `longsword.json`, start server → in-game longsword has modified stats
-- Missing `templateId` → validation error logged, item skipped, server runs normally
+- **Modification:** Drop `longsword.json`, start server → existing item has modified stats
+- **Creation:** Drop `runed-blade.json`, start server → new item exists in game
+- Missing lookup key → validation error logged, item skipped, server continues
+- Creation with missing required field → validation error logged, item skipped
 - Unknown field in JSON → Gson ignores it, no crash
