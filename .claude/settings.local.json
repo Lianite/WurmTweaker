@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:github.com)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(Get-ChildItem -Path \"j:\\\\Git\\\\WurmTweaker\" -Force)",
+      "Bash(Select-Object Name, FullName)",
+      "PowerShell(Get-ChildItem -Path \"j:\\\\Git\\\\WurmTweaker\" -Force | Select-Object Name, @{Name='Type'; Expression={if\\($_.PSIsContainer\\){'Dir'}else{'File'}}})",
+      "PowerShell(Get-ChildItem -Path \"j:\\\\Git\\\\WurmTweaker\\\\docs\" -Recurse -Force 2>$null | Where-Object {!$_.PSIsContainer} | Select-Object FullName)",
+      "PowerShell(Get-ChildItem -Path \"j:\\\\Git\\\\WurmTweaker\\\\obsidian\" -Recurse -Force 2>$null | Where-Object {!$_.PSIsContainer} | Select-Object FullName)"
     ]
   }
 }
