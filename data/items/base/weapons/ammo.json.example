@@ -1,0 +1,196 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 455,
+    "name": "hunting arrow",
+    "plural": "hunting arrows",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An arrow with a thin straight head that can more easily be pulled out of a killed creature."
+    },
+    "itemTypes": [
+      21,
+      44,
+      108,
+      113,
+      146,
+      147
+    ],
+    "imageNumber": 1235,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.arrow.hunting.",
+    "difficulty": 10.0,
+    "weight": 140,
+    "material": 14,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 456,
+    "name": "war arrow",
+    "plural": "war arrows",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An arrow with barbs designed to inflict damage to anyone trying to pull the arrow out."
+    },
+    "itemTypes": [
+      21,
+      44,
+      108,
+      113,
+      146,
+      147
+    ],
+    "imageNumber": 1215,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.arrow.war.",
+    "difficulty": 15.0,
+    "weight": 140,
+    "material": 14,
+    "value": 30,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 462,
+    "name": "quiver",
+    "plural": "quivers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A quiver sown from leather, designed to be hanging across your back or from your hips."
+    },
+    "itemTypes": [
+      1,
+      23,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 760,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 8,
+      "z": 41
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      41,
+      42
+    ],
+    "modelName": "model.container.quiver.",
+    "difficulty": 15.0,
+    "weight": 250,
+    "material": 16,
+    "value": 2000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 830,
+    "name": "fragile arrow",
+    "plural": "fragile arrows",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An slender arrow with a piercing tip designed to inflict massive damage and then break."
+    },
+    "itemTypes": [
+      21,
+      45,
+      59
+    ],
+    "imageNumber": 1215,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 1,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.arrow.war.",
+    "difficulty": 15.0,
+    "weight": 140,
+    "material": 14,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 932,
+    "name": "ballista dart",
+    "plural": "ballista darts",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A long dart with a four-sided pyramidal head which will pierce even thick shields."
+    },
+    "itemTypes": [
+      21,
+      44,
+      108,
+      113,
+      146,
+      147
+    ],
+    "imageNumber": 1215,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.arrow.ballista.",
+    "difficulty": 45.0,
+    "weight": 500,
+    "material": 14,
+    "value": 30,
+    "isPurchased": false
+  }
+]

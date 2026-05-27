@@ -1,0 +1,600 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 406,
+    "name": "slab",
+    "plural": "slabs",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A flat and square stone slab. It is about your length and width."
+    },
+    "itemTypes": [
+      25,
+      44,
+      51,
+      86,
+      135,
+      146,
+      158,
+      242,
+      243
+    ],
+    "imageNumber": 689,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 50,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.slab.",
+    "difficulty": 3.0,
+    "weight": 80000,
+    "material": 15,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 769,
+    "name": "clay brick",
+    "plural": "clay brick",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clay brick that could be hardened by fire."
+    },
+    "itemTypes": [
+      108,
+      113,
+      129,
+      146,
+      196
+    ],
+    "imageNumber": 574,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.brick.",
+    "difficulty": 3.0,
+    "weight": 5000,
+    "material": 18,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 771,
+    "name": "slate slab",
+    "plural": "slate slabs",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A flat and square slate slab. It is about your length and width."
+    },
+    "itemTypes": [
+      25,
+      44,
+      51,
+      86,
+      135,
+      146,
+      158,
+      242,
+      243
+    ],
+    "imageNumber": 689,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 50,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.slab.",
+    "difficulty": 3.0,
+    "weight": 80000,
+    "material": 61,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 776,
+    "name": "pottery brick",
+    "plural": "pottery bricks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A pottery brick hardened by fire."
+    },
+    "itemTypes": [
+      30,
+      92,
+      108,
+      146,
+      147,
+      242,
+      243
+    ],
+    "imageNumber": 575,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.brick.pottery",
+    "difficulty": 3.0,
+    "weight": 5000,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 777,
+    "name": "clay shingle",
+    "plural": "clay shingles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Clay shaped into a flat shingle."
+    },
+    "itemTypes": [
+      25,
+      113,
+      129,
+      146,
+      158,
+      196
+    ],
+    "imageNumber": 576,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.brick.",
+    "difficulty": 1.0,
+    "weight": 2000,
+    "material": 18,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 778,
+    "name": "pottery shingle",
+    "plural": "pottery shingles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Pottery shaped into a flat shingle."
+    },
+    "itemTypes": [
+      25,
+      113,
+      129,
+      146,
+      158
+    ],
+    "imageNumber": 577,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.shingle.",
+    "difficulty": 1.0,
+    "weight": 2000,
+    "material": 19,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 782,
+    "name": "concrete",
+    "plural": "concrete",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Concrete, for instance used to raise cave floors."
+    },
+    "itemTypes": [
+      25,
+      46,
+      113,
+      146,
+      158,
+      247
+    ],
+    "imageNumber": 591,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 18000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.concrete.",
+    "difficulty": 25.0,
+    "weight": 3000,
+    "material": 18,
+    "value": 10,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 784,
+    "name": "slate shingle",
+    "plural": "slate shingles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Slate chiselled into a flat shingle."
+    },
+    "itemTypes": [
+      25,
+      113,
+      129,
+      146,
+      158
+    ],
+    "imageNumber": 670,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.brick.",
+    "difficulty": 1.0,
+    "weight": 7500,
+    "material": 61,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 786,
+    "name": "marble brick",
+    "plural": "marble bricks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Marble chiselled into a cubic shape."
+    },
+    "itemTypes": [
+      25,
+      113,
+      129,
+      146,
+      158,
+      242,
+      243
+    ],
+    "imageNumber": 670,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.brick.",
+    "difficulty": 5.0,
+    "weight": 15000,
+    "material": 62,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 787,
+    "name": "marble slab",
+    "plural": "marble slabs",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A flat and square marble slab. It is about your length and width."
+    },
+    "itemTypes": [
+      25,
+      44,
+      51,
+      86,
+      135,
+      146,
+      158,
+      242,
+      243
+    ],
+    "imageNumber": 689,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 50,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.slab.",
+    "difficulty": 20.0,
+    "weight": 80000,
+    "material": 62,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 790,
+    "name": "wood shingle",
+    "plural": "wood shingles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Wood carved into a flat shingle."
+    },
+    "itemTypes": [
+      25,
+      113,
+      129,
+      146,
+      158
+    ],
+    "imageNumber": 626,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.shingle.",
+    "difficulty": 10.0,
+    "weight": 250,
+    "material": 14,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1121,
+    "name": "sandstone brick",
+    "plural": "sandstone bricks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A stone chiselled from sandstone into a cubic shape."
+    },
+    "itemTypes": [
+      25,
+      113,
+      129,
+      146,
+      158,
+      242,
+      243
+    ],
+    "imageNumber": 1450,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.brick.",
+    "difficulty": 1.0,
+    "weight": 15000,
+    "material": 89,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1122,
+    "name": "rounded stone",
+    "plural": "rounded stones",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A stone chiselled into a cubic shape without the sharp corners so it looks more like a stone."
+    },
+    "itemTypes": [
+      25,
+      113,
+      129,
+      146,
+      158,
+      242,
+      243
+    ],
+    "imageNumber": 1451,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.brick.rounded.",
+    "difficulty": 1.0,
+    "weight": 15000,
+    "material": 15,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1123,
+    "name": "slate brick",
+    "plural": "slate bricks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A stone chiselled into a cubic shape from slate."
+    },
+    "itemTypes": [
+      25,
+      113,
+      129,
+      146,
+      158,
+      242,
+      243
+    ],
+    "imageNumber": 1452,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.brick.",
+    "difficulty": 1.0,
+    "weight": 15000,
+    "material": 61,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1124,
+    "name": "sandstone slab",
+    "plural": "sandstone slabs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A flat and square sandstone slab. It is about your length and width."
+    },
+    "itemTypes": [
+      25,
+      44,
+      51,
+      86,
+      135,
+      146,
+      158,
+      242,
+      243
+    ],
+    "imageNumber": 1453,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 50,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.slab.",
+    "difficulty": 3.0,
+    "weight": 80000,
+    "material": 89,
+    "value": 0,
+    "isPurchased": false
+  }
+]

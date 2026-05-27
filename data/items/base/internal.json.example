@@ -1,0 +1,1331 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 0,
+    "name": "inventory",
+    "plural": "inventories",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "This is where you keep your things."
+    },
+    "itemTypes": [
+      1,
+      9,
+      112
+    ],
+    "imageNumber": 20,
+    "behaviourType": 49,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 400,
+      "y": 400,
+      "z": 4000
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.",
+    "difficulty": 200.0,
+    "weight": 0,
+    "material": 0,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 16,
+    "name": "body",
+    "plural": "bodies",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "strong",
+      "bad": "normal",
+      "rotten": "Weak",
+      "long": "A body."
+    },
+    "itemTypes": [
+      1,
+      8,
+      28
+    ],
+    "imageNumber": 0,
+    "behaviourType": 10,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.",
+    "difficulty": 200.0,
+    "weight": 0,
+    "material": 1,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 177,
+    "name": "pile of items",
+    "plural": "piles of items",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A pile of items."
+    },
+    "itemTypes": [
+      1,
+      45
+    ],
+    "imageNumber": 60,
+    "behaviourType": 2,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 4000,
+      "y": 4000,
+      "z": 4000
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.pile.",
+    "difficulty": 200.0,
+    "weight": 1000,
+    "material": 0,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 179,
+    "name": "unfinished item",
+    "plural": "unfinished items",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An item under construction."
+    },
+    "itemTypes": [
+      48,
+      135,
+      246
+    ],
+    "imageNumber": 60,
+    "behaviourType": 23,
+    "combatDamage": 0,
+    "decayTime": 29030400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.",
+    "difficulty": 10.0,
+    "weight": 0,
+    "material": 0,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 272,
+    "name": "corpse",
+    "plural": "corpses",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A dead body."
+    },
+    "itemTypes": [
+      1,
+      28,
+      48,
+      52,
+      54,
+      60,
+      63,
+      112,
+      211,
+      237,
+      255
+    ],
+    "imageNumber": 40,
+    "behaviourType": 28,
+    "combatDamage": 0,
+    "decayTime": 14400,
+    "dimensions": {
+      "x": 20,
+      "y": 50,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.corpse.",
+    "difficulty": 200.0,
+    "weight": 50000,
+    "material": 2,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 386,
+    "name": "unfinished item",
+    "plural": "unfinished items",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An item under construction."
+    },
+    "itemTypes": [
+      48,
+      246
+    ],
+    "imageNumber": 60,
+    "behaviourType": 23,
+    "combatDamage": 0,
+    "decayTime": 2419200,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.",
+    "difficulty": 10.0,
+    "weight": 0,
+    "material": 0,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 387,
+    "name": "illusionary item",
+    "plural": "items",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An illusion!"
+    },
+    "itemTypes": [
+      45,
+      48,
+      59
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 60,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.",
+    "difficulty": 10.0,
+    "weight": 0,
+    "material": 0,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 669,
+    "name": "bulk item",
+    "plural": "items",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A generic bulk item"
+    },
+    "itemTypes": [
+      31,
+      48,
+      54,
+      212,
+      216
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 19353600,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.",
+    "difficulty": 10.0,
+    "weight": 0,
+    "material": 0,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 670,
+    "name": "trash heap",
+    "plural": "trash heaps",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A simple trash heap with a base made from planks. Things sure rot away quickly in there."
+    },
+    "itemTypes": [
+      1,
+      21,
+      31,
+      44,
+      51,
+      52,
+      92,
+      108,
+      109,
+      135,
+      144,
+      147,
+      176
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 200,
+      "y": 200,
+      "z": 400
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.storagebin.trash.",
+    "difficulty": 1.0,
+    "weight": 20000,
+    "material": 14,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 671,
+    "name": "Deed border",
+    "plural": "markers",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A survey marker."
+    },
+    "itemTypes": [
+      31,
+      45,
+      52,
+      59
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 60,
+    "dimensions": {
+      "x": 30,
+      "y": 30,
+      "z": 300
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.marker.temporary.settle.",
+    "difficulty": 3.0,
+    "weight": 0,
+    "material": 21,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 672,
+    "name": "decayitem",
+    "plural": "items",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A quick decay item that looks like a wooden potato. It is used for testing decay."
+    },
+    "itemTypes": [
+      20,
+      21,
+      55,
+      59,
+      129
+    ],
+    "imageNumber": 500,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 1800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 7
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.potato.",
+    "difficulty": 200.0,
+    "weight": 100,
+    "material": 37,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 673,
+    "name": "Perimeter",
+    "plural": "markers",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A survey marker."
+    },
+    "itemTypes": [
+      31,
+      45,
+      52,
+      59
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 60,
+    "dimensions": {
+      "x": 30,
+      "y": 30,
+      "z": 300
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.marker.temporary.settle.perimeter.",
+    "difficulty": 3.0,
+    "weight": 0,
+    "material": 21,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 676,
+    "name": "mission ruler",
+    "plural": "mission rulers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A weird magical wooden ruler with obscure signs and letters. Its purpose seems to be to measure human progress in definite terms."
+    },
+    "itemTypes": [
+      21,
+      40,
+      42,
+      48,
+      53,
+      127
+    ],
+    "imageNumber": 759,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sprout.",
+    "difficulty": 99.0,
+    "weight": 10,
+    "material": 14,
+    "value": 100000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 737,
+    "name": "Valrei mission item",
+    "plural": "items",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A weird item belonging on Valrei."
+    },
+    "itemTypes": [
+      32,
+      59,
+      60,
+      147
+    ],
+    "imageNumber": 462,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.valrei.",
+    "difficulty": 300.0,
+    "weight": 100,
+    "material": 21,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 739,
+    "name": "Hota pillar",
+    "plural": "hota pillars",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This pillar is part of a game invented by the gods. When you control 4 pillars your side wins."
+    },
+    "itemTypes": [
+      25,
+      31,
+      32,
+      40,
+      48,
+      49,
+      52,
+      60,
+      67,
+      114,
+      92,
+      109,
+      123,
+      156,
+      178
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 100,
+      "y": 100,
+      "z": 500
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.pillar.hota.",
+    "difficulty": 39.0,
+    "weight": 1500000,
+    "material": 15,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 751,
+    "name": "mission ruler recharge",
+    "plural": "ruler recharges",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An inscribed piece of wood which can be used to recharge a mission ruler."
+    },
+    "itemTypes": [
+      21,
+      40,
+      42,
+      53,
+      127
+    ],
+    "imageNumber": 759,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sprout.",
+    "difficulty": 99.0,
+    "weight": 10,
+    "material": 14,
+    "value": 100000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 823,
+    "name": "equipmentslot",
+    "plural": "equipmentslots",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "strong",
+      "bad": "normal",
+      "rotten": "Weak",
+      "long": "A place to put equipment."
+    },
+    "itemTypes": [
+      1,
+      8,
+      170
+    ],
+    "imageNumber": 60,
+    "behaviourType": 10,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.",
+    "difficulty": 200.0,
+    "weight": 0,
+    "material": 1,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 824,
+    "name": "group",
+    "plural": "groups",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A group to help organize your things."
+    },
+    "itemTypes": [
+      1,
+      31,
+      42,
+      61,
+      112,
+      171,
+      178
+    ],
+    "imageNumber": 20,
+    "behaviourType": 49,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 400,
+      "y": 400,
+      "z": 4000
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.",
+    "difficulty": 200.0,
+    "weight": 0,
+    "material": 0,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 854,
+    "name": "tutorial object",
+    "plural": "tutorial objects",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": ""
+    },
+    "itemTypes": [
+      31,
+      40,
+      44,
+      48,
+      51,
+      52,
+      108
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 100,
+      "y": 100,
+      "z": 100
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "tutorial.object.",
+    "difficulty": 30.0,
+    "weight": 240000,
+    "material": 0,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1156,
+    "name": "any veg",
+    "plural": "any veg",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Any veg."
+    },
+    "itemTypes": [
+      5,
+      29,
+      208,
+      207,
+      223
+    ],
+    "imageNumber": 502,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 4,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.veg.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1157,
+    "name": "any cereal",
+    "plural": "any cereal",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Any cereal."
+    },
+    "itemTypes": [
+      5,
+      208,
+      207
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 6
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.cereal.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 4,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1158,
+    "name": "any herb",
+    "plural": "any herb",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Any herb."
+    },
+    "itemTypes": [
+      5,
+      78,
+      208,
+      207
+    ],
+    "imageNumber": 627,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1159,
+    "name": "any spice",
+    "plural": "any spice",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Any spice."
+    },
+    "itemTypes": [
+      5,
+      205,
+      208,
+      207
+    ],
+    "imageNumber": 694,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.spice.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1163,
+    "name": "any fruit",
+    "plural": "any fruit",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Any fruit."
+    },
+    "itemTypes": [
+      5,
+      80,
+      208,
+      207
+    ],
+    "imageNumber": 508,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.fruit.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1179,
+    "name": "any berry",
+    "plural": "any berry",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Any berry."
+    },
+    "itemTypes": [
+      5,
+      80,
+      208,
+      207
+    ],
+    "imageNumber": 489,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fruit.berries.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1197,
+    "name": "any nut",
+    "plural": "any nut",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Any nut."
+    },
+    "itemTypes": [
+      5,
+      208,
+      207
+    ],
+    "imageNumber": 507,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 4,
+      "y": 4,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.nut.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1198,
+    "name": "any cheese",
+    "plural": "any cheese",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Any cheese."
+    },
+    "itemTypes": [
+      5,
+      192,
+      208,
+      207,
+      224
+    ],
+    "imageNumber": 561,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.cheese.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 28,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1199,
+    "name": "any mushroom",
+    "plural": "any mushroom",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Any mushroom."
+    },
+    "itemTypes": [
+      5,
+      208,
+      207,
+      226
+    ],
+    "imageNumber": 586,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 3,
+      "y": 4,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.mushroom.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1200,
+    "name": "any milk",
+    "plural": "any milk",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Any milk."
+    },
+    "itemTypes": [
+      26,
+      88,
+      191,
+      208,
+      207
+    ],
+    "imageNumber": 541,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 28,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1201,
+    "name": "any fish",
+    "plural": "any fish",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Any fish."
+    },
+    "itemTypes": [
+      5,
+      36,
+      208,
+      207,
+      223
+    ],
+    "imageNumber": 504,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 10,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fish.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 2,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1261,
+    "name": "any meat",
+    "plural": "any meat",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Any meat (meat, meat fillet, cooked meat)."
+    },
+    "itemTypes": [
+      5,
+      28,
+      208,
+      207,
+      223
+    ],
+    "imageNumber": 503,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.meat.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1263,
+    "name": "any oil",
+    "plural": "any oil",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Any oil e.g. olive or cooking."
+    },
+    "itemTypes": [
+      26,
+      34,
+      88,
+      108,
+      113,
+      158,
+      208
+    ],
+    "imageNumber": 587,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.oil.",
+    "difficulty": 15.0,
+    "weight": 180,
+    "material": 25,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1267,
+    "name": "any flower",
+    "plural": "any flowers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Any flower."
+    },
+    "itemTypes": [
+      118,
+      208,
+      211,
+      207
+    ],
+    "imageNumber": 681,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.flower.flower1.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1307,
+    "name": "fragment",
+    "plural": "fragments",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fragment of another item. You think you can see how multiples of these fragments may fit together in a way that restores the original item."
+    },
+    "itemTypes": [
+      48,
+      157,
+      187,
+      233,
+      246
+    ],
+    "imageNumber": 1460,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fragment.",
+    "difficulty": 30.0,
+    "weight": 1000,
+    "material": 0,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1392,
+    "name": "item slot",
+    "plural": "item slots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An empty slot where an item should go."
+    },
+    "itemTypes": [
+      45,
+      233
+    ],
+    "imageNumber": 60,
+    "behaviourType": 0,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.unknown",
+    "difficulty": 99.0,
+    "weight": 1,
+    "material": 0,
+    "value": 0,
+    "isPurchased": false
+  }
+]

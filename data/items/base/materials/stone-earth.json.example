@@ -1,0 +1,556 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 26,
+    "name": "dirt",
+    "plural": "pile of dirt",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A lot of dirt, enough to raise the ground somewhere."
+    },
+    "itemTypes": [
+      25,
+      113,
+      129,
+      141,
+      146,
+      175
+    ],
+    "imageNumber": 590,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.dirt.",
+    "difficulty": 50.0,
+    "weight": 20000,
+    "material": 15,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 130,
+    "name": "clay",
+    "plural": "clay",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Grey sticky clay that could be easily formed into items."
+    },
+    "itemTypes": [
+      25,
+      46,
+      113,
+      141,
+      146,
+      174
+    ],
+    "imageNumber": 591,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 18000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.clay.",
+    "difficulty": 1.0,
+    "weight": 2000,
+    "material": 18,
+    "value": 10,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 132,
+    "name": "stone brick",
+    "plural": "stone bricks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A stone chiselled into a cubic shape."
+    },
+    "itemTypes": [
+      25,
+      113,
+      129,
+      146,
+      158,
+      242,
+      243
+    ],
+    "imageNumber": 670,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.brick.",
+    "difficulty": 1.0,
+    "weight": 15000,
+    "material": 15,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 146,
+    "name": "rock shards",
+    "plural": "rock shards",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Lots of different sized rock shards."
+    },
+    "itemTypes": [
+      25,
+      46,
+      48,
+      113,
+      129,
+      146,
+      175,
+      242,
+      243
+    ],
+    "imageNumber": 610,
+    "behaviourType": 46,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.",
+    "difficulty": 1.0,
+    "weight": 20000,
+    "material": 15,
+    "value": 5,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 298,
+    "name": "heap of sand",
+    "plural": "heaps of sand",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A lot of sand, enough to raise the ground somewhere."
+    },
+    "itemTypes": [
+      25,
+      46,
+      113,
+      129,
+      146,
+      147,
+      174
+    ],
+    "imageNumber": 593,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sand.",
+    "difficulty": 50.0,
+    "weight": 20000,
+    "material": 15,
+    "value": 5,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 467,
+    "name": "peat",
+    "plural": "peat",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A square piece of peat, perfect for burning."
+    },
+    "itemTypes": [
+      21,
+      27,
+      46,
+      113,
+      141,
+      146
+    ],
+    "imageNumber": 690,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 15,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.peat.",
+    "difficulty": 200.0,
+    "weight": 10000,
+    "material": 59,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 684,
+    "name": "rock",
+    "plural": "iron rock",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small vaguely reddish rock containing a few cavities lined with dark, metallic crystals."
+    },
+    "itemTypes": [
+      46,
+      113,
+      129,
+      141,
+      146,
+      157,
+      148,
+      151,
+      175
+    ],
+    "imageNumber": 618,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.rock.",
+    "difficulty": 200.0,
+    "weight": 3000,
+    "material": 11,
+    "value": 1,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 692,
+    "name": "boulder",
+    "plural": "boulders",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A huge boulder containing black chunks of glossy black rock lined with bleaker streaks of a dark metal."
+    },
+    "itemTypes": [
+      31,
+      52,
+      113,
+      152
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.boulder.",
+    "difficulty": 200.0,
+    "weight": 200000,
+    "material": 56,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 693,
+    "name": "ore",
+    "plural": "admantine ore",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A glossy black chunk of rock lined with bleaker streaks of a dark metal."
+    },
+    "itemTypes": [
+      46,
+      48,
+      113,
+      146,
+      157,
+      148
+    ],
+    "imageNumber": 596,
+    "behaviourType": 46,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.ore.",
+    "difficulty": 200.0,
+    "weight": 20000,
+    "material": 56,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 696,
+    "name": "boulder",
+    "plural": "boulders",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A huge boulder containing pale brittle rock sparkled with a shiny white metal."
+    },
+    "itemTypes": [
+      31,
+      52,
+      113,
+      157,
+      152
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.boulder.",
+    "difficulty": 200.0,
+    "weight": 200000,
+    "material": 57,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 697,
+    "name": "ore",
+    "plural": "glimmersteel ore",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This is a pale brittle rock sparkled with a shiny white metal."
+    },
+    "itemTypes": [
+      46,
+      48,
+      113,
+      146,
+      157,
+      148
+    ],
+    "imageNumber": 595,
+    "behaviourType": 46,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.ore.",
+    "difficulty": 200.0,
+    "weight": 20000,
+    "material": 57,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 770,
+    "name": "shards",
+    "plural": "slate shards",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Lots of different sized slate shards."
+    },
+    "itemTypes": [
+      25,
+      46,
+      48,
+      113,
+      129,
+      146,
+      175
+    ],
+    "imageNumber": 610,
+    "behaviourType": 46,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.",
+    "difficulty": 1.0,
+    "weight": 20000,
+    "material": 61,
+    "value": 5,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 785,
+    "name": "shards",
+    "plural": "marble shards",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Lots of different sized marble shards."
+    },
+    "itemTypes": [
+      25,
+      46,
+      48,
+      113,
+      129,
+      146,
+      175
+    ],
+    "imageNumber": 610,
+    "behaviourType": 46,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.",
+    "difficulty": 1.0,
+    "weight": 20000,
+    "material": 62,
+    "value": 5,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1116,
+    "name": "shards",
+    "plural": "sandstone shards",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Lots of different sized sandstone shards."
+    },
+    "itemTypes": [
+      25,
+      46,
+      48,
+      113,
+      129,
+      146,
+      175
+    ],
+    "imageNumber": 1449,
+    "behaviourType": 46,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.",
+    "difficulty": 50.0,
+    "weight": 20000,
+    "material": 89,
+    "value": 5,
+    "isPurchased": true
+  }
+]

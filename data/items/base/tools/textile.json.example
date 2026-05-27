@@ -1,0 +1,116 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 139,
+    "name": "spindle",
+    "plural": "wooden spindles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A spinning tool used to make cloth strings."
+    },
+    "itemTypes": [
+      21,
+      38,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 787,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.spindle.",
+    "difficulty": 10.0,
+    "weight": 600,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 215,
+    "name": "needle",
+    "plural": "iron needles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small iron needle."
+    },
+    "itemTypes": [
+      22,
+      38,
+      44,
+      147,
+      174
+    ],
+    "imageNumber": 788,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.needle.",
+    "difficulty": 1.0,
+    "weight": 5,
+    "material": 11,
+    "value": 1000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 216,
+    "name": "needle",
+    "plural": "copper needles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small copper needle."
+    },
+    "itemTypes": [
+      22,
+      38,
+      44,
+      157,
+      174
+    ],
+    "imageNumber": 788,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.needle.",
+    "difficulty": 1.0,
+    "weight": 5,
+    "material": 10,
+    "value": 1000,
+    "isPurchased": true
+  }
+]

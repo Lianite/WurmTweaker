@@ -30,12 +30,13 @@ These are the fields we believe are sensible to expose. Confirm against actual W
 
 | Field | Type | Description |
 |---|---|---|
-| `type` | String | Always `"skill"` |
-| `id` | String | Skill name as used in the game (e.g., `"Blacksmithing"`) |
+| `json-type` | String | Always `"skill"` — routes this object to `SkillHandler` |
+| `id` | int | Skill ID — see [[Skill IDs]] |
+| `type` | Short | Skill classification: 0=basic, 1=memory, 2=enhancing, 4=normal |
 | `difficulty` | Double | Multiplier or absolute value for skill gain difficulty |
 | `description` | String | Override for the skill's display description |
 
-All fields except `type` and `id` are optional. Missing fields mean "don't change this value."
+All fields except `json-type` and `id` are optional. Missing fields mean "don't change this value."
 
 ## SkillHandler Stub
 
@@ -76,8 +77,8 @@ DO NOT implement the `apply()` body until these questions are answered:
 `data/skills/example.json`:
 ```json
 {
-  "type": "skill",
-  "id": "Blacksmithing",
+  "json-type": "skill",
+  "id": 102,
   "difficulty": 1.5
 }
 ```

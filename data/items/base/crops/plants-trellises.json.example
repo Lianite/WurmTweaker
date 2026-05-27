@@ -1,0 +1,535 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 266,
+    "name": "sprout",
+    "plural": "sprouts",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A delicate tree sprout with a few tender leaves."
+    },
+    "itemTypes": [
+      21,
+      48,
+      146,
+      147
+    ],
+    "imageNumber": 484,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sprout.",
+    "difficulty": 200.0,
+    "weight": 200,
+    "material": 14,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 316,
+    "name": "wemp plants",
+    "plural": "wemp plants",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Some wemp plants. It has very strong fibres."
+    },
+    "itemTypes": [
+      46,
+      102,
+      129,
+      146
+    ],
+    "imageNumber": 547,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.wemp.",
+    "difficulty": 200.0,
+    "weight": 700,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 436,
+    "name": "acorn",
+    "plural": "acorns",
+    "size": 3,
+    "descriptions": {
+      "superb": "delicious",
+      "normal": "nice",
+      "bad": "old",
+      "rotten": "rotten",
+      "long": "A handful of oak acorns."
+    },
+    "itemTypes": [
+      103,
+      113,
+      146
+    ],
+    "imageNumber": 487,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.acorn.",
+    "difficulty": 100.0,
+    "weight": 200,
+    "material": 22,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 743,
+    "name": "reed plants",
+    "plural": "reed plants",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Some reed plants. It has very strong fibres."
+    },
+    "itemTypes": [
+      46,
+      102,
+      129,
+      146
+    ],
+    "imageNumber": 547,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.reed.",
+    "difficulty": 5.0,
+    "weight": 500,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 755,
+    "name": "kelp",
+    "plural": "bunches of kelp",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A brown algae long and slimy with air bladders clearly visible."
+    },
+    "itemTypes": [
+      46,
+      55,
+      113,
+      146,
+      157,
+      211
+    ],
+    "imageNumber": 599,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 4,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.flower.mixedgrass.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 917,
+    "name": "ivy seedling",
+    "plural": "ivy seedlings",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A tiny ivy seedling."
+    },
+    "itemTypes": [
+      146
+    ],
+    "imageNumber": 484,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sprout.",
+    "difficulty": 200.0,
+    "weight": 50,
+    "material": 0,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 918,
+    "name": "grape seedling",
+    "plural": "grape seedlings",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A tiny grape seedling."
+    },
+    "itemTypes": [
+      146,
+      157
+    ],
+    "imageNumber": 484,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sprout.",
+    "difficulty": 200.0,
+    "weight": 50,
+    "material": 0,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 919,
+    "name": "ivy trellis",
+    "plural": "trellises",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Some ivy vines growing up a sturdy wooden trellis."
+    },
+    "itemTypes": [
+      21,
+      44,
+      51,
+      52,
+      86,
+      108,
+      167,
+      178,
+      199,
+      230
+    ],
+    "imageNumber": 420,
+    "behaviourType": 58,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 250,
+      "z": 300
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.trellis.ivy.",
+    "difficulty": 40.0,
+    "weight": 5000,
+    "material": 68,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 920,
+    "name": "grape trellis",
+    "plural": "trellises",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Some grape vines growing up a sturdy wooden trellis."
+    },
+    "itemTypes": [
+      21,
+      44,
+      51,
+      52,
+      86,
+      108,
+      167,
+      178,
+      199,
+      230
+    ],
+    "imageNumber": 420,
+    "behaviourType": 58,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 250,
+      "z": 300
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.trellis.grape.",
+    "difficulty": 40.0,
+    "weight": 5000,
+    "material": 49,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1017,
+    "name": "rose seedling",
+    "plural": "rose seedlings",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A tiny rose seedling."
+    },
+    "itemTypes": [
+      146,
+      157
+    ],
+    "imageNumber": 484,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sprout.",
+    "difficulty": 200.0,
+    "weight": 50,
+    "material": 0,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1018,
+    "name": "rose trellis",
+    "plural": "trellises",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Some climbing roses growing up a sturdy wooden trellis."
+    },
+    "itemTypes": [
+      21,
+      44,
+      51,
+      52,
+      86,
+      108,
+      167,
+      178,
+      199,
+      230
+    ],
+    "imageNumber": 420,
+    "behaviourType": 58,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 250,
+      "z": 300
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.trellis.rose.",
+    "difficulty": 40.0,
+    "weight": 5000,
+    "material": 47,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1273,
+    "name": "hops",
+    "plural": "hops",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small but very aromatic plant with dark-green leaves that have serrated margin."
+    },
+    "itemTypes": [
+      5,
+      55,
+      146,
+      212
+    ],
+    "imageNumber": 545,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.hops.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1274,
+    "name": "hops trellis",
+    "plural": "trellises",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Some hops growing up a sturdy wooden trellis."
+    },
+    "itemTypes": [
+      21,
+      44,
+      51,
+      52,
+      86,
+      108,
+      167,
+      178,
+      199,
+      230
+    ],
+    "imageNumber": 420,
+    "behaviourType": 58,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 250,
+      "z": 300
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.trellis.hops.",
+    "difficulty": 40.0,
+    "weight": 5000,
+    "material": 68,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1275,
+    "name": "hops seedling",
+    "plural": "hops seedlings",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A tiny hops seedling."
+    },
+    "itemTypes": [
+      146
+    ],
+    "imageNumber": 484,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sprout.",
+    "difficulty": 200.0,
+    "weight": 50,
+    "material": 68,
+    "value": 100,
+    "isPurchased": true
+  }
+]

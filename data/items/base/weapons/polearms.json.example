@@ -1,0 +1,206 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 705,
+    "name": "long spear",
+    "plural": "long spears",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A long well-polished shaft with a heavy sharp blade attached at one end."
+    },
+    "itemTypes": [
+      13,
+      154,
+      21,
+      44,
+      189,
+      108,
+      133,
+      147
+    ],
+    "imageNumber": 1221,
+    "behaviourType": 1,
+    "combatDamage": 50,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 205
+    },
+    "primarySkill": 10088,
+    "bodySpaces": [],
+    "modelName": "model.weapon.polearm.spear.long.",
+    "difficulty": 20.0,
+    "weight": 2700,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 706,
+    "name": "halberd",
+    "plural": "halberds",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A long polearm with an head looking both like an axe and a spear at the same time. Excellent against charging attackers."
+    },
+    "itemTypes": [
+      2,
+      154,
+      22,
+      44,
+      84,
+      189,
+      108,
+      133,
+      147
+    ],
+    "imageNumber": 1247,
+    "behaviourType": 1,
+    "combatDamage": 70,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 10,
+      "z": 205
+    },
+    "primarySkill": 10089,
+    "bodySpaces": [],
+    "modelName": "model.weapon.polearm.halberd.",
+    "difficulty": 40.0,
+    "weight": 4500,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 707,
+    "name": "spear",
+    "plural": "spears",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sturdy spear."
+    },
+    "itemTypes": [
+      13,
+      154,
+      22,
+      44,
+      84,
+      108,
+      133,
+      147
+    ],
+    "imageNumber": 1221,
+    "behaviourType": 1,
+    "combatDamage": 90,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 180
+    },
+    "primarySkill": 10088,
+    "bodySpaces": [],
+    "modelName": "model.weapon.polearm.spear.",
+    "difficulty": 40.0,
+    "weight": 3700,
+    "material": 9,
+    "value": 30000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 710,
+    "name": "staff",
+    "plural": "staves",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A shiny steel staff etched with decorations that works as a weapon itself but which may be fitted with a blade for that little extra punch."
+    },
+    "itemTypes": [
+      14,
+      154,
+      22,
+      44,
+      84,
+      129,
+      133
+    ],
+    "imageNumber": 646,
+    "behaviourType": 1,
+    "combatDamage": 45,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 3,
+      "y": 4,
+      "z": 150
+    },
+    "primarySkill": 10090,
+    "bodySpaces": [],
+    "modelName": "model.weapon.polearm.staff.",
+    "difficulty": 10.0,
+    "weight": 3000,
+    "material": 9,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 711,
+    "name": "staff",
+    "plural": "staves",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A long, well polished staff that could be useful as a rudimentary weapon or aiding the wanderer."
+    },
+    "itemTypes": [
+      14,
+      154,
+      21,
+      84,
+      129,
+      133,
+      144
+    ],
+    "imageNumber": 646,
+    "behaviourType": 1,
+    "combatDamage": 35,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 3,
+      "y": 4,
+      "z": 200
+    },
+    "primarySkill": 10090,
+    "bodySpaces": [],
+    "modelName": "model.weapon.polearm.staff.",
+    "difficulty": 10.0,
+    "weight": 2000,
+    "material": 14,
+    "value": 100,
+    "isPurchased": true
+  }
+]

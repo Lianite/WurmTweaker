@@ -1,0 +1,702 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 75,
+    "name": "frying pan",
+    "plural": "frying pans",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A round metal plate with a shaft."
+    },
+    "itemTypes": [
+      1,
+      18,
+      22,
+      38,
+      44,
+      77,
+      108,
+      147
+    ],
+    "imageNumber": 784,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.fryingpan.",
+    "difficulty": 10.0,
+    "weight": 2500,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 257,
+    "name": "spoon",
+    "plural": "spoons",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large spoon."
+    },
+    "itemTypes": [
+      22,
+      44,
+      87,
+      108,
+      147,
+      210
+    ],
+    "imageNumber": 768,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 15
+    },
+    "primarySkill": 1018,
+    "bodySpaces": [],
+    "modelName": "model.tool.food.spoon.",
+    "difficulty": 10.0,
+    "weight": 30,
+    "material": 0,
+    "value": 1000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 258,
+    "name": "knife",
+    "plural": "knives",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large cutlery knife."
+    },
+    "itemTypes": [
+      22,
+      44,
+      87,
+      108,
+      147,
+      210
+    ],
+    "imageNumber": 940,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 15
+    },
+    "primarySkill": 1018,
+    "bodySpaces": [],
+    "modelName": "model.tool.food.knife.",
+    "difficulty": 10.0,
+    "weight": 30,
+    "material": 0,
+    "value": 1000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 259,
+    "name": "fork",
+    "plural": "forks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large fork."
+    },
+    "itemTypes": [
+      22,
+      44,
+      87,
+      108,
+      147,
+      210
+    ],
+    "imageNumber": 767,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 15
+    },
+    "primarySkill": 1018,
+    "bodySpaces": [],
+    "modelName": "model.tool.food.fork.",
+    "difficulty": 10.0,
+    "weight": 30,
+    "material": 0,
+    "value": 1000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 350,
+    "name": "sauce pan",
+    "plural": "sauce pans",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A deep bowl for cooking casseroles and lots of other recipes."
+    },
+    "itemTypes": [
+      1,
+      18,
+      22,
+      33,
+      44,
+      77,
+      108,
+      147
+    ],
+    "imageNumber": 784,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 11,
+      "y": 21,
+      "z": 31
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.saucepan.",
+    "difficulty": 20.0,
+    "weight": 1500,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 351,
+    "name": "cauldron",
+    "plural": "cauldrons",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A huge dark bowl with three feet and a metal hanger."
+    },
+    "itemTypes": [
+      1,
+      22,
+      33,
+      44,
+      77,
+      108,
+      147
+    ],
+    "imageNumber": 804,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 40,
+      "y": 40,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.cauldron.",
+    "difficulty": 30.0,
+    "weight": 5500,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1164,
+    "name": "clay pie dish",
+    "plural": "clay pie dishes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clay pie dish that could be hardened by fire."
+    },
+    "itemTypes": [
+      1,
+      44,
+      63,
+      108,
+      147,
+      196
+    ],
+    "imageNumber": 491,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.piedish.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 18,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1165,
+    "name": "pie dish",
+    "plural": "pie dishes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clay pie dish hardened by fire."
+    },
+    "itemTypes": [
+      1,
+      30,
+      33,
+      77,
+      108,
+      231
+    ],
+    "imageNumber": 511,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.piedish.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 19,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1166,
+    "name": "cake tin",
+    "plural": "cake tins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A circular tin used to make cakes in."
+    },
+    "itemTypes": [
+      1,
+      22,
+      33,
+      44,
+      77,
+      108,
+      231
+    ],
+    "imageNumber": 263,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.caketin.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 34,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1167,
+    "name": "baking stone",
+    "plural": "baking stones",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A flat stone surface used for baking food."
+    },
+    "itemTypes": [
+      1,
+      25,
+      33,
+      44,
+      77,
+      108,
+      231
+    ],
+    "imageNumber": 285,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 15,
+      "y": 25,
+      "z": 35
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.stoneware.",
+    "difficulty": 15.0,
+    "weight": 2000,
+    "material": 15,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1168,
+    "name": "clay roasting dish",
+    "plural": "clay roasting dishs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clay roasting dish that could be hardened by fire."
+    },
+    "itemTypes": [
+      1,
+      44,
+      63,
+      108,
+      147,
+      196
+    ],
+    "imageNumber": 264,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.roastingdish.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 18,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1169,
+    "name": "roasting dish",
+    "plural": "roasting dishs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clay roasting dish hardened by fire."
+    },
+    "itemTypes": [
+      1,
+      30,
+      33,
+      77,
+      108,
+      231
+    ],
+    "imageNumber": 284,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.roastingdish.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 19,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1171,
+    "name": "clay measuring jug",
+    "plural": "clay measuring jugs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A kitchen utensil used primarily to measure the volume of liquid ingredients such as milk."
+    },
+    "itemTypes": [
+      1,
+      44,
+      63,
+      108,
+      147,
+      196
+    ],
+    "imageNumber": 294,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 4,
+      "y": 4,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.measuringjug.",
+    "difficulty": 15.0,
+    "weight": 300,
+    "material": 18,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1172,
+    "name": "measuring jug",
+    "plural": "measuring jugs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A kitchen utensil used primarily to measure the volume of liquid ingredients such as milk."
+    },
+    "itemTypes": [
+      1,
+      30,
+      33,
+      108,
+      180
+    ],
+    "imageNumber": 314,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 4,
+      "y": 4,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.measuringjug.",
+    "difficulty": 15.0,
+    "weight": 300,
+    "material": 19,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1173,
+    "name": "plate",
+    "plural": "plates",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A flat and usually round dish that is used for eating or serving food."
+    },
+    "itemTypes": [
+      1,
+      21,
+      33,
+      44,
+      77,
+      92,
+      108,
+      231
+    ],
+    "imageNumber": 295,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 60
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.plate.",
+    "difficulty": 1.0,
+    "weight": 250,
+    "material": 14,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1237,
+    "name": "mortar and pestle",
+    "plural": "mortar and pestle",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A device used to prepare ingredients or substances by crushing and grinding them into a fine paste or powder."
+    },
+    "itemTypes": [
+      25,
+      44,
+      210
+    ],
+    "imageNumber": 756,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 2,
+      "y": 4,
+      "z": 6
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.mortarandpestle.",
+    "difficulty": 50.0,
+    "weight": 100,
+    "material": 62,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1243,
+    "name": "bee smoker",
+    "plural": "bee smokers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A device used in beekeeping to calm honey bees. It is designed to generate smoke from the smouldering of various fuels, hence the name."
+    },
+    "itemTypes": [
+      22,
+      44,
+      52,
+      108
+    ],
+    "imageNumber": 736,
+    "behaviourType": 18,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 15,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.beesmoker.",
+    "difficulty": 15.0,
+    "weight": 2100,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1255,
+    "name": "wax sealing kit",
+    "plural": "wax sealing kits",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A kit that can be used to seal some containers if they just have liquid in."
+    },
+    "itemTypes": [
+      146
+    ],
+    "imageNumber": 498,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 4,
+      "y": 5,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sealingkit.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 33,
+    "value": 10000,
+    "isPurchased": true
+  }
+]

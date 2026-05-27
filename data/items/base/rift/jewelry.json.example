@@ -1,0 +1,579 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 1076,
+    "name": "socketed ring",
+    "plural": "rings",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "This ring has a socket for a gem."
+    },
+    "itemTypes": [
+      22,
+      48,
+      87
+    ],
+    "imageNumber": 249,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      40,
+      39
+    ],
+    "modelName": "model.decoration.ring.rift.1.",
+    "difficulty": 99.0,
+    "weight": 50,
+    "material": 67,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1077,
+    "name": "artisan ring",
+    "plural": "rings",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A ring engraved with various artisan symbols."
+    },
+    "itemTypes": [
+      22,
+      48,
+      87
+    ],
+    "imageNumber": 249,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      40,
+      39
+    ],
+    "modelName": "model.decoration.ring.rift.2.",
+    "difficulty": 99.0,
+    "weight": 50,
+    "material": 67,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1078,
+    "name": "seal ring",
+    "plural": "rings",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "This ring brandishes a seal symbol on the rim."
+    },
+    "itemTypes": [
+      22,
+      87
+    ],
+    "imageNumber": 249,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      40,
+      39
+    ],
+    "modelName": "model.decoration.ring.rift.3.",
+    "difficulty": 99.0,
+    "weight": 50,
+    "material": 67,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1079,
+    "name": "dark ring",
+    "plural": "rings",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A dark ring that blends unnaturally well into any shadows."
+    },
+    "itemTypes": [
+      22,
+      87
+    ],
+    "imageNumber": 249,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      40,
+      39
+    ],
+    "modelName": "model.decoration.ring.rift.4.",
+    "difficulty": 99.0,
+    "weight": 50,
+    "material": 67,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1080,
+    "name": "ring of the Eye",
+    "plural": "rings",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "The gem on this ring looks like an eye, signalling some sort of magical detection."
+    },
+    "itemTypes": [
+      22,
+      87
+    ],
+    "imageNumber": 249,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      40,
+      39
+    ],
+    "modelName": "model.decoration.ring.rift.5.",
+    "difficulty": 99.0,
+    "weight": 50,
+    "material": 67,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1081,
+    "name": "fist bracelet",
+    "plural": "bracelets",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "This bracelet has a fist symbol on the top side."
+    },
+    "itemTypes": [
+      22,
+      87,
+      258
+    ],
+    "imageNumber": 250,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.decoration.armring.rift.1.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 67,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1082,
+    "name": "huge sword bracelet",
+    "plural": "bracelets",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "This bracelet has the symbol of a two handed sword engraved."
+    },
+    "itemTypes": [
+      22,
+      87,
+      258
+    ],
+    "imageNumber": 250,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.decoration.armring.rift.2.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 67,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1083,
+    "name": "short sword bracelet",
+    "plural": "bracelets",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "This bracelet has the symbol of a short sword engraved."
+    },
+    "itemTypes": [
+      22,
+      87,
+      258
+    ],
+    "imageNumber": 250,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.decoration.armring.rift.3.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 67,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1084,
+    "name": "spear bracelet",
+    "plural": "bracelets",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "This bracelet has the symbol of a spear engraved."
+    },
+    "itemTypes": [
+      22,
+      87,
+      258
+    ],
+    "imageNumber": 250,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.decoration.armring.rift.4.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 67,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1085,
+    "name": "bracelet of inspiration",
+    "plural": "bracelets",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "The aura around this bracelet emits enhancing magic."
+    },
+    "itemTypes": [
+      22,
+      87,
+      258
+    ],
+    "imageNumber": 250,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.decoration.armring.rift.5.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 67,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1086,
+    "name": "soul stealer necklace",
+    "plural": "necklaces",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A heavy necklace carrying a white pendant representing Seris."
+    },
+    "itemTypes": [
+      22,
+      87,
+      147
+    ],
+    "imageNumber": 268,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      36
+    ],
+    "modelName": "model.decoration.n.rift.1.",
+    "difficulty": 40.0,
+    "weight": 500,
+    "material": 67,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1087,
+    "name": "artisan necklace",
+    "plural": "necklaces",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A delicate necklace with artisan symbols. It helps improving items to a higher level."
+    },
+    "itemTypes": [
+      22,
+      87,
+      147
+    ],
+    "imageNumber": 268,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      36
+    ],
+    "modelName": "model.decoration.n.rift.2.",
+    "difficulty": 40.0,
+    "weight": 100,
+    "material": 67,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1088,
+    "name": "necklace of protection",
+    "plural": "necklaces",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "This necklace is adorned with symbols of protection."
+    },
+    "itemTypes": [
+      22,
+      87,
+      147
+    ],
+    "imageNumber": 268,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      36
+    ],
+    "modelName": "model.decoration.n.rift.3.",
+    "difficulty": 40.0,
+    "weight": 100,
+    "material": 67,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1089,
+    "name": "necklace of focus",
+    "plural": "necklaces",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A large symbol of inner strength hangs from this necklace."
+    },
+    "itemTypes": [
+      22,
+      87,
+      147
+    ],
+    "imageNumber": 268,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      36
+    ],
+    "modelName": "model.decoration.n.rift.4.",
+    "difficulty": 40.0,
+    "weight": 100,
+    "material": 67,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1090,
+    "name": "necklace of replenishment",
+    "plural": "necklaces",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "Various fruit and vegetable symbols hang from this necklace."
+    },
+    "itemTypes": [
+      22,
+      87,
+      147
+    ],
+    "imageNumber": 268,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      36
+    ],
+    "modelName": "model.decoration.n.rift.5.",
+    "difficulty": 40.0,
+    "weight": 100,
+    "material": 67,
+    "value": 10000,
+    "isPurchased": false
+  }
+]

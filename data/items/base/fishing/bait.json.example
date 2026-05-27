@@ -1,0 +1,541 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 1352,
+    "name": "feather",
+    "plural": "feathers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A feather from some bird, looks like it would float well."
+    },
+    "itemTypes": [
+      112,
+      146,
+      157,
+      252
+    ],
+    "imageNumber": 1489,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.float.feather.",
+    "difficulty": 1.0,
+    "weight": 10,
+    "material": 35,
+    "value": 2,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1353,
+    "name": "twig",
+    "plural": "twigs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A twig from some bush, looks like it would float well."
+    },
+    "itemTypes": [
+      21,
+      112,
+      157,
+      252
+    ],
+    "imageNumber": 1490,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.float.twig.",
+    "difficulty": 1.0,
+    "weight": 10,
+    "material": 14,
+    "value": 1,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1354,
+    "name": "small piece of moss",
+    "plural": "small pieces of moss",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small bit of moss, looks like it would float well."
+    },
+    "itemTypes": [
+      27,
+      112,
+      157,
+      252
+    ],
+    "imageNumber": 1500,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.float.moss.",
+    "difficulty": 1.0,
+    "weight": 10,
+    "material": 22,
+    "value": 1,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1355,
+    "name": "bark",
+    "plural": "barks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A piece of bark from a tree, looks like it would float well."
+    },
+    "itemTypes": [
+      21,
+      112,
+      157,
+      252
+    ],
+    "imageNumber": 1491,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.float.bark.",
+    "difficulty": 1.0,
+    "weight": 10,
+    "material": 14,
+    "value": 1,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1356,
+    "name": "wooden fishing hook",
+    "plural": "wooden fishing hooks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wood chip carved into a hook with a stone as sink."
+    },
+    "itemTypes": [
+      1,
+      21,
+      44,
+      253
+    ],
+    "imageNumber": 805,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.fish.hook.",
+    "difficulty": 4.0,
+    "weight": 5,
+    "material": 14,
+    "value": 10,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1357,
+    "name": "metal fishing hook",
+    "plural": "metal fishing hooks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small sharp hook made from metal."
+    },
+    "itemTypes": [
+      1,
+      22,
+      44,
+      253
+    ],
+    "imageNumber": 785,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.fish.hook.",
+    "difficulty": 3.0,
+    "weight": 10,
+    "material": 11,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1358,
+    "name": "bone fishing hook",
+    "plural": "bone fishing hooks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A slither of bone worked into a small sharp hook."
+    },
+    "itemTypes": [
+      1,
+      253
+    ],
+    "imageNumber": 865,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.fish.hook.",
+    "difficulty": 6.0,
+    "weight": 10,
+    "material": 35,
+    "value": 30,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1359,
+    "name": "fly",
+    "plural": "flies",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A captured fly, should be good fishing with it."
+    },
+    "itemTypes": [
+      59,
+      254
+    ],
+    "imageNumber": 1480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.bait.fly.",
+    "difficulty": 6.0,
+    "weight": 10,
+    "material": 2,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1360,
+    "name": "small piece of cheese",
+    "plural": "cheese pieces",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A bit of cheese, ideal for fishing bait."
+    },
+    "itemTypes": [
+      27,
+      59,
+      254
+    ],
+    "imageNumber": 1481,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.bait.cheese.",
+    "difficulty": 6.0,
+    "weight": 10,
+    "material": 22,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1361,
+    "name": "dough ball",
+    "plural": "dough balls",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small ball of dough, ideal for fishing bait."
+    },
+    "itemTypes": [
+      27,
+      59,
+      254
+    ],
+    "imageNumber": 1482,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.bait.dough.",
+    "difficulty": 6.0,
+    "weight": 10,
+    "material": 0,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1362,
+    "name": "wurm",
+    "plural": "wurms",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A live wurm, would probably make good bait."
+    },
+    "itemTypes": [
+      59,
+      254
+    ],
+    "imageNumber": 1483,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.bait.wurm.",
+    "difficulty": 6.0,
+    "weight": 10,
+    "material": 2,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1363,
+    "name": "bit of fish",
+    "plural": "bits of fish",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Chopped up fish, ideal for bait."
+    },
+    "itemTypes": [
+      59,
+      254
+    ],
+    "imageNumber": 1484,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.bait.fish.",
+    "difficulty": 6.0,
+    "weight": 10,
+    "material": 2,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1364,
+    "name": "grub",
+    "plural": "grubs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A grub prised from a tree, ideal for bait."
+    },
+    "itemTypes": [
+      59,
+      254
+    ],
+    "imageNumber": 1485,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.bait.grub.",
+    "difficulty": 6.0,
+    "weight": 10,
+    "material": 2,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1365,
+    "name": "grain of wheat",
+    "plural": "wheat grains",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A grain of wheat, ideal for bait."
+    },
+    "itemTypes": [
+      59,
+      254
+    ],
+    "imageNumber": 1486,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.bait.wheat.",
+    "difficulty": 6.0,
+    "weight": 10,
+    "material": 6,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1366,
+    "name": "corn kernel",
+    "plural": "corn kernels",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The kernel of corn, ideal for bait."
+    },
+    "itemTypes": [
+      59,
+      254
+    ],
+    "imageNumber": 1487,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.bait.corn.",
+    "difficulty": 6.0,
+    "weight": 10,
+    "material": 22,
+    "value": 1,
+    "isPurchased": false
+  }
+]

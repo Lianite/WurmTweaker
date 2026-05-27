@@ -1,0 +1,114 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 749,
+    "name": "reed pen",
+    "plural": "reed pens",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A rough pen made from a section of a reed straw."
+    },
+    "itemTypes": [
+      1,
+      21,
+      33,
+      38,
+      108,
+      139,
+      144
+    ],
+    "imageNumber": 275,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 2,
+      "y": 2,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.reedpen.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 60,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 752,
+    "name": "ink sac",
+    "plural": "ink sacs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sac from a butchered animal, containing mysterious substances."
+    },
+    "itemTypes": [
+      46,
+      62,
+      106
+    ],
+    "imageNumber": 515,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.inksac.",
+    "difficulty": 1.0,
+    "weight": 200,
+    "material": 2,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 753,
+    "name": "black ink",
+    "plural": "black ink",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Black ink, with a faint smell of fish."
+    },
+    "itemTypes": [
+      26,
+      88,
+      90
+    ],
+    "imageNumber": 583,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.ink.black.",
+    "difficulty": 20.0,
+    "weight": 100,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  }
+]

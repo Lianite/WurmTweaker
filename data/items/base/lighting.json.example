@@ -1,0 +1,814 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 133,
+    "name": "candle",
+    "plural": "candles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A candle made from tallow repeatedly dipped around a cloth wicker."
+    },
+    "itemTypes": [
+      27,
+      32,
+      52,
+      59,
+      115,
+      210
+    ],
+    "imageNumber": 821,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 29030400,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.light.candle.",
+    "difficulty": 1.0,
+    "weight": 50,
+    "material": 32,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 135,
+    "name": "lantern",
+    "plural": "lanterns",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small iron box with wicker and a cannister for oil."
+    },
+    "itemTypes": [
+      22,
+      116,
+      44,
+      52,
+      59,
+      92,
+      101,
+      108,
+      147
+    ],
+    "imageNumber": 822,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.light.lantern.",
+    "difficulty": 30.0,
+    "weight": 800,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 136,
+    "name": "oil lamp",
+    "plural": "oil lamps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A brass lamp with a wick."
+    },
+    "itemTypes": [
+      22,
+      32,
+      44,
+      52,
+      59,
+      92,
+      101,
+      108,
+      115,
+      147
+    ],
+    "imageNumber": 823,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.light.oillamp.",
+    "difficulty": 40.0,
+    "weight": 300,
+    "material": 30,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 138,
+    "name": "torch",
+    "plural": "torches",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A piece of wood with tar and moss."
+    },
+    "itemTypes": [
+      21,
+      32,
+      52,
+      59,
+      146,
+      147
+    ],
+    "imageNumber": 820,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.light.torch.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 228,
+    "name": "candelabra",
+    "plural": "candelabras",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A beautiful candelabra. The number of arms on a candelabra varies depending on a number of factors, but mainly by the preferences of the designer. Apparently even fairly intelligent people sometimes fail to recognize the proper number which causes mild confusion."
+    },
+    "itemTypes": [
+      22,
+      32,
+      44,
+      51,
+      52,
+      87,
+      108,
+      147,
+      199
+    ],
+    "imageNumber": 251,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 2419200,
+    "dimensions": {
+      "x": 5,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.candelabra.",
+    "difficulty": 20.0,
+    "weight": 2500,
+    "material": 0,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 496,
+    "name": "lamp",
+    "plural": "lamps",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A decorative lamp head on a wooden post."
+    },
+    "itemTypes": [
+      22,
+      116,
+      44,
+      48,
+      51,
+      52,
+      86,
+      92,
+      101,
+      108,
+      143,
+      199
+    ],
+    "imageNumber": 825,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 4838400,
+    "dimensions": {
+      "x": 2,
+      "y": 20,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.light.lamp.street.",
+    "difficulty": 25.0,
+    "weight": 5000,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 497,
+    "name": "lamp head",
+    "plural": "lamp heads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative iron box with wicker and a cannister for oil, with a socket for fitting on a pole."
+    },
+    "itemTypes": [
+      22,
+      44,
+      59,
+      92,
+      108
+    ],
+    "imageNumber": 822,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.light.lantern.head.",
+    "difficulty": 40.0,
+    "weight": 800,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 520,
+    "name": "firemarker",
+    "plural": "markers",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Fire."
+    },
+    "itemTypes": [
+      31,
+      45,
+      52,
+      59,
+      65,
+      129
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.marker.invis.",
+    "difficulty": 3.0,
+    "weight": 0,
+    "material": 21,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 657,
+    "name": "torch lamp",
+    "plural": "lamps",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A decorative torch on a wooden pole."
+    },
+    "itemTypes": [
+      22,
+      116,
+      44,
+      48,
+      51,
+      52,
+      86,
+      92,
+      101,
+      108,
+      143,
+      199
+    ],
+    "imageNumber": 825,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 4838400,
+    "dimensions": {
+      "x": 2,
+      "y": 20,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.light.lamp.street.torch.",
+    "difficulty": 35.0,
+    "weight": 5000,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 658,
+    "name": "hanging lamp",
+    "plural": "lamps",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A decorative lamp head on a wooden pole."
+    },
+    "itemTypes": [
+      22,
+      116,
+      44,
+      48,
+      51,
+      52,
+      86,
+      92,
+      101,
+      108,
+      143,
+      199
+    ],
+    "imageNumber": 825,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 4838400,
+    "dimensions": {
+      "x": 2,
+      "y": 20,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.light.lamp.street.pole.",
+    "difficulty": 30.0,
+    "weight": 5000,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 659,
+    "name": "imperial street lamp",
+    "plural": "lamps",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A decorative torch on a metal post."
+    },
+    "itemTypes": [
+      22,
+      116,
+      44,
+      48,
+      51,
+      52,
+      86,
+      92,
+      101,
+      108,
+      143,
+      199
+    ],
+    "imageNumber": 825,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 4838400,
+    "dimensions": {
+      "x": 2,
+      "y": 20,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.light.lamp.street.metal.",
+    "difficulty": 45.0,
+    "weight": 25000,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 660,
+    "name": "metal torch",
+    "plural": "torches",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A finely bent metal sheet that will hold some oil and a wicker."
+    },
+    "itemTypes": [
+      22,
+      32,
+      44,
+      51,
+      52,
+      59,
+      92,
+      101,
+      108
+    ],
+    "imageNumber": 822,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.light.torch.metal.",
+    "difficulty": 25.0,
+    "weight": 800,
+    "material": 11,
+    "value": 1000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 674,
+    "name": "hanging lamp head",
+    "plural": "lamp heads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative iron box with wicker and a cannister for oil, with a socket for fitting on a pole."
+    },
+    "itemTypes": [
+      22,
+      44,
+      59,
+      92,
+      108
+    ],
+    "imageNumber": 822,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.light.lantern.hanging.",
+    "difficulty": 50.0,
+    "weight": 800,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 675,
+    "name": "imperial lamp head",
+    "plural": "lamp heads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative iron box with wicker and a cannister for oil, with a socket for fitting on a pole."
+    },
+    "itemTypes": [
+      22,
+      44,
+      59,
+      92,
+      108
+    ],
+    "imageNumber": 822,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.light.lantern.metal.",
+    "difficulty": 55.0,
+    "weight": 800,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 838,
+    "name": "brazier stand",
+    "plural": "copper brazier stands",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A stand for braziers."
+    },
+    "itemTypes": [
+      22,
+      44,
+      119
+    ],
+    "imageNumber": 557,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.brazier.stand.",
+    "difficulty": 60.0,
+    "weight": 400,
+    "material": 10,
+    "value": 500,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 839,
+    "name": "brazier bowl",
+    "plural": "copper brazier bowls",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A bowl for a brazier."
+    },
+    "itemTypes": [
+      22,
+      44,
+      119
+    ],
+    "imageNumber": 302,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.brazier.bowl.",
+    "difficulty": 60.0,
+    "weight": 3000,
+    "material": 10,
+    "value": 500,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 840,
+    "name": "brazier bowl",
+    "plural": "large gold brazier bowls",
+    "size": 4,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A bowl for a brazier."
+    },
+    "itemTypes": [
+      22,
+      44,
+      119
+    ],
+    "imageNumber": 302,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.large.brazier.bowl.",
+    "difficulty": 60.0,
+    "weight": 5000,
+    "material": 7,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 841,
+    "name": "small brazier",
+    "plural": "small braziers",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A brazier made from copper."
+    },
+    "itemTypes": [
+      22,
+      32,
+      44,
+      51,
+      52,
+      101,
+      119,
+      179,
+      199
+    ],
+    "imageNumber": 301,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.brazier.",
+    "difficulty": 60.0,
+    "weight": 4200,
+    "material": 10,
+    "value": 5000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 842,
+    "name": "marble brazier pillar",
+    "plural": "marble brazier pillars",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A pillar with a golden brazier on the top."
+    },
+    "itemTypes": [
+      25,
+      32,
+      44,
+      51,
+      52,
+      86,
+      101,
+      119,
+      176,
+      178,
+      179,
+      199
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 100,
+      "y": 122,
+      "z": 300
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.brazier.pillar.",
+    "difficulty": 60.0,
+    "weight": 855000,
+    "material": 62,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 844,
+    "name": "snow lantern",
+    "plural": "snow lanterns",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Expel the darkness with this +2 lantern, gives +4 to jollyness checks during winter."
+    },
+    "itemTypes": [
+      32,
+      51,
+      52,
+      108
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.light.snowlantern.seasoncycle.",
+    "difficulty": 20.0,
+    "weight": 2500,
+    "material": 21,
+    "value": 70000,
+    "isPurchased": true
+  }
+]

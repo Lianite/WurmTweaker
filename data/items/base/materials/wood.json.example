@@ -1,0 +1,321 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 9,
+    "name": "log",
+    "plural": "logs",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A log cleared of branches. Good for making planks or shafts from."
+    },
+    "itemTypes": [
+      21,
+      46,
+      84,
+      113,
+      129,
+      133,
+      146,
+      175
+    ],
+    "imageNumber": 606,
+    "behaviourType": 1,
+    "combatDamage": 10,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 200
+    },
+    "primarySkill": 1020,
+    "bodySpaces": [],
+    "modelName": "model.resource.log.",
+    "difficulty": 200.0,
+    "weight": 24000,
+    "material": 0,
+    "value": 20,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 22,
+    "name": "plank",
+    "plural": "planks",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A three steps long wooden plank that could be used to build something."
+    },
+    "itemTypes": [
+      18,
+      21,
+      84,
+      129,
+      133,
+      144,
+      146,
+      158
+    ],
+    "imageNumber": 626,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 200
+    },
+    "primarySkill": 1020,
+    "bodySpaces": [],
+    "modelName": "model.resource.plank.",
+    "difficulty": 3.0,
+    "weight": 2000,
+    "material": 14,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 23,
+    "name": "shaft",
+    "plural": "shafts",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A one step long wooden shaft that could be used to create a tool or a weapon."
+    },
+    "itemTypes": [
+      14,
+      21,
+      84,
+      129,
+      133,
+      144,
+      146,
+      158
+    ],
+    "imageNumber": 646,
+    "behaviourType": 1,
+    "combatDamage": 25,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 3,
+      "y": 7,
+      "z": 100
+    },
+    "primarySkill": 1020,
+    "bodySpaces": [],
+    "modelName": "model.resource.shaft.",
+    "difficulty": 3.0,
+    "weight": 1000,
+    "material": 14,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 169,
+    "name": "wood scrap",
+    "plural": "wood scrap",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Scrap wood, mostly useful for feeding fires with."
+    },
+    "itemTypes": [
+      21,
+      46,
+      113,
+      129,
+      146,
+      157,
+      174,
+      211
+    ],
+    "imageNumber": 686,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.scrap.",
+    "difficulty": 1.0,
+    "weight": 1500,
+    "material": 14,
+    "value": 1,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 429,
+    "name": "support beam",
+    "plural": "support beams",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A wooden construction made from logs, planks and metal ribbons intended to support walls in mines."
+    },
+    "itemTypes": [
+      21,
+      44,
+      113,
+      146
+    ],
+    "imageNumber": 300,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 60,
+      "y": 60,
+      "z": 210
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.joists.",
+    "difficulty": 15.0,
+    "weight": 60000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 774,
+    "name": "leggat",
+    "plural": "leggats",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A hammer looking item with a handle and a flat surface mounted with flattened nails. It is used to create thatch from reed."
+    },
+    "itemTypes": [
+      14,
+      21,
+      38,
+      44,
+      108,
+      119,
+      147
+    ],
+    "imageNumber": 862,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 10,
+      "z": 30
+    },
+    "primarySkill": 10026,
+    "bodySpaces": [],
+    "modelName": "model.tool.leggat.",
+    "difficulty": 1.0,
+    "weight": 1200,
+    "material": 14,
+    "value": 1400,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 775,
+    "name": "staircase",
+    "plural": "staircases",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A staircase made from wooden planks and nails, intended for stepping on."
+    },
+    "itemTypes": [
+      21,
+      31,
+      44,
+      51,
+      52,
+      86,
+      108,
+      135
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 100,
+      "y": 200,
+      "z": 300
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.staircase.simple.",
+    "difficulty": 12.0,
+    "weight": 35000,
+    "material": 14,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 860,
+    "name": "wooden beam",
+    "plural": "wooden beams",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wooden beam used in construction."
+    },
+    "itemTypes": [
+      21,
+      146,
+      147,
+      158
+    ],
+    "imageNumber": 553,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 18,
+      "y": 18,
+      "z": 180
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.beam.",
+    "difficulty": 35.0,
+    "weight": 15000,
+    "material": 14,
+    "value": 8000,
+    "isPurchased": false
+  }
+]

@@ -1,0 +1,349 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 7,
+    "name": "hatchet",
+    "plural": "hatchets",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A short but sturdy axe with a thick blade specially designed to cut down trees with but poor in combat."
+    },
+    "itemTypes": [
+      2,
+      15,
+      22,
+      44,
+      97,
+      108
+    ],
+    "imageNumber": 1207,
+    "behaviourType": 1,
+    "combatDamage": 10,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 3,
+      "y": 10,
+      "z": 60
+    },
+    "primarySkill": 10003,
+    "bodySpaces": [],
+    "modelName": "model.weapon.hatchet.",
+    "difficulty": 11.0,
+    "weight": 2500,
+    "material": 11,
+    "value": 10,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 27,
+    "name": "rake",
+    "plural": "rakes",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A tool for working the fields."
+    },
+    "itemTypes": [
+      2,
+      7,
+      22,
+      38,
+      44,
+      97,
+      108,
+      133
+    ],
+    "imageNumber": 745,
+    "behaviourType": 1,
+    "combatDamage": 10,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 2,
+      "y": 20,
+      "z": 120
+    },
+    "primarySkill": 10004,
+    "bodySpaces": [],
+    "modelName": "model.tool.rake.",
+    "difficulty": 10.0,
+    "weight": 1200,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 124,
+    "name": "rake blade",
+    "plural": "rake blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thin blade for a rake."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 725,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.blade.rake.",
+    "difficulty": 10.0,
+    "weight": 400,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 267,
+    "name": "sickle",
+    "plural": "sickles",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A kind of small hand-held scythe with a crescent-moon formed blade."
+    },
+    "itemTypes": [
+      2,
+      22,
+      38,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 752,
+    "behaviourType": 1,
+    "combatDamage": 30,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 2,
+      "y": 20,
+      "z": 30
+    },
+    "primarySkill": 10046,
+    "bodySpaces": [],
+    "modelName": "model.weapon.sickle.",
+    "difficulty": 25.0,
+    "weight": 500,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 268,
+    "name": "scythe",
+    "plural": "scythes",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A long pole with a half meter long sharp blade, used for cutting grass or harvesting crops."
+    },
+    "itemTypes": [
+      2,
+      22,
+      38,
+      44,
+      84,
+      108,
+      147
+    ],
+    "imageNumber": 753,
+    "behaviourType": 1,
+    "combatDamage": 40,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 2,
+      "y": 40,
+      "z": 120
+    },
+    "primarySkill": 10047,
+    "bodySpaces": [],
+    "modelName": "model.weapon.scythe.",
+    "difficulty": 22.0,
+    "weight": 1200,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 269,
+    "name": "sickle blade",
+    "plural": "sickle blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thin, crescent moon formed blade for a sickle."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 732,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.blade.sickle.",
+    "difficulty": 20.0,
+    "weight": 400,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 270,
+    "name": "scythe blade",
+    "plural": "scythe blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thin long blade for a scythe."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 733,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.blade.scythe.",
+    "difficulty": 10.0,
+    "weight": 600,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 413,
+    "name": "fruit press",
+    "plural": "fruit presses",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wooden contraption made from planks with a shaft to press in order to extract juice from fruits and vegetables."
+    },
+    "itemTypes": [
+      1,
+      21,
+      33,
+      38,
+      44,
+      108,
+      139,
+      144,
+      147,
+      210
+    ],
+    "imageNumber": 246,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.fruitpress.",
+    "difficulty": 30.0,
+    "weight": 2000,
+    "material": 14,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 747,
+    "name": "press",
+    "plural": "presses",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wooden construction made from planks with a large wooden screw connected to a shaft. It is used for making things flat."
+    },
+    "itemTypes": [
+      21,
+      38,
+      44,
+      108,
+      139,
+      144,
+      210
+    ],
+    "imageNumber": 246,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.press.",
+    "difficulty": 30.0,
+    "weight": 2000,
+    "material": 14,
+    "value": 0,
+    "isPurchased": false
+  }
+]

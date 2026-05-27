@@ -1,0 +1,305 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 102,
+    "name": "leather belt",
+    "plural": "leather belts",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thick strip of leather with holes and a metal husk."
+    },
+    "itemTypes": [
+      23,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 861,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 4,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      34,
+      43
+    ],
+    "modelName": "model.clothing.belt.",
+    "difficulty": 5.0,
+    "weight": 300,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 103,
+    "name": "leather glove",
+    "plural": "leather gloves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A glove made from leather."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      92,
+      97,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 984,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 15
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      13,
+      14
+    ],
+    "modelName": "model.armour.hand.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 104,
+    "name": "leather jacket",
+    "plural": "leather jackets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A jacket made from leather with wooden husks."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      92,
+      97,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 980,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 40,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.armour.torso.",
+    "difficulty": 30.0,
+    "weight": 600,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 105,
+    "name": "leather boot",
+    "plural": "leather boots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sturdy boot made from leather."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      92,
+      97,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 985,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      15,
+      16
+    ],
+    "modelName": "model.armour.foot.",
+    "difficulty": 15.0,
+    "weight": 400,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 106,
+    "name": "leather sleeve",
+    "plural": "leather sleeves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Leather sown into a cylinder to protect the arms."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      92,
+      97,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 982,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.armour.sleeve.",
+    "difficulty": 25.0,
+    "weight": 300,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 107,
+    "name": "leather cap",
+    "plural": "leather caps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A leather cap with ear flaps and a strap."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      92,
+      97,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 983,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 108,
+    "name": "leather pants",
+    "plural": "leather pants",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Leg protection made from leather."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      92,
+      97,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 981,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      34
+    ],
+    "modelName": "model.armour.leg.",
+    "difficulty": 10.0,
+    "weight": 500,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  }
+]

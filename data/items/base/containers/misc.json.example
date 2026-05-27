@@ -1,0 +1,89 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 1310,
+    "name": "stored creature",
+    "plural": "stored creatures",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A stored creature."
+    },
+    "itemTypes": [
+      31,
+      48,
+      59,
+      246
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 240,
+      "y": 240,
+      "z": 240
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "NotNeeded",
+    "difficulty": 100.0,
+    "weight": 50000,
+    "material": 0,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1311,
+    "name": "creature cage",
+    "plural": "creature cages",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A cage to hold a creature."
+    },
+    "itemTypes": [
+      1,
+      21,
+      31,
+      44,
+      47,
+      48,
+      53,
+      51,
+      52,
+      59,
+      63,
+      86,
+      167,
+      145,
+      176,
+      246,
+      257
+    ],
+    "imageNumber": 363,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 120,
+      "y": 120,
+      "z": 120
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.cage.",
+    "difficulty": 60.0,
+    "weight": 150000,
+    "material": 14,
+    "value": 100000,
+    "isPurchased": false
+  }
+]

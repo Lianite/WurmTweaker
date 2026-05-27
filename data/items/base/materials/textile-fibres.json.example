@@ -1,0 +1,479 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 144,
+    "name": "cotton",
+    "plural": "cotton",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A bale of cotton."
+    },
+    "itemTypes": [
+      24,
+      46,
+      113,
+      146
+    ],
+    "imageNumber": 600,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.cotton.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 17,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 145,
+    "name": "cotton seed",
+    "plural": "cotton seed",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A few handfuls of cotton seed. It can be used to sow with."
+    },
+    "itemTypes": [
+      20,
+      113,
+      146,
+      211,
+      217
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 6
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.cottonseed.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 188,
+    "name": "ribbon",
+    "plural": "iron ribbons",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A sturdy iron ribbon, used to strengthen constructions like chests and barrels."
+    },
+    "itemTypes": [
+      22,
+      146
+    ],
+    "imageNumber": 709,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.ribbon.",
+    "difficulty": 5.0,
+    "weight": 3000,
+    "material": 11,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 213,
+    "name": "square piece of cloth",
+    "plural": "square pieces of cloth",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A piece of cloth, about an arm length square."
+    },
+    "itemTypes": [
+      24,
+      46,
+      146
+    ],
+    "imageNumber": 640,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.yard.",
+    "difficulty": 5.0,
+    "weight": 300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 214,
+    "name": "string of cloth",
+    "plural": "strings of cloth",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fine string of cloth wound around a piece of wood."
+    },
+    "itemTypes": [
+      24,
+      46,
+      146,
+      158
+    ],
+    "imageNumber": 620,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.string.",
+    "difficulty": 1.0,
+    "weight": 200,
+    "material": 17,
+    "value": 200,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 318,
+    "name": "wemp fibre",
+    "plural": "wemp fibre",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Some strong wemp fibres."
+    },
+    "itemTypes": [
+      46,
+      129,
+      146
+    ],
+    "imageNumber": 547,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.wempfibre.",
+    "difficulty": 200.0,
+    "weight": 500,
+    "material": 53,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 319,
+    "name": "rope",
+    "plural": "ropes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A coarse rope made from from wemp fibre."
+    },
+    "itemTypes": [
+      46,
+      64,
+      189,
+      146,
+      147
+    ],
+    "imageNumber": 621,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.wemprope.",
+    "difficulty": 1.0,
+    "weight": 500,
+    "material": 53,
+    "value": 1000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 444,
+    "name": "wires",
+    "plural": "metal wires",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Small needle-like strings of metal. They rasp the skin."
+    },
+    "itemTypes": [
+      22,
+      44,
+      46,
+      146,
+      147
+    ],
+    "imageNumber": 555,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 4,
+      "y": 4,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.wires.",
+    "difficulty": 10.0,
+    "weight": 400,
+    "material": 11,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 756,
+    "name": "thatch",
+    "plural": "bunches of thatch",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sheaf of grass stems, aligned together and of similar length."
+    },
+    "itemTypes": [
+      46,
+      186,
+      146,
+      158
+    ],
+    "imageNumber": 599,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 4,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.flower.thatch.",
+    "difficulty": 5.0,
+    "weight": 50,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 897,
+    "name": "brass ribbon",
+    "plural": "brass ribbons",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A sturdy brass ribbon, used to strengthen constructions like chests and barrels."
+    },
+    "itemTypes": [
+      22,
+      146
+    ],
+    "imageNumber": 709,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.ribbon.",
+    "difficulty": 5.0,
+    "weight": 3000,
+    "material": 30,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 921,
+    "name": "wool",
+    "plural": "wools",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A bale of wool."
+    },
+    "itemTypes": [
+      24,
+      46,
+      113,
+      146
+    ],
+    "imageNumber": 558,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.wool.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 69,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 925,
+    "name": "yarn",
+    "plural": "yarn",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fluffy ball of yarn, incorrect use may be fatal. WARNING: Do not leave unattended near cats!"
+    },
+    "itemTypes": [
+      24,
+      46,
+      146,
+      158
+    ],
+    "imageNumber": 620,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.yarn.",
+    "difficulty": 1.0,
+    "weight": 200,
+    "material": 69,
+    "value": 200,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 926,
+    "name": "square piece of wool cloth",
+    "plural": "square pieces of wool cloth",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A piece of wool cloth, about an arm length square."
+    },
+    "itemTypes": [
+      24,
+      46,
+      146
+    ],
+    "imageNumber": 640,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.yard.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  }
+]

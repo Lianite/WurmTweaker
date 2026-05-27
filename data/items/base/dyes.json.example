@@ -1,0 +1,325 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 431,
+    "name": "black dye",
+    "plural": "black dye",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Black dye, with a faint smell of iron and lemon."
+    },
+    "itemTypes": [
+      26,
+      91,
+      113
+    ],
+    "imageNumber": 583,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.dye.black.",
+    "difficulty": 40.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 432,
+    "name": "white dye",
+    "plural": "white dye",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "White dye, used to bleach with."
+    },
+    "itemTypes": [
+      26,
+      91,
+      113
+    ],
+    "imageNumber": 584,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.dye.white.",
+    "difficulty": 20.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 433,
+    "name": "red dye",
+    "plural": "red dye",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Red dye, considered most luxurious."
+    },
+    "itemTypes": [
+      26,
+      91,
+      113
+    ],
+    "imageNumber": 582,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.dye.red.",
+    "difficulty": 30.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 434,
+    "name": "blue dye",
+    "plural": "blue dye",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Blue dye, made from some plant."
+    },
+    "itemTypes": [
+      26,
+      91,
+      113
+    ],
+    "imageNumber": 580,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.dye.blue.",
+    "difficulty": 15.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 435,
+    "name": "green dye",
+    "plural": "green dye",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Green dye."
+    },
+    "itemTypes": [
+      26,
+      91,
+      113
+    ],
+    "imageNumber": 581,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.dye.green.",
+    "difficulty": 10.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 437,
+    "name": "tannin",
+    "plural": "tannin",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Tannin acid made from acorns and water."
+    },
+    "itemTypes": [
+      26,
+      113
+    ],
+    "imageNumber": 583,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.tannin.",
+    "difficulty": 40.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 438,
+    "name": "dye",
+    "plural": "dye",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Dye, used to colour clothing and items with."
+    },
+    "itemTypes": [
+      26,
+      91
+    ],
+    "imageNumber": 540,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.dye.",
+    "difficulty": 100.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 439,
+    "name": "cochineal",
+    "plural": "cochineals",
+    "size": 3,
+    "descriptions": {
+      "superb": "delicious",
+      "normal": "nice",
+      "bad": "old",
+      "rotten": "rotten",
+      "long": "A handful of a brightly red sticky substance."
+    },
+    "itemTypes": [
+      79,
+      113,
+      146,
+      164,
+      211
+    ],
+    "imageNumber": 647,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.goo.red.",
+    "difficulty": 100.0,
+    "weight": 200,
+    "material": 2,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 440,
+    "name": "woad",
+    "plural": "woad",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A yellow-flowered, no-joke, low growing plant with slender green leaves."
+    },
+    "itemTypes": [
+      146,
+      164
+    ],
+    "imageNumber": 700,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.flower.woad.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  }
+]

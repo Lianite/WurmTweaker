@@ -1,0 +1,2057 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 74,
+    "name": "pile",
+    "plural": "charcoal piles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large kiln-like structure made from logs covered in dirt. The purpose is to turn the logs into tar and charcoal."
+    },
+    "itemTypes": [
+      1,
+      21,
+      31,
+      48,
+      49,
+      51,
+      52,
+      59,
+      63,
+      109
+    ],
+    "imageNumber": 60,
+    "behaviourType": 18,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 100,
+      "y": 200,
+      "z": 300
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fireplace.charcoalpile.",
+    "difficulty": 15.0,
+    "weight": 2500000,
+    "material": 27,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 167,
+    "name": "door lock",
+    "plural": "door locks",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A metal lock, ready to fit in a door."
+    },
+    "itemTypes": [
+      39,
+      40,
+      114,
+      108,
+      147
+    ],
+    "imageNumber": 790,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.lock.door.",
+    "difficulty": 10.0,
+    "weight": 600,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 168,
+    "name": "key",
+    "plural": "keys",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A metal key with a few large teeth."
+    },
+    "itemTypes": [
+      40,
+      41,
+      114
+    ],
+    "imageNumber": 789,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.key.",
+    "difficulty": 5.0,
+    "weight": 50,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 175,
+    "name": "gift",
+    "plural": "gifts",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A long round, green packet with golden bands. The sigil is red with a coiled up snake."
+    },
+    "itemTypes": [
+      42,
+      53
+    ],
+    "imageNumber": 243,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 11
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.presentchristmas.",
+    "difficulty": 10.0,
+    "weight": 23,
+    "material": 33,
+    "value": 1000100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 193,
+    "name": "small padlock",
+    "plural": "small padlocks",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small metal padlock."
+    },
+    "itemTypes": [
+      39,
+      40,
+      114,
+      108
+    ],
+    "imageNumber": 790,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 6,
+      "z": 6
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.lock.small.padlock.",
+    "difficulty": 15.0,
+    "weight": 200,
+    "material": 11,
+    "value": 3000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 194,
+    "name": "large padlock",
+    "plural": "large padlocks",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large metal padlock."
+    },
+    "itemTypes": [
+      39,
+      40,
+      114,
+      108
+    ],
+    "imageNumber": 790,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 6,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.lock.large.padlock.",
+    "difficulty": 15.0,
+    "weight": 400,
+    "material": 11,
+    "value": 5000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 208,
+    "name": "pointing sign",
+    "plural": "pointing signs",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A wooden sign that is pointing towards something."
+    },
+    "itemTypes": [
+      18,
+      21,
+      44,
+      48,
+      51,
+      52,
+      86,
+      92,
+      108,
+      142,
+      147,
+      200
+    ],
+    "imageNumber": 292,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.sign.pointing.",
+    "difficulty": 10.0,
+    "weight": 3000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 212,
+    "name": "bale",
+    "plural": "cotton bales",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A lot of wool pressed and tied together to a roll."
+    },
+    "itemTypes": [
+      24,
+      46,
+      113,
+      146,
+      157
+    ],
+    "imageNumber": 600,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.bale.",
+    "difficulty": 200.0,
+    "weight": 1000,
+    "material": 17,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 217,
+    "name": "nails",
+    "plural": "nails",
+    "size": 4,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "About ten metal nails, each one long as your hand."
+    },
+    "itemTypes": [
+      22,
+      38,
+      146,
+      158,
+      174
+    ],
+    "imageNumber": 781,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.nails.large.",
+    "difficulty": 1.0,
+    "weight": 300,
+    "material": 11,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 218,
+    "name": "nails",
+    "plural": "nails",
+    "size": 2,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "About ten metal nails, each long as a grown man's thumb."
+    },
+    "itemTypes": [
+      22,
+      38,
+      146,
+      158,
+      174
+    ],
+    "imageNumber": 781,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.nails.small.",
+    "difficulty": 1.0,
+    "weight": 200,
+    "material": 11,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 252,
+    "name": "gate lock",
+    "plural": "gate locks",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large heavy metal lock, ready to fit in a gate."
+    },
+    "itemTypes": [
+      39,
+      40,
+      114,
+      108
+    ],
+    "imageNumber": 790,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.lock.gate.",
+    "difficulty": 10.0,
+    "weight": 800,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 321,
+    "name": "practice doll",
+    "plural": "practice dolls",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An exquisite mansized practice doll made from shafts, a pair of planks and a pumpkin."
+    },
+    "itemTypes": [
+      21,
+      44,
+      51,
+      52
+    ],
+    "imageNumber": 881,
+    "behaviourType": 31,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 30,
+      "z": 180
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.practicedoll.",
+    "difficulty": 10.0,
+    "weight": 7000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 341,
+    "name": "key copy",
+    "plural": "key copies",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A metal key with a few large teeth. It has some weird dents."
+    },
+    "itemTypes": [
+      41,
+      114
+    ],
+    "imageNumber": 809,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.key.",
+    "difficulty": 30.0,
+    "weight": 50,
+    "material": 10,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 342,
+    "name": "key mould",
+    "plural": "moulds",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A grey clay mould, made after a key."
+    },
+    "itemTypes": [
+      48,
+      72,
+      196
+    ],
+    "imageNumber": 493,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.mold.clay.",
+    "difficulty": 3.0,
+    "weight": 400,
+    "material": 18,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 343,
+    "name": "key form",
+    "plural": "forms",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A red pottery form, made after a key."
+    },
+    "itemTypes": [
+      48,
+      72,
+      73
+    ],
+    "imageNumber": 513,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.mold.pottery.",
+    "difficulty": 3.0,
+    "weight": 400,
+    "material": 19,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 370,
+    "name": "Crazy diamond",
+    "plural": "crazy diamonds",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A weirldy cut diamond the size of a fist that reflects your image in its many facets. It shines brightly."
+    },
+    "itemTypes": [
+      40,
+      48,
+      52,
+      93
+    ],
+    "imageNumber": 542,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.gem.diamond.crazy.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 54,
+    "value": 2000000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 385,
+    "name": "felled tree",
+    "plural": "felled trees",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A felled tree. Can be used in palisades or to make smaller logs from."
+    },
+    "itemTypes": [
+      21,
+      52,
+      54,
+      113,
+      123,
+      129,
+      147,
+      175,
+      237
+    ],
+    "imageNumber": 606,
+    "behaviourType": 37,
+    "combatDamage": 20,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 40,
+      "y": 40,
+      "z": 200
+    },
+    "primarySkill": 1020,
+    "bodySpaces": [],
+    "modelName": "model.resource.log.",
+    "difficulty": 200.0,
+    "weight": 200000,
+    "material": 0,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 418,
+    "name": "olive oil",
+    "plural": "olive oil",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Clear, syrupy olive oil with a sweet scent."
+    },
+    "itemTypes": [
+      26,
+      34,
+      88,
+      108,
+      113,
+      158
+    ],
+    "imageNumber": 587,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 2419200,
+    "dimensions": {
+      "x": 3,
+      "y": 4,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.oliveoil.",
+    "difficulty": 10.0,
+    "weight": 180,
+    "material": 26,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 421,
+    "name": "bucket",
+    "plural": "buckets",
+    "size": 2,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A small wooden bucket."
+    },
+    "itemTypes": [
+      1,
+      21,
+      33,
+      44,
+      51,
+      52,
+      92,
+      108,
+      139,
+      147
+    ],
+    "imageNumber": 265,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.bucket.small.",
+    "difficulty": 5.0,
+    "weight": 1500,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 422,
+    "name": "camellia",
+    "plural": "camellias",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A bundle of thin leathery dark green leaves."
+    },
+    "itemTypes": [
+      55,
+      78,
+      104,
+      113,
+      146,
+      157,
+      211,
+      212
+    ],
+    "imageNumber": 707,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.camellia.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 423,
+    "name": "oleander",
+    "plural": "oleanders",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Thin and pointy light green leaves in a small bundle."
+    },
+    "itemTypes": [
+      5,
+      55,
+      78,
+      79,
+      113,
+      146,
+      157,
+      212
+    ],
+    "imageNumber": 708,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.oleander.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 424,
+    "name": "lavender flower",
+    "plural": "lavender flowers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A cluster of small light blue flowers with a sweet scent."
+    },
+    "itemTypes": [
+      103,
+      113,
+      146,
+      157,
+      211,
+      212
+    ],
+    "imageNumber": 661,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.flower.lavender.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 426,
+    "name": "rose flower",
+    "plural": "rose flowers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A crimson rose, token of eternal love."
+    },
+    "itemTypes": [
+      102,
+      113,
+      146,
+      157,
+      211,
+      212,
+      233
+    ],
+    "imageNumber": 660,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.flower.rose.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 446,
+    "name": "flint",
+    "plural": "flints",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small, hard, black glistening piece of rock."
+    },
+    "itemTypes": [
+      25,
+      113,
+      146
+    ],
+    "imageNumber": 863,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 4,
+      "y": 4,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.flint.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 15,
+    "value": 500,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 463,
+    "name": "lock picks",
+    "plural": "lockpicks",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A few small and fragile lock picks with various grooves and notches."
+    },
+    "itemTypes": [
+      22,
+      108,
+      147
+    ],
+    "imageNumber": 769,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.key.lockpicks.",
+    "difficulty": 40.0,
+    "weight": 50,
+    "material": 11,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 479,
+    "name": "moss",
+    "plural": "moss",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A lot of gathered moss."
+    },
+    "itemTypes": [
+      27,
+      113,
+      186,
+      141,
+      146
+    ],
+    "imageNumber": 549,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.moss.",
+    "difficulty": 200.0,
+    "weight": 300,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 481,
+    "name": "healing cover",
+    "plural": "healing covers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A bunch of interwoven grass mixed with various healing ingredients."
+    },
+    "itemTypes": [
+      54,
+      113,
+      129,
+      147
+    ],
+    "imageNumber": 341,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.healing.cover.",
+    "difficulty": 100.0,
+    "weight": 400,
+    "material": 22,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 495,
+    "name": "floor boards",
+    "plural": "floor boards",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "Wooden planks joined as to cover a section of a floor."
+    },
+    "itemTypes": [
+      21,
+      44,
+      113,
+      146,
+      242,
+      243
+    ],
+    "imageNumber": 293,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 21,
+      "y": 60,
+      "z": 60
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.floorboards.",
+    "difficulty": 15.0,
+    "weight": 10300,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 517,
+    "name": "hooks",
+    "plural": "hooks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Small bent pieces of metal used to hang up things on or to clasp two things together."
+    },
+    "itemTypes": [
+      22,
+      44,
+      46,
+      146,
+      147
+    ],
+    "imageNumber": 845,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 4,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.hooks.",
+    "difficulty": 1.0,
+    "weight": 200,
+    "material": 11,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 532,
+    "name": "staff of the office",
+    "plural": "staves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A long slender birch staff, encircled by silver strands and with a huge star ruby at the top."
+    },
+    "itemTypes": [
+      21,
+      40,
+      42,
+      52,
+      70,
+      122
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 80,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.sceptre.",
+    "difficulty": 99.0,
+    "weight": 3000,
+    "material": 14,
+    "value": 5000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 533,
+    "name": "circlet",
+    "plural": "circlets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A simple yet stunningly fashionable silver circlet."
+    },
+    "itemTypes": [
+      4,
+      22,
+      40,
+      42,
+      52,
+      70,
+      122
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.decoration.crown.",
+    "difficulty": 99.0,
+    "weight": 1500,
+    "material": 8,
+    "value": 5000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 536,
+    "name": "cage crown",
+    "plural": "crowns",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A crown in the form of an egg made from steel bands that cage the head of the wearer."
+    },
+    "itemTypes": [
+      4,
+      22,
+      40,
+      42,
+      52,
+      70,
+      122
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.decoration.crown.",
+    "difficulty": 99.0,
+    "weight": 1500,
+    "material": 9,
+    "value": 5000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 538,
+    "name": "stone of the sword",
+    "plural": "stones",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fairly large round stone with a deep notch."
+    },
+    "itemTypes": [
+      25,
+      31,
+      40,
+      52,
+      70,
+      122,
+      123
+    ],
+    "imageNumber": 800,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 50,
+      "y": 50,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.stone.swordstone.",
+    "difficulty": 10.0,
+    "weight": 2000000,
+    "material": 15,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 620,
+    "name": "mixed grass",
+    "plural": "bunches of mixed grass",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Mixed grasses abundant with seeds."
+    },
+    "itemTypes": [
+      46,
+      55,
+      113,
+      186,
+      146
+    ],
+    "imageNumber": 702,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 4,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.flower.mixedgrass.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 637,
+    "name": "freedom stones",
+    "plural": "standing stones",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "Large stones with glowing red markings loom above you holding great promises."
+    },
+    "itemTypes": [
+      25,
+      31,
+      44,
+      48,
+      49,
+      52,
+      67,
+      131
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 500,
+      "y": 500,
+      "z": 1000
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.portal.6.",
+    "difficulty": 99.0,
+    "weight": 2000000,
+    "material": 15,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 681,
+    "name": "fence bars",
+    "plural": "fence bars",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Fence bars wrought from crude metal."
+    },
+    "itemTypes": [
+      22,
+      146,
+      158
+    ],
+    "imageNumber": 625,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.ironfencebars.",
+    "difficulty": 30.0,
+    "weight": 6000,
+    "material": 11,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 682,
+    "name": "declaration of independence",
+    "plural": "declarations",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "This can be used to form a new kingdom. You need to be mayor and have 25 premium players closeby."
+    },
+    "itemTypes": [
+      40,
+      42,
+      53
+    ],
+    "imageNumber": 324,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.declaration.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 1000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 683,
+    "name": "Valrei item",
+    "plural": "items",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A weird item belonging on Valrei."
+    },
+    "itemTypes": [
+      32,
+      59
+    ],
+    "imageNumber": 462,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.valrei.",
+    "difficulty": 300.0,
+    "weight": 100,
+    "material": 21,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 745,
+    "name": "reed fibre",
+    "plural": "reed fibre",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Some weak reed fibres."
+    },
+    "itemTypes": [
+      46,
+      129,
+      146,
+      211
+    ],
+    "imageNumber": 547,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.reedfibre.",
+    "difficulty": 5.0,
+    "weight": 500,
+    "material": 60,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 772,
+    "name": "sheet",
+    "plural": "copper sheets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thin copper sheet."
+    },
+    "itemTypes": [
+      22,
+      146,
+      158
+    ],
+    "imageNumber": 675,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sheet.",
+    "difficulty": 30.0,
+    "weight": 6000,
+    "material": 10,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 773,
+    "name": "sheet",
+    "plural": "iron sheets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thin iron sheet."
+    },
+    "itemTypes": [
+      22,
+      146,
+      158
+    ],
+    "imageNumber": 675,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sheet.",
+    "difficulty": 30.0,
+    "weight": 6000,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1160,
+    "name": "clay planter",
+    "plural": "clay planters",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clay planter that could be hardened by fire."
+    },
+    "itemTypes": [
+      44,
+      108,
+      147,
+      196
+    ],
+    "imageNumber": 490,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.planter.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 18,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1161,
+    "name": "pottery planter",
+    "plural": "pottery planters",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clay planter hardened by fire."
+    },
+    "itemTypes": [
+      30,
+      51,
+      52,
+      108,
+      199
+    ],
+    "imageNumber": 510,
+    "behaviourType": 55,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.planter.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1162,
+    "name": "pottery planter",
+    "plural": "pottery planters",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A planter with something growing in it."
+    },
+    "itemTypes": [
+      30,
+      51,
+      52,
+      108,
+      199,
+      233
+    ],
+    "imageNumber": 510,
+    "behaviourType": 55,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.planter.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1175,
+    "name": "bee hive",
+    "plural": "bee hives",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An enclosed structure in which some honey bee species of the subgenus Apis live and raise their young."
+    },
+    "itemTypes": [
+      1,
+      21,
+      44,
+      47,
+      49,
+      51,
+      52,
+      63,
+      108,
+      109,
+      135,
+      176,
+      199,
+      225
+    ],
+    "imageNumber": 287,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 120,
+      "y": 120,
+      "z": 150
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.hive.",
+    "difficulty": 15.0,
+    "weight": 60000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1177,
+    "name": "pie",
+    "plural": "pies",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A pastry pie with a filling."
+    },
+    "itemTypes": [
+      82,
+      76,
+      129,
+      222,
+      219,
+      220,
+      233
+    ],
+    "imageNumber": 668,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.pie.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1235,
+    "name": "pineapple",
+    "plural": "pineapples",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Normally a tropical edible fruit consisting of coalesced berries, but this one is a mixture of apple and pinenuts!"
+    },
+    "itemTypes": [
+      5,
+      55,
+      80,
+      146,
+      212
+    ],
+    "imageNumber": 669,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 7,
+      "y": 7,
+      "z": 7
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.pineapple.",
+    "difficulty": 15.0,
+    "weight": 500,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1239,
+    "name": "wild bee hive",
+    "plural": "wild bee hives",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A structure, built into a tree, in which some honey bee species of the subgenus Apis live and raise their young."
+    },
+    "itemTypes": [
+      1,
+      21,
+      31,
+      52,
+      63,
+      108,
+      109,
+      123,
+      218
+    ],
+    "imageNumber": 287,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 120,
+      "y": 120,
+      "z": 150
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.hive.wild.",
+    "difficulty": 15.0,
+    "weight": 2000,
+    "material": 14,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1254,
+    "name": "beeswax",
+    "plural": "beeswax",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A natural wax produced by honey bees which is formed into 'scales'."
+    },
+    "itemTypes": [
+      46,
+      146
+    ],
+    "imageNumber": 498,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 19353600,
+    "dimensions": {
+      "x": 4,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.beeswax.",
+    "difficulty": 15.0,
+    "weight": 100,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1271,
+    "name": "village message board",
+    "plural": "village message boards",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A board where you can leave messages for other citizens within your village, by pinning notes onto it."
+    },
+    "itemTypes": [
+      18,
+      21,
+      44,
+      47,
+      48,
+      51,
+      52,
+      86,
+      142,
+      178,
+      199
+    ],
+    "imageNumber": 252,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 60
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.sign.messageboard.",
+    "difficulty": 10.0,
+    "weight": 5000,
+    "material": 14,
+    "value": 5000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1306,
+    "name": "mask of rebirth",
+    "plural": "masks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "You can almost feel the mask is alive with little shoots among the leaves."
+    },
+    "itemTypes": [
+      4,
+      22,
+      44,
+      108,
+      187
+    ],
+    "imageNumber": 465,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      29
+    ],
+    "modelName": "model.armour.head.mask.midsummer.",
+    "difficulty": 25.0,
+    "weight": 200,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1322,
+    "name": "pumpkin shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Spooky, scary shoulder pads. They send shivers down your spine."
+    },
+    "itemTypes": [
+      23,
+      44,
+      92,
+      108,
+      157,
+      187
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46,
+      47
+    ],
+    "modelName": "model.armour.shoul.18.",
+    "difficulty": 25.0,
+    "weight": 300,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1414,
+    "name": "Puzzle King's crystal ball",
+    "plural": "puzzle crystal balls",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A crystal ball once owned by the Puzzle King."
+    },
+    "itemTypes": [
+      44,
+      52,
+      108,
+      147,
+      187,
+      199,
+      229,
+      246
+    ],
+    "imageNumber": 813,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 30,
+      "y": 30,
+      "z": 100
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.ffcrystalball.",
+    "difficulty": 40.0,
+    "weight": 400,
+    "material": 52,
+    "value": 0,
+    "isPurchased": false
+  }
+]

@@ -1,0 +1,434 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 50,
+    "name": "coin",
+    "plural": "copper coins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small round copper coin."
+    },
+    "itemTypes": [
+      22,
+      40,
+      50
+    ],
+    "imageNumber": 572,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.coin.",
+    "difficulty": 200.0,
+    "weight": 10,
+    "material": 10,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 51,
+    "name": "coin",
+    "plural": "iron coins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small round iron coin."
+    },
+    "itemTypes": [
+      22,
+      40,
+      50
+    ],
+    "imageNumber": 573,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.coin.",
+    "difficulty": 200.0,
+    "weight": 10,
+    "material": 11,
+    "value": 1,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 52,
+    "name": "coin",
+    "plural": "silver coins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small round silver coin."
+    },
+    "itemTypes": [
+      22,
+      40,
+      50
+    ],
+    "imageNumber": 571,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.coin.",
+    "difficulty": 200.0,
+    "weight": 10,
+    "material": 8,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 53,
+    "name": "coin",
+    "plural": "gold coins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small round gold coin."
+    },
+    "itemTypes": [
+      22,
+      40,
+      50
+    ],
+    "imageNumber": 570,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.coin.",
+    "difficulty": 200.0,
+    "weight": 10,
+    "material": 7,
+    "value": 1000000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 54,
+    "name": "five coin",
+    "plural": "copper-five coins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A round copper coin with five crowns on it."
+    },
+    "itemTypes": [
+      22,
+      40,
+      50
+    ],
+    "imageNumber": 572,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.coin.",
+    "difficulty": 200.0,
+    "weight": 20,
+    "material": 10,
+    "value": 500,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 55,
+    "name": "five coin",
+    "plural": "iron-five coins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A round iron coin with five crowns on it."
+    },
+    "itemTypes": [
+      22,
+      40,
+      50
+    ],
+    "imageNumber": 573,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.coin.",
+    "difficulty": 200.0,
+    "weight": 20,
+    "material": 11,
+    "value": 5,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 56,
+    "name": "five coin",
+    "plural": "silver-five coins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A round silver coin with five crowns on it."
+    },
+    "itemTypes": [
+      22,
+      40,
+      50
+    ],
+    "imageNumber": 571,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.coin.",
+    "difficulty": 200.0,
+    "weight": 20,
+    "material": 8,
+    "value": 50000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 57,
+    "name": "five coin",
+    "plural": "gold-five coins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A round gold coin with five crowns on it."
+    },
+    "itemTypes": [
+      22,
+      40,
+      50
+    ],
+    "imageNumber": 570,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.coin.",
+    "difficulty": 200.0,
+    "weight": 20,
+    "material": 7,
+    "value": 5000000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 58,
+    "name": "twenty coin",
+    "plural": "copper-twenty coins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large round copper coin with two sheaves on it."
+    },
+    "itemTypes": [
+      22,
+      40,
+      50
+    ],
+    "imageNumber": 572,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.coin.",
+    "difficulty": 200.0,
+    "weight": 30,
+    "material": 10,
+    "value": 2000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 59,
+    "name": "twenty coin",
+    "plural": "iron-twenty coins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large round iron coin with two sheaves on it."
+    },
+    "itemTypes": [
+      22,
+      40,
+      50
+    ],
+    "imageNumber": 573,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.coin.",
+    "difficulty": 200.0,
+    "weight": 30,
+    "material": 11,
+    "value": 20,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 60,
+    "name": "twenty coin",
+    "plural": "silver-twenty coins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large round silver coin with two sheaves on it."
+    },
+    "itemTypes": [
+      22,
+      40,
+      50
+    ],
+    "imageNumber": 571,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.coin.",
+    "difficulty": 200.0,
+    "weight": 30,
+    "material": 8,
+    "value": 200000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 61,
+    "name": "twenty coin",
+    "plural": "gold-twenty coins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large round gold coin two sheaves on it."
+    },
+    "itemTypes": [
+      22,
+      40,
+      50
+    ],
+    "imageNumber": 570,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.coin.",
+    "difficulty": 200.0,
+    "weight": 30,
+    "material": 7,
+    "value": 20000000,
+    "isPurchased": true
+  }
+]

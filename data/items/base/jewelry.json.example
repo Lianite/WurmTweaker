@@ -1,0 +1,438 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 229,
+    "name": "chain",
+    "plural": "chains",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A fine chain with small links."
+    },
+    "itemTypes": [
+      22,
+      44,
+      87,
+      108,
+      147
+    ],
+    "imageNumber": 520,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 2419200,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.chain.",
+    "difficulty": 35.0,
+    "weight": 100,
+    "material": 0,
+    "value": 5000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 230,
+    "name": "necklace",
+    "plural": "necklaces",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A delicate necklace."
+    },
+    "itemTypes": [
+      22,
+      44,
+      87,
+      108,
+      147,
+      153
+    ],
+    "imageNumber": 268,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 2419200,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      29,
+      36
+    ],
+    "modelName": "model.decoration.necklace.",
+    "difficulty": 40.0,
+    "weight": 100,
+    "material": 0,
+    "value": 7000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 231,
+    "name": "bracelet",
+    "plural": "bracelets",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A slender bracelet."
+    },
+    "itemTypes": [
+      22,
+      44,
+      87,
+      108,
+      147,
+      153,
+      258
+    ],
+    "imageNumber": 250,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 2419200,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.decoration.armring.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 0,
+    "value": 2000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 232,
+    "name": "ball",
+    "plural": "balls",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "Your face is reflected in this small well-polished ball."
+    },
+    "itemTypes": [
+      22,
+      44,
+      87,
+      147
+    ],
+    "imageNumber": 813,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 2419200,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.ball.",
+    "difficulty": 30.0,
+    "weight": 300,
+    "material": 0,
+    "value": 5000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 233,
+    "name": "pendulum",
+    "plural": "pendulums",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A pendulum with a fine chain and a well-polished ball."
+    },
+    "itemTypes": [
+      22,
+      44,
+      52,
+      87,
+      108,
+      147
+    ],
+    "imageNumber": 801,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 2419200,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.pendulum.",
+    "difficulty": 10.0,
+    "weight": 400,
+    "material": 0,
+    "value": 4000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 297,
+    "name": "ring",
+    "plural": "rings",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A ring to put on your finger."
+    },
+    "itemTypes": [
+      22,
+      44,
+      87,
+      108,
+      147,
+      153
+    ],
+    "imageNumber": 249,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 2419200,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      40,
+      39
+    ],
+    "modelName": "model.decoration.ring.",
+    "difficulty": 40.0,
+    "weight": 50,
+    "material": 0,
+    "value": 5000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 740,
+    "name": "medallion",
+    "plural": "medallions",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "This medallion is the prize of a Hota tournament."
+    },
+    "itemTypes": [
+      22,
+      52
+    ],
+    "imageNumber": 464,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      29,
+      2,
+      36
+    ],
+    "modelName": "model.decoration.medallion.hota.",
+    "difficulty": 10.0,
+    "weight": 70,
+    "material": 7,
+    "value": 4000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 985,
+    "name": "hota necklace",
+    "plural": "hota necklaces",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A HotA necklace."
+    },
+    "itemTypes": [
+      22,
+      44,
+      52,
+      87,
+      108,
+      147,
+      157,
+      153,
+      187
+    ],
+    "imageNumber": 268,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      29,
+      36
+    ],
+    "modelName": "model.decoration.necklace.hota.",
+    "difficulty": 40.0,
+    "weight": 100,
+    "material": 8,
+    "value": 7000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1397,
+    "name": "pearl",
+    "plural": "pearls",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A pearl, can vary in color from white to those with a hint of color, often pink, to brown or black."
+    },
+    "itemTypes": [
+      48,
+      93,
+      157
+    ],
+    "imageNumber": 563,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.gem.pearl.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 52,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1398,
+    "name": "black pearl",
+    "plural": "black pearls",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A perfectly black pearl."
+    },
+    "itemTypes": [
+      48,
+      93,
+      157
+    ],
+    "imageNumber": 563,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.gem.pearl.black.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 52,
+    "value": 200000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1399,
+    "name": "pearl necklace",
+    "plural": "pearl necklaces",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A delicate necklace made from a string of pearls with a black pearl in middle."
+    },
+    "itemTypes": [
+      25,
+      108,
+      157,
+      153
+    ],
+    "imageNumber": 268,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 24192000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      36
+    ],
+    "modelName": "model.decoration.necklace.pearl.",
+    "difficulty": 40.0,
+    "weight": 100,
+    "material": 0,
+    "value": 7000,
+    "isPurchased": true
+  }
+]

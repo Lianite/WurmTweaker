@@ -1,0 +1,489 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 34,
+    "name": "pumpkin seed",
+    "plural": "pumpkin seeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A few handfuls of pumpkin seed. It can be used to sow with, but pumpkins can be quite hard to grow to acceptable quality."
+    },
+    "itemTypes": [
+      5,
+      20,
+      55,
+      129,
+      146
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 6
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.pumpkinseed.",
+    "difficulty": 200.0,
+    "weight": 100,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 317,
+    "name": "wemp seed",
+    "plural": "wemp seeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A few handfuls of wemp seed. It can be used to sow with, but wemp can be quite hard to grow to acceptable quality."
+    },
+    "itemTypes": [
+      20,
+      129,
+      146
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 6
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.wempseed.",
+    "difficulty": 200.0,
+    "weight": 100,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 744,
+    "name": "reed seed",
+    "plural": "reed seeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A few handfuls of reed seed. It can be used to sow with, but reed must be grown under very special conditions."
+    },
+    "itemTypes": [
+      20,
+      129,
+      146
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 6
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.reedseed.",
+    "difficulty": 200.0,
+    "weight": 100,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 750,
+    "name": "strawberry seeds",
+    "plural": "strawberry seeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A handful of strawberry seeds. They look healthy enough to survive on their own, but they will require a lot of attention to sprout."
+    },
+    "itemTypes": [
+      5,
+      20,
+      55,
+      129,
+      146
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 6
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.strawberries.",
+    "difficulty": 200.0,
+    "weight": 100,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1145,
+    "name": "carrot seed",
+    "plural": "carrot seeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The seed from a carrot."
+    },
+    "itemTypes": [
+      5,
+      20,
+      55,
+      146
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.carrotseeds.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1146,
+    "name": "cabbage seed",
+    "plural": "cabbage seeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The seed from a cabbage."
+    },
+    "itemTypes": [
+      5,
+      20,
+      55,
+      146
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.cabbageseeds.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1147,
+    "name": "tomato seed",
+    "plural": "tomato seeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The seed from a tomato."
+    },
+    "itemTypes": [
+      5,
+      20,
+      55,
+      146
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.tomatoseeds.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1148,
+    "name": "sugar beet seed",
+    "plural": "sugar beet seeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The seed from a sugar beet."
+    },
+    "itemTypes": [
+      5,
+      20,
+      55,
+      146
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sugarbeetseeds.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1149,
+    "name": "lettuce seed",
+    "plural": "lettuce seeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The seed from a lettuce."
+    },
+    "itemTypes": [
+      5,
+      20,
+      55,
+      146
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.lettuceseeds.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1151,
+    "name": "fennel seed",
+    "plural": "fennel seeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A seed from a fennel plant."
+    },
+    "itemTypes": [
+      5,
+      55,
+      205,
+      146,
+      206,
+      212
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.fennelseeds.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1153,
+    "name": "paprika seed",
+    "plural": "paprika seeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A seed from air-dried fruits of the chili pepper family of the species Capsicum annuum."
+    },
+    "itemTypes": [
+      5,
+      55,
+      205,
+      146,
+      206,
+      212
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.paprikaseeds.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1154,
+    "name": "turmeric seed",
+    "plural": "turmeric seeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A seed from a rhizomatous herbaceous perennial plant of the ginger family."
+    },
+    "itemTypes": [
+      5,
+      55,
+      205,
+      146,
+      206,
+      212
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.turmericseeds.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1248,
+    "name": "cucumber seed",
+    "plural": "cucumber seeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The seed from a cucumber."
+    },
+    "itemTypes": [
+      5,
+      20,
+      55,
+      146
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 2,
+      "y": 3,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.cucumberseeds.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  }
+]

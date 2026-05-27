@@ -97,7 +97,7 @@ public class JsonLoader {
         JsonElement typeEl = element.getAsJsonObject().get("json-type");
         if (typeEl == null) return;
         if (handler.getTypeName().equals(typeEl.getAsString())) {
-            handler.apply(gson.fromJson(element, handler.getDefinitionClass()));
+            handler.apply(gson.fromJson(element, handler.getDefinitionClass()), file);
         }
     }
 }

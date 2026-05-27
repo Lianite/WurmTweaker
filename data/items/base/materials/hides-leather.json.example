@@ -1,0 +1,326 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 71,
+    "name": "hide",
+    "plural": "hides",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A hide skinned from an animal."
+    },
+    "itemTypes": [
+      23,
+      46,
+      62,
+      129,
+      146
+    ],
+    "imageNumber": 602,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.hide.",
+    "difficulty": 1.0,
+    "weight": 3000,
+    "material": 0,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 72,
+    "name": "leather",
+    "plural": "leather",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The prepared hide of an animal."
+    },
+    "itemTypes": [
+      23,
+      46,
+      146
+    ],
+    "imageNumber": 602,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.leather.",
+    "difficulty": 1.0,
+    "weight": 3000,
+    "material": 16,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 73,
+    "name": "lye",
+    "plural": "lye",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Made from ash and water, this is used when preparing leather."
+    },
+    "itemTypes": [
+      26,
+      211
+    ],
+    "imageNumber": 540,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.lye.",
+    "difficulty": 3.0,
+    "weight": 1000,
+    "material": 27,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 100,
+    "name": "strip of leather",
+    "plural": "strips of leather",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thin and long leather strip."
+    },
+    "itemTypes": [
+      23,
+      146
+    ],
+    "imageNumber": 622,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.strip.",
+    "difficulty": 1.0,
+    "weight": 30,
+    "material": 16,
+    "value": 10,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 101,
+    "name": "leather wound handle",
+    "plural": "leather wound handles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wooden handle wound with leather."
+    },
+    "itemTypes": [
+      21
+    ],
+    "imageNumber": 765,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.leatherwoundhandle.",
+    "difficulty": 5.0,
+    "weight": 130,
+    "material": 14,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 302,
+    "name": "fur",
+    "plural": "furs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thick fur, skinned from an animal."
+    },
+    "itemTypes": [
+      23,
+      46,
+      62,
+      129,
+      146
+    ],
+    "imageNumber": 603,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.fur.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 55,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 313,
+    "name": "pelt",
+    "plural": "pelts",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fine pelt, skinned from an animal."
+    },
+    "itemTypes": [
+      62
+    ],
+    "imageNumber": 602,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 50,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.pelt.",
+    "difficulty": 1.0,
+    "weight": 200,
+    "material": 55,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 371,
+    "name": "drake hide",
+    "plural": "drake hides",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The prepared hide from a drake."
+    },
+    "itemTypes": [
+      23,
+      46,
+      62,
+      99
+    ],
+    "imageNumber": 602,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 10,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.leather.dragon.",
+    "difficulty": 20.0,
+    "weight": 500,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 372,
+    "name": "scale",
+    "plural": "scales",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Light but extremely tough, these scales will withstand even the hardest of blows and the sharpest of cuts."
+    },
+    "itemTypes": [
+      23,
+      46,
+      62,
+      99
+    ],
+    "imageNumber": 554,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 10,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.scales.dragon.",
+    "difficulty": 40.0,
+    "weight": 2500,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  }
+]

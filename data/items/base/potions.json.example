@@ -1,0 +1,735 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 650,
+    "name": "farmer's salve",
+    "plural": "salves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This faintly healing salve will cure swelling and bruises. It has a pretty vibrant smell of garlic."
+    },
+    "itemTypes": [
+      27,
+      46,
+      147
+    ],
+    "imageNumber": 262,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.healing.salve.",
+    "difficulty": 5.0,
+    "weight": 100,
+    "material": 32,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 834,
+    "name": "yellow potion",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A round flask containing liquid with a really funny strong smell. Maybe something equally fun will happen if you quaff it?"
+    },
+    "itemTypes": [
+      6
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.yellow.",
+    "difficulty": 200.0,
+    "weight": 1,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 836,
+    "name": "brown potion",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "faintly glowing",
+      "normal": "barely glowing",
+      "bad": "almost glowing",
+      "rotten": "not glowing",
+      "long": "A diamond shaped brown flask containing some sort of horrible concoct."
+    },
+    "itemTypes": [
+      6
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.brown.",
+    "difficulty": 200.0,
+    "weight": 1,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 871,
+    "name": "oil of the weapon smith",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small flask containing a grey oily substance that glows in the dark."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.ws.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 872,
+    "name": "potion of the ropemaker",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small flask containing an white substance that glows in the dark."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.rm.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 873,
+    "name": "potion of water walking",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small flask containing an clear blue substance that glows in the dark."
+    },
+    "itemTypes": [
+      6
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.ww.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 874,
+    "name": "potion of mining",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small flask containing a dark substance that glows in the dark."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.mi.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 875,
+    "name": "ointment of tailoring",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small flask containing a syrupy golden substance."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.ta.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 876,
+    "name": "oil of the armour smith",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small flask containing a black thick liquid."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.as.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 877,
+    "name": "fletching potion",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small flask containing a green syrupy liquid."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.fl.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 878,
+    "name": "oil of the blacksmith",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small flask containing a yellow oily fluid."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.bs.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 879,
+    "name": "potion of leatherworking",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small flask containing a bright yellow smoky fluid."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.lw.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 880,
+    "name": "potion of shipbuilding",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small flask containing a bright blue smoky fluid."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.sb.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 881,
+    "name": "ointment of stonecutting",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small jar containing an dull grey ointment."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.sc.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 882,
+    "name": "ointment of masonry",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small jar containing an dull black ointment."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.ma.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 883,
+    "name": "potion of woodcutting",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small flask containing an bright green shining fluid."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.wc.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 884,
+    "name": "potion of carpentry",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small flask containing an brown smoky fluid."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.ca.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 886,
+    "name": "potion of acid",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small flask containing a poisonous green smoky fluid."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.ac.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 887,
+    "name": "salve of fire",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small jar containing an orange mixture."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.fi.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 888,
+    "name": "salve of frost",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small jar containing an crystalline white mixture."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.fr.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1413,
+    "name": "potion of butchery",
+    "plural": "potions",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small flask containing an brown smoky fluid."
+    },
+    "itemTypes": [
+      6,
+      183
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.ca.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 21,
+    "value": 10000,
+    "isPurchased": false
+  }
+]

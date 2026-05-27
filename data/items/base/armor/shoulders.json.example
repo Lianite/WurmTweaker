@@ -1,0 +1,868 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 1049,
+    "name": "small shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      24,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46,
+      47
+    ],
+    "modelName": "model.armour.shoul.1.",
+    "difficulty": 25.0,
+    "weight": 300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1050,
+    "name": "double shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      24,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46,
+      47
+    ],
+    "modelName": "model.armour.shoul.2.",
+    "difficulty": 25.0,
+    "weight": 300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1051,
+    "name": "curved shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      24,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46,
+      47
+    ],
+    "modelName": "model.armour.shoul.3.",
+    "difficulty": 25.0,
+    "weight": 300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1052,
+    "name": "triple shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      23,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46,
+      47
+    ],
+    "modelName": "model.armour.shoul.4.",
+    "difficulty": 25.0,
+    "weight": 300,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1053,
+    "name": "right elaborate shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      23,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      47
+    ],
+    "modelName": "model.armour.shoul.5.right.",
+    "difficulty": 25.0,
+    "weight": 300,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1054,
+    "name": "exquisite shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      23,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46,
+      47
+    ],
+    "modelName": "model.armour.shoul.6.",
+    "difficulty": 25.0,
+    "weight": 300,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1055,
+    "name": "right basic shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      22,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      47
+    ],
+    "modelName": "model.armour.shoul.7.right.",
+    "difficulty": 25.0,
+    "weight": 500,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1056,
+    "name": "right shielding shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      22,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      47
+    ],
+    "modelName": "model.armour.shoul.8.right.",
+    "difficulty": 25.0,
+    "weight": 500,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1057,
+    "name": "right stylish shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      22,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      47
+    ],
+    "modelName": "model.armour.shoul.9.right.",
+    "difficulty": 25.0,
+    "weight": 500,
+    "material": 7,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1058,
+    "name": "right layered shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      22,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      47
+    ],
+    "modelName": "model.armour.shoul.10.right.",
+    "difficulty": 25.0,
+    "weight": 300,
+    "material": 9,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1059,
+    "name": "chain shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      22,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46,
+      47
+    ],
+    "modelName": "model.armour.shoul.11.",
+    "difficulty": 25.0,
+    "weight": 300,
+    "material": 0,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1060,
+    "name": "crafted shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46,
+      47
+    ],
+    "modelName": "model.armour.shoul.12.",
+    "difficulty": 25.0,
+    "weight": 300,
+    "material": 35,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1061,
+    "name": "boar shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46,
+      47
+    ],
+    "modelName": "model.armour.shoul.13.",
+    "difficulty": 25.0,
+    "weight": 500,
+    "material": 35,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1062,
+    "name": "ribboned shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      21,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46,
+      47
+    ],
+    "modelName": "model.armour.shoul.14.",
+    "difficulty": 25.0,
+    "weight": 300,
+    "material": 0,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1063,
+    "name": "skull shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46,
+      47
+    ],
+    "modelName": "model.armour.shoul.15.",
+    "difficulty": 25.0,
+    "weight": 400,
+    "material": 35,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1064,
+    "name": "human skull shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46,
+      47
+    ],
+    "modelName": "model.armour.shoul.16.",
+    "difficulty": 25.0,
+    "weight": 500,
+    "material": 35,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1065,
+    "name": "dragon shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      22,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46,
+      47
+    ],
+    "modelName": "model.armour.shoul.17.",
+    "difficulty": 25.0,
+    "weight": 500,
+    "material": 9,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1066,
+    "name": "left elaborate shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      23,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46
+    ],
+    "modelName": "model.armour.shoul.5.left.",
+    "difficulty": 25.0,
+    "weight": 300,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1092,
+    "name": "left basic shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      22,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46
+    ],
+    "modelName": "model.armour.shoul.7.left.",
+    "difficulty": 25.0,
+    "weight": 500,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1093,
+    "name": "left shielding shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      22,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46
+    ],
+    "modelName": "model.armour.shoul.8.left.",
+    "difficulty": 25.0,
+    "weight": 500,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1094,
+    "name": "left stylish shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      22,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46
+    ],
+    "modelName": "model.armour.shoul.9.left.",
+    "difficulty": 25.0,
+    "weight": 500,
+    "material": 7,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1095,
+    "name": "left layered shoulder pad",
+    "plural": "shoulder pads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative shoulder pad. These armour pieces come in a variety of materials and designs."
+    },
+    "itemTypes": [
+      22,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1140,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      46
+    ],
+    "modelName": "model.armour.shoul.10.left.",
+    "difficulty": 25.0,
+    "weight": 300,
+    "material": 9,
+    "value": 10000,
+    "isPurchased": true
+  }
+]

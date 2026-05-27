@@ -1,0 +1,236 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 345,
+    "name": "stew",
+    "plural": "stews",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A delicious stew."
+    },
+    "itemTypes": [
+      5,
+      26,
+      74,
+      108,
+      212,
+      219,
+      233
+    ],
+    "imageNumber": 587,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.stew.",
+    "difficulty": 1.0,
+    "weight": 700,
+    "material": 2,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 346,
+    "name": "casserole",
+    "plural": "casseroles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A tasty casserole."
+    },
+    "itemTypes": [
+      82,
+      76,
+      222,
+      219,
+      233
+    ],
+    "imageNumber": 531,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.casserole.",
+    "difficulty": 1.0,
+    "weight": 700,
+    "material": 22,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 347,
+    "name": "meal",
+    "plural": "meals",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A delicious well-prepared meal."
+    },
+    "itemTypes": [
+      82,
+      76,
+      222,
+      219,
+      233
+    ],
+    "imageNumber": 562,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.steak.",
+    "difficulty": 1.0,
+    "weight": 700,
+    "material": 2,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 348,
+    "name": "gulasch",
+    "plural": "gulaschs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fine gulasch."
+    },
+    "itemTypes": [
+      5,
+      26,
+      75,
+      108,
+      212,
+      219,
+      233
+    ],
+    "imageNumber": 607,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.gulasch.",
+    "difficulty": 1.0,
+    "weight": 700,
+    "material": 2,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 352,
+    "name": "soup",
+    "plural": "soups",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A yummy soup."
+    },
+    "itemTypes": [
+      5,
+      26,
+      55,
+      90,
+      108,
+      212,
+      219,
+      233
+    ],
+    "imageNumber": 531,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.soup.",
+    "difficulty": 1.0,
+    "weight": 700,
+    "material": 26,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 442,
+    "name": "delicious julbord",
+    "plural": "julbords",
+    "size": 4,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wonderful julbord with ham and spare ribs, assorted cheese, mustard, meatballs, pickled fish, ale, schnaps and julmust, egg, potatoes, chocolate candy, marzipan pigs, and more and more."
+    },
+    "itemTypes": [
+      21,
+      31,
+      52,
+      157
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 10,
+      "y": 60,
+      "z": 250
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.furniture.table.square.large.julbord.",
+    "difficulty": 30.0,
+    "weight": 18000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  }
+]

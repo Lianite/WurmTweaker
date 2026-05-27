@@ -1,0 +1,333 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 603,
+    "name": "monolith portal",
+    "plural": "portals",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A large stone portal stands here, inviting you through."
+    },
+    "itemTypes": [
+      25,
+      31,
+      44,
+      48,
+      49,
+      52,
+      67,
+      131
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 500,
+      "y": 500,
+      "z": 1000
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.portal.1.",
+    "difficulty": 99.0,
+    "weight": 2000000,
+    "material": 15,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 604,
+    "name": "ring portal",
+    "plural": "portals",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A large portal stands here, inviting you through."
+    },
+    "itemTypes": [
+      25,
+      31,
+      44,
+      48,
+      49,
+      52,
+      67,
+      131
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 500,
+      "y": 500,
+      "z": 1000
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.portal.2.",
+    "difficulty": 99.0,
+    "weight": 2000000,
+    "material": 15,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 605,
+    "name": "desolate portal",
+    "plural": "portals",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A large stone portal stands here, inviting you through."
+    },
+    "itemTypes": [
+      25,
+      31,
+      44,
+      48,
+      49,
+      52,
+      67,
+      131
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 500,
+      "y": 500,
+      "z": 1000
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.portal.3.",
+    "difficulty": 99.0,
+    "weight": 2000000,
+    "material": 15,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 606,
+    "name": "flame portal",
+    "plural": "portals",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A large stone portal decorated with flames stands here, inviting you through."
+    },
+    "itemTypes": [
+      25,
+      31,
+      44,
+      48,
+      49,
+      52,
+      67,
+      131
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 500,
+      "y": 500,
+      "z": 1000
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.portal.4.",
+    "difficulty": 99.0,
+    "weight": 2000000,
+    "material": 15,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 607,
+    "name": "portal",
+    "plural": "portals",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A large portal in the form of two large stones stands here, inviting you through."
+    },
+    "itemTypes": [
+      25,
+      31,
+      44,
+      48,
+      49,
+      52,
+      67,
+      131
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 500,
+      "y": 500,
+      "z": 1000
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.portal.5.",
+    "difficulty": 99.0,
+    "weight": 2000000,
+    "material": 15,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 732,
+    "name": "epic portal",
+    "plural": "portals",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "This rudimentary structure made from stone bricks and logs is rumoured to lead to far away lands."
+    },
+    "itemTypes": [
+      25,
+      31,
+      44,
+      48,
+      49,
+      51,
+      52,
+      67,
+      86,
+      109,
+      131,
+      178
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 2419200,
+    "dimensions": {
+      "x": 500,
+      "y": 500,
+      "z": 1000
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.portal.8.",
+    "difficulty": 1.0,
+    "weight": 2000000,
+    "material": 15,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 733,
+    "name": "huge epic portal",
+    "plural": "portals",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "This impressive structure made from both known and unknown materials apparently lead to the mysterious Epic cluster of islands."
+    },
+    "itemTypes": [
+      25,
+      31,
+      44,
+      48,
+      49,
+      51,
+      52,
+      67,
+      109,
+      131,
+      178
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 500,
+      "y": 500,
+      "z": 1000
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.portal.7.",
+    "difficulty": 1.0,
+    "weight": 2000000,
+    "material": 15,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 855,
+    "name": "steel portal",
+    "plural": "portals",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": ""
+    },
+    "itemTypes": [
+      31,
+      40,
+      52,
+      131
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 100,
+      "y": 100,
+      "z": 100
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.portal.9.",
+    "difficulty": 30.0,
+    "weight": 240000,
+    "material": 57,
+    "value": 10000,
+    "isPurchased": false
+  }
+]

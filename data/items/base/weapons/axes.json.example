@@ -1,0 +1,163 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 3,
+    "name": "axe",
+    "plural": "small axes",
+    "size": 2,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A short but sturdy axe with a thick blade."
+    },
+    "itemTypes": [
+      2,
+      15,
+      22,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 1207,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 40
+    },
+    "primarySkill": 10001,
+    "bodySpaces": [],
+    "modelName": "model.weapon.axe.small.",
+    "difficulty": 11.0,
+    "weight": 1500,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 87,
+    "name": "axe",
+    "plural": "huge axes",
+    "size": 5,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A huge axe with a heavy head and a wooden shaft. You'll need to wield it with both hands."
+    },
+    "itemTypes": [
+      2,
+      15,
+      22,
+      44,
+      84,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 1227,
+    "behaviourType": 1,
+    "combatDamage": 60,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 4,
+      "y": 15,
+      "z": 100
+    },
+    "primarySkill": 10025,
+    "bodySpaces": [],
+    "modelName": "model.weapon.axe.large.",
+    "difficulty": 35.0,
+    "weight": 2500,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 90,
+    "name": "axe",
+    "plural": "medium axes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A medium sized battle axe with a wooden shaft."
+    },
+    "itemTypes": [
+      2,
+      15,
+      22,
+      44,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 1207,
+    "behaviourType": 1,
+    "combatDamage": 30,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 4,
+      "y": 10,
+      "z": 80
+    },
+    "primarySkill": 10024,
+    "bodySpaces": [],
+    "modelName": "model.weapon.axe.medium.",
+    "difficulty": 15.0,
+    "weight": 2000,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1011,
+    "name": "crude axe",
+    "plural": "crude axes",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A hard, sharp piece of rock fastened to a short shaft."
+    },
+    "itemTypes": [
+      2,
+      15,
+      25,
+      38,
+      97,
+      113,
+      157,
+      151
+    ],
+    "imageNumber": 744,
+    "behaviourType": 1,
+    "combatDamage": 3,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 30,
+      "z": 70
+    },
+    "primarySkill": 10009,
+    "bodySpaces": [],
+    "modelName": "model.weapon.axe.small.crude.",
+    "difficulty": 1.0,
+    "weight": 3000,
+    "material": 15,
+    "value": 1,
+    "isPurchased": false
+  }
+]

@@ -1,0 +1,267 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 143,
+    "name": "steel and flint",
+    "plural": "flints and steel",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A piece of sharp flint and a steel handle, which will produce sparks when struck against each other."
+    },
+    "itemTypes": [
+      22,
+      38,
+      44,
+      97
+    ],
+    "imageNumber": 783,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 2,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.small.flintandsteel.",
+    "difficulty": 10.0,
+    "weight": 400,
+    "material": 9,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 271,
+    "name": "yoyo",
+    "plural": "yoyos",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small spool of wood with a string rolled up in the centre."
+    },
+    "itemTypes": [
+      21,
+      108,
+      147
+    ],
+    "imageNumber": 761,
+    "behaviourType": 26,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.toy.yoyo.",
+    "difficulty": 15.0,
+    "weight": 100,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 320,
+    "name": "rope tool",
+    "plural": "rope tools",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A rope making tool, a small handheld spinning wheel with three large nails."
+    },
+    "itemTypes": [
+      21,
+      44,
+      51,
+      108,
+      147
+    ],
+    "imageNumber": 880,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 2,
+      "y": 25,
+      "z": 25
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.ropetool.small.",
+    "difficulty": 10.0,
+    "weight": 1500,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 516,
+    "name": "toolbelt",
+    "plural": "toolbelts",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An ingenious system of pockets, pouches, hooks and holes designed to keep a wide array of common tools."
+    },
+    "itemTypes": [
+      23,
+      44,
+      92,
+      97,
+      121,
+      108,
+      147
+    ],
+    "imageNumber": 861,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      34,
+      43
+    ],
+    "modelName": "model.clothing.belt.toolbelt.",
+    "difficulty": 35.0,
+    "weight": 1000,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 647,
+    "name": "grooming brush",
+    "plural": "grooming brushes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This wooden brush is used to groom animals. Its wooden handle is lined with lots of thin, strong wemp straws."
+    },
+    "itemTypes": [
+      21,
+      38,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 902,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.groomingbrush.",
+    "difficulty": 15.0,
+    "weight": 350,
+    "material": 14,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 701,
+    "name": "branding iron",
+    "plural": "branding iron",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A metal brand on a sturdy metal shaft."
+    },
+    "itemTypes": [
+      22,
+      38,
+      44,
+      108
+    ],
+    "imageNumber": 780,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 4,
+      "z": 35
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.brandingiron.",
+    "difficulty": 20.0,
+    "weight": 300,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1024,
+    "name": "conch",
+    "plural": "conches",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This large conch shell makes weird sounds as you listen to it."
+    },
+    "itemTypes": [
+      40,
+      42,
+      48
+    ],
+    "imageNumber": 588,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 2,
+      "y": 2,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.transmutation.",
+    "difficulty": 40.0,
+    "weight": 14,
+    "material": 52,
+    "value": 100,
+    "isPurchased": false
+  }
+]

@@ -1,0 +1,336 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 273,
+    "name": "steel glove",
+    "plural": "steel gloves",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A glove composed of steel rings."
+    },
+    "itemTypes": [
+      4,
+      22,
+      44,
+      92,
+      108
+    ],
+    "imageNumber": 1084,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 1,
+      "y": 7,
+      "z": 15
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      13,
+      14
+    ],
+    "modelName": "model.armour.hand.",
+    "difficulty": 200.0,
+    "weight": 300,
+    "material": 9,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 274,
+    "name": "chain boot",
+    "plural": "chain boots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sock made from metal chain."
+    },
+    "itemTypes": [
+      4,
+      22,
+      44,
+      92,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 1045,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      15,
+      16
+    ],
+    "modelName": "model.armour.foot.chain.",
+    "difficulty": 30.0,
+    "weight": 700,
+    "material": 0,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 275,
+    "name": "chain pants",
+    "plural": "chain pants",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Leg protection made from metal chain."
+    },
+    "itemTypes": [
+      4,
+      22,
+      44,
+      92,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 1041,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      34
+    ],
+    "modelName": "model.armour.leg.chain.",
+    "difficulty": 50.0,
+    "weight": 2200,
+    "material": 0,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 276,
+    "name": "chain jacket",
+    "plural": "chain jackets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A heavy jacket made from metal chain."
+    },
+    "itemTypes": [
+      4,
+      22,
+      44,
+      92,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 1040,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 35,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.armour.torso.chain.",
+    "difficulty": 65.0,
+    "weight": 2200,
+    "material": 0,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 277,
+    "name": "chain sleeve",
+    "plural": "chain sleeves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Chains sown into a cylinder to protect the arms."
+    },
+    "itemTypes": [
+      4,
+      22,
+      44,
+      92,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 1042,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.armour.sleeve.chain.",
+    "difficulty": 45.0,
+    "weight": 700,
+    "material": 0,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 278,
+    "name": "chain gauntlet",
+    "plural": "chain gauntlet",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A chain glove."
+    },
+    "itemTypes": [
+      4,
+      22,
+      44,
+      92,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 1044,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 16
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      13,
+      14
+    ],
+    "modelName": "model.armour.hand.chain.",
+    "difficulty": 40.0,
+    "weight": 300,
+    "material": 0,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 279,
+    "name": "chain coif",
+    "plural": "chain coifs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A heavy chain coif, worn on the head."
+    },
+    "itemTypes": [
+      4,
+      22,
+      44,
+      92,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 1043,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.chain.",
+    "difficulty": 35.0,
+    "weight": 400,
+    "material": 0,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 288,
+    "name": "armour chains",
+    "plural": "armour chains",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A piece of thick interwoven chain links."
+    },
+    "itemTypes": [
+      22,
+      46,
+      146,
+      158
+    ],
+    "imageNumber": 604,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.chain.",
+    "difficulty": 15.0,
+    "weight": 500,
+    "material": 0,
+    "value": 1000,
+    "isPurchased": true
+  }
+]

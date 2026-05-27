@@ -1,0 +1,656 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 24,
+    "name": "saw",
+    "plural": "saws",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A saw, good for creating and sawing planks."
+    },
+    "itemTypes": [
+      18,
+      11,
+      22,
+      38,
+      44,
+      84,
+      97,
+      108
+    ],
+    "imageNumber": 747,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 70
+    },
+    "primarySkill": 10008,
+    "bodySpaces": [],
+    "modelName": "model.tool.saw.",
+    "difficulty": 20.0,
+    "weight": 1200,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 62,
+    "name": "hammer",
+    "plural": "hammers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A hammer with a metal head and wooden shaft."
+    },
+    "itemTypes": [
+      14,
+      22,
+      38,
+      44,
+      108,
+      147,
+      247
+    ],
+    "imageNumber": 742,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 30
+    },
+    "primarySkill": 10026,
+    "bodySpaces": [],
+    "modelName": "model.tool.hammer.",
+    "difficulty": 10.0,
+    "weight": 1400,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 63,
+    "name": "mallet",
+    "plural": "mallets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A hammer with a thick head made entirely from wood. Normally used to bonk other wooden things together."
+    },
+    "itemTypes": [
+      14,
+      21,
+      38,
+      44,
+      108,
+      119,
+      147,
+      247
+    ],
+    "imageNumber": 741,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 10,
+      "z": 30
+    },
+    "primarySkill": 10026,
+    "bodySpaces": [],
+    "modelName": "model.tool.hammer.",
+    "difficulty": 1.0,
+    "weight": 1200,
+    "material": 14,
+    "value": 1000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 64,
+    "name": "anvil",
+    "plural": "anvils",
+    "size": 2,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small but heavy metal anvil."
+    },
+    "itemTypes": [
+      22,
+      38,
+      44,
+      51,
+      108,
+      157
+    ],
+    "imageNumber": 791,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.anvil.small.",
+    "difficulty": 5.0,
+    "weight": 2000,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 97,
+    "name": "stone chisel",
+    "plural": "stone chisels",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A straight tool with a strong hard blade made for cutting stone."
+    },
+    "itemTypes": [
+      13,
+      22,
+      38,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 1201,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 15
+    },
+    "primarySkill": 10030,
+    "bodySpaces": [],
+    "modelName": "model.tool.chisel.",
+    "difficulty": 7.0,
+    "weight": 400,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 127,
+    "name": "hammer head",
+    "plural": "hammer heads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The thick metal head for a hammer."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 722,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 4,
+      "z": 7
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.blade.hammer.",
+    "difficulty": 4.0,
+    "weight": 400,
+    "material": 11,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 154,
+    "name": "chisel blade",
+    "plural": "chisel blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wide, flat blade that is tapped along the cut line to produce a groove."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 720,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.blade.chisel.",
+    "difficulty": 3.0,
+    "weight": 300,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 156,
+    "name": "mallet head",
+    "plural": "mallet heads",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A thick wooden hammerhead."
+    },
+    "itemTypes": [
+      21,
+      147
+    ],
+    "imageNumber": 721,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 20
+    },
+    "primarySkill": 1020,
+    "bodySpaces": [],
+    "modelName": "model.tool.blade.hammer.",
+    "difficulty": 1.0,
+    "weight": 200,
+    "material": 14,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 185,
+    "name": "anvil",
+    "plural": "anvils",
+    "size": 4,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large, heavy metal anvil."
+    },
+    "itemTypes": [
+      1,
+      22,
+      38,
+      44,
+      47,
+      51,
+      52,
+      67,
+      86,
+      108,
+      139,
+      157,
+      199,
+      256
+    ],
+    "imageNumber": 791,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 30,
+      "y": 30,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.anvil.large.",
+    "difficulty": 20.0,
+    "weight": 10000,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 202,
+    "name": "grindstone",
+    "plural": "grindstones",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This flat, circular stone that can be used to create flour from cereals."
+    },
+    "itemTypes": [
+      25,
+      44,
+      210
+    ],
+    "imageNumber": 800,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.grinder.",
+    "difficulty": 10.0,
+    "weight": 3000,
+    "material": 15,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 388,
+    "name": "file",
+    "plural": "files",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A rugged metal blade on a shaft, used to make wood smoother."
+    },
+    "itemTypes": [
+      22,
+      38,
+      44,
+      108,
+      119,
+      147
+    ],
+    "imageNumber": 749,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 15
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.file.",
+    "difficulty": 7.0,
+    "weight": 400,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 389,
+    "name": "file blade",
+    "plural": "file blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A straight rugged metal blade."
+    },
+    "itemTypes": [
+      22,
+      44,
+      119
+    ],
+    "imageNumber": 729,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.blade.file.",
+    "difficulty": 3.0,
+    "weight": 300,
+    "material": 11,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 441,
+    "name": "metal brush",
+    "plural": "metal brushes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A piece of wood with a bundle of rough wires attached on one end."
+    },
+    "itemTypes": [
+      11,
+      22,
+      38,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 882,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.metalbrush.",
+    "difficulty": 25.0,
+    "weight": 1400,
+    "material": 14,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 492,
+    "name": "mortar",
+    "plural": "mortar",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Fine-grained brown mortar, perfect for masonry."
+    },
+    "itemTypes": [
+      25,
+      46,
+      113,
+      146,
+      158,
+      174
+    ],
+    "imageNumber": 591,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 18000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.mortar.",
+    "difficulty": 15.0,
+    "weight": 2000,
+    "material": 18,
+    "value": 10,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 493,
+    "name": "trowel",
+    "plural": "trowels",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wide metal blade on a shaft, useful in construction and searching through dirt and rocks for useful items."
+    },
+    "itemTypes": [
+      22,
+      38,
+      44,
+      108,
+      147,
+      247
+    ],
+    "imageNumber": 750,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 4,
+      "z": 15
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.trowel.",
+    "difficulty": 10.0,
+    "weight": 450,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 494,
+    "name": "trowel blade",
+    "plural": "trowel blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A flat, faintly pointed broad blade used to smooth out mortar on bricks and sift through dirt and rocks."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 730,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 4,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.blade.trowel.",
+    "difficulty": 7.0,
+    "weight": 350,
+    "material": 11,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1115,
+    "name": "crowbar",
+    "plural": "crowbars",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A tool consisting of a steel bar with a single curved end and flattened points."
+    },
+    "itemTypes": [
+      14,
+      22,
+      38,
+      44,
+      108,
+      157
+    ],
+    "imageNumber": 738,
+    "behaviourType": 1,
+    "combatDamage": 25,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 20
+    },
+    "primarySkill": 1025,
+    "bodySpaces": [],
+    "modelName": "model.tool.crowbar.",
+    "difficulty": 17.0,
+    "weight": 2000,
+    "material": 9,
+    "value": 10000,
+    "isPurchased": true
+  }
+]

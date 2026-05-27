@@ -1,0 +1,622 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 621,
+    "name": "saddle",
+    "plural": "saddles",
+    "size": 3,
+    "descriptions": {
+      "superb": "strong",
+      "normal": "well-made",
+      "bad": "ok",
+      "rotten": "fragile",
+      "long": "A leather saddle complete with a girth and stirrups."
+    },
+    "itemTypes": [
+      1,
+      23,
+      44,
+      92,
+      136,
+      139,
+      147,
+      180
+    ],
+    "imageNumber": 757,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 30,
+      "y": 40,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.riding.saddle.",
+    "difficulty": 30.0,
+    "weight": 5500,
+    "material": 16,
+    "value": 2000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 622,
+    "name": "saddle",
+    "plural": "saddles",
+    "size": 4,
+    "descriptions": {
+      "superb": "strong",
+      "normal": "well-made",
+      "bad": "ok",
+      "rotten": "fragile",
+      "long": "A leather saddle complete with a girth and stirrups."
+    },
+    "itemTypes": [
+      23,
+      44,
+      92,
+      136,
+      147
+    ],
+    "imageNumber": 777,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 40,
+      "y": 50,
+      "z": 60
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.riding.saddle.",
+    "difficulty": 60.0,
+    "weight": 6000,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 623,
+    "name": "horse shoe",
+    "plural": "horse shoes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "These are said to bring luck! Apart from improving horse speed and safety, of course."
+    },
+    "itemTypes": [
+      22,
+      44,
+      108,
+      136,
+      147
+    ],
+    "imageNumber": 737,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "modelName": "model.riding.horseshoe.",
+    "difficulty": 5.0,
+    "weight": 500,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 624,
+    "name": "bridle",
+    "plural": "bridles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "These thin leather reins, headstall and metal bit should be put on the head of a creature to direct it."
+    },
+    "itemTypes": [
+      23,
+      44,
+      92,
+      108,
+      136,
+      147
+    ],
+    "imageNumber": 917,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 4,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1
+    ],
+    "modelName": "model.riding.bridle.",
+    "difficulty": 15.0,
+    "weight": 800,
+    "material": 16,
+    "value": 2000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 625,
+    "name": "girth",
+    "plural": "girth",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This is a thick saddlebelt designed for a creatures belly."
+    },
+    "itemTypes": [
+      23,
+      44,
+      92,
+      147
+    ],
+    "imageNumber": 897,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 8,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.riding.girth.",
+    "difficulty": 18.0,
+    "weight": 2500,
+    "material": 16,
+    "value": 500,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 626,
+    "name": "stirrups",
+    "plural": "stirrups",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Supposed to hang from a saddle, these sturdy leather stirrups cover half the foot."
+    },
+    "itemTypes": [
+      23,
+      44,
+      92,
+      147
+    ],
+    "imageNumber": 837,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 8,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.riding.stirrups.",
+    "difficulty": 22.0,
+    "weight": 1000,
+    "material": 16,
+    "value": 500,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 627,
+    "name": "mouth bit",
+    "plural": "mouth bits",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A metal bit to put in the mouth of a creature that you want to direct. Use with a headstall and reins."
+    },
+    "itemTypes": [
+      22,
+      44,
+      147
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.riding.bit.",
+    "difficulty": 5.0,
+    "weight": 200,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 628,
+    "name": "reins",
+    "plural": "reins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Thin leather reins, used together with a bit and headstall to direct a creature."
+    },
+    "itemTypes": [
+      23,
+      44,
+      92,
+      147
+    ],
+    "imageNumber": 957,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 4,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.riding.reins.",
+    "difficulty": 16.0,
+    "weight": 300,
+    "material": 16,
+    "value": 500,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 629,
+    "name": "saddle seat",
+    "plural": "saddle seats",
+    "size": 3,
+    "descriptions": {
+      "superb": "strong",
+      "normal": "well-made",
+      "bad": "ok",
+      "rotten": "fragile",
+      "long": "A leather saddle seat. Combined with a girth and stirrups it can be used on a horse."
+    },
+    "itemTypes": [
+      23,
+      44,
+      108
+    ],
+    "imageNumber": 797,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 30,
+      "y": 40,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.riding.saddleseat.",
+    "difficulty": 30.0,
+    "weight": 2000,
+    "material": 16,
+    "value": 2000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 630,
+    "name": "saddle seat",
+    "plural": "saddle seats",
+    "size": 4,
+    "descriptions": {
+      "superb": "strong",
+      "normal": "well-made",
+      "bad": "ok",
+      "rotten": "fragile",
+      "long": "A large leather saddle seat. Together with a girth and stirrups, it will make a large saddle."
+    },
+    "itemTypes": [
+      23,
+      44,
+      108
+    ],
+    "imageNumber": 817,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 40,
+      "y": 50,
+      "z": 60
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.riding.saddleseat.",
+    "difficulty": 60.0,
+    "weight": 2500,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 631,
+    "name": "headstall",
+    "plural": "headstall",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "These are the leather straps that go around a creatures head in the bridle used to direct it."
+    },
+    "itemTypes": [
+      23,
+      44,
+      92,
+      147
+    ],
+    "imageNumber": 937,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.riding.headstall.",
+    "difficulty": 16.0,
+    "weight": 300,
+    "material": 16,
+    "value": 500,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 632,
+    "name": "yoke",
+    "plural": "yokes",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "This fits on the shoulders of a pair of creatures like oxen and will be used to drag a cart or a plow."
+    },
+    "itemTypes": [
+      21,
+      44,
+      147
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 40,
+      "z": 150
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.yoke.",
+    "difficulty": 20.0,
+    "weight": 20000,
+    "material": 14,
+    "value": 2000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 702,
+    "name": "leather barding",
+    "plural": "bardings",
+    "size": 3,
+    "descriptions": {
+      "superb": "strong",
+      "normal": "well-made",
+      "bad": "ok",
+      "rotten": "fragile",
+      "long": "A leather barding fitted together with metal rings and rivets."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      92,
+      108,
+      136,
+      147
+    ],
+    "imageNumber": 1120,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 40,
+      "y": 50,
+      "z": 60
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.riding.barding.",
+    "difficulty": 40.0,
+    "weight": 15000,
+    "material": 16,
+    "value": 20000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 703,
+    "name": "chain barding",
+    "plural": "bardings",
+    "size": 3,
+    "descriptions": {
+      "superb": "strong",
+      "normal": "well-made",
+      "bad": "ok",
+      "rotten": "fragile",
+      "long": "A powerful chain barding to protect your noble steed."
+    },
+    "itemTypes": [
+      4,
+      22,
+      44,
+      92,
+      108,
+      136,
+      147
+    ],
+    "imageNumber": 1120,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 40,
+      "y": 50,
+      "z": 60
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.riding.barding.",
+    "difficulty": 60.0,
+    "weight": 25000,
+    "material": 11,
+    "value": 50000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 704,
+    "name": "cloth barding",
+    "plural": "bardings",
+    "size": 3,
+    "descriptions": {
+      "superb": "strong",
+      "normal": "well-made",
+      "bad": "ok",
+      "rotten": "fragile",
+      "long": "A simple yet functional cloth barding that will provide moderate protection."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      136,
+      147
+    ],
+    "imageNumber": 1120,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 40,
+      "y": 50,
+      "z": 60
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.riding.barding.",
+    "difficulty": 40.0,
+    "weight": 12000,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1029,
+    "name": "halter rope",
+    "plural": "halter ropes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A long length of rope with knotted loops to lead multiple animals."
+    },
+    "itemTypes": [
+      64,
+      198,
+      147
+    ],
+    "imageNumber": 621,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 4,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.wemprope.",
+    "difficulty": 70.0,
+    "weight": 2000,
+    "material": 53,
+    "value": 1000,
+    "isPurchased": true
+  }
+]

@@ -1,0 +1,669 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 812,
+    "name": "clay flowerpot",
+    "plural": "clay flowerpots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clay flowerpot that could be hardened by fire."
+    },
+    "itemTypes": [
+      44,
+      108,
+      147,
+      196
+    ],
+    "imageNumber": 490,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.flowerpot.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 18,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 813,
+    "name": "pottery flowerpot",
+    "plural": "pottery flowerpots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clay flowerpot hardened by fire."
+    },
+    "itemTypes": [
+      30,
+      108
+    ],
+    "imageNumber": 510,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.flowerpot.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 814,
+    "name": "yellow flowerpot",
+    "plural": "yellow flowerpots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A flowerpot with some yellow prickly flowers."
+    },
+    "itemTypes": [
+      30,
+      51,
+      52,
+      108,
+      169
+    ],
+    "imageNumber": 510,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.flowerpotYellow.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 815,
+    "name": "blue flowerpot",
+    "plural": "blue flowerpots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A flowerpot with some crooked but beautiful blue flowers."
+    },
+    "itemTypes": [
+      30,
+      51,
+      52,
+      108,
+      169
+    ],
+    "imageNumber": 510,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.flowerpotBlue.",
+    "difficulty": 50.0,
+    "weight": 600,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 816,
+    "name": "purple flowerpot",
+    "plural": "purple flowerpots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A flowerpot with some purple fluffy flowers."
+    },
+    "itemTypes": [
+      30,
+      51,
+      52,
+      108,
+      169
+    ],
+    "imageNumber": 510,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.flowerpotPurple.",
+    "difficulty": 30.0,
+    "weight": 600,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 817,
+    "name": "white flowerpot",
+    "plural": "white flowerpots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A flowerpot with some thick-stemmed white flowers with long leaves."
+    },
+    "itemTypes": [
+      30,
+      51,
+      52,
+      108,
+      169
+    ],
+    "imageNumber": 510,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.flowerpotWhite.",
+    "difficulty": 35.0,
+    "weight": 600,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 818,
+    "name": "orange-red flowerpot",
+    "plural": "orange-red flowerpots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A flowerpot with some long-stemmed orange-red flowers with thick, pointy leaves."
+    },
+    "itemTypes": [
+      30,
+      51,
+      52,
+      108,
+      169
+    ],
+    "imageNumber": 510,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.flowerpotOrange.",
+    "difficulty": 25.0,
+    "weight": 600,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 819,
+    "name": "greenish-yellow flowerpot",
+    "plural": "greenish-yellow flowerpots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A flowerpot with some greenish-yellow furry flowers."
+    },
+    "itemTypes": [
+      30,
+      51,
+      52,
+      108,
+      169
+    ],
+    "imageNumber": 510,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.flowerpotGreenish.",
+    "difficulty": 60.0,
+    "weight": 600,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 820,
+    "name": "white-dotted flowerpot",
+    "plural": "white-dotted flowerpots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A flowerpot with some uncommon white-dotted flowers."
+    },
+    "itemTypes": [
+      30,
+      51,
+      52,
+      108,
+      169
+    ],
+    "imageNumber": 510,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.flowerpotDotted.",
+    "difficulty": 70.0,
+    "weight": 600,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1001,
+    "name": "marble planter",
+    "plural": "planters",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A planter made from the whitest of marble, pleasant to look upon."
+    },
+    "itemTypes": [
+      25,
+      44,
+      51,
+      52,
+      86,
+      108,
+      119,
+      176,
+      199
+    ],
+    "imageNumber": 60,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 40,
+      "y": 40,
+      "z": 120
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.planter.",
+    "difficulty": 15.0,
+    "weight": 90000,
+    "material": 62,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1002,
+    "name": "yellow planter",
+    "plural": "yellow planters",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A planter made from the whitest of marble, with some yellow prickly flowers."
+    },
+    "itemTypes": [
+      25,
+      51,
+      52,
+      86,
+      108,
+      169,
+      176,
+      199
+    ],
+    "imageNumber": 60,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 40,
+      "y": 40,
+      "z": 120
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.planter.yellow.",
+    "difficulty": 15.0,
+    "weight": 90000,
+    "material": 62,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1003,
+    "name": "blue planter",
+    "plural": "blue planters",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A planter made from the whitest of marble, with some crooked but beautiful blue flowers."
+    },
+    "itemTypes": [
+      25,
+      51,
+      52,
+      86,
+      108,
+      169,
+      176,
+      199
+    ],
+    "imageNumber": 60,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 40,
+      "y": 40,
+      "z": 120
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.planter.blue.",
+    "difficulty": 50.0,
+    "weight": 90000,
+    "material": 62,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1004,
+    "name": "purple planter",
+    "plural": "purple planters",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A planter made from the whitest of marble, with some purple fluffy flowers."
+    },
+    "itemTypes": [
+      25,
+      51,
+      52,
+      86,
+      108,
+      169,
+      176,
+      199
+    ],
+    "imageNumber": 60,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 40,
+      "y": 40,
+      "z": 120
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.planter.purple.",
+    "difficulty": 30.0,
+    "weight": 90000,
+    "material": 62,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1005,
+    "name": "white planter",
+    "plural": "white planters",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A planter made from the whitest of marble, with some thick-stemmed white flowers with long leaves."
+    },
+    "itemTypes": [
+      25,
+      51,
+      52,
+      86,
+      108,
+      169,
+      176,
+      199
+    ],
+    "imageNumber": 60,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 40,
+      "y": 40,
+      "z": 120
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.planter.white.",
+    "difficulty": 35.0,
+    "weight": 90000,
+    "material": 62,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1006,
+    "name": "orange-red planter",
+    "plural": "orange-red planters",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A planter made from the whitest of marble, with some long-stemmed orange-red flowers with thick, pointy leaves."
+    },
+    "itemTypes": [
+      25,
+      51,
+      52,
+      86,
+      108,
+      169,
+      176,
+      199
+    ],
+    "imageNumber": 60,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 40,
+      "y": 40,
+      "z": 120
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.planter.orange.",
+    "difficulty": 25.0,
+    "weight": 90000,
+    "material": 62,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1007,
+    "name": "greenish-yellow planter",
+    "plural": "greenish-yellow planter",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A planter made from the whitest of marble, with some greenish-yellow furry flowers."
+    },
+    "itemTypes": [
+      25,
+      51,
+      52,
+      86,
+      108,
+      169,
+      176,
+      199
+    ],
+    "imageNumber": 60,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 40,
+      "y": 40,
+      "z": 120
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.planter.greenish.",
+    "difficulty": 60.0,
+    "weight": 90000,
+    "material": 62,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1008,
+    "name": "white-dotted planter",
+    "plural": "white-dotted planters",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A planter made from the whitest of marble, with some uncommon white-dotted flowers."
+    },
+    "itemTypes": [
+      25,
+      51,
+      52,
+      86,
+      108,
+      169,
+      176,
+      199
+    ],
+    "imageNumber": 60,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 40,
+      "y": 40,
+      "z": 120
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.planter.dotted.",
+    "difficulty": 70.0,
+    "weight": 90000,
+    "material": 62,
+    "value": 10000,
+    "isPurchased": true
+  }
+]

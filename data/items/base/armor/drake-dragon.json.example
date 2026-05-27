@@ -1,0 +1,460 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 468,
+    "name": "drake hide sleeve",
+    "plural": "drake hide sleeves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Drake hide sown into a cylinder to protect the arms."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      99,
+      108,
+      249
+    ],
+    "imageNumber": 1062,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 29030400,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.armour.sleeve.dragon.",
+    "difficulty": 50.0,
+    "weight": 300,
+    "material": 16,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 469,
+    "name": "drake hide boot",
+    "plural": "drake hide boots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sturdy boot made from shiny drake hide."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      99,
+      108,
+      249
+    ],
+    "imageNumber": 1065,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 29030400,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      15,
+      16
+    ],
+    "modelName": "model.armour.foot.dragon.",
+    "difficulty": 55.0,
+    "weight": 400,
+    "material": 16,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 470,
+    "name": "drake hide cap",
+    "plural": "drake hide caps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A drake hide cap with ear flaps and a strap."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      99,
+      108,
+      249
+    ],
+    "imageNumber": 1063,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 29030400,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.dragon.",
+    "difficulty": 60.0,
+    "weight": 300,
+    "material": 16,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 471,
+    "name": "drake hide pants",
+    "plural": "drake hide pants",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Comfortable and endurable leg protection made from drake hide."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      99,
+      108,
+      249
+    ],
+    "imageNumber": 1061,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 29030400,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      34
+    ],
+    "modelName": "model.armour.leg.dragon.",
+    "difficulty": 50.0,
+    "weight": 500,
+    "material": 16,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 472,
+    "name": "drake hide glove",
+    "plural": "drake hide gloves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A glove made from smooth glistening drake hide."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      99,
+      108,
+      249
+    ],
+    "imageNumber": 1064,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 29030400,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 15
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      13,
+      14
+    ],
+    "modelName": "model.armour.hand.dragon.",
+    "difficulty": 50.0,
+    "weight": 200,
+    "material": 16,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 473,
+    "name": "drake hide jacket",
+    "plural": "drake hide jackets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A jacket made from finest drake hide with brass husks."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      99,
+      108,
+      249
+    ],
+    "imageNumber": 1060,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 29030400,
+    "dimensions": {
+      "x": 2,
+      "y": 40,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.armour.torso.dragon.",
+    "difficulty": 70.0,
+    "weight": 600,
+    "material": 16,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 474,
+    "name": "dragon scale boot",
+    "plural": "dragon scale boots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A protective leather boot made from dragon scales."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      99,
+      108,
+      249
+    ],
+    "imageNumber": 1025,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 29030400,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      15,
+      16
+    ],
+    "modelName": "model.armour.foot.dragon.scale.",
+    "difficulty": 40.0,
+    "weight": 500,
+    "material": 16,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 475,
+    "name": "dragon scale pants",
+    "plural": "dragon scale pants",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Leg protection made from strong dragon scales."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      99,
+      108,
+      249
+    ],
+    "imageNumber": 1021,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 29030400,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      34
+    ],
+    "modelName": "model.armour.leg.dragon.scale.",
+    "difficulty": 50.0,
+    "weight": 1200,
+    "material": 16,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 476,
+    "name": "dragon scale jacket",
+    "plural": "dragon scale jackets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A heavy jacket made from dragon scales."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      99,
+      108,
+      249
+    ],
+    "imageNumber": 1020,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 29030400,
+    "dimensions": {
+      "x": 3,
+      "y": 35,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.armour.torso.dragon.scale.",
+    "difficulty": 65.0,
+    "weight": 2200,
+    "material": 0,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 477,
+    "name": "dragon scale sleeve",
+    "plural": "dragon scale sleeves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Leather sown into a cylinder to protect the arms and covered with thick dragon scales."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      99,
+      108,
+      249
+    ],
+    "imageNumber": 1022,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 29030400,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.armour.sleeve.dragon.scale.",
+    "difficulty": 35.0,
+    "weight": 400,
+    "material": 16,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 478,
+    "name": "dragon scale glove",
+    "plural": "dragon scale gloves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A soft leather glove covered on the top with dragon scales."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      99,
+      108,
+      249
+    ],
+    "imageNumber": 1024,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 29030400,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 16
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      13,
+      14
+    ],
+    "modelName": "model.armour.hand.dragon.scale.",
+    "difficulty": 30.0,
+    "weight": 300,
+    "material": 16,
+    "value": 100000,
+    "isPurchased": true
+  }
+]

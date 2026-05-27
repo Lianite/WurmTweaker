@@ -1,0 +1,801 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 6,
+    "name": "green apple",
+    "plural": "green apples",
+    "size": 3,
+    "descriptions": {
+      "superb": "delicious",
+      "normal": "nice",
+      "bad": "old",
+      "rotten": "rotten",
+      "long": "A fruit, once probably picked from a tree."
+    },
+    "itemTypes": [
+      5,
+      55,
+      80,
+      146,
+      157
+    ],
+    "imageNumber": 508,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.apple.green.",
+    "difficulty": 100.0,
+    "weight": 300,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 134,
+    "name": "hazelnuts",
+    "plural": "hazelnuts",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A handful of fine brown hazel nuts."
+    },
+    "itemTypes": [
+      5,
+      21,
+      74,
+      80,
+      146,
+      212,
+      217
+    ],
+    "imageNumber": 507,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.hazelnut.",
+    "difficulty": 1.0,
+    "weight": 200,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 362,
+    "name": "strawberries",
+    "plural": "handfuls of strawberry",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Large, glistening red hearts with tiny yellow seeds."
+    },
+    "itemTypes": [
+      5,
+      46,
+      55,
+      80,
+      146,
+      212
+    ],
+    "imageNumber": 489,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fruit.strawberries.",
+    "difficulty": 100.0,
+    "weight": 300,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 364,
+    "name": "blueberry",
+    "plural": "blueberries",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A handful of small, blue berries with a wonderful sweet taste."
+    },
+    "itemTypes": [
+      5,
+      46,
+      55,
+      80,
+      146,
+      212
+    ],
+    "imageNumber": 529,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fruit.blueberry.",
+    "difficulty": 100.0,
+    "weight": 300,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 367,
+    "name": "lingonberry",
+    "plural": "lingonberries",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A handful of small, red berries with a sour and sweet taste."
+    },
+    "itemTypes": [
+      5,
+      46,
+      55,
+      80,
+      146,
+      212
+    ],
+    "imageNumber": 509,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fruit.lingonberry.",
+    "difficulty": 100.0,
+    "weight": 300,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 409,
+    "name": "cherries",
+    "plural": "red cherries",
+    "size": 3,
+    "descriptions": {
+      "superb": "delicious",
+      "normal": "nice",
+      "bad": "old",
+      "rotten": "rotten",
+      "long": "Red lucsious cherries, full of sweet juice."
+    },
+    "itemTypes": [
+      5,
+      46,
+      55,
+      80,
+      146,
+      157
+    ],
+    "imageNumber": 485,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.cherries.",
+    "difficulty": 100.0,
+    "weight": 200,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 410,
+    "name": "lemon",
+    "plural": "lemons",
+    "size": 3,
+    "descriptions": {
+      "superb": "delicious",
+      "normal": "nice",
+      "bad": "old",
+      "rotten": "rotten",
+      "long": "A yellow lemon."
+    },
+    "itemTypes": [
+      5,
+      55,
+      80,
+      103,
+      146,
+      157
+    ],
+    "imageNumber": 488,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.lemon.",
+    "difficulty": 100.0,
+    "weight": 300,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 411,
+    "name": "blue grapes",
+    "plural": "blue grapes",
+    "size": 3,
+    "descriptions": {
+      "superb": "delicious",
+      "normal": "nice",
+      "bad": "old",
+      "rotten": "rotten",
+      "long": "A fine cluster of blue grapes."
+    },
+    "itemTypes": [
+      5,
+      46,
+      55,
+      80,
+      146,
+      157
+    ],
+    "imageNumber": 565,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.grapes.blue.",
+    "difficulty": 100.0,
+    "weight": 300,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 412,
+    "name": "olives",
+    "plural": "olives",
+    "size": 3,
+    "descriptions": {
+      "superb": "delicious",
+      "normal": "nice",
+      "bad": "old",
+      "rotten": "rotten",
+      "long": "Black olives."
+    },
+    "itemTypes": [
+      5,
+      46,
+      55,
+      146,
+      157
+    ],
+    "imageNumber": 548,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.olives.black.",
+    "difficulty": 100.0,
+    "weight": 300,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 414,
+    "name": "green grapes",
+    "plural": "green grapes",
+    "size": 3,
+    "descriptions": {
+      "superb": "delicious",
+      "normal": "nice",
+      "bad": "old",
+      "rotten": "rotten",
+      "long": "A fine cluster of green grapes."
+    },
+    "itemTypes": [
+      5,
+      46,
+      55,
+      80,
+      146,
+      157
+    ],
+    "imageNumber": 545,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.grapes.green.",
+    "difficulty": 100.0,
+    "weight": 300,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 800,
+    "name": "white cherry",
+    "plural": "white cherries",
+    "size": 3,
+    "descriptions": {
+      "superb": "delicious",
+      "normal": "nice",
+      "bad": "old",
+      "rotten": "rotten",
+      "long": "This giant cherry was almost ripe when it was picked from the tree on Valrei, home of the gods. God food that may contain mystical powers!"
+    },
+    "itemTypes": [
+      53,
+      168
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.cherry.white.",
+    "difficulty": 100.0,
+    "weight": 200,
+    "material": 22,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 801,
+    "name": "red cherry",
+    "plural": "red cherries",
+    "size": 3,
+    "descriptions": {
+      "superb": "delicious",
+      "normal": "nice",
+      "bad": "old",
+      "rotten": "rotten",
+      "long": "This giant cherry was fully ripe when it was picked from the tree on Valrei, home of the gods. It may take you there to join the deities!"
+    },
+    "itemTypes": [
+      53,
+      168
+    ],
+    "imageNumber": 713,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.cherry.red.",
+    "difficulty": 100.0,
+    "weight": 200,
+    "material": 22,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 802,
+    "name": "green cherry",
+    "plural": "green cherries",
+    "size": 3,
+    "descriptions": {
+      "superb": "delicious",
+      "normal": "nice",
+      "bad": "old",
+      "rotten": "rotten",
+      "long": "This giant cherry wasn't mature when it was picked from the tree on Valrei, home of the gods. God food that may contain strange powers!"
+    },
+    "itemTypes": [
+      53,
+      168
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.cherry.green.",
+    "difficulty": 100.0,
+    "weight": 200,
+    "material": 22,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 803,
+    "name": "giant walnut",
+    "plural": "giant walnut",
+    "size": 3,
+    "descriptions": {
+      "superb": "delicious",
+      "normal": "nice",
+      "bad": "old",
+      "rotten": "rotten",
+      "long": "This giant walnut has been picked on Valrei, home of the gods. Strange powers may dwell within!"
+    },
+    "itemTypes": [
+      53,
+      168
+    ],
+    "imageNumber": 579,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.walnut.",
+    "difficulty": 100.0,
+    "weight": 200,
+    "material": 22,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 832,
+    "name": "walnut",
+    "plural": "walnuts",
+    "size": 3,
+    "descriptions": {
+      "superb": "delicious",
+      "normal": "nice",
+      "bad": "old",
+      "rotten": "rotten",
+      "long": "The corrugated seed of a walnut tree."
+    },
+    "itemTypes": [
+      5,
+      21,
+      74,
+      80,
+      146,
+      212,
+      217
+    ],
+    "imageNumber": 579,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.walnut.",
+    "difficulty": 1.0,
+    "weight": 200,
+    "material": 22,
+    "value": 8,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 833,
+    "name": "chestnut",
+    "plural": "chestnuts",
+    "size": 3,
+    "descriptions": {
+      "superb": "delicious",
+      "normal": "nice",
+      "bad": "old",
+      "rotten": "rotten",
+      "long": "A fruit from the chestnut tree, it has a pointed end with a small tuft at its tip."
+    },
+    "itemTypes": [
+      5,
+      21,
+      74,
+      80,
+      146,
+      212
+    ],
+    "imageNumber": 559,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.chestnut.",
+    "difficulty": 1.0,
+    "weight": 200,
+    "material": 22,
+    "value": 8,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1152,
+    "name": "cocoa",
+    "plural": "cocoa",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Ground cocoa bean."
+    },
+    "itemTypes": [
+      5,
+      55,
+      129,
+      212
+    ],
+    "imageNumber": 518,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.cocoa.",
+    "difficulty": 15.0,
+    "weight": 200,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1155,
+    "name": "cocoa bean",
+    "plural": "cocoa beans",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The dried and fully fermented fatty seed of Theobroma cacao. Wonder how it got here."
+    },
+    "itemTypes": [
+      5,
+      55,
+      146,
+      212
+    ],
+    "imageNumber": 518,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.cocoabean.",
+    "difficulty": 8.0,
+    "weight": 200,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1196,
+    "name": "raspberries",
+    "plural": "handfuls of raspberries",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The edible fruit of a multitude of plant species in the genus Rubus of the rose family."
+    },
+    "itemTypes": [
+      5,
+      46,
+      55,
+      80,
+      146,
+      212
+    ],
+    "imageNumber": 677,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fruit.raspberries.",
+    "difficulty": 100.0,
+    "weight": 300,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1280,
+    "name": "coconut",
+    "plural": "coconuts",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Normally a tropical drupe from a coconut tree, but this one is a mixture of cocoa and hazelnuts!"
+    },
+    "itemTypes": [
+      5,
+      55,
+      80,
+      146,
+      212
+    ],
+    "imageNumber": 500,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 7,
+      "y": 7,
+      "z": 7
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.coconut.",
+    "difficulty": 15.0,
+    "weight": 500,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1283,
+    "name": "orange",
+    "plural": "oranges",
+    "size": 3,
+    "descriptions": {
+      "superb": "delicious",
+      "normal": "nice",
+      "bad": "old",
+      "rotten": "rotten",
+      "long": "The orange is the fruit of the citrus species Citrus x sinensis in the family Rutaceae."
+    },
+    "itemTypes": [
+      5,
+      74,
+      80,
+      104,
+      146,
+      157,
+      212
+    ],
+    "imageNumber": 658,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.orange.",
+    "difficulty": 100.0,
+    "weight": 300,
+    "material": 22,
+    "value": 15,
+    "isPurchased": true
+  }
+]

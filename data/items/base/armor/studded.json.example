@@ -1,0 +1,252 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 115,
+    "name": "studded leather sleeve",
+    "plural": "studded leather sleeves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Leather sown into a cylinder to protect the arms and strengthened with metal studs."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1002,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.armour.sleeve.studded.",
+    "difficulty": 15.0,
+    "weight": 400,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 116,
+    "name": "studded leather boot",
+    "plural": "studded leather boots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A leather boot strengthened with metal studs."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1005,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      15,
+      16
+    ],
+    "modelName": "model.armour.foot.studded.",
+    "difficulty": 20.0,
+    "weight": 500,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 117,
+    "name": "studded leather cap",
+    "plural": "studded leather caps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A leather cap strengthened with metal studs."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1003,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.studded.",
+    "difficulty": 15.0,
+    "weight": 400,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 118,
+    "name": "studded leather pants",
+    "plural": "studded leather pants",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Leg protection made from leather strengthened with metal studs."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1001,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      34
+    ],
+    "modelName": "model.armour.leg.studded.",
+    "difficulty": 20.0,
+    "weight": 1200,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 119,
+    "name": "studded leather glove",
+    "plural": "studded leather gloves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A leather glove strengthened with metal studs."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1004,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 16
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      13,
+      14
+    ],
+    "modelName": "model.armour.hand.studded.",
+    "difficulty": 20.0,
+    "weight": 300,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 120,
+    "name": "studded leather jacket",
+    "plural": "studded leather jackets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fine leather jacket strengthened with metal studs."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1000,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 40,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.armour.torso.studded.",
+    "difficulty": 45.0,
+    "weight": 900,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  }
+]

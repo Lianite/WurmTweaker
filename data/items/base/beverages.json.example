@@ -1,0 +1,748 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 128,
+    "name": "water",
+    "plural": "water",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clear scentless liquid."
+    },
+    "itemTypes": [
+      26,
+      88,
+      90,
+      113,
+      212
+    ],
+    "imageNumber": 540,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 142,
+    "name": "milk",
+    "plural": "milk",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "White, frothing, full fat milk."
+    },
+    "itemTypes": [
+      26,
+      88,
+      90,
+      113,
+      191,
+      212
+    ],
+    "imageNumber": 541,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3600,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 28,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 419,
+    "name": "red wine",
+    "plural": "red wines",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Red wine."
+    },
+    "itemTypes": [
+      26,
+      88,
+      89,
+      90,
+      108,
+      212,
+      213
+    ],
+    "imageNumber": 582,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.wine.red.",
+    "difficulty": 13.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 420,
+    "name": "white wine",
+    "plural": "white wines",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "White wine."
+    },
+    "itemTypes": [
+      26,
+      88,
+      89,
+      90,
+      108,
+      212,
+      213
+    ],
+    "imageNumber": 584,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.wine.white.",
+    "difficulty": 11.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 425,
+    "name": "tea",
+    "plural": "tea",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A green-brown watery liquid with a slightly smoky scent."
+    },
+    "itemTypes": [
+      26,
+      88,
+      90,
+      233
+    ],
+    "imageNumber": 540,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 427,
+    "name": "lemonade",
+    "plural": "lemonade",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A very refreshing sweet lemonade."
+    },
+    "itemTypes": [
+      26,
+      88,
+      90,
+      233
+    ],
+    "imageNumber": 540,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 3,
+      "y": 4,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.",
+    "difficulty": 1.0,
+    "weight": 120,
+    "material": 26,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 858,
+    "name": "rice wine",
+    "plural": "rice wines",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An almost colorless alcoholic beverage popularly served in warm cups. Very hard to do good and does not improve with age."
+    },
+    "itemTypes": [
+      26,
+      88,
+      90,
+      108,
+      212,
+      213
+    ],
+    "imageNumber": 582,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.wine.rice.",
+    "difficulty": 70.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1012,
+    "name": "sheep milk",
+    "plural": "sheep milk",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "White, frothing, fat milk."
+    },
+    "itemTypes": [
+      26,
+      88,
+      90,
+      113,
+      191,
+      212
+    ],
+    "imageNumber": 541,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3600,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 28,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1013,
+    "name": "bison milk",
+    "plural": "bison milk",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "White, frothing, fat milk."
+    },
+    "itemTypes": [
+      26,
+      88,
+      90,
+      113,
+      191,
+      212
+    ],
+    "imageNumber": 541,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3600,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 28,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1101,
+    "name": "champagne",
+    "plural": "champagne",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "This champagne is at least 10 years old."
+    },
+    "itemTypes": [],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.champagne.",
+    "difficulty": 99.0,
+    "weight": 1000,
+    "material": 52,
+    "value": 200,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1180,
+    "name": "mead",
+    "plural": "mead",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An alcoholic beverage created by fermenting honey with water."
+    },
+    "itemTypes": [
+      26,
+      88,
+      90,
+      108,
+      212,
+      213
+    ],
+    "imageNumber": 608,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.mead.",
+    "difficulty": 15.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1181,
+    "name": "cider",
+    "plural": "cider",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An alcoholic beverage created by scratting (grinding down), and then fermenting apples."
+    },
+    "itemTypes": [
+      26,
+      88,
+      90,
+      108,
+      212,
+      213
+    ],
+    "imageNumber": 550,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.cider.",
+    "difficulty": 20.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1182,
+    "name": "beer",
+    "plural": "beer",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An alcoholic beverage created by brewing a mixture of barley, hops and water."
+    },
+    "itemTypes": [
+      26,
+      88,
+      90,
+      108,
+      212,
+      213,
+      233
+    ],
+    "imageNumber": 568,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.beer.",
+    "difficulty": 25.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1183,
+    "name": "whisky",
+    "plural": "whisky",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An distilled alcoholic beverage made from fermented rye mash."
+    },
+    "itemTypes": [
+      26,
+      88,
+      89,
+      90,
+      108,
+      212,
+      213,
+      214,
+      233
+    ],
+    "imageNumber": 568,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.whisky.",
+    "difficulty": 35.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1231,
+    "name": "vodka",
+    "plural": "vodka",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A distilled beverage composed primarily of water and potato."
+    },
+    "itemTypes": [
+      26,
+      88,
+      89,
+      90,
+      108,
+      212,
+      213,
+      214
+    ],
+    "imageNumber": 551,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.vodka.",
+    "difficulty": 30.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1232,
+    "name": "brandy",
+    "plural": "brandy",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A spirit produced by distilling wine."
+    },
+    "itemTypes": [
+      26,
+      88,
+      89,
+      90,
+      108,
+      212,
+      214,
+      233
+    ],
+    "imageNumber": 568,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.brandy.",
+    "difficulty": 35.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1233,
+    "name": "moonshine",
+    "plural": "moonshine",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A high-proof distilled spirit."
+    },
+    "itemTypes": [
+      26,
+      88,
+      89,
+      90,
+      108,
+      212,
+      213,
+      214
+    ],
+    "imageNumber": 551,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.moonshine.",
+    "difficulty": 40.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1234,
+    "name": "gin",
+    "plural": "gin",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A spirit which derives its predominant flavour from wheat."
+    },
+    "itemTypes": [
+      26,
+      88,
+      89,
+      90,
+      108,
+      212,
+      213,
+      214,
+      233
+    ],
+    "imageNumber": 551,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.gin.",
+    "difficulty": 20.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1286,
+    "name": "rum",
+    "plural": "rum",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A spirit made from sugar."
+    },
+    "itemTypes": [
+      26,
+      88,
+      89,
+      90,
+      108,
+      212,
+      213,
+      214
+    ],
+    "imageNumber": 551,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.rum.",
+    "difficulty": 22.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  }
+]

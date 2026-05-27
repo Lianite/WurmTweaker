@@ -1,0 +1,717 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 88,
+    "name": "axe head",
+    "plural": "axe heads",
+    "size": 5,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A huge axe head."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 1226,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.axe.large.blade.",
+    "difficulty": 20.0,
+    "weight": 1500,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 89,
+    "name": "axe head",
+    "plural": "axe heads",
+    "size": 2,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small axe head."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 1206,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 7,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.axe.small.blade.",
+    "difficulty": 10.0,
+    "weight": 500,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 91,
+    "name": "axe head",
+    "plural": "axe heads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A medium sized battle axe head."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 1206,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 15
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.axe.medium.blade.",
+    "difficulty": 15.0,
+    "weight": 1000,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 98,
+    "name": "scabbard",
+    "plural": "scabbards",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A leather scabbard for protecting the sword and also helping carrying it."
+    },
+    "itemTypes": [
+      23,
+      44,
+      92,
+      108,
+      157
+    ],
+    "imageNumber": 762,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 10,
+      "z": 60
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.clothing.scabbard.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 99,
+    "name": "handle",
+    "plural": "wooden handles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A finely carved wooden handle that would fit well on a sword."
+    },
+    "itemTypes": [
+      21,
+      113,
+      146,
+      211
+    ],
+    "imageNumber": 666,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 2,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.handle.",
+    "difficulty": 5.0,
+    "weight": 100,
+    "material": 14,
+    "value": 10,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 147,
+    "name": "short sword blade",
+    "plural": "short sword blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A blade for a shortsword."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 1203,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 4,
+      "z": 70
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.blade.swordshort.",
+    "difficulty": 1.0,
+    "weight": 1900,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 148,
+    "name": "long sword blade",
+    "plural": "long sword blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A blade for a longsword."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 1223,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 6,
+      "z": 110
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.blade.swordlong.",
+    "difficulty": 1.0,
+    "weight": 2900,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 149,
+    "name": "sword blade",
+    "plural": "sword blades",
+    "size": 5,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A blade for a giant sword."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 1243,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 140
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.blade.swordtwo.",
+    "difficulty": 2.0,
+    "weight": 3900,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 293,
+    "name": "maul head",
+    "plural": "large maul heads",
+    "size": 4,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The thick, heavy, spiked metal head for a maul."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 1232,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.head.large.maul.",
+    "difficulty": 15.0,
+    "weight": 4000,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 294,
+    "name": "maul head",
+    "plural": "small maul heads",
+    "size": 2,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The heavy metal head for a maul."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 1212,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 7,
+      "y": 7,
+      "z": 7
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.head.small.maul.",
+    "difficulty": 5.0,
+    "weight": 2000,
+    "material": 11,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 295,
+    "name": "maul head",
+    "plural": "maul heads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The heavy spiked metal head for a maul."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 1212,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.head.medium.maul.",
+    "difficulty": 10.0,
+    "weight": 3000,
+    "material": 11,
+    "value": 40,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 451,
+    "name": "hunting arrow head",
+    "plural": "hunting arrow heads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A straight pointy arrow head without barbs."
+    },
+    "itemTypes": [
+      22,
+      113,
+      146,
+      158
+    ],
+    "imageNumber": 1236,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.arrow.head.hunt.",
+    "difficulty": 5.0,
+    "weight": 40,
+    "material": 11,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 452,
+    "name": "war arrow head",
+    "plural": "war arrow heads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thin arrow head with vicious barbs."
+    },
+    "itemTypes": [
+      22,
+      113,
+      146,
+      158
+    ],
+    "imageNumber": 1216,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.arrow.head.war.",
+    "difficulty": 20.0,
+    "weight": 40,
+    "material": 11,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 454,
+    "name": "arrow shaft",
+    "plural": "arrow shafts",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A straight, thin and finely polished shaft made of wood."
+    },
+    "itemTypes": [
+      21,
+      113,
+      129,
+      146,
+      147
+    ],
+    "imageNumber": 1255,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.arrow.shaft.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 14,
+    "value": 10,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 457,
+    "name": "bow string",
+    "plural": "bow strings",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A strong string of entwined wemp fibres."
+    },
+    "itemTypes": [
+      113,
+      129,
+      146
+    ],
+    "imageNumber": 620,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.string.",
+    "difficulty": 10.0,
+    "weight": 10,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 523,
+    "name": "hatchet head",
+    "plural": "hatchet heads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large axe head fit for a hatchet."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 1206,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 15
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.hatchet.blade.",
+    "difficulty": 10.0,
+    "weight": 1500,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 708,
+    "name": "halberd head",
+    "plural": "halberd heads",
+    "size": 5,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A huge halberd head. It looks like an axe but is also a spear at the top."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 1246,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 20,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.blade.halberd.",
+    "difficulty": 15.0,
+    "weight": 2500,
+    "material": 11,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 709,
+    "name": "spear tip",
+    "plural": "spear tips",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The long heavy pointy blade for a spear."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 1220,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.blade.spear.long.",
+    "difficulty": 5.0,
+    "weight": 700,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 935,
+    "name": "ballista dart head",
+    "plural": "dart heads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A four-sided pyramidal dart head which will provide quite the punch."
+    },
+    "itemTypes": [
+      22,
+      113,
+      146,
+      158
+    ],
+    "imageNumber": 1216,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 4,
+      "z": 6
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.arrow.head.ballista.",
+    "difficulty": 40.0,
+    "weight": 200,
+    "material": 0,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1010,
+    "name": "crude axe head",
+    "plural": "crude axe heads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A piece of hard stone roughly shaped into an axe blade."
+    },
+    "itemTypes": [
+      25,
+      151
+    ],
+    "imageNumber": 724,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.axe.small.blade.crude.",
+    "difficulty": 15.0,
+    "weight": 2000,
+    "material": 15,
+    "value": 1,
+    "isPurchased": false
+  }
+]

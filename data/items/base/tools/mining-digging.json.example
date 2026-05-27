@@ -1,0 +1,346 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 20,
+    "name": "pickaxe",
+    "plural": "pickaxes",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A tool for mining."
+    },
+    "itemTypes": [
+      2,
+      10,
+      22,
+      38,
+      44,
+      97,
+      108,
+      247
+    ],
+    "imageNumber": 743,
+    "behaviourType": 1,
+    "combatDamage": 30,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 30,
+      "z": 70
+    },
+    "primarySkill": 10009,
+    "bodySpaces": [],
+    "modelName": "model.tool.pickaxe.",
+    "difficulty": 20.0,
+    "weight": 2000,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 25,
+    "name": "shovel",
+    "plural": "shovels",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A tool for digging."
+    },
+    "itemTypes": [
+      2,
+      19,
+      22,
+      38,
+      44,
+      97,
+      108,
+      133,
+      247
+    ],
+    "imageNumber": 746,
+    "behaviourType": 1,
+    "combatDamage": 2,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 2,
+      "y": 20,
+      "z": 100
+    },
+    "primarySkill": 10002,
+    "bodySpaces": [],
+    "modelName": "model.tool.shovel.",
+    "difficulty": 20.0,
+    "weight": 2000,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 121,
+    "name": "shovel blade",
+    "plural": "shovel blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A metal blade that would make a shovel were it not for the lack of a shaft."
+    },
+    "itemTypes": [
+      22,
+      44,
+      92
+    ],
+    "imageNumber": 726,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 15,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.shovel.blade.",
+    "difficulty": 10.0,
+    "weight": 1000,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 122,
+    "name": "shovel blade",
+    "plural": "wooden shovel blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wooden blade that would make a shovel were it not for the lack of a shaft."
+    },
+    "itemTypes": [
+      21
+    ],
+    "imageNumber": 726,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 15,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.shovel.blade.",
+    "difficulty": 5.0,
+    "weight": 600,
+    "material": 14,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 123,
+    "name": "pickaxe head",
+    "plural": "pickaxe heads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The strong iron head of a pick."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 723,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.pickaxe.blade.",
+    "difficulty": 15.0,
+    "weight": 1000,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 686,
+    "name": "crude pickaxe head",
+    "plural": "crude pickaxe heads",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A piece of hard stone roughly shaped into a pickaxe blade."
+    },
+    "itemTypes": [
+      25,
+      151
+    ],
+    "imageNumber": 723,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.pickaxe.blade.crude.",
+    "difficulty": 15.0,
+    "weight": 2000,
+    "material": 15,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 687,
+    "name": "crude pickaxe",
+    "plural": "crude pickaxes",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A hard, sharp piece of rock fastened to a shaft."
+    },
+    "itemTypes": [
+      2,
+      10,
+      25,
+      38,
+      97,
+      113,
+      157,
+      151,
+      247
+    ],
+    "imageNumber": 743,
+    "behaviourType": 1,
+    "combatDamage": 3,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 30,
+      "z": 70
+    },
+    "primarySkill": 10009,
+    "bodySpaces": [],
+    "modelName": "model.tool.pickaxe.crude.",
+    "difficulty": 1.0,
+    "weight": 3000,
+    "material": 15,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 689,
+    "name": "crude shovel blade",
+    "plural": "stone shovel blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sort of stone blade that maybe would make a shovel were it not for the lack of a shaft."
+    },
+    "itemTypes": [
+      25,
+      113,
+      151
+    ],
+    "imageNumber": 726,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 15,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.shovel.blade.crude.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 15,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 690,
+    "name": "crude shovel",
+    "plural": "crude shovels",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A tool for digging."
+    },
+    "itemTypes": [
+      2,
+      19,
+      21,
+      38,
+      97,
+      113,
+      133,
+      157,
+      151,
+      247
+    ],
+    "imageNumber": 746,
+    "behaviourType": 1,
+    "combatDamage": 2,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 20,
+      "z": 100
+    },
+    "primarySkill": 10002,
+    "bodySpaces": [],
+    "modelName": "model.tool.shovel.crude.",
+    "difficulty": 20.0,
+    "weight": 2000,
+    "material": 14,
+    "value": 100,
+    "isPurchased": false
+  }
+]

@@ -1,0 +1,826 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 531,
+    "name": "royal robes",
+    "plural": "robes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Royal robes in red, trimmed with white soble."
+    },
+    "itemTypes": [
+      4,
+      24,
+      40,
+      42,
+      70,
+      122,
+      92
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 40,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.armour.torso.dragon.scale.leather.",
+    "difficulty": 30.0,
+    "weight": 1500,
+    "material": 17,
+    "value": 1000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 534,
+    "name": "chancellor cape",
+    "plural": "capes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The cape of the chancellor is thick, with an impressive collar higher than the head."
+    },
+    "itemTypes": [
+      4,
+      24,
+      40,
+      42,
+      70,
+      122,
+      92
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 40,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.armour.torso.dragon.scale.leather.",
+    "difficulty": 30.0,
+    "weight": 1500,
+    "material": 17,
+    "value": 1000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 537,
+    "name": "thorn robes",
+    "plural": "robes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Rather uncomfortable but menacing robes made from mycelium infested thorns, barbs pointing outwards."
+    },
+    "itemTypes": [
+      4,
+      24,
+      40,
+      42,
+      70,
+      122,
+      92
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 40,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.armour.torso.dragon.scale.leather.",
+    "difficulty": 30.0,
+    "weight": 1500,
+    "material": 17,
+    "value": 1000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 831,
+    "name": "kingdom tabard",
+    "plural": "kingdom tabards",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A tabard that is worn to show off which kingdom you belong to."
+    },
+    "itemTypes": [
+      24,
+      44
+    ],
+    "imageNumber": 307,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      35
+    ],
+    "modelName": "model.clothing.tabard.",
+    "difficulty": 25.0,
+    "weight": 300,
+    "material": 17,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1067,
+    "name": "green cloth tunic",
+    "plural": "green cloth tunics",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fine tunic made from green cloth with yellow trim and decorative belt."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 960,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 35,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.clothing.torso.shirt1.",
+    "difficulty": 35.0,
+    "weight": 300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1068,
+    "name": "black belted vest",
+    "plural": "black belted vests",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A long, black vest fastened at the waist with a decorative belt."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 960,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 35,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.clothing.torso.shirt2.",
+    "difficulty": 55.0,
+    "weight": 300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1069,
+    "name": "red cloth tunic",
+    "plural": "red cloth tunics",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fine tunic made from red cloth with leather trim and a decorative belt."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 960,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 35,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.clothing.torso.shirt3.",
+    "difficulty": 45.0,
+    "weight": 300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1070,
+    "name": "brown striped breeches",
+    "plural": "brown striped breeches",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Short striped trousers."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 961,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      34
+    ],
+    "modelName": "model.cloth.leg.pants1.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1071,
+    "name": "patchwork pants",
+    "plural": "patchwork pants",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Pants made from swatches of wool cloth stitched together."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 961,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      34
+    ],
+    "modelName": "model.cloth.leg.pants2.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1072,
+    "name": "black cloth pants",
+    "plural": "black cloth pants",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Leg protection sown from thick cloth."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 961,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      34
+    ],
+    "modelName": "model.cloth.leg.pants3.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1073,
+    "name": "green cloth pants",
+    "plural": "green cloth pants",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Leg protection sown from thick cloth."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 961,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      34
+    ],
+    "modelName": "model.cloth.leg.pants3.green.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1074,
+    "name": "green cloth sleeve",
+    "plural": "green cloth sleeves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Sleeves made from green fabric and leather with a yellow trim."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 962,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.clothing.sleeve.shirt1.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1075,
+    "name": "red cloth sleeve",
+    "plural": "red cloth sleeves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Sleeves made from red fabric with leather trim at the wrists."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 962,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.clothing.sleeve.shirt3.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1105,
+    "name": "black cloth sleeve",
+    "plural": "black cloth sleeves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Sleeves made from black fabric with leather trim at the wrists."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 962,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.clothing.sleeve.shirt2.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1106,
+    "name": "plain white cloth sleeve",
+    "plural": "white cloth sleeves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Sleeves made from plain white fabric."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 962,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.clothing.sleeve.shirt.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1107,
+    "name": "plain white cloth pants",
+    "plural": "plain white pants",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Cotton pants made from plain white fabric."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 961,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      34
+    ],
+    "modelName": "model.cloth.leg.pants.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1424,
+    "name": "leather drinking boot",
+    "plural": "leather boots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sturdy boot made from leather. Perfect for ruining a drink."
+    },
+    "itemTypes": [
+      1,
+      23,
+      33,
+      44,
+      92,
+      108,
+      157
+    ],
+    "imageNumber": 985,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.armour.foot.",
+    "difficulty": 15.0,
+    "weight": 400,
+    "material": 16,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1425,
+    "name": "white cloth hood",
+    "plural": "white cloth hoods",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A hood to shelter you from poor weather, glaring sun and glaring eyes."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1426,
+    "name": "white cloth sleeve",
+    "plural": "white cloth sleeves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Cloth studded with wool and sown into a cylinder to protect the arms."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 962,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.armour.sleeve.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1427,
+    "name": "white cloth jacket",
+    "plural": "white cloth jackets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fine but simple jacket made from cloth studded with wool."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 960,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 40,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.armour.torso.",
+    "difficulty": 30.0,
+    "weight": 500,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  }
+]

@@ -1,0 +1,251 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 109,
+    "name": "cloth glove",
+    "plural": "cloth gloves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thick cloth glove."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 964,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 15
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      13,
+      14
+    ],
+    "modelName": "model.armour.hand.",
+    "difficulty": 5.0,
+    "weight": 100,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 110,
+    "name": "cloth shirt",
+    "plural": "cloth shirts",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fine but simple shirt made from cloth."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 960,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 35,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.clothing.torso.shirt.",
+    "difficulty": 15.0,
+    "weight": 300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 111,
+    "name": "red striped cloth sleeve",
+    "plural": "red striped cloth sleeves",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Cloth studded with wool and sown into a cylinder to protect the arms."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 962,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      3,
+      4
+    ],
+    "modelName": "model.armour.sleeve.red.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 112,
+    "name": "red cloth jacket",
+    "plural": "red cloth jackets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fine but simple jacket made from cloth studded with wool."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 960,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 40,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2
+    ],
+    "modelName": "model.armour.torso.red.",
+    "difficulty": 30.0,
+    "weight": 500,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 113,
+    "name": "cloth pants",
+    "plural": "cloth pants",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Leg protection sown from thick cloth."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 961,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      34
+    ],
+    "modelName": "model.armour.leg.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 114,
+    "name": "cloth shoe",
+    "plural": "cloth shoes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Thick cloth strands interwowen with cotton and hay."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 965,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      15,
+      16
+    ],
+    "modelName": "model.armour.foot.",
+    "difficulty": 15.0,
+    "weight": 200,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  }
+]

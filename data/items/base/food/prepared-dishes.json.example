@@ -1,0 +1,1260 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 1185,
+    "name": "chocolate",
+    "plural": "chocolate",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A typically sweet, usually brown, food preparation of Theobroma cacao seeds."
+    },
+    "itemTypes": [
+      82,
+      75,
+      146,
+      222,
+      220
+    ],
+    "imageNumber": 624,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 3,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.chocolate.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1186,
+    "name": "butter",
+    "plural": "butter",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A solid dairy product made by churning fresh milk."
+    },
+    "itemTypes": [
+      82,
+      55,
+      222,
+      233
+    ],
+    "imageNumber": 609,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 2,
+      "y": 3,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.butter.",
+    "difficulty": 15.0,
+    "weight": 250,
+    "material": 28,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1187,
+    "name": "omelette",
+    "plural": "omelette",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A dish made from beaten eggs quickly cooked with butter or oil in a frying pan."
+    },
+    "itemTypes": [
+      82,
+      76,
+      222,
+      219,
+      233
+    ],
+    "imageNumber": 649,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.omelette.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 28,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1188,
+    "name": "curry",
+    "plural": "curry",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A dish that has a complex combinations of spices or herbs and includes a sauce."
+    },
+    "itemTypes": [
+      82,
+      76,
+      222,
+      219,
+      233
+    ],
+    "imageNumber": 539,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.curry.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 2,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1189,
+    "name": "salad",
+    "plural": "salad",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A dish consisting of small pieces of food, served cold and will always have lettuce."
+    },
+    "itemTypes": [
+      82,
+      76,
+      222,
+      220,
+      233
+    ],
+    "imageNumber": 688,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.salad.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1192,
+    "name": "corn dough",
+    "plural": "corn dough",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Sticky dough, made from corn flour and water."
+    },
+    "itemTypes": [
+      5,
+      74,
+      129,
+      146
+    ],
+    "imageNumber": 525,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.dough.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1193,
+    "name": "cooking oil",
+    "plural": "cooking oils",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Used as a cooking oil."
+    },
+    "itemTypes": [
+      26,
+      34,
+      88,
+      113,
+      158,
+      233
+    ],
+    "imageNumber": 587,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.oil.",
+    "difficulty": 15.0,
+    "weight": 180,
+    "material": 25,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1194,
+    "name": "gravy",
+    "plural": "gravy",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sauce, made often from the juices that run naturally during cooking and often thickened with wheat flour or corn flour for added texture."
+    },
+    "itemTypes": [
+      26,
+      74,
+      88,
+      212,
+      219
+    ],
+    "imageNumber": 568,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.gravy.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1195,
+    "name": "custard",
+    "plural": "custard",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A variety of culinary preparations based on a cooked mixture of milk or cream and egg yolk."
+    },
+    "itemTypes": [
+      5,
+      26,
+      74,
+      88,
+      108
+    ],
+    "imageNumber": 608,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.custard.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 28,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1203,
+    "name": "fries",
+    "plural": "fries",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Potatos thick cut julienne."
+    },
+    "itemTypes": [
+      82,
+      74,
+      129,
+      222,
+      219,
+      228
+    ],
+    "imageNumber": 685,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.fries.",
+    "difficulty": 15.0,
+    "weight": 100,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1204,
+    "name": "gelatine",
+    "plural": "gelatine",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A translucent, colorless, flavorless food derived from collagen obtained from various animal by-products."
+    },
+    "itemTypes": [
+      26,
+      137,
+      88,
+      108,
+      129
+    ],
+    "imageNumber": 587,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.gelatine.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1207,
+    "name": "pasta",
+    "plural": "pasta",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Unleavened dough, made with wheat, water, and sometimes eggs."
+    },
+    "itemTypes": [
+      82,
+      76,
+      129,
+      222,
+      219,
+      233
+    ],
+    "imageNumber": 659,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.pasta.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1209,
+    "name": "pesto",
+    "plural": "pesto",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sauce made with oil, garlic, nuts, and basil."
+    },
+    "itemTypes": [
+      26,
+      55,
+      88,
+      129,
+      212
+    ],
+    "imageNumber": 581,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.pesto.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1210,
+    "name": "stock",
+    "plural": "stock",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A boiled down liquid from animal parts."
+    },
+    "itemTypes": [
+      26,
+      55,
+      88,
+      129,
+      212
+    ],
+    "imageNumber": 568,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.stock.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1217,
+    "name": "mushy peas",
+    "plural": "mushy peas",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Mashed peas with a hint of mint."
+    },
+    "itemTypes": [
+      5,
+      55,
+      108,
+      129,
+      212
+    ],
+    "imageNumber": 683,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.peas.mushy.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1218,
+    "name": "croutons",
+    "plural": "croutons",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A piece of cubed toast, that is used to add texture and flavor to salads and soups."
+    },
+    "itemTypes": [
+      5,
+      74,
+      108,
+      129
+    ],
+    "imageNumber": 505,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.bread.croutons.",
+    "difficulty": 15.0,
+    "weight": 100,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1219,
+    "name": "haggis",
+    "plural": "haggis",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A savoury pudding containing sheep's pluck, onion, oats and spices."
+    },
+    "itemTypes": [
+      82,
+      75,
+      129,
+      222,
+      219
+    ],
+    "imageNumber": 578,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.haggis.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1220,
+    "name": "cornflour",
+    "plural": "cornflour",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Ground corn, used in thickening sauces or soups."
+    },
+    "itemTypes": [
+      5,
+      55,
+      129,
+      146
+    ],
+    "imageNumber": 642,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.flour.",
+    "difficulty": 5.0,
+    "weight": 100,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1224,
+    "name": "stuffed mushroom",
+    "plural": "stuffed mushroom",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A stuffing mushroom."
+    },
+    "itemTypes": [
+      82,
+      74,
+      129,
+      222,
+      219
+    ],
+    "imageNumber": 506,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.mushroom.stuffed.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1225,
+    "name": "crisps",
+    "plural": "crisps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thin slice of vegatable, normally potato, that has been deep fried."
+    },
+    "itemTypes": [
+      82,
+      76,
+      129,
+      222,
+      220
+    ],
+    "imageNumber": 537,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.crisps.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1226,
+    "name": "jelly",
+    "plural": "jelly",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clear and sparkling with a fresh flavor of the fruit from which it is made. It is tender enough to quiver when moved."
+    },
+    "itemTypes": [
+      82,
+      55,
+      129,
+      222,
+      220,
+      233
+    ],
+    "imageNumber": 628,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.jelly.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1230,
+    "name": "chocolate nut spread",
+    "plural": "chocolate nut spread",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A spread made with chocolate and hazelnuts."
+    },
+    "itemTypes": [
+      5,
+      74,
+      108,
+      129
+    ],
+    "imageNumber": 624,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.chocalate.spread.",
+    "difficulty": 25.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1240,
+    "name": "spaghetti",
+    "plural": "spaghetti",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Long, thin, cylindrical, solid pasta."
+    },
+    "itemTypes": [
+      82,
+      76,
+      222,
+      219
+    ],
+    "imageNumber": 659,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.spaghetti.",
+    "difficulty": 10.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1241,
+    "name": "icing",
+    "plural": "icing",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A creamy glaze made of sugar with a liquid."
+    },
+    "itemTypes": [
+      82,
+      55,
+      212,
+      233
+    ],
+    "imageNumber": 642,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.icing.",
+    "difficulty": 25.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1244,
+    "name": "breadcrumbs",
+    "plural": "breadcrumbs",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Small particles of dry bread, used for breading or crumbing foods."
+    },
+    "itemTypes": [
+      82,
+      74,
+      146,
+      222
+    ],
+    "imageNumber": 538,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.bread.crumbs.",
+    "difficulty": 4.0,
+    "weight": 100,
+    "material": 22,
+    "value": 2,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1245,
+    "name": "meatballs",
+    "plural": "meatballs",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Minced meat rolled into small balls."
+    },
+    "itemTypes": [
+      82,
+      74,
+      146,
+      222,
+      219,
+      233
+    ],
+    "imageNumber": 648,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 345600,
+    "dimensions": {
+      "x": 2,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.meatballs.",
+    "difficulty": 4.0,
+    "weight": 120,
+    "material": 2,
+    "value": 2,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1259,
+    "name": "stir fry",
+    "plural": "stir frys",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A (quick) cooked meal."
+    },
+    "itemTypes": [
+      82,
+      76,
+      129,
+      222,
+      219,
+      233
+    ],
+    "imageNumber": 539,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.stirfry.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1260,
+    "name": "nori",
+    "plural": "bunches of nori",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A flattened edible seaweed."
+    },
+    "itemTypes": [
+      5,
+      46,
+      55,
+      113,
+      146
+    ],
+    "imageNumber": 645,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 4,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.nori.",
+    "difficulty": 5.0,
+    "weight": 50,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1264,
+    "name": "sushi",
+    "plural": "sushi",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A food preparation, consisting of cooked rice combined with other ingredients such as raw seafood, vegetables and sometimes tropical fruits."
+    },
+    "itemTypes": [
+      82,
+      76,
+      129,
+      222,
+      220,
+      233
+    ],
+    "imageNumber": 1441,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.sushi.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1265,
+    "name": "pickle",
+    "plural": "pickles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An edible product, such as a cucumber, that has been preserved and flavored in a solution of vinegar."
+    },
+    "itemTypes": [
+      82,
+      74,
+      129,
+      222,
+      220,
+      233
+    ],
+    "imageNumber": 667,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 4,
+      "y": 5,
+      "z": 19
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.pickle.",
+    "difficulty": 15.0,
+    "weight": 200,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1268,
+    "name": "broth",
+    "plural": "broth",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A soup in which there are solid pieces of meat or fish, along with some vegetables."
+    },
+    "itemTypes": [
+      82,
+      26,
+      76,
+      88,
+      90,
+      212,
+      219,
+      233
+    ],
+    "imageNumber": 531,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.soup.",
+    "difficulty": 1.0,
+    "weight": 700,
+    "material": 26,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1281,
+    "name": "ice cream",
+    "plural": "ice creams",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sweetened frozen food typically eaten as a snack or dessert."
+    },
+    "itemTypes": [
+      5,
+      27,
+      55,
+      108,
+      220,
+      233
+    ],
+    "imageNumber": 598,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.icecream.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 26,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1331,
+    "name": "chocolate milk",
+    "plural": "chocolate milk",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Good old chocolate milk. Reminds you of hot summer days."
+    },
+    "itemTypes": [
+      82,
+      26,
+      74,
+      90,
+      233
+    ],
+    "imageNumber": 541,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3600,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 28,
+    "value": 0,
+    "isPurchased": false
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 798,
+    "name": "red tome of magic",
+    "plural": "tomes of magic",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "The red leather covers will reveal the secrets of high magic for the one who dares open them."
+    },
+    "itemTypes": [
+      53,
+      168
+    ],
+    "imageNumber": 325,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.tomemagic.red.",
+    "difficulty": 1000.0,
+    "weight": 1000,
+    "material": 33,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 799,
+    "name": "scroll of binding",
+    "plural": "scrolls of binding",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A parchment roll inscribed with symbols that glow faintly as you eye them. You have a hard time refraining from reading as you feel that it will change your inner being."
+    },
+    "itemTypes": [
+      53,
+      168
+    ],
+    "imageNumber": 331,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.scrollbind.",
+    "difficulty": 1000.0,
+    "weight": 100,
+    "material": 33,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 804,
+    "name": "tome of incineration",
+    "plural": "tomes of incineration",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "Orange red golden flames endorse the covers of this tome."
+    },
+    "itemTypes": [
+      53,
+      168
+    ],
+    "imageNumber": 325,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.tomemagic.incineration.",
+    "difficulty": 1000.0,
+    "weight": 1000,
+    "material": 33,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 806,
+    "name": "libram of the night",
+    "plural": "night librams",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A black leather book with an etched silver owl, to be read by the wicked and twisted."
+    },
+    "itemTypes": [
+      53,
+      168
+    ],
+    "imageNumber": 330,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.libramnight.",
+    "difficulty": 1000.0,
+    "weight": 1000,
+    "material": 33,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 807,
+    "name": "green tome of magic",
+    "plural": "tomes of magic",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "The green leather covers will reveal the secrets of high magic for the one who dares open them."
+    },
+    "itemTypes": [
+      53,
+      168
+    ],
+    "imageNumber": 327,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.tomemagic.green.",
+    "difficulty": 1000.0,
+    "weight": 1000,
+    "material": 33,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 808,
+    "name": "black tome of magic",
+    "plural": "tomes of magic",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "The black leather covers will reveal the secrets of high magic for the one who dares open them."
+    },
+    "itemTypes": [
+      53,
+      168
+    ],
+    "imageNumber": 328,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.tomemagic.black.",
+    "difficulty": 1000.0,
+    "weight": 1000,
+    "material": 33,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 809,
+    "name": "blue tome of magic",
+    "plural": "tomes of magic",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "The blue leather covers will reveal the secrets of high magic for the one who dares open them."
+    },
+    "itemTypes": [
+      53,
+      168
+    ],
+    "imageNumber": 326,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.tomemagic.blue.",
+    "difficulty": 1000.0,
+    "weight": 1000,
+    "material": 33,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 810,
+    "name": "white tome of magic",
+    "plural": "tomes of magic",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "The white leather covers will reveal the secrets of high magic for the one who dares open them."
+    },
+    "itemTypes": [
+      53,
+      168
+    ],
+    "imageNumber": 329,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.tomemagic.white.",
+    "difficulty": 1000.0,
+    "weight": 1000,
+    "material": 33,
+    "value": 100000,
+    "isPurchased": true
+  }
+]

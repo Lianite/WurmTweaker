@@ -1,0 +1,362 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 374,
+    "name": "emerald",
+    "plural": "emeralds",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A beautiful, forest green emerald."
+    },
+    "itemTypes": [
+      48,
+      93,
+      157
+    ],
+    "imageNumber": 543,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.gem.emerald.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 52,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 375,
+    "name": "star emerald",
+    "plural": "star emeralds",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A beautiful clear eggsized sea green emerald."
+    },
+    "itemTypes": [
+      48,
+      93,
+      157
+    ],
+    "imageNumber": 543,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 2,
+      "y": 2,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.gem.emerald.star.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 52,
+    "value": 200000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 376,
+    "name": "ruby",
+    "plural": "rubies",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A passionately red ruby."
+    },
+    "itemTypes": [
+      48,
+      93,
+      157
+    ],
+    "imageNumber": 544,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.gem.ruby.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 52,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 377,
+    "name": "star ruby",
+    "plural": "star rubies",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A bright red ruby, as large as the eye of a dragon."
+    },
+    "itemTypes": [
+      48,
+      93,
+      157
+    ],
+    "imageNumber": 544,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.gem.ruby.star.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 52,
+    "value": 200000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 378,
+    "name": "opal",
+    "plural": "opals",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A dark green, blue and black opal."
+    },
+    "itemTypes": [
+      48,
+      93,
+      157
+    ],
+    "imageNumber": 563,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.gem.opal.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 52,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 379,
+    "name": "black opal",
+    "plural": "black opals",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A perfectly black opal."
+    },
+    "itemTypes": [
+      48,
+      93,
+      157
+    ],
+    "imageNumber": 563,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.gem.opal.black.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 52,
+    "value": 200000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 380,
+    "name": "diamond",
+    "plural": "diamonds",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A glittering diamond."
+    },
+    "itemTypes": [
+      48,
+      93,
+      157
+    ],
+    "imageNumber": 542,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.gem.diamond.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 54,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 381,
+    "name": "star diamond",
+    "plural": "star diamond",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A perfectly clear, many-faceted diamond."
+    },
+    "itemTypes": [
+      48,
+      93,
+      157
+    ],
+    "imageNumber": 542,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.gem.diamond.star.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 54,
+    "value": 200000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 382,
+    "name": "sapphire",
+    "plural": "sapphires",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A shiny sky blue sapphire."
+    },
+    "itemTypes": [
+      48,
+      93,
+      157
+    ],
+    "imageNumber": 564,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.gem.sapphire.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 52,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 383,
+    "name": "star sapphire",
+    "plural": "star sapphires",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A deep blue shining sapphire."
+    },
+    "itemTypes": [
+      48,
+      93,
+      157
+    ],
+    "imageNumber": 564,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.gem.sapphire.star.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 52,
+    "value": 200000,
+    "isPurchased": true
+  }
+]

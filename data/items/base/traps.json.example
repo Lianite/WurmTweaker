@@ -1,0 +1,415 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 609,
+    "name": "spring",
+    "plural": "springs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A strong spring capable of generating a severe punch when unleashed."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 4,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.spring.",
+    "difficulty": 30.0,
+    "weight": 1000,
+    "material": 9,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 610,
+    "name": "stick trap",
+    "plural": "stick traps",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A devious trap made from sharp sticks that will be hard to detect in grass."
+    },
+    "itemTypes": [
+      21,
+      44,
+      108,
+      132,
+      147
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 30,
+      "y": 100,
+      "z": 100
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.trap.sticks.",
+    "difficulty": 15.0,
+    "weight": 50000,
+    "material": 14,
+    "value": 1000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 611,
+    "name": "pole trap",
+    "plural": "pole traps",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A trap made from ropes and a sharp deadly pole."
+    },
+    "itemTypes": [
+      21,
+      44,
+      108,
+      132,
+      147
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 50,
+      "z": 100
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.trap.pole.",
+    "difficulty": 25.0,
+    "weight": 50000,
+    "material": 14,
+    "value": 1000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 612,
+    "name": "corrosive trap",
+    "plural": "corrosive traps",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "This trap contains fragile pottery flasks full of corrosive liquid."
+    },
+    "itemTypes": [
+      30,
+      44,
+      108,
+      132,
+      147
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 30,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.trap.corrosive.",
+    "difficulty": 25.0,
+    "weight": 10000,
+    "material": 19,
+    "value": 1000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 613,
+    "name": "axe trap",
+    "plural": "axe traps",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "The trap is made from a strong wooden frame, and a spring that triggers a heavy axe."
+    },
+    "itemTypes": [
+      21,
+      44,
+      108,
+      132,
+      147
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 100,
+      "y": 100,
+      "z": 100
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.trap.axe.",
+    "difficulty": 65.0,
+    "weight": 50000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 614,
+    "name": "knife trap",
+    "plural": "knife traps",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A lot of small knife blades are fitted on a wooden frame that springs to life as someone steps on its trigger plate."
+    },
+    "itemTypes": [
+      21,
+      44,
+      108,
+      132,
+      147
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 100,
+      "y": 100,
+      "z": 100
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.trap.knife.",
+    "difficulty": 55.0,
+    "weight": 40000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 615,
+    "name": "net trap",
+    "plural": "net traps",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A net that should be laid out, entwining anyone who triggers it."
+    },
+    "itemTypes": [
+      24,
+      44,
+      108,
+      132,
+      147
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 100,
+      "y": 100,
+      "z": 100
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.trap.net.",
+    "difficulty": 45.0,
+    "weight": 10000,
+    "material": 17,
+    "value": 3000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 616,
+    "name": "scythe trap",
+    "plural": "scythe traps",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A very deadly trap, this one is made from a scythe blade hidden in masonry disguised as rock."
+    },
+    "itemTypes": [
+      25,
+      44,
+      108,
+      132,
+      147
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 100,
+      "y": 100,
+      "z": 100
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.trap.scythe.",
+    "difficulty": 65.0,
+    "weight": 50000,
+    "material": 15,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 617,
+    "name": "man trap",
+    "plural": "man traps",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "This one will hurt. A large steel jaw triggered by a spring that could chop off a foot or two."
+    },
+    "itemTypes": [
+      22,
+      44,
+      108,
+      132,
+      147
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 30,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.trap.man.",
+    "difficulty": 65.0,
+    "weight": 10000,
+    "material": 9,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 618,
+    "name": "bow trap",
+    "plural": "bow traps",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A bow mounted on a wooden frame, poised to shoot anyone who triggers it."
+    },
+    "itemTypes": [
+      21,
+      44,
+      108,
+      132,
+      147
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 30,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.trap.bow.",
+    "difficulty": 35.0,
+    "weight": 30000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 619,
+    "name": "rope trap",
+    "plural": "rope traps",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "This rope tied in a strangling loop will slow people down if laid out on the ground with a trigger mechanism."
+    },
+    "itemTypes": [
+      108,
+      132,
+      147
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 100,
+      "y": 100,
+      "z": 100
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.trap.rope.",
+    "difficulty": 25.0,
+    "weight": 3000,
+    "material": 53,
+    "value": 1000,
+    "isPurchased": true
+  }
+]

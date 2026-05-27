@@ -1,0 +1,124 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 21,
+    "name": "longsword",
+    "plural": "longswords",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A long and slender sword."
+    },
+    "itemTypes": [
+      2,
+      16,
+      22,
+      44,
+      97,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 1224,
+    "behaviourType": 1,
+    "combatDamage": 40,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 1,
+      "y": 6,
+      "z": 110
+    },
+    "primarySkill": 10005,
+    "bodySpaces": [],
+    "modelName": "model.weapon.swordlong.",
+    "difficulty": 30.0,
+    "weight": 3000,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 80,
+    "name": "short sword",
+    "plural": "short swords",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sword with a blade the length of an underarm."
+    },
+    "itemTypes": [
+      13,
+      16,
+      22,
+      44,
+      97,
+      108,
+      147
+    ],
+    "imageNumber": 1204,
+    "behaviourType": 1,
+    "combatDamage": 10,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 4,
+      "z": 75
+    },
+    "primarySkill": 10027,
+    "bodySpaces": [],
+    "modelName": "model.weapon.swordshort.",
+    "difficulty": 10.0,
+    "weight": 2000,
+    "material": 11,
+    "value": 20,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 81,
+    "name": "two handed sword",
+    "plural": "two handed swords",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large heavy sword almost as tall as a ten year old child."
+    },
+    "itemTypes": [
+      2,
+      16,
+      22,
+      44,
+      84,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 1244,
+    "behaviourType": 1,
+    "combatDamage": 70,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 140
+    },
+    "primarySkill": 10028,
+    "bodySpaces": [],
+    "modelName": "model.weapon.swordtwo.",
+    "difficulty": 40.0,
+    "weight": 4000,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  }
+]

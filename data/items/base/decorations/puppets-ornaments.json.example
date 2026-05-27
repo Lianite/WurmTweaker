@@ -1,0 +1,588 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 522,
+    "name": "carved pumpkin",
+    "plural": "pumpkin",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A pumpkin carved into a scary face."
+    },
+    "itemTypes": [
+      32,
+      59,
+      101
+    ],
+    "imageNumber": 501,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.pumpkin.halloween.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 640,
+    "name": "Fo puppet",
+    "plural": "puppets",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A hand puppet made from cloth and yarn."
+    },
+    "itemTypes": [
+      24,
+      44,
+      138,
+      157
+    ],
+    "imageNumber": 306,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.toy.puppet.fo.",
+    "difficulty": 30.0,
+    "weight": 500,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 641,
+    "name": "Magranon puppet",
+    "plural": "puppets",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A hand puppet made from cloth and yarn."
+    },
+    "itemTypes": [
+      24,
+      44,
+      138,
+      157
+    ],
+    "imageNumber": 305,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.toy.puppet.magranon.",
+    "difficulty": 30.0,
+    "weight": 500,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 642,
+    "name": "Vynora puppet",
+    "plural": "puppets",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A hand puppet made from cloth and yarn."
+    },
+    "itemTypes": [
+      24,
+      44,
+      138,
+      157
+    ],
+    "imageNumber": 303,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.toy.puppet.vynora.",
+    "difficulty": 30.0,
+    "weight": 500,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 643,
+    "name": "Libila puppet",
+    "plural": "puppets",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A hand puppet made from cloth and yarn."
+    },
+    "itemTypes": [
+      24,
+      44,
+      138,
+      157
+    ],
+    "imageNumber": 304,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.toy.puppet.libila.",
+    "difficulty": 30.0,
+    "weight": 500,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 652,
+    "name": "christmas tree",
+    "plural": "christmas trees",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A beautiful christmas tree, with colorful decoration. You should check if santa left you something!"
+    },
+    "itemTypes": [
+      21,
+      52,
+      113,
+      129,
+      157,
+      237
+    ],
+    "imageNumber": 606,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 40,
+      "y": 40,
+      "z": 200
+    },
+    "primarySkill": 1020,
+    "bodySpaces": [],
+    "modelName": "model.decoration.tree.christmas.",
+    "difficulty": 1.0,
+    "weight": 15000,
+    "material": 37,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 655,
+    "name": "snowman",
+    "plural": "snowmen",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A proper snowman is guarding this area."
+    },
+    "itemTypes": [
+      31,
+      51,
+      52,
+      67,
+      86,
+      92,
+      108,
+      157,
+      237
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 40,
+      "y": 40,
+      "z": 160
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.statue.snowman.",
+    "difficulty": 5.0,
+    "weight": 150000,
+    "material": 26,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 700,
+    "name": "fireworks",
+    "plural": "fireworks",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A package of fireworks."
+    },
+    "itemTypes": [
+      21,
+      52,
+      108
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 10,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fireworks.",
+    "difficulty": 70.0,
+    "weight": 4000,
+    "material": 14,
+    "value": 30000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 731,
+    "name": "tree stump",
+    "plural": "stumps",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "Apparently, this is where a tree used to grow."
+    },
+    "itemTypes": [
+      21,
+      31,
+      52,
+      86,
+      113,
+      123,
+      129,
+      237
+    ],
+    "imageNumber": 606,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 40,
+      "y": 40,
+      "z": 200
+    },
+    "primarySkill": 1020,
+    "bodySpaces": [],
+    "modelName": "model.stump.",
+    "difficulty": 200.0,
+    "weight": 200000,
+    "material": 0,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 738,
+    "name": "garden gnome",
+    "plural": "gnomes",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A small serious gnome stands here ready for christmas."
+    },
+    "itemTypes": [
+      1,
+      33,
+      40,
+      51,
+      52,
+      67,
+      89,
+      92,
+      108,
+      178
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.statue.garden.",
+    "difficulty": 300.0,
+    "weight": 20000,
+    "material": 18,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 742,
+    "name": "hota statue",
+    "plural": "statues",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "This statue is the prize of a Hota tournament."
+    },
+    "itemTypes": [
+      1,
+      22,
+      32,
+      40,
+      47,
+      48,
+      51,
+      52,
+      67,
+      92,
+      108,
+      176,
+      178,
+      199,
+      259
+    ],
+    "imageNumber": 467,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 40,
+      "y": 40,
+      "z": 260
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "hota.",
+    "difficulty": 5.0,
+    "weight": 150000,
+    "material": 7,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 967,
+    "name": "garden gnome",
+    "plural": "gnomes",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A small serious green gnome stands here ready for christmas."
+    },
+    "itemTypes": [
+      1,
+      33,
+      40,
+      51,
+      52,
+      67,
+      108,
+      178
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 2419200,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.statue.garden.green.",
+    "difficulty": 300.0,
+    "weight": 20000,
+    "material": 18,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 972,
+    "name": "yule goat",
+    "plural": "goats",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A popular christmas decoration is a goat made from straw. To be placed by the christmas tree."
+    },
+    "itemTypes": [
+      40,
+      51,
+      52,
+      108
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 10,
+      "y": 40,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.bucketthree.",
+    "difficulty": 300.0,
+    "weight": 500,
+    "material": 70,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 997,
+    "name": "valentines",
+    "plural": "valentines",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A vase with some sweet roses to a sweet friend."
+    },
+    "itemTypes": [
+      30,
+      51,
+      52,
+      108,
+      169
+    ],
+    "imageNumber": 510,
+    "behaviourType": 47,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.furniture.valentineroses.",
+    "difficulty": 50.0,
+    "weight": 600,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1032,
+    "name": "yule reindeer",
+    "plural": "reindeers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This years fad is a reindeer made from straw. Best friend of the yule goat."
+    },
+    "itemTypes": [
+      40,
+      51,
+      52,
+      108
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 10,
+      "y": 40,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.bucketfour.",
+    "difficulty": 300.0,
+    "weight": 500,
+    "material": 70,
+    "value": 0,
+    "isPurchased": false
+  }
+]

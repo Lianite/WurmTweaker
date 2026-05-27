@@ -1,0 +1,857 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 209,
+    "name": "sign",
+    "plural": "signs",
+    "size": 4,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A large wooden sign."
+    },
+    "itemTypes": [
+      18,
+      21,
+      44,
+      48,
+      51,
+      52,
+      86,
+      92,
+      108,
+      142,
+      147,
+      200
+    ],
+    "imageNumber": 272,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 100
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.sign.large.",
+    "difficulty": 15.0,
+    "weight": 5000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 210,
+    "name": "sign",
+    "plural": "signs",
+    "size": 2,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A small wooden sign."
+    },
+    "itemTypes": [
+      18,
+      21,
+      44,
+      48,
+      51,
+      52,
+      86,
+      92,
+      108,
+      142,
+      147,
+      200
+    ],
+    "imageNumber": 252,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 60
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.sign.small.",
+    "difficulty": 10.0,
+    "weight": 3000,
+    "material": 14,
+    "value": 5000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 344,
+    "name": "marker",
+    "plural": "markers",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A shiny magic marker."
+    },
+    "itemTypes": [
+      45,
+      52,
+      59,
+      92
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 60,
+    "dimensions": {
+      "x": 30,
+      "y": 30,
+      "z": 300
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.marker.temporary.",
+    "difficulty": 3.0,
+    "weight": 0,
+    "material": 21,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 405,
+    "name": "decorative fountain",
+    "plural": "fountains",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A delicate stone drinking fountain."
+    },
+    "itemTypes": [
+      25,
+      31,
+      33,
+      44,
+      51,
+      52,
+      67,
+      86,
+      108,
+      128,
+      135,
+      176,
+      178
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 50,
+      "y": 50,
+      "z": 150
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.fountain.drink.",
+    "difficulty": 30.0,
+    "weight": 50000,
+    "material": 15,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 407,
+    "name": "coffin",
+    "plural": "coffins",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A crude coffin made from stone with a heavy lid."
+    },
+    "itemTypes": [
+      1,
+      25,
+      31,
+      44,
+      47,
+      51,
+      52,
+      67,
+      86,
+      108,
+      135,
+      176,
+      178,
+      199,
+      259
+    ],
+    "imageNumber": 254,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 50,
+      "y": 51,
+      "z": 201
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.furniture.coffin.",
+    "difficulty": 20.0,
+    "weight": 240000,
+    "material": 15,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 408,
+    "name": "fountain",
+    "plural": "fountains",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A low stone fountain with a basin wide enough to sit in."
+    },
+    "itemTypes": [
+      1,
+      25,
+      31,
+      33,
+      44,
+      51,
+      52,
+      67,
+      86,
+      108,
+      128,
+      135,
+      176,
+      178
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 50,
+      "y": 150,
+      "z": 150
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.fountain.",
+    "difficulty": 40.0,
+    "weight": 120000,
+    "material": 15,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 458,
+    "name": "archery target",
+    "plural": "archery targets",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wooden practice target made from planks and logs with a few circles around the bulls eye."
+    },
+    "itemTypes": [
+      21,
+      31,
+      44,
+      51,
+      52,
+      86,
+      108,
+      176,
+      199
+    ],
+    "imageNumber": 255,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 80,
+      "z": 220
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.archerytarget.",
+    "difficulty": 10.0,
+    "weight": 150000,
+    "material": 14,
+    "value": 1000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 498,
+    "name": "bouquet of yellow flowers",
+    "plural": "yellow flowers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Some yellow prickly flowers."
+    },
+    "itemTypes": [
+      118,
+      146,
+      211
+    ],
+    "imageNumber": 681,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.flower.flower1.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 499,
+    "name": "bouquet of orange-red flowers",
+    "plural": "orange-red flowers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Some long-stemmed orange-red flowers with thick, pointy leaves."
+    },
+    "itemTypes": [
+      118,
+      146,
+      211
+    ],
+    "imageNumber": 681,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.flower.flower2.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 500,
+    "name": "bouquet of purple flowers",
+    "plural": "purple flowers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Some purple fluffy flowers."
+    },
+    "itemTypes": [
+      118,
+      146,
+      211
+    ],
+    "imageNumber": 681,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.flower.flower3.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 501,
+    "name": "bouquet of white flowers",
+    "plural": "white flowers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Some white flowers with a thick stem and long leaves."
+    },
+    "itemTypes": [
+      118,
+      146,
+      211
+    ],
+    "imageNumber": 681,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.flower.flower4.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 502,
+    "name": "bouquet of blue flowers",
+    "plural": "blue flowers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Some crooked but beautiful blue flowers."
+    },
+    "itemTypes": [
+      118,
+      146,
+      211
+    ],
+    "imageNumber": 681,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.flower.flower5.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 503,
+    "name": "bouquet of greenish-yellow flowers",
+    "plural": "greenish-yellow flowers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Some greenish-yellow furry flowers."
+    },
+    "itemTypes": [
+      118,
+      146,
+      211
+    ],
+    "imageNumber": 681,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.flower.flower6.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 504,
+    "name": "bouquet of white-dotted flowers",
+    "plural": "dotted flowers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Some uncommon white-dotted flowers."
+    },
+    "itemTypes": [
+      118,
+      146,
+      157,
+      211
+    ],
+    "imageNumber": 681,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.flower.flower7.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 635,
+    "name": "ornate fountain",
+    "plural": "fountains",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A low stone fountain with a basin wide enough to sit in."
+    },
+    "itemTypes": [
+      1,
+      25,
+      31,
+      33,
+      44,
+      51,
+      52,
+      67,
+      86,
+      108,
+      128,
+      135,
+      176,
+      178
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 50,
+      "y": 150,
+      "z": 150
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.fountain.2.",
+    "difficulty": 40.0,
+    "weight": 120000,
+    "material": 15,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 656,
+    "name": "shop sign",
+    "plural": "shop signs",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A signpost with a place for a shop sign."
+    },
+    "itemTypes": [
+      18,
+      21,
+      44,
+      48,
+      51,
+      52,
+      86,
+      108,
+      142,
+      147,
+      200
+    ],
+    "imageNumber": 252,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 100
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.sign.shop.",
+    "difficulty": 40.0,
+    "weight": 8000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 677,
+    "name": "gm sign",
+    "plural": "gm signs",
+    "size": 2,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "GM information sign."
+    },
+    "itemTypes": [
+      18,
+      21,
+      31,
+      44,
+      48,
+      51,
+      52,
+      86,
+      92,
+      108,
+      142,
+      147,
+      199
+    ],
+    "imageNumber": 252,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 60
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.sign.gmnotice.",
+    "difficulty": 10.0,
+    "weight": 3000,
+    "material": 14,
+    "value": 5000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 835,
+    "name": "village recruitment board",
+    "plural": "village recruitment boards",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A board where you can find villages that are looking for new residents."
+    },
+    "itemTypes": [
+      18,
+      21,
+      44,
+      48,
+      51,
+      52,
+      86,
+      142,
+      178,
+      199
+    ],
+    "imageNumber": 252,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 60
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.sign.recruitment.",
+    "difficulty": 10.0,
+    "weight": 5000,
+    "material": 14,
+    "value": 5000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 845,
+    "name": "water marker",
+    "plural": "markers",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A watery cube."
+    },
+    "itemTypes": [
+      40,
+      45,
+      52,
+      92
+    ],
+    "imageNumber": 540,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 80,
+      "y": 80,
+      "z": 80
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.marker.temporary.water",
+    "difficulty": 3.0,
+    "weight": 0,
+    "material": 26,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1403,
+    "name": "archaeology report",
+    "plural": "archaeology reports",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A flat piece of papyrus made from pressed reed fibre."
+    },
+    "itemTypes": [
+      21,
+      159,
+      48,
+      157,
+      246
+    ],
+    "imageNumber": 640,
+    "behaviourType": 57,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 20,
+      "z": 25
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sheet.papyrus.",
+    "difficulty": 5.0,
+    "weight": 10,
+    "material": 33,
+    "value": 5000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1404,
+    "name": "archaeology journal",
+    "plural": "archaeology journals",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A journal to safely keep reports of archaeological discoveries you have made. Put a piece of paper or papyrus in this journal to turn it into a blank report."
+    },
+    "itemTypes": [
+      1,
+      23,
+      44,
+      229
+    ],
+    "imageNumber": 1456,
+    "behaviourType": 57,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 15,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.journal.",
+    "difficulty": 20.0,
+    "weight": 250,
+    "material": 16,
+    "value": 0,
+    "isPurchased": false
+  }
+]

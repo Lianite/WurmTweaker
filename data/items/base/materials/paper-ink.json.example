@@ -1,0 +1,114 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 748,
+    "name": "papyrus sheet",
+    "plural": "papyrus sheets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A flat piece of papyrus made from pressed reed fibre."
+    },
+    "itemTypes": [
+      21,
+      159,
+      146,
+      211
+    ],
+    "imageNumber": 640,
+    "behaviourType": 44,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 20,
+      "z": 25
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sheet.papyrus.",
+    "difficulty": 5.0,
+    "weight": 10,
+    "material": 33,
+    "value": 5000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1270,
+    "name": "wood pulp",
+    "plural": "wood pulp",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Wood fibre reduced chemically to pulp and used in the manufacture of paper."
+    },
+    "itemTypes": [
+      21,
+      46,
+      129,
+      146,
+      211
+    ],
+    "imageNumber": 547,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.woodpulp.",
+    "difficulty": 5.0,
+    "weight": 3000,
+    "material": 14,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1272,
+    "name": "paper sheet",
+    "plural": "paper sheets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A flat piece of paper made from pressed wood pulp."
+    },
+    "itemTypes": [
+      21,
+      159,
+      146,
+      211
+    ],
+    "imageNumber": 640,
+    "behaviourType": 44,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 20,
+      "z": 25
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sheet.paper.",
+    "difficulty": 5.0,
+    "weight": 10,
+    "material": 33,
+    "value": 5000,
+    "isPurchased": true
+  }
+]

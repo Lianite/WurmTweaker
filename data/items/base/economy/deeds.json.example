@@ -1,0 +1,575 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 166,
+    "name": "writ of ownership",
+    "plural": "writs of ownership",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A writ of ownership."
+    },
+    "itemTypes": [
+      40,
+      41,
+      42,
+      53,
+      54,
+      114,
+      83
+    ],
+    "imageNumber": 322,
+    "behaviourType": 21,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.",
+    "difficulty": 1.0,
+    "weight": 0,
+    "material": 33,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 211,
+    "name": "size ten village deed",
+    "plural": "village deeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A land claim for a village of the size 10."
+    },
+    "itemTypes": [
+      40,
+      42,
+      48,
+      53,
+      54,
+      57,
+      114,
+      83
+    ],
+    "imageNumber": 340,
+    "behaviourType": 24,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.deed.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 1000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 234,
+    "name": "size five homestead deed",
+    "plural": "size five homestead deeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A land claim for a homestead of size 5."
+    },
+    "itemTypes": [
+      40,
+      42,
+      48,
+      53,
+      54,
+      58,
+      114,
+      83
+    ],
+    "imageNumber": 340,
+    "behaviourType": 24,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.deed.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 50000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 236,
+    "name": "settlement token",
+    "plural": "settlement tokens",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A sign representing this settlement."
+    },
+    "itemTypes": [
+      1,
+      31,
+      40,
+      47,
+      48,
+      49,
+      53,
+      52,
+      54,
+      60,
+      83,
+      123,
+      199
+    ],
+    "imageNumber": 60,
+    "behaviourType": 25,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 100,
+      "y": 100,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.board.village.",
+    "difficulty": 200000.0,
+    "weight": 0,
+    "material": 15,
+    "value": 1000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 237,
+    "name": "size five village deed",
+    "plural": "village deeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A land claim for a village of the size 5."
+    },
+    "itemTypes": [
+      40,
+      42,
+      48,
+      53,
+      54,
+      57,
+      114,
+      83
+    ],
+    "imageNumber": 340,
+    "behaviourType": 24,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.deed.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 250000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 238,
+    "name": "size fifteen village deed",
+    "plural": "village deeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A land claim for a village of the size 15."
+    },
+    "itemTypes": [
+      40,
+      42,
+      48,
+      53,
+      54,
+      57,
+      114,
+      83
+    ],
+    "imageNumber": 340,
+    "behaviourType": 24,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.deed.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 2250000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 239,
+    "name": "size twenty village deed",
+    "plural": "village deeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A land claim for a village of the size 20."
+    },
+    "itemTypes": [
+      40,
+      42,
+      48,
+      53,
+      54,
+      57,
+      114,
+      83
+    ],
+    "imageNumber": 340,
+    "behaviourType": 24,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.deed.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 4000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 242,
+    "name": "size fifty village deed",
+    "plural": "village deeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A land claim for a village of the size 50."
+    },
+    "itemTypes": [
+      40,
+      42,
+      48,
+      53,
+      54,
+      57,
+      114,
+      83
+    ],
+    "imageNumber": 340,
+    "behaviourType": 24,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.deed.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 20000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 244,
+    "name": "size hundred village deed",
+    "plural": "village deeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A land claim for a village of the size 100."
+    },
+    "itemTypes": [
+      40,
+      42,
+      48,
+      53,
+      54,
+      57,
+      114,
+      83
+    ],
+    "imageNumber": 340,
+    "behaviourType": 24,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.deed.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 40000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 245,
+    "name": "size twohundred village deed",
+    "plural": "village deeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A land claim for a village of the size 200."
+    },
+    "itemTypes": [
+      40,
+      42,
+      48,
+      53,
+      54,
+      57,
+      114,
+      83
+    ],
+    "imageNumber": 340,
+    "behaviourType": 24,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.deed.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 55000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 253,
+    "name": "size ten homestead deed",
+    "plural": "size ten homestead deeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A land claim for a homestead of size 10."
+    },
+    "itemTypes": [
+      40,
+      42,
+      48,
+      53,
+      54,
+      58,
+      114,
+      83
+    ],
+    "imageNumber": 340,
+    "behaviourType": 24,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.deed.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 750000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 254,
+    "name": "size twenty homestead deed",
+    "plural": "size twenty homestead deeds",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A land claim for a homestead of size 20."
+    },
+    "itemTypes": [
+      40,
+      42,
+      48,
+      53,
+      54,
+      58,
+      114,
+      83
+    ],
+    "imageNumber": 340,
+    "behaviourType": 24,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.deed.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 2000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 663,
+    "name": "settlement form",
+    "plural": "settlement forms",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A form to fill out for renting land and creating a settlement."
+    },
+    "itemTypes": [
+      40,
+      42,
+      48,
+      53,
+      54,
+      57,
+      114,
+      83
+    ],
+    "imageNumber": 340,
+    "behaviourType": 24,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.deed.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 100000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 862,
+    "name": "deed stake",
+    "plural": "stakes",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A one step long wooden stake that is used to stake out a settlement, which would provide increased security and reserve the land for your use. Use it on the ground where you wish to settle."
+    },
+    "itemTypes": [
+      21,
+      97,
+      133
+    ],
+    "imageNumber": 646,
+    "behaviourType": 24,
+    "combatDamage": 25,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 3,
+      "y": 7,
+      "z": 50
+    },
+    "primarySkill": 1020,
+    "bodySpaces": [],
+    "modelName": "model.resource.shaft.",
+    "difficulty": 3.0,
+    "weight": 200,
+    "material": 14,
+    "value": 100,
+    "isPurchased": false
+  }
+]

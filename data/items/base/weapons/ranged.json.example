@@ -1,0 +1,233 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 447,
+    "name": "short bow",
+    "plural": "short bows",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "An elegant, small and quick bow that will fire moderately far with good accuracy."
+    },
+    "itemTypes": [
+      21,
+      44,
+      84,
+      94,
+      108,
+      147
+    ],
+    "imageNumber": 1214,
+    "behaviourType": 1,
+    "combatDamage": 50,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 100
+    },
+    "primarySkill": 10079,
+    "bodySpaces": [],
+    "modelName": "model.bow.short.",
+    "difficulty": 5.0,
+    "weight": 1000,
+    "material": 14,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 448,
+    "name": "bow",
+    "plural": "bows",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A sturdy bow that will fire pretty far with good accuracy."
+    },
+    "itemTypes": [
+      21,
+      44,
+      84,
+      94,
+      108,
+      147
+    ],
+    "imageNumber": 1234,
+    "behaviourType": 1,
+    "combatDamage": 60,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 150
+    },
+    "primarySkill": 10080,
+    "bodySpaces": [],
+    "modelName": "model.bow.medium.",
+    "difficulty": 20.0,
+    "weight": 1000,
+    "material": 14,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 449,
+    "name": "long bow",
+    "plural": "long bows",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A long slender bow that must be fired pretty far for good accuracy. It will then provide a hefty punch."
+    },
+    "itemTypes": [
+      21,
+      44,
+      84,
+      94,
+      108,
+      147
+    ],
+    "imageNumber": 1254,
+    "behaviourType": 1,
+    "combatDamage": 70,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 200
+    },
+    "primarySkill": 10081,
+    "bodySpaces": [],
+    "modelName": "model.bow.long.",
+    "difficulty": 20.0,
+    "weight": 1000,
+    "material": 14,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 459,
+    "name": "short bow",
+    "plural": "short bows",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "An unstringed small bow."
+    },
+    "itemTypes": [
+      21,
+      44,
+      84,
+      95,
+      108
+    ],
+    "imageNumber": 1214,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 100
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.bow.short.",
+    "difficulty": 5.0,
+    "weight": 1000,
+    "material": 14,
+    "value": 50,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 460,
+    "name": "bow",
+    "plural": "bows",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "An unstringed sturdy bow."
+    },
+    "itemTypes": [
+      21,
+      44,
+      84,
+      95,
+      108
+    ],
+    "imageNumber": 1234,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 150
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.bow.medium.",
+    "difficulty": 20.0,
+    "weight": 1000,
+    "material": 14,
+    "value": 50,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 461,
+    "name": "long bow",
+    "plural": "long bows",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A long but unstringed slender bow."
+    },
+    "itemTypes": [
+      21,
+      44,
+      84,
+      95,
+      108
+    ],
+    "imageNumber": 1254,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.bow.long.",
+    "difficulty": 20.0,
+    "weight": 1000,
+    "material": 14,
+    "value": 50,
+    "isPurchased": true
+  }
+]

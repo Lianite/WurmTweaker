@@ -1,0 +1,281 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 246,
+    "name": "green mushroom",
+    "plural": "green mushrooms",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A green, low, slimy mushroom with a wide hat covered with brown specks."
+    },
+    "itemTypes": [
+      5,
+      55,
+      105,
+      146,
+      147,
+      212,
+      226
+    ],
+    "imageNumber": 506,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.mushroom.green.",
+    "difficulty": 200.0,
+    "weight": 400,
+    "material": 22,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 247,
+    "name": "black mushroom",
+    "plural": "black mushrooms",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A black, oily mushroom with a pointy hat and a fat, dark foot."
+    },
+    "itemTypes": [
+      5,
+      55,
+      106,
+      146,
+      147,
+      212,
+      226
+    ],
+    "imageNumber": 586,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 3,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.mushroom.black.",
+    "difficulty": 200.0,
+    "weight": 400,
+    "material": 22,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 248,
+    "name": "brown mushroom",
+    "plural": "brown mushrooms",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fine mushroom with a fine dry, round and brown hat and a white foot."
+    },
+    "itemTypes": [
+      5,
+      55,
+      103,
+      146,
+      147,
+      212,
+      226
+    ],
+    "imageNumber": 546,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 3,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.mushroom.brown.",
+    "difficulty": 200.0,
+    "weight": 600,
+    "material": 22,
+    "value": 10,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 249,
+    "name": "yellow mushroom",
+    "plural": "yellow mushrooms",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A yellow agaric, formed like a small trumpet. It has a nutty scent."
+    },
+    "itemTypes": [
+      5,
+      55,
+      104,
+      146,
+      147,
+      212,
+      226
+    ],
+    "imageNumber": 526,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.mushroom.yellow.",
+    "difficulty": 200.0,
+    "weight": 200,
+    "material": 22,
+    "value": 5,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 250,
+    "name": "blue mushroom",
+    "plural": "blue mushrooms",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A weird mushroom with a blue shining thick and broad hat and a sturdy white foot."
+    },
+    "itemTypes": [
+      5,
+      55,
+      104,
+      146,
+      147,
+      212,
+      226
+    ],
+    "imageNumber": 566,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 3,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.mushroom.blue.",
+    "difficulty": 200.0,
+    "weight": 800,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 251,
+    "name": "red mushroom",
+    "plural": "red mushrooms",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A strange agaric with a red leathery hat and a thin white foot."
+    },
+    "itemTypes": [
+      5,
+      55,
+      79,
+      146,
+      147,
+      212,
+      226
+    ],
+    "imageNumber": 486,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 3,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.mushroom.red.",
+    "difficulty": 200.0,
+    "weight": 100,
+    "material": 22,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1223,
+    "name": "mushroom",
+    "plural": "mushroom",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A mushroom ready for stuffing."
+    },
+    "itemTypes": [
+      1,
+      82,
+      74,
+      77,
+      129,
+      233
+    ],
+    "imageNumber": 546,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.mushroom.stuffed.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  }
+]

@@ -201,7 +201,7 @@ ItemHandler.handle(ItemDefinition def):
 **Modification:**
 ```json
 {
-  "type": "item",
+  "json-type": "item",
   "templateId": 7,
   "combatDamage": 22,
   "weight": 1200,
@@ -212,7 +212,7 @@ ItemHandler.handle(ItemDefinition def):
 **Creation:**
 ```json
 {
-  "type": "item",
+  "json-type": "item",
   "identifier": "wurmtweaker:runedblade",
   "name": "runed blade",
   "plural": "runed blades",

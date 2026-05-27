@@ -1,0 +1,906 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 38,
+    "name": "ore",
+    "plural": "iron ore",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A reddish chunk of rock containing many cavities lined with dark, metallic crystals."
+    },
+    "itemTypes": [
+      46,
+      48,
+      113,
+      129,
+      141,
+      146,
+      157,
+      148
+    ],
+    "imageNumber": 613,
+    "behaviourType": 46,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.ore.",
+    "difficulty": 200.0,
+    "weight": 20000,
+    "material": 11,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 39,
+    "name": "ore",
+    "plural": "gold ore",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A crystalline chunk of clear quartz with golden clumps."
+    },
+    "itemTypes": [
+      46,
+      48,
+      113,
+      129,
+      141,
+      146,
+      157,
+      148
+    ],
+    "imageNumber": 611,
+    "behaviourType": 46,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.ore.",
+    "difficulty": 200.0,
+    "weight": 20000,
+    "material": 7,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 40,
+    "name": "ore",
+    "plural": "silver ore",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thick clump of rock with metallic red and grey colours."
+    },
+    "itemTypes": [
+      46,
+      48,
+      113,
+      129,
+      141,
+      146,
+      157,
+      148
+    ],
+    "imageNumber": 612,
+    "behaviourType": 46,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.ore.",
+    "difficulty": 200.0,
+    "weight": 20000,
+    "material": 8,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 41,
+    "name": "ore",
+    "plural": "lead ore",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thick clump of large cubic grey metallic crystals."
+    },
+    "itemTypes": [
+      46,
+      48,
+      113,
+      129,
+      141,
+      146,
+      157,
+      148
+    ],
+    "imageNumber": 614,
+    "behaviourType": 46,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.ore.",
+    "difficulty": 200.0,
+    "weight": 20000,
+    "material": 12,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 42,
+    "name": "ore",
+    "plural": "zinc ore",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A chunk of greenish brown glassy crystallines."
+    },
+    "itemTypes": [
+      46,
+      48,
+      113,
+      129,
+      141,
+      146,
+      157,
+      148
+    ],
+    "imageNumber": 615,
+    "behaviourType": 46,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.ore.",
+    "difficulty": 200.0,
+    "weight": 20000,
+    "material": 13,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 43,
+    "name": "ore",
+    "plural": "copper ore",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A white and pale green chunk of rock."
+    },
+    "itemTypes": [
+      46,
+      48,
+      113,
+      129,
+      141,
+      146,
+      157,
+      148
+    ],
+    "imageNumber": 616,
+    "behaviourType": 46,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.ore.",
+    "difficulty": 200.0,
+    "weight": 20000,
+    "material": 10,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 44,
+    "name": "lump",
+    "plural": "gold lumps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small lump of pure gold."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      141,
+      146,
+      157
+    ],
+    "imageNumber": 631,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.lump.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 7,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 45,
+    "name": "lump",
+    "plural": "silver lumps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small lump of pure silver."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      141,
+      146,
+      157
+    ],
+    "imageNumber": 632,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.lump.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 8,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 46,
+    "name": "lump",
+    "plural": "iron lumps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A lump of pure iron."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      141,
+      146,
+      157
+    ],
+    "imageNumber": 633,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.lump.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 11,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 47,
+    "name": "lump",
+    "plural": "copper lumps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A lump of pure red copper."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      141,
+      146,
+      157,
+      164
+    ],
+    "imageNumber": 636,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.lump.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 10,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 48,
+    "name": "lump",
+    "plural": "zinc lumps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A grey and white lump of zinc."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      141,
+      146,
+      157
+    ],
+    "imageNumber": 635,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.lump.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 13,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 49,
+    "name": "lump",
+    "plural": "lead lumps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A heavy lump of dull grey lead."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      141,
+      146,
+      157
+    ],
+    "imageNumber": 634,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.lump.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 12,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 131,
+    "name": "rivets",
+    "plural": "rivets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Small pieces of metal. They could be used to strengthen things."
+    },
+    "itemTypes": [
+      22,
+      46,
+      146,
+      158
+    ],
+    "imageNumber": 770,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 4,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.studs.",
+    "difficulty": 1.0,
+    "weight": 200,
+    "material": 11,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 205,
+    "name": "lump",
+    "plural": "steel lumps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A heavy lump of dark steel."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      141,
+      146,
+      157
+    ],
+    "imageNumber": 672,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.lump.",
+    "difficulty": 4.0,
+    "weight": 400,
+    "material": 9,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 207,
+    "name": "ore",
+    "plural": "tin ore",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A brown dirt-looking clump with regions of dark crystals."
+    },
+    "itemTypes": [
+      22,
+      46,
+      48,
+      113,
+      129,
+      141,
+      146,
+      157,
+      148
+    ],
+    "imageNumber": 617,
+    "behaviourType": 46,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.ore.",
+    "difficulty": 200.0,
+    "weight": 20000,
+    "material": 34,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 220,
+    "name": "lump",
+    "plural": "tin lumps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A lump of light tin."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      141,
+      146,
+      157
+    ],
+    "imageNumber": 637,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.lump.",
+    "difficulty": 1.0,
+    "weight": 500,
+    "material": 34,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 221,
+    "name": "lump",
+    "plural": "brass lumps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A shining yellowy red lump of brass."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      141,
+      146,
+      157
+    ],
+    "imageNumber": 673,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.lump.",
+    "difficulty": 10.0,
+    "weight": 100,
+    "material": 30,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 223,
+    "name": "lump",
+    "plural": "bronze lumps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A red glistening lump of bronze."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      141,
+      146,
+      157
+    ],
+    "imageNumber": 671,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.lump.",
+    "difficulty": 10.0,
+    "weight": 100,
+    "material": 31,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 694,
+    "name": "lump",
+    "plural": "adamantine lumps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A heavy lump of black glossy adamantine."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      146,
+      157
+    ],
+    "imageNumber": 639,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.lump.",
+    "difficulty": 4.0,
+    "weight": 400,
+    "material": 56,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 698,
+    "name": "lump",
+    "plural": "glimmersteel lumps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A heavy lump of faintly sparkling white metal."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      146,
+      157
+    ],
+    "imageNumber": 638,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.lump.",
+    "difficulty": 4.0,
+    "weight": 400,
+    "material": 57,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 837,
+    "name": "lump",
+    "plural": "seryll lumps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Seryll - this reddish metal is believed to exist naturally only on Seris, and be delivered here by envoys from the gods."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      146,
+      157
+    ],
+    "imageNumber": 630,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.lump.",
+    "difficulty": 80.0,
+    "weight": 1000,
+    "material": 67,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1091,
+    "name": "metallic liquid",
+    "plural": "liquid",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A metallic liquid mixed with tiny black flakes. Smear this on an item to protect it once from shattering during enchants."
+    },
+    "itemTypes": [
+      26,
+      54,
+      183
+    ],
+    "imageNumber": 588,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 4,
+      "y": 4,
+      "z": 9
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.shatterprot.",
+    "difficulty": 40.0,
+    "weight": 144,
+    "material": 21,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1411,
+    "name": "lump",
+    "plural": "electrum lumps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An alloy of gold and silver."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      146,
+      157
+    ],
+    "imageNumber": 631,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.lump.",
+    "difficulty": 30.0,
+    "weight": 100,
+    "material": 96,
+    "value": 100,
+    "isPurchased": true
+  }
+]

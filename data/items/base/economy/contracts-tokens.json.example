@@ -1,0 +1,588 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 299,
+    "name": "trader contract",
+    "plural": "trader contracts",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A contract prepared for a public trader to settle down in an area and conduct business."
+    },
+    "itemTypes": [
+      40,
+      42,
+      48,
+      53,
+      114
+    ],
+    "imageNumber": 324,
+    "behaviourType": 29,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.trader.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 500000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 300,
+    "name": "personal merchant contract",
+    "plural": "merchant contracts",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A contract declaring the rights for a person called a merchant to conduct trade on your behalf."
+    },
+    "itemTypes": [
+      40,
+      42,
+      48,
+      53,
+      114,
+      83,
+      157
+    ],
+    "imageNumber": 324,
+    "behaviourType": 29,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.merchant.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 100000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 580,
+    "name": "market stall",
+    "plural": "stalls",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A market stall made for the purpose of vending goods."
+    },
+    "itemTypes": [
+      21,
+      31,
+      44,
+      49,
+      51,
+      52,
+      86,
+      98,
+      108,
+      109,
+      123
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 200,
+      "y": 250,
+      "z": 400
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.marketstall.",
+    "difficulty": 25.0,
+    "weight": 250000,
+    "material": 14,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 649,
+    "name": "light token",
+    "plural": "tokens",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A brightly glowing white stone."
+    },
+    "itemTypes": [
+      25,
+      32,
+      45,
+      52,
+      59,
+      156
+    ],
+    "imageNumber": 820,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 300,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.light.token.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 15,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 843,
+    "name": "name change certificate",
+    "plural": "name change certificate",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A form to fill out for changing your name."
+    },
+    "itemTypes": [
+      40,
+      42,
+      53,
+      54
+    ],
+    "imageNumber": 340,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.namecert.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 500000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1000,
+    "name": "ownership papers",
+    "plural": "ownership papers",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A paper that shows the ownership of an Item or creature, used to transfer ownership."
+    },
+    "itemTypes": [
+      40,
+      42,
+      48,
+      53,
+      54,
+      114,
+      83
+    ],
+    "imageNumber": 321,
+    "behaviourType": 52,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 100000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1129,
+    "name": "wagoner contract",
+    "plural": "wagoner contracts",
+    "size": 3,
+    "descriptions": {
+      "superb": "new",
+      "normal": "fancy",
+      "bad": "ok",
+      "rotten": "old",
+      "long": "A contract prepared for a wagoner to settle down on a deed and perform delivery runs."
+    },
+    "itemTypes": [
+      40,
+      42,
+      48,
+      53,
+      54,
+      114,
+      83,
+      157
+    ],
+    "imageNumber": 324,
+    "behaviourType": 59,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.writ.wagoner.",
+    "difficulty": 100.0,
+    "weight": 0,
+    "material": 33,
+    "value": 150000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1269,
+    "name": "label",
+    "plural": "labels",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A piece of papyrus that has been cut into strips to use as a label."
+    },
+    "itemTypes": [
+      21,
+      146
+    ],
+    "imageNumber": 640,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.label.",
+    "difficulty": 5.0,
+    "weight": 2,
+    "material": 33,
+    "value": 1000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1298,
+    "name": "sheet",
+    "plural": "tin sheets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thin tin sheet."
+    },
+    "itemTypes": [
+      22,
+      146,
+      158
+    ],
+    "imageNumber": 1447,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sheet.",
+    "difficulty": 30.0,
+    "weight": 6000,
+    "material": 34,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1299,
+    "name": "sheet",
+    "plural": "lead sheets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thin lead sheet."
+    },
+    "itemTypes": [
+      22,
+      146,
+      158
+    ],
+    "imageNumber": 1446,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sheet.",
+    "difficulty": 30.0,
+    "weight": 6000,
+    "material": 12,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1300,
+    "name": "golden mirror",
+    "plural": "golden mirrors",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Using this shiny golden mirror, you can change your gender and appearance."
+    },
+    "itemTypes": [
+      22,
+      40,
+      53,
+      127
+    ],
+    "imageNumber": 921,
+    "behaviourType": 1,
+    "combatDamage": 10,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.handmirror.",
+    "difficulty": 100.0,
+    "weight": 100,
+    "material": 7,
+    "value": 1000000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1409,
+    "name": "book",
+    "plural": "books",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small book with a dyeable cover. Can be used to hold papyrus or paper sheets."
+    },
+    "itemTypes": [
+      1,
+      44,
+      92,
+      229,
+      245
+    ],
+    "imageNumber": 1457,
+    "behaviourType": 57,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 21,
+      "z": 26
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.book.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 33,
+    "value": 5000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1422,
+    "name": "village cache",
+    "plural": "caches",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A small chest that rattles with the sound of some item fragments inside."
+    },
+    "itemTypes": [
+      1,
+      6,
+      31,
+      40,
+      52,
+      63,
+      123,
+      157
+    ],
+    "imageNumber": 244,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 30,
+      "y": 50,
+      "z": 80
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.chest.large.treasure.arch.",
+    "difficulty": 210.0,
+    "weight": 200000,
+    "material": 14,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1423,
+    "name": "village token",
+    "plural": "mini village tokens",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small village token from investigating the history of a deed."
+    },
+    "itemTypes": [
+      22,
+      44,
+      48,
+      51,
+      52,
+      108,
+      135,
+      157,
+      178,
+      199
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 15,
+      "y": 15,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.board.village.cache.",
+    "difficulty": 30.0,
+    "weight": 3000,
+    "material": 10,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1438,
+    "name": "affinity token",
+    "plural": "affinity tokens",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small token that can be claimed for your choice of permanent skill affinity."
+    },
+    "itemTypes": [
+      31,
+      40,
+      42,
+      61,
+      112,
+      157,
+      178,
+      229
+    ],
+    "imageNumber": 573,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 2
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.coin.",
+    "difficulty": 99.0,
+    "weight": 50,
+    "material": 11,
+    "value": 0,
+    "isPurchased": false
+  }
+]

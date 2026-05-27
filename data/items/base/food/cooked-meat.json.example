@@ -1,0 +1,358 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 129,
+    "name": "cooked meat",
+    "plural": "cooked meat",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Cooked meat."
+    },
+    "itemTypes": [
+      5,
+      28,
+      74,
+      146,
+      157,
+      212,
+      219
+    ],
+    "imageNumber": 523,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 9,
+      "z": 14
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.cooked.",
+    "difficulty": 1.0,
+    "weight": 900,
+    "material": 2,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 900,
+    "name": "crab meat",
+    "plural": "crab meat",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The very nutritious meat from a crab."
+    },
+    "itemTypes": [
+      5,
+      28,
+      62,
+      76,
+      129,
+      146,
+      212,
+      219,
+      223
+    ],
+    "imageNumber": 503,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 2,
+      "z": 7
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.meat.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 2,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1190,
+    "name": "sausage",
+    "plural": "sausages",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A food usually made from ground meat, often pork, beef or veal, along with salt, spices and breadcrumbs, with a skin around it."
+    },
+    "itemTypes": [
+      82,
+      74,
+      146,
+      222,
+      219,
+      233
+    ],
+    "imageNumber": 695,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 2,
+      "y": 6,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.sausage.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 2,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1191,
+    "name": "bacon",
+    "plural": "bacon",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A meat product prepared from a pig."
+    },
+    "itemTypes": [
+      82,
+      74,
+      146,
+      222,
+      219,
+      228
+    ],
+    "imageNumber": 663,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 2,
+      "y": 6,
+      "z": 7
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.bacon.",
+    "difficulty": 15.0,
+    "weight": 300,
+    "material": 2,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1214,
+    "name": "rat-on-a-stick",
+    "plural": "rat-on-a-stick",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A rat on a stick that can be cooked over an open fire."
+    },
+    "itemTypes": [
+      82,
+      76,
+      129,
+      222,
+      219,
+      228
+    ],
+    "imageNumber": 687,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.spit.rat.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 78,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1215,
+    "name": "hog roast",
+    "plural": "hog roast",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A pig that can be cooked over an open fire on a spit."
+    },
+    "itemTypes": [
+      82,
+      52,
+      76,
+      129,
+      222,
+      219,
+      228,
+      237
+    ],
+    "imageNumber": 597,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.spit.pig.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 84,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1216,
+    "name": "lamb spit",
+    "plural": "lamb spit",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A lamb that can be cooked over an open fire on a spit."
+    },
+    "itemTypes": [
+      82,
+      52,
+      76,
+      129,
+      222,
+      219,
+      228,
+      237
+    ],
+    "imageNumber": 629,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.spit.lamb.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 83,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1222,
+    "name": "kielbasa",
+    "plural": "kielbasa",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Polish sausage."
+    },
+    "itemTypes": [
+      82,
+      76,
+      129,
+      222,
+      219
+    ],
+    "imageNumber": 695,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 3,
+      "y": 4,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.kielbasa.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1236,
+    "name": "sausage skin",
+    "plural": "sausage skins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A skin to hold the ingredients for a sausage in, made from a bladder."
+    },
+    "itemTypes": [
+      1,
+      5,
+      55,
+      77
+    ],
+    "imageNumber": 695,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 6,
+      "y": 6,
+      "z": 13
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.sausage.skin.",
+    "difficulty": 20.0,
+    "weight": 10,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  }
+]

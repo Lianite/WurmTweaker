@@ -60,12 +60,14 @@ mods/wurmtweaker/
 
 ## JSON Format
 
-Every file defines one content override. The `"type"` field must match the subfolder name:
+Every JSON object must have a `"json-type"` field whose value matches the handler name (`"skill"`, `"creature"`, `"item"`). This routes each object to the correct handler.
+
+The field is `"json-type"` — not `"type"` — to avoid collision with definition-level fields (e.g. `SkillDefinition` has its own `"type"` field for skill classification; `CreatureDefinition` has `"types"` for creature flags).
 
 ```json
 {
-  "type": "skill",
-  "id": "Blacksmithing",
+  "json-type": "skill",
+  "id": 102,
   "difficulty": 1.5
 }
 ```

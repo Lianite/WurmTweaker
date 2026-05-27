@@ -53,9 +53,12 @@ Item modifications MUST happen in `onItemTemplatesCreated()`. This fires after `
 |---|---|---|
 | `templateId` | int | Modify existing template by numeric ID |
 | `templateName` | String | Modify existing template by name (resolves via `ItemList` constants) |
-| `identifier` | String | Create new template via `ItemTemplateBuilder` (e.g. `"myplugin:mysword"`) — ID is assigned by `IdFactory` and persists across restarts |
+| `identifier` | String | Create new template via `ItemTemplateBuilder` (e.g. `"myplugin:mysword"`) — ID is assigned by `IdFactory` and persists across restarts in `modsupport.db` |
+| `assignedTemplateId` | Integer | **Output only.** Written back to the JSON file by WurmTweaker on first boot after a successful creation. Use this numeric value to reference the item in other JSON definitions (creature drops, `crushsTo`, `grows`, etc.). Never set this manually — it is managed automatically. |
 
 **`identifier` triggers the creation path.** `templateId` and `templateName` trigger the modification path. Only one of the three should be present in a given file.
+
+> **`identifier` vs `assignedTemplateId`:** `identifier` is the stable string key the modloader uses to look up or create the numeric ID in `modsupport.db`. It is a persistence key — the game engine never sees it. `assignedTemplateId` is the actual numeric ID the game engine uses everywhere. Never rename `identifier` after a server has run with it: renaming causes `IdFactory` to assign a new ID, the old DB row orphans, and any items in the world with the old ID break. See [[Item Template Fields]] for the full lifecycle explanation.
 
 For **modification**: only fields that should change need to be in the JSON — absent fields leave the vanilla value untouched.
 
@@ -130,11 +133,11 @@ These fields are mutable on `ItemTemplate` and have public setter methods.
 | `grows` | Integer | `setGrows` | templateId of grown form |
 | `harvestsTo` | Integer | `setHarvestsTo` | templateId of harvest result |
 
-### Optional Fields — Direct Field Reflection
+### Optional Fields — Public Setter (previously misclassified)
 
-| JSON Key | POJO Type | ItemTemplate Field | Notes |
+| JSON Key | POJO Type | Apply Method | Notes |
 |---|---|---|---|
-| `fragmentAmount` | Integer | `fragmentAmount` | No setter exists |
+| `fragmentAmount` | Integer | `setFragmentAmount(int)` | Public setter exists; capped at 127 by the engine |
 
 ## Research Findings
 
@@ -236,14 +239,11 @@ Support both `templateId` (int) and `templateName` (String) in `ItemDefinition`.
 **Group B — itemTypes**:
 → Convert JSON `int[]` to `short[]`, then call `template.assignTypes(short[])` directly.
 
-**Group C — public setters** (containerSize, maxItemCount, maxItemWeight, nutrition, dyeAmountGrams, secondaryItemName+dyeSecondaryAmountRequired):
-→ Call the public method directly on the template.
+**Group C — public setters** (containerSize, maxItemCount, maxItemWeight, nutrition, dyeAmountGrams, secondaryItemName+dyeSecondaryAmountRequired, fragmentAmount):
+→ Call the public method directly on the template. `fragmentAmount` has `setFragmentAmount(int)` — no reflection needed.
 
 **Group D — private methods** (alcoholStrength, foodGroup, crushsTo, pickSeeds, grows, harvestsTo):
 → Use `ReflectionUtil.callPrivateMethod(template, ReflectionUtil.getMethod(ItemTemplate.class, "methodName"), value)`.
-
-**Group E — direct field, no setter** (fragmentAmount):
-→ Use `setField()` reflection helper.
 
 ### ItemDefinition POJO Design
 
@@ -296,7 +296,7 @@ ItemHandler.handle(ItemDefinition def) {
 `data/items/longsword.json`:
 ```json
 {
-  "type": "item",
+  "json-type": "item",
   "templateId": 7,
   "combatDamage": 22,
   "weight": 1200,
@@ -309,7 +309,7 @@ ItemHandler.handle(ItemDefinition def) {
 `data/items/runed-blade.json`:
 ```json
 {
-  "type": "item",
+  "json-type": "item",
   "identifier": "wurmtweaker:runedblade",
   "name": "runed blade",
   "plural": "runed blades",
@@ -340,7 +340,8 @@ ItemHandler.handle(ItemDefinition def) {
 ## Verification
 
 - **Modification:** Drop `longsword.json`, start server → in-game longsword has modified stats
-- **Creation:** Drop `runed-blade.json`, start server → new item exists and is craftable
-- Missing lookup key (`templateId`/`templateName`/`identifier`) → validation error logged, item skipped, server runs normally
-- Creation with missing required field → validation error logged, item skipped
+- **Creation (first boot):** Drop `runed-blade.json`, start server → new item exists in game; `runed-blade.json` now contains `"assignedTemplateId": <n>` written back by the handler
+- **Creation (subsequent boots):** `assignedTemplateId` is already present and matches → write-back skipped, file untouched
+- Missing lookup key (`templateId`/`templateName`/`identifier`) → warning logged, item skipped, server runs normally
+- Creation with missing required field → all missing fields named in one warning, item skipped
 - Unknown field in JSON → Gson ignores it, no crash

@@ -1,0 +1,191 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 65,
+    "name": "cheese drill",
+    "plural": "cheese drills",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wooden tube made from planks with a shaft to press in order to separate the whey from the curd, and to press the curd into a mould."
+    },
+    "itemTypes": [
+      21,
+      38,
+      44,
+      51,
+      92,
+      108,
+      144,
+      147,
+      210
+    ],
+    "imageNumber": 266,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 15,
+      "y": 15,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.cheesedrill.",
+    "difficulty": 30.0,
+    "weight": 3000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 219,
+    "name": "pliers",
+    "plural": "pliers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A long metal pliers for handling hot things."
+    },
+    "itemTypes": [
+      22,
+      38,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 780,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 4,
+      "z": 15
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.pliers.",
+    "difficulty": 20.0,
+    "weight": 300,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 296,
+    "name": "whetstone",
+    "plural": "whetstones",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small finely polished stone used to sharpen the edges of weapons."
+    },
+    "itemTypes": [
+      25,
+      147
+    ],
+    "imageNumber": 803,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.whet.",
+    "difficulty": 5.0,
+    "weight": 300,
+    "material": 15,
+    "value": 40,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 788,
+    "name": "smelting pot",
+    "plural": "smelting pots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A ceramic smelting pot, used to smelt metal."
+    },
+    "itemTypes": [
+      30,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 511,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.smeltingpot.",
+    "difficulty": 5.0,
+    "weight": 500,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 789,
+    "name": "clay smelting pot",
+    "plural": "clay smelting pot",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An unfinished smelting pot that could be hardened by fire."
+    },
+    "itemTypes": [
+      44,
+      108,
+      147,
+      196
+    ],
+    "imageNumber": 491,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.smeltingpot.",
+    "difficulty": 40.0,
+    "weight": 500,
+    "material": 18,
+    "value": 100,
+    "isPurchased": false
+  }
+]

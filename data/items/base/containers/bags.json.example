@@ -1,0 +1,237 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 1,
+    "name": "backpack",
+    "plural": "backpacks",
+    "size": 3,
+    "descriptions": {
+      "superb": "strong",
+      "normal": "well-made",
+      "bad": "ok",
+      "rotten": "fragile",
+      "long": "A backpack made from leather with metal husks."
+    },
+    "itemTypes": [
+      1,
+      23,
+      44,
+      97
+    ],
+    "imageNumber": 241,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 30,
+      "y": 50,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      2,
+      42
+    ],
+    "modelName": "model.container.backpack.",
+    "difficulty": 40.0,
+    "weight": 2000,
+    "material": 16,
+    "value": 200,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 2,
+    "name": "satchel",
+    "plural": "satchels",
+    "size": 3,
+    "descriptions": {
+      "superb": "strong",
+      "normal": "well-made",
+      "bad": "ok",
+      "rotten": "torn",
+      "long": "A piece of cloth sown with thick threads into a satchel perfect for carrying about the back."
+    },
+    "itemTypes": [
+      1,
+      24,
+      44,
+      92,
+      147
+    ],
+    "imageNumber": 242,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 20,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": 1020,
+    "bodySpaces": [
+      2,
+      42
+    ],
+    "modelName": "model.container.satchel.",
+    "difficulty": 20.0,
+    "weight": 500,
+    "material": 17,
+    "value": 200,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1100,
+    "name": "knapsack",
+    "plural": "knapsacks",
+    "size": 3,
+    "descriptions": {
+      "superb": "strong",
+      "normal": "well-made",
+      "bad": "ok",
+      "rotten": "fragile",
+      "long": "A knapsack for keeping 10 years of Wurm, wogic and memories. Make sure not to burn it up!"
+    },
+    "itemTypes": [
+      1,
+      44,
+      97,
+      157
+    ],
+    "imageNumber": 241,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 30,
+      "y": 50,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      42
+    ],
+    "modelName": "model.container.knapsack.",
+    "difficulty": 999.0,
+    "weight": 1000,
+    "material": 16,
+    "value": 200,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1332,
+    "name": "small bag",
+    "plural": "small bags",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small bag or pouch, used in the creation of other items."
+    },
+    "itemTypes": [
+      23,
+      44,
+      147
+    ],
+    "imageNumber": 242,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.satchel.",
+    "difficulty": 15.0,
+    "weight": 1000,
+    "material": 16,
+    "value": 500,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1333,
+    "name": "saddle bags",
+    "plural": "saddle bags",
+    "size": 3,
+    "descriptions": {
+      "superb": "strong",
+      "normal": "well-made",
+      "bad": "ok",
+      "rotten": "fragile",
+      "long": "A pair of bags that may be added to a saddle."
+    },
+    "itemTypes": [
+      1,
+      23,
+      44,
+      92,
+      139,
+      147,
+      248
+    ],
+    "imageNumber": 242,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 40,
+      "y": 50,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.mountbag.",
+    "difficulty": 30.0,
+    "weight": 3500,
+    "material": 16,
+    "value": 1500,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1334,
+    "name": "saddle sacks",
+    "plural": "saddle sacks",
+    "size": 3,
+    "descriptions": {
+      "superb": "strong",
+      "normal": "well-made",
+      "bad": "ok",
+      "rotten": "fragile",
+      "long": "A pair of sacks that look like they may fit on a saddle. A special gift from Santa."
+    },
+    "itemTypes": [
+      1,
+      23,
+      44,
+      139,
+      157,
+      187
+    ],
+    "imageNumber": 242,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 40,
+      "y": 55,
+      "z": 55
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.mountbag.xmas.",
+    "difficulty": 30.0,
+    "weight": 3500,
+    "material": 16,
+    "value": 1500,
+    "isPurchased": false
+  }
+]

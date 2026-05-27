@@ -1,0 +1,748 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 66,
+    "name": "cheese",
+    "plural": "cheeses",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A mild cheese made from cow milk."
+    },
+    "itemTypes": [
+      5,
+      27,
+      74,
+      88,
+      146,
+      192,
+      212,
+      220,
+      224
+    ],
+    "imageNumber": 561,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.cheese.",
+    "difficulty": 5.0,
+    "weight": 500,
+    "material": 28,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 67,
+    "name": "goat cheese",
+    "plural": "goat cheeses",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A tasty cheese made from goat milk."
+    },
+    "itemTypes": [
+      5,
+      27,
+      74,
+      88,
+      146,
+      157,
+      192,
+      212,
+      220,
+      224
+    ],
+    "imageNumber": 561,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.cheese.goat.",
+    "difficulty": 15.0,
+    "weight": 500,
+    "material": 28,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 68,
+    "name": "feta cheese",
+    "plural": "feta cheeses",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A salty cheese made from sheep milk."
+    },
+    "itemTypes": [
+      5,
+      27,
+      74,
+      88,
+      146,
+      192,
+      212,
+      220,
+      224
+    ],
+    "imageNumber": 561,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.cheese.feta.",
+    "difficulty": 15.0,
+    "weight": 500,
+    "material": 28,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 69,
+    "name": "buffalo cheese",
+    "plural": "buffalo cheeses",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A mild cheese with nutty taste made from buffalo milk."
+    },
+    "itemTypes": [
+      5,
+      27,
+      74,
+      88,
+      146,
+      192,
+      212,
+      220,
+      224
+    ],
+    "imageNumber": 561,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.cheese.buffalo.",
+    "difficulty": 25.0,
+    "weight": 500,
+    "material": 28,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 70,
+    "name": "honey",
+    "plural": "honey",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sweet food made by bees foraging nectar from flowers."
+    },
+    "itemTypes": [
+      5,
+      26,
+      55,
+      88
+    ],
+    "imageNumber": 587,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 4838400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.honey.",
+    "difficulty": 200.0,
+    "weight": 1000,
+    "material": 29,
+    "value": 5,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 200,
+    "name": "dough",
+    "plural": "dough",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Sticky dough, made from flour and water."
+    },
+    "itemTypes": [
+      5,
+      74,
+      146
+    ],
+    "imageNumber": 525,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.dough.",
+    "difficulty": 3.0,
+    "weight": 600,
+    "material": 0,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 201,
+    "name": "flour",
+    "plural": "flour",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Ground cereals."
+    },
+    "itemTypes": [
+      5,
+      74,
+      146
+    ],
+    "imageNumber": 642,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.flour.",
+    "difficulty": 1.0,
+    "weight": 300,
+    "material": 0,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 203,
+    "name": "bread",
+    "plural": "loaves of bread",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A loaf of bread."
+    },
+    "itemTypes": [
+      82,
+      74,
+      146,
+      222,
+      233
+    ],
+    "imageNumber": 505,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": 10039,
+    "bodySpaces": [],
+    "modelName": "model.bread.",
+    "difficulty": 10.0,
+    "weight": 600,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 349,
+    "name": "salt",
+    "plural": "salt",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Fine white, chunky salt."
+    },
+    "itemTypes": [
+      5,
+      55,
+      146
+    ],
+    "imageNumber": 643,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.salt.",
+    "difficulty": 1.0,
+    "weight": 1,
+    "material": 36,
+    "value": 300,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 368,
+    "name": "meat fillet",
+    "plural": "meat fillets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fillet of meat."
+    },
+    "itemTypes": [
+      5,
+      28,
+      62,
+      74,
+      108,
+      146,
+      174,
+      212,
+      219,
+      223
+    ],
+    "imageNumber": 503,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 345600,
+    "dimensions": {
+      "x": 2,
+      "y": 6,
+      "z": 7
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.meat.filet.",
+    "difficulty": 1.0,
+    "weight": 300,
+    "material": 2,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 369,
+    "name": "fish fillet",
+    "plural": "fish fillets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fillet of fish."
+    },
+    "itemTypes": [
+      5,
+      36,
+      62,
+      75,
+      108,
+      146,
+      174,
+      212,
+      219,
+      223,
+      233
+    ],
+    "imageNumber": 524,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 345600,
+    "dimensions": {
+      "x": 2,
+      "y": 6,
+      "z": 7
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.fish.filet.",
+    "difficulty": 1.0,
+    "weight": 300,
+    "material": 2,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 373,
+    "name": "porridge",
+    "plural": "porridges",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A grey porridge."
+    },
+    "itemTypes": [
+      5,
+      26,
+      74,
+      108,
+      212,
+      219
+    ],
+    "imageNumber": 608,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.porridge.",
+    "difficulty": 1.0,
+    "weight": 700,
+    "material": 26,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 464,
+    "name": "egg",
+    "plural": "eggs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A white egg from a bird."
+    },
+    "itemTypes": [
+      5,
+      48,
+      74,
+      96,
+      113,
+      146,
+      212,
+      219
+    ],
+    "imageNumber": 521,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 3,
+      "y": 4,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.egg.",
+    "difficulty": 200.0,
+    "weight": 100,
+    "material": 28,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 465,
+    "name": "huge egg",
+    "plural": "huge eggs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A huge yellow egg."
+    },
+    "itemTypes": [
+      5,
+      48,
+      59,
+      96,
+      112,
+      219
+    ],
+    "imageNumber": 522,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 3,
+      "y": 4,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.egg.large.",
+    "difficulty": 200.0,
+    "weight": 100,
+    "material": 28,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 488,
+    "name": "sandwich",
+    "plural": "sandwiches",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fine sandwich."
+    },
+    "itemTypes": [
+      82,
+      75,
+      222,
+      220,
+      233
+    ],
+    "imageNumber": 505,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.bread.sandwich.",
+    "difficulty": 10.0,
+    "weight": 180,
+    "material": 22,
+    "value": 20,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 754,
+    "name": "cooked rice",
+    "plural": "rice",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "White sticky, boiled rice."
+    },
+    "itemTypes": [
+      82,
+      74,
+      222,
+      219
+    ],
+    "imageNumber": 608,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.porridge.",
+    "difficulty": 1.0,
+    "weight": 700,
+    "material": 26,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 856,
+    "name": "rice porridge",
+    "plural": "porridges",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Rice cooked in milk."
+    },
+    "itemTypes": [
+      82,
+      26,
+      74,
+      219
+    ],
+    "imageNumber": 608,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.porridge.",
+    "difficulty": 1.0,
+    "weight": 700,
+    "material": 26,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 857,
+    "name": "risotto",
+    "plural": "risottos",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A meal based on rice, vegetables and seafood"
+    },
+    "itemTypes": [
+      82,
+      76,
+      222,
+      219
+    ],
+    "imageNumber": 608,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.risotto.",
+    "difficulty": 1.0,
+    "weight": 700,
+    "material": 26,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1184,
+    "name": "pinenut",
+    "plural": "pinenuts",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The edible seeds of pines (family Pinaceae, genus Pinus)."
+    },
+    "itemTypes": [
+      5,
+      55,
+      80,
+      146,
+      212,
+      217
+    ],
+    "imageNumber": 519,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 3,
+      "y": 4,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.pinenuts.",
+    "difficulty": 15.0,
+    "weight": 200,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  }
+]

@@ -1,0 +1,468 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 486,
+    "name": "sheet",
+    "plural": "sheets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fine soft sheet."
+    },
+    "itemTypes": [
+      24,
+      92,
+      146
+    ],
+    "imageNumber": 640,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sheet.",
+    "difficulty": 10.0,
+    "weight": 1500,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 639,
+    "name": "meditation rug",
+    "plural": "rugs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This thin, colorful rug provides some comfort as you sit on it but its main purpose is to create a meditation zone where your mind can relax."
+    },
+    "itemTypes": [
+      24,
+      44,
+      51,
+      52,
+      140,
+      184
+    ],
+    "imageNumber": 901,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.carpet.medi.one.",
+    "difficulty": 45.0,
+    "weight": 1500,
+    "material": 17,
+    "value": 2000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 644,
+    "name": "fine meditation rug",
+    "plural": "rugs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This thin, colorful rug provides some comfort as you sit on it but its main purpose is to create a meditation zone where your mind can relax."
+    },
+    "itemTypes": [
+      24,
+      44,
+      51,
+      52,
+      140,
+      184
+    ],
+    "imageNumber": 901,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.carpet.medi.two.",
+    "difficulty": 65.0,
+    "weight": 1500,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 645,
+    "name": "beautiful meditation rug",
+    "plural": "rugs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This thin, colorful rug provides some comfort as you sit on it but its main purpose is to create a meditation zone where your mind can relax."
+    },
+    "itemTypes": [
+      24,
+      44,
+      51,
+      52,
+      140,
+      184
+    ],
+    "imageNumber": 901,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.carpet.medi.three.",
+    "difficulty": 80.0,
+    "weight": 1500,
+    "material": 17,
+    "value": 20000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 646,
+    "name": "exquisite meditation rug",
+    "plural": "rugs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This thin, colorful rug provides some comfort as you sit on it but its main purpose is to create a meditation zone where your mind can relax."
+    },
+    "itemTypes": [
+      24,
+      44,
+      51,
+      52,
+      140,
+      184
+    ],
+    "imageNumber": 901,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.carpet.medi.four.",
+    "difficulty": 95.0,
+    "weight": 1500,
+    "material": 17,
+    "value": 30000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 846,
+    "name": "black bear rug",
+    "plural": "rugs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thick black bear rug."
+    },
+    "itemTypes": [
+      23,
+      44,
+      51,
+      52,
+      119,
+      173,
+      184
+    ],
+    "imageNumber": 603,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.black.bear.rug.",
+    "difficulty": 50.0,
+    "weight": 3000,
+    "material": 55,
+    "value": 20000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 847,
+    "name": "brown bear rug",
+    "plural": "rugs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thick brown bear rug."
+    },
+    "itemTypes": [
+      23,
+      44,
+      51,
+      52,
+      119,
+      173,
+      184
+    ],
+    "imageNumber": 603,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.brown.bear.rug.",
+    "difficulty": 50.0,
+    "weight": 3000,
+    "material": 55,
+    "value": 20000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 848,
+    "name": "mountain lion rug",
+    "plural": "rugs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thick mountain lion rug."
+    },
+    "itemTypes": [
+      23,
+      44,
+      51,
+      52,
+      119,
+      173,
+      184
+    ],
+    "imageNumber": 603,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.mountain.lion.rug.",
+    "difficulty": 50.0,
+    "weight": 400,
+    "material": 55,
+    "value": 20000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 849,
+    "name": "black wolf rug",
+    "plural": "rugs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thick black wolf rug."
+    },
+    "itemTypes": [
+      23,
+      44,
+      51,
+      52,
+      119,
+      173,
+      184
+    ],
+    "imageNumber": 603,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.black.wolf.rug.",
+    "difficulty": 50.0,
+    "weight": 3000,
+    "material": 55,
+    "value": 20000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 908,
+    "name": "colourful carpet",
+    "plural": "colourful carpets",
+    "size": 2,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This carpet adds a nice patch of colour to any house or castle."
+    },
+    "itemTypes": [
+      24,
+      44,
+      51,
+      52,
+      184
+    ],
+    "imageNumber": 901,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 120,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.colorful.carpet.small.",
+    "difficulty": 20.0,
+    "weight": 3000,
+    "material": 17,
+    "value": 3000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 909,
+    "name": "colourful carpet",
+    "plural": "colourful carpets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This carpet adds a nice patch of colour to any house or castle."
+    },
+    "itemTypes": [
+      24,
+      44,
+      51,
+      52,
+      184
+    ],
+    "imageNumber": 901,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 150,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.colorful.carpet.medium.",
+    "difficulty": 30.0,
+    "weight": 4000,
+    "material": 17,
+    "value": 4000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 910,
+    "name": "colourful carpet",
+    "plural": "colourful carpets",
+    "size": 4,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This carpet adds a nice patch of colour to any house or castle."
+    },
+    "itemTypes": [
+      24,
+      44,
+      51,
+      52,
+      184
+    ],
+    "imageNumber": 901,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 170,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.colorful.carpet.large.",
+    "difficulty": 40.0,
+    "weight": 5000,
+    "material": 17,
+    "value": 5000,
+    "isPurchased": true
+  }
+]

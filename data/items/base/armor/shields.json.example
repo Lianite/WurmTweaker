@@ -1,0 +1,333 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 4,
+    "name": "shield",
+    "plural": "metal shields",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A round shield made from a hammered metal sheet."
+    },
+    "itemTypes": [
+      3,
+      22,
+      44,
+      92,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 1011,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 30,
+      "z": 60
+    },
+    "primarySkill": 10006,
+    "bodySpaces": [
+      3,
+      44
+    ],
+    "modelName": "model.shield.medium.",
+    "difficulty": 20.0,
+    "weight": 3000,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 82,
+    "name": "shield",
+    "plural": "wooden shields",
+    "size": 2,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small sturdy shield made from wooden planks."
+    },
+    "itemTypes": [
+      3,
+      21,
+      44,
+      92,
+      97,
+      108,
+      147
+    ],
+    "imageNumber": 970,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 20,
+      "z": 40
+    },
+    "primarySkill": 10019,
+    "bodySpaces": [
+      3,
+      44
+    ],
+    "modelName": "model.shield.small.",
+    "difficulty": 10.0,
+    "weight": 1000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 83,
+    "name": "metal shield",
+    "plural": "metal shields",
+    "size": 2,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small metal shield with a leather strap."
+    },
+    "itemTypes": [
+      3,
+      22,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1010,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 20,
+      "z": 40
+    },
+    "primarySkill": 10022,
+    "bodySpaces": [
+      3,
+      44
+    ],
+    "modelName": "model.shield.small.",
+    "difficulty": 10.0,
+    "weight": 1500,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 84,
+    "name": "shield",
+    "plural": "wooden shields",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A medium sized sturdy shield made from wooden planks with a metal spike."
+    },
+    "itemTypes": [
+      3,
+      21,
+      44,
+      92,
+      97,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 971,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 5,
+      "y": 30,
+      "z": 60
+    },
+    "primarySkill": 10020,
+    "bodySpaces": [
+      3,
+      44
+    ],
+    "modelName": "model.shield.medium.",
+    "difficulty": 20.0,
+    "weight": 2000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 85,
+    "name": "shield",
+    "plural": "wooden shields",
+    "size": 4,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large sturdy shield made from wooden planks."
+    },
+    "itemTypes": [
+      3,
+      21,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 972,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 5,
+      "y": 40,
+      "z": 80
+    },
+    "primarySkill": 10021,
+    "bodySpaces": [
+      3,
+      44
+    ],
+    "modelName": "model.shield.large.",
+    "difficulty": 25.0,
+    "weight": 3000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 86,
+    "name": "shield",
+    "plural": "metal shields",
+    "size": 4,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large heavy shield hammered from a metal sheet."
+    },
+    "itemTypes": [
+      3,
+      22,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 1012,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 40,
+      "z": 80
+    },
+    "primarySkill": 10023,
+    "bodySpaces": [
+      3,
+      44
+    ],
+    "modelName": "model.shield.large.",
+    "difficulty": 30.0,
+    "weight": 4500,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 898,
+    "name": "tortoise shell",
+    "plural": "tortoise shells",
+    "size": 2,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fine looking turtle shell of good size."
+    },
+    "itemTypes": [
+      52,
+      157
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 30,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.tortoise.",
+    "difficulty": 10.0,
+    "weight": 600,
+    "material": 35,
+    "value": 1000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 899,
+    "name": "tortoise shield",
+    "plural": "tortoise shields",
+    "size": 2,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A strange shield made from a tortoise shell."
+    },
+    "itemTypes": [
+      3,
+      44,
+      108,
+      157
+    ],
+    "imageNumber": 970,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 30,
+      "z": 50
+    },
+    "primarySkill": 10019,
+    "bodySpaces": [
+      3,
+      44
+    ],
+    "modelName": "model.shield.tortoise.",
+    "difficulty": 10.0,
+    "weight": 700,
+    "material": 35,
+    "value": 10000,
+    "isPurchased": true
+  }
+]

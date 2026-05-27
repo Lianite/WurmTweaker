@@ -1,0 +1,601 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 76,
+    "name": "pottery jar",
+    "plural": "pottery jars",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clay jar hardened by fire."
+    },
+    "itemTypes": [
+      1,
+      30,
+      33,
+      48,
+      77,
+      92,
+      108,
+      211,
+      215
+    ],
+    "imageNumber": 510,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.jar.",
+    "difficulty": 1.0,
+    "weight": 300,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 77,
+    "name": "pottery bowl",
+    "plural": "pottery bowls",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clay bowl hardened by fire."
+    },
+    "itemTypes": [
+      1,
+      30,
+      33,
+      77,
+      92,
+      97,
+      108
+    ],
+    "imageNumber": 511,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.bowl.",
+    "difficulty": 5.0,
+    "weight": 500,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 78,
+    "name": "pottery flask",
+    "plural": "pottery flasks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clay flask hardened by fire."
+    },
+    "itemTypes": [
+      1,
+      30,
+      33,
+      48,
+      92,
+      108,
+      147,
+      215
+    ],
+    "imageNumber": 512,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.flask.",
+    "difficulty": 15.0,
+    "weight": 100,
+    "material": 19,
+    "value": 20000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 79,
+    "name": "water skin",
+    "plural": "water skins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A skin sown from leather with a wooden plug in a strap."
+    },
+    "itemTypes": [
+      1,
+      23,
+      33,
+      44,
+      48,
+      108,
+      147,
+      215
+    ],
+    "imageNumber": 240,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 50,
+      "z": 50
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.waterskin.",
+    "difficulty": 20.0,
+    "weight": 250,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 181,
+    "name": "clay jar",
+    "plural": "clay jars",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clay jar that could be hardened by fire."
+    },
+    "itemTypes": [
+      1,
+      44,
+      63,
+      108,
+      147,
+      196
+    ],
+    "imageNumber": 490,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.jar.",
+    "difficulty": 1.0,
+    "weight": 300,
+    "material": 18,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 182,
+    "name": "clay bowl",
+    "plural": "clay bowls",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clay bowl that could be hardened by fire."
+    },
+    "itemTypes": [
+      1,
+      44,
+      63,
+      108,
+      147,
+      196
+    ],
+    "imageNumber": 491,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.bowl.",
+    "difficulty": 5.0,
+    "weight": 500,
+    "material": 18,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 183,
+    "name": "clay flask",
+    "plural": "clay flasks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clay flask that could be hardened by fire."
+    },
+    "itemTypes": [
+      1,
+      44,
+      63,
+      108,
+      147,
+      196
+    ],
+    "imageNumber": 492,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.container.flask.",
+    "difficulty": 15.0,
+    "weight": 100,
+    "material": 18,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 653,
+    "name": "glass flask",
+    "plural": "flask",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A small, brittle and flat glass flask."
+    },
+    "itemTypes": [
+      1,
+      33,
+      108
+    ],
+    "imageNumber": 261,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.potion.",
+    "difficulty": 10.0,
+    "weight": 70,
+    "material": 20,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1019,
+    "name": "small clay amphora",
+    "plural": "small clay amphoras",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small clay amphora that could be fired in a kiln."
+    },
+    "itemTypes": [
+      1,
+      44,
+      63,
+      108,
+      147,
+      194,
+      196
+    ],
+    "imageNumber": 662,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 40,
+      "y": 40,
+      "z": 70
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.amphora.small.",
+    "difficulty": 50.0,
+    "weight": 6000,
+    "material": 18,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1020,
+    "name": "small pottery amphora",
+    "plural": "small pottery amphoras",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small clay amphora hardened by fire. It could be used to make resource changing potions"
+    },
+    "itemTypes": [
+      1,
+      30,
+      33,
+      48,
+      52,
+      92,
+      108,
+      123,
+      194,
+      195,
+      215
+    ],
+    "imageNumber": 682,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 40,
+      "y": 40,
+      "z": 70
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.amphora.small.",
+    "difficulty": 5.0,
+    "weight": 6000,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1021,
+    "name": "large clay amphora",
+    "plural": "large clay amphoras",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large clay amphora that could be fired in a kiln."
+    },
+    "itemTypes": [
+      1,
+      44,
+      63,
+      108,
+      147,
+      194,
+      196
+    ],
+    "imageNumber": 662,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 50,
+      "y": 50,
+      "z": 110
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.amphora.large.",
+    "difficulty": 70.0,
+    "weight": 12000,
+    "material": 18,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1022,
+    "name": "large pottery amphora",
+    "plural": "large pottery amphoras",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large clay amphora hardened by fire."
+    },
+    "itemTypes": [
+      1,
+      30,
+      33,
+      48,
+      52,
+      92,
+      108,
+      123,
+      194,
+      195,
+      215
+    ],
+    "imageNumber": 682,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 50,
+      "y": 50,
+      "z": 110
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.amphora.large.",
+    "difficulty": 5.0,
+    "weight": 12000,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1251,
+    "name": "clay beer stein",
+    "plural": "clay beer steins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A beer mug made out of stoneware. Needs to be fired"
+    },
+    "itemTypes": [
+      1,
+      44,
+      63,
+      108,
+      147,
+      196
+    ],
+    "imageNumber": 258,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.beerstein.clay.",
+    "difficulty": 50.0,
+    "weight": 3000,
+    "material": 35,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1252,
+    "name": "beer stein",
+    "plural": "beer steins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A beer mug made out of stoneware."
+    },
+    "itemTypes": [
+      1,
+      30,
+      33,
+      108
+    ],
+    "imageNumber": 259,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.beerstein.pottery.",
+    "difficulty": 200.0,
+    "weight": 3000,
+    "material": 35,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1253,
+    "name": "skull cup",
+    "plural": "skull cups",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The skull from a goblin sealed with wax to make it liquid proof."
+    },
+    "itemTypes": [
+      1,
+      33,
+      44,
+      108,
+      187
+    ],
+    "imageNumber": 315,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.skull.mug.",
+    "difficulty": 75.0,
+    "weight": 1000,
+    "material": 35,
+    "value": 10000,
+    "isPurchased": true
+  }
+]

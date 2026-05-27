@@ -1,0 +1,620 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 1344,
+    "name": "fishing pole",
+    "plural": "fishing poles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thin shaft that could be used to fish with."
+    },
+    "itemTypes": [
+      1,
+      21,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 786,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 150
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.fish.pole.",
+    "difficulty": 1.0,
+    "weight": 860,
+    "material": 14,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1345,
+    "name": "eyelet",
+    "plural": "eyelets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A metal loop for passing a fishing line through."
+    },
+    "itemTypes": [
+      22
+    ],
+    "imageNumber": 1488,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.islet.",
+    "difficulty": 3.0,
+    "weight": 3,
+    "material": 11,
+    "value": 15,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1346,
+    "name": "fishing rod",
+    "plural": "fishing rods",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A long fishing pole with eyelets."
+    },
+    "itemTypes": [
+      1,
+      21,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 846,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 4,
+      "y": 4,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.fish.rod.",
+    "difficulty": 5.0,
+    "weight": 1506,
+    "material": 14,
+    "value": 200,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1347,
+    "name": "basic fishing line",
+    "plural": "basic fishing lines",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fine string of cloth twisted into a basic fishing line."
+    },
+    "itemTypes": [
+      1,
+      24,
+      251
+    ],
+    "imageNumber": 620,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fishline.basic.",
+    "difficulty": 1.0,
+    "weight": 10,
+    "material": 17,
+    "value": 210,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1348,
+    "name": "light fishing line",
+    "plural": "light fishing lines",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A spun fishing line to make it stronger, ideal for lighter fish."
+    },
+    "itemTypes": [
+      1,
+      24,
+      251
+    ],
+    "imageNumber": 620,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fishline.light.",
+    "difficulty": 5.0,
+    "weight": 10,
+    "material": 17,
+    "value": 220,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1349,
+    "name": "medium fishing line",
+    "plural": "medium fishing lines",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Interweaved light fishing line to increase it's strength, ideal for medium weight fish."
+    },
+    "itemTypes": [
+      1,
+      24,
+      251
+    ],
+    "imageNumber": 620,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fishline.medium.",
+    "difficulty": 10.0,
+    "weight": 10,
+    "material": 17,
+    "value": 230,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1350,
+    "name": "heavy fishing line",
+    "plural": "heavy fishing lines",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A spun medium fishing line for added strength, ideal for deep water fishing."
+    },
+    "itemTypes": [
+      1,
+      24,
+      251
+    ],
+    "imageNumber": 620,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fishline.heavy.",
+    "difficulty": 15.0,
+    "weight": 10,
+    "material": 17,
+    "value": 240,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1351,
+    "name": "braided fishing line",
+    "plural": "braided fishing lines",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Braided heavy fishing line for even more strength, ideal for deep sea fishing for those special fish."
+    },
+    "itemTypes": [
+      1,
+      24,
+      251
+    ],
+    "imageNumber": 620,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fishline.braided.",
+    "difficulty": 20.0,
+    "weight": 10,
+    "material": 17,
+    "value": 250,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1367,
+    "name": "wood reel",
+    "plural": "wood reels",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wooded reel including a spool and winder, all carved out of a single shaft."
+    },
+    "itemTypes": [
+      21,
+      44,
+      108
+    ],
+    "imageNumber": 1494,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.reel.",
+    "difficulty": 15.0,
+    "weight": 150,
+    "material": 14,
+    "value": 115,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1368,
+    "name": "metal reel",
+    "plural": "metal reels",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A metal reel including a spool and winder, made from a single lump."
+    },
+    "itemTypes": [
+      22,
+      44,
+      108
+    ],
+    "imageNumber": 1494,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.reel.",
+    "difficulty": 25.0,
+    "weight": 150,
+    "material": 11,
+    "value": 150,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1369,
+    "name": "professional reel",
+    "plural": "professional reels",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A professional reel including a spool and winder, made from a single lump."
+    },
+    "itemTypes": [
+      22,
+      44,
+      108
+    ],
+    "imageNumber": 1494,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.reel.",
+    "difficulty": 25.0,
+    "weight": 150,
+    "material": 9,
+    "value": 150,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1370,
+    "name": "reinforced handle",
+    "plural": "reinforced handles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A leather wound handle with extra wires to reinforce it."
+    },
+    "itemTypes": [
+      21
+    ],
+    "imageNumber": 765,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.handle.reinforced.",
+    "difficulty": 5.0,
+    "weight": 380,
+    "material": 14,
+    "value": 15,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1371,
+    "name": "padded handle",
+    "plural": "padded handles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A leather wound handle with extra wires to reinforce it, then cloth added for comfort."
+    },
+    "itemTypes": [
+      21
+    ],
+    "imageNumber": 765,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 2,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.handle.padded.",
+    "difficulty": 5.0,
+    "weight": 400,
+    "material": 14,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1372,
+    "name": "light fishing reel",
+    "plural": "light fishing reels",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wooden reel with a plain wood handle."
+    },
+    "itemTypes": [
+      1,
+      21,
+      44,
+      108,
+      250
+    ],
+    "imageNumber": 1495,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 4,
+      "y": 4,
+      "z": 11
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fishingreel.light.",
+    "difficulty": 5.0,
+    "weight": 250,
+    "material": 14,
+    "value": 15,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1373,
+    "name": "medium fishing reel",
+    "plural": "medium fishing reels",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wooden reel with a leather wound handle."
+    },
+    "itemTypes": [
+      1,
+      21,
+      44,
+      108,
+      250
+    ],
+    "imageNumber": 1496,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 4,
+      "y": 4,
+      "z": 11
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fishingreel.medium.",
+    "difficulty": 10.0,
+    "weight": 280,
+    "material": 14,
+    "value": 15,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1374,
+    "name": "deep water fishing reel",
+    "plural": "deep water fishing reels",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A metal reel with a reinforced handle."
+    },
+    "itemTypes": [
+      1,
+      22,
+      44,
+      108,
+      250
+    ],
+    "imageNumber": 1497,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 4,
+      "y": 4,
+      "z": 11
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fishingreel.deepwater.",
+    "difficulty": 20.0,
+    "weight": 530,
+    "material": 11,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1375,
+    "name": "professional fishing reel",
+    "plural": "professional fishing reels",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A professional reel with a padded handle."
+    },
+    "itemTypes": [
+      1,
+      22,
+      44,
+      108,
+      250
+    ],
+    "imageNumber": 1498,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 4,
+      "y": 4,
+      "z": 11
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fishingreel.professional.",
+    "difficulty": 40.0,
+    "weight": 550,
+    "material": 9,
+    "value": 25,
+    "isPurchased": false
+  }
+]

@@ -1,0 +1,1116 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 301,
+    "name": "cornucopia",
+    "plural": "cornucopias",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The Horn of Plenty! The Cornucopia! A huge goat horn filled with fruits and flowers, able to give to the person in possession of it whatever he or she wishes for!"
+    },
+    "itemTypes": [
+      40,
+      42,
+      53,
+      108
+    ],
+    "imageNumber": 496,
+    "behaviourType": 30,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 11
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.wand.cornucopia.",
+    "difficulty": 10.0,
+    "weight": 5,
+    "material": 35,
+    "value": 10000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 330,
+    "name": "Crown of Might",
+    "plural": "crowns of might",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thick heavy gold crown covered in green and red gems."
+    },
+    "itemTypes": [
+      4,
+      40,
+      48,
+      52,
+      69
+    ],
+    "imageNumber": 974,
+    "behaviourType": 35,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.artifact.crownmight.",
+    "difficulty": 99.0,
+    "weight": 1500,
+    "material": 7,
+    "value": 5000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 331,
+    "name": "Charm of Fo",
+    "plural": "charms of fo",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A ball made of twigs with a green gem inside."
+    },
+    "itemTypes": [
+      40,
+      48,
+      52,
+      69
+    ],
+    "imageNumber": 859,
+    "behaviourType": 35,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.charm.",
+    "difficulty": 99.0,
+    "weight": 600,
+    "material": 7,
+    "value": 2000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 332,
+    "name": "Eye of Vynora",
+    "plural": "eyes of vynora",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A huge blue gem with a shimmering light inside."
+    },
+    "itemTypes": [
+      40,
+      48,
+      52,
+      69
+    ],
+    "imageNumber": 919,
+    "behaviourType": 35,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.eye.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 52,
+    "value": 5000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 333,
+    "name": "Ear of Vynora",
+    "plural": "ears of vynora",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large seashell made from blue crystal."
+    },
+    "itemTypes": [
+      40,
+      48,
+      52,
+      69
+    ],
+    "imageNumber": 879,
+    "behaviourType": 35,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.ear.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 52,
+    "value": 5000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 334,
+    "name": "Mouth of Vynora",
+    "plural": "mouths of vynora",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A slender, blue twisted crystal horn."
+    },
+    "itemTypes": [
+      40,
+      48,
+      52,
+      69
+    ],
+    "imageNumber": 899,
+    "behaviourType": 35,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.mouth.",
+    "difficulty": 99.0,
+    "weight": 1000,
+    "material": 52,
+    "value": 5000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 335,
+    "name": "Finger of Fo",
+    "plural": "fingers of fo",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A very natural one foot long slender twig, except that it seems made from silver."
+    },
+    "itemTypes": [
+      40,
+      48,
+      52,
+      69
+    ],
+    "imageNumber": 1299,
+    "behaviourType": 35,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.finger.",
+    "difficulty": 99.0,
+    "weight": 400,
+    "material": 8,
+    "value": 5000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 336,
+    "name": "Sword of Magranon",
+    "plural": "swords of magranon",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A heavy two-handed sword of incredible quality made from steel and with a comfortable hilt of leather bound silver filigran. "
+    },
+    "itemTypes": [
+      2,
+      16,
+      40,
+      48,
+      52,
+      69,
+      71,
+      84
+    ],
+    "imageNumber": 1319,
+    "behaviourType": 35,
+    "combatDamage": 70,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 10,
+      "z": 180
+    },
+    "primarySkill": 10028,
+    "bodySpaces": [],
+    "modelName": "model.artifact.swordtwo.",
+    "difficulty": 99.0,
+    "weight": 5000,
+    "material": 9,
+    "value": 3000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 337,
+    "name": "Hammer of Magranon",
+    "plural": "hammers of magranon",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A huge brutal warhammer made totally from bronze."
+    },
+    "itemTypes": [
+      14,
+      40,
+      48,
+      52,
+      69,
+      71
+    ],
+    "imageNumber": 1339,
+    "behaviourType": 35,
+    "combatDamage": 80,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 10,
+      "z": 80
+    },
+    "primarySkill": 10070,
+    "bodySpaces": [],
+    "modelName": "model.artifact.hammerhuge.",
+    "difficulty": 99.0,
+    "weight": 7000,
+    "material": 31,
+    "value": 3000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 338,
+    "name": "Scale of Libila",
+    "plural": "scales of libila",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This looks somewhat like a huge black leaf, except that it is made from dark shiny iron."
+    },
+    "itemTypes": [
+      3,
+      40,
+      48,
+      52,
+      69
+    ],
+    "imageNumber": 839,
+    "behaviourType": 35,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 25,
+      "z": 45
+    },
+    "primarySkill": 10006,
+    "bodySpaces": [
+      3,
+      44
+    ],
+    "modelName": "model.artifact.scale.",
+    "difficulty": 99.0,
+    "weight": 1200,
+    "material": 11,
+    "value": 3000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 339,
+    "name": "Orb of Doom",
+    "plural": "orbs of doom",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A round crystal ball the size of your hand, with a treacherous red glow dancing amidst dark vapors inside."
+    },
+    "itemTypes": [
+      40,
+      48,
+      52,
+      59,
+      69
+    ],
+    "imageNumber": 819,
+    "behaviourType": 35,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.orbdoom.",
+    "difficulty": 99.0,
+    "weight": 2000,
+    "material": 20,
+    "value": 5000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 340,
+    "name": "Sceptre of Ascension",
+    "plural": "sceptres of ascension",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large bulky sceptre, made from shiny white steel with black steel thorns attached to the head."
+    },
+    "itemTypes": [
+      14,
+      40,
+      48,
+      52,
+      69,
+      71
+    ],
+    "imageNumber": 1279,
+    "behaviourType": 35,
+    "combatDamage": 80,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 60
+    },
+    "primarySkill": 10061,
+    "bodySpaces": [],
+    "modelName": "model.artifact.sceptreascension.",
+    "difficulty": 99.0,
+    "weight": 5000,
+    "material": 9,
+    "value": 5000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 443,
+    "name": "bag of keeping",
+    "plural": "bags of keeping",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small non-descript leather bag with a strap."
+    },
+    "itemTypes": [
+      1,
+      23,
+      40,
+      42,
+      108
+    ],
+    "imageNumber": 240,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      41
+    ],
+    "modelName": "model.tool.bagkeeping.",
+    "difficulty": 100.0,
+    "weight": 250,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 509,
+    "name": "resurrection stone",
+    "plural": "resurrection stones",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A grey, round and smooth granite stone with a black skull. It is said that it may protect your belongings and knowledge once as you enter the realm of the dead."
+    },
+    "itemTypes": [
+      25,
+      40,
+      42,
+      53,
+      120,
+      127
+    ],
+    "imageNumber": 463,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.gem.resurrectionstone.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 15,
+    "value": 50000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 514,
+    "name": "whip of One",
+    "plural": "whips",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thick black leather whip with metal hooks."
+    },
+    "itemTypes": [
+      2,
+      23,
+      42,
+      44,
+      70,
+      92,
+      108
+    ],
+    "imageNumber": 1359,
+    "behaviourType": 1,
+    "combatDamage": 20,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.whip.one.",
+    "difficulty": 100.0,
+    "weight": 500,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 515,
+    "name": "crown of One",
+    "plural": "crowns",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thick steel crown that glimmers white in the sun."
+    },
+    "itemTypes": [
+      4,
+      22,
+      40,
+      42,
+      44,
+      70,
+      108
+    ],
+    "imageNumber": 969,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.steelcrown.",
+    "difficulty": 20.0,
+    "weight": 1700,
+    "material": 0,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 524,
+    "name": "farwalker twig",
+    "plural": "farwalker twigs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This feet-long twig is polished and dry. It is rumoured that it may transport you one time to a tree far far away."
+    },
+    "itemTypes": [
+      21,
+      40,
+      42,
+      48,
+      53,
+      127
+    ],
+    "imageNumber": 759,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sprout.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 14,
+    "value": 50000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 525,
+    "name": "farwalker stone",
+    "plural": "farwalker stones",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A greenish stone glimmering from various precious minerals. It may be used to transport you quickly once to caves vast distances away."
+    },
+    "itemTypes": [
+      25,
+      40,
+      42,
+      48,
+      53,
+      127
+    ],
+    "imageNumber": 799,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.gem.teleportationstone.",
+    "difficulty": 99.0,
+    "weight": 500,
+    "material": 15,
+    "value": 50000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 526,
+    "name": "granite wand",
+    "plural": "granite wands",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A grey thick wand from beautifully polished granite."
+    },
+    "itemTypes": [
+      25,
+      40,
+      42,
+      53,
+      108
+    ],
+    "imageNumber": 400,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 11
+    },
+    "primarySkill": 1020,
+    "bodySpaces": [],
+    "modelName": "model.magic.wand.nature.",
+    "difficulty": 10.0,
+    "weight": 5,
+    "material": 15,
+    "value": 50000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 527,
+    "name": "farwalker amulet",
+    "plural": "amulets",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A couple of feathers and pearls attached to a few looped silver strings."
+    },
+    "itemTypes": [
+      22,
+      42,
+      48,
+      53,
+      127
+    ],
+    "imageNumber": 779,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.amulet.farwalker.",
+    "difficulty": 200.0,
+    "weight": 100,
+    "material": 8,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 529,
+    "name": "royal sceptre",
+    "plural": "sceptres",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A slender sceptre, made from gold and white silver filigran with various small gems and a large blue sapphire at the head."
+    },
+    "itemTypes": [
+      40,
+      42,
+      52,
+      70,
+      122
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 80,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.sceptre.",
+    "difficulty": 99.0,
+    "weight": 3000,
+    "material": 7,
+    "value": 5000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 530,
+    "name": "royal crown",
+    "plural": "crowns",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A heavy gold crown covered in blue and green gems."
+    },
+    "itemTypes": [
+      4,
+      40,
+      42,
+      52,
+      70,
+      122
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.decoration.crown.",
+    "difficulty": 99.0,
+    "weight": 1500,
+    "material": 7,
+    "value": 5000000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 601,
+    "name": "shaker orb",
+    "plural": "shaker orbs",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A round small glass orb with a faintly shining liquid. It is commonly used by miners to create cave-ins."
+    },
+    "itemTypes": [
+      6,
+      53,
+      127
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.magic.orb.shaker",
+    "difficulty": 10.0,
+    "weight": 50,
+    "material": 21,
+    "value": 20000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 602,
+    "name": "sculpting wand",
+    "plural": "sculpting wands",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A slender wooden twig that has been grown in a spiral around something. It may probably be recharged somewhere."
+    },
+    "itemTypes": [
+      21,
+      40,
+      42,
+      53,
+      108,
+      130
+    ],
+    "imageNumber": 400,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 11
+    },
+    "primarySkill": 1020,
+    "bodySpaces": [],
+    "modelName": "model.magic.wand.sculpturing.",
+    "difficulty": 10.0,
+    "weight": 5,
+    "material": 14,
+    "value": 50000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 794,
+    "name": "key of the heavens",
+    "plural": "heaven keys",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small golden puzzle covered with unintelligible movable bricks."
+    },
+    "itemTypes": [
+      48,
+      53,
+      168
+    ],
+    "imageNumber": 789,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.keyheavens.",
+    "difficulty": 100.0,
+    "weight": 150,
+    "material": 7,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 795,
+    "name": "blood of the angels",
+    "plural": "angel bloods",
+    "size": 3,
+    "descriptions": {
+      "superb": "brilliantly glowing",
+      "normal": "strongly glowing",
+      "bad": "faintly glowing",
+      "rotten": "barely glowing",
+      "long": "A crystal vial containing a shining liquid."
+    },
+    "itemTypes": [
+      32,
+      40,
+      53,
+      156,
+      168
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.bloodang.",
+    "difficulty": 100.0,
+    "weight": 200,
+    "material": 52,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 796,
+    "name": "smoke from sol",
+    "plural": "sol smoke vials",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A crystal vial containing the vicious fumes of Sol that twisted the demons and fuels their madness."
+    },
+    "itemTypes": [
+      53,
+      168
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.smokesol.",
+    "difficulty": 100.0,
+    "weight": 200,
+    "material": 52,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 797,
+    "name": "uttacha slime",
+    "plural": "uttacha slimes",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This crystal vial contains the paralyzing slime of Uttacha, a giant slug living leagues deep in the Shaded Depths of Valrei."
+    },
+    "itemTypes": [
+      53,
+      168
+    ],
+    "imageNumber": 260,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.artifact.slimeutt.",
+    "difficulty": 10.0,
+    "weight": 200,
+    "material": 52,
+    "value": 100000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1016,
+    "name": "Stone of Soulfall",
+    "plural": "stones",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "The material of this stone is unworldly and can not be found naturally around here."
+    },
+    "itemTypes": [
+      25,
+      31,
+      40,
+      49,
+      52
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3600,
+    "dimensions": {
+      "x": 500,
+      "y": 500,
+      "z": 1000
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.portal.10.",
+    "difficulty": 99.0,
+    "weight": 2000000,
+    "material": 15,
+    "value": 10000,
+    "isPurchased": false
+  }
+]

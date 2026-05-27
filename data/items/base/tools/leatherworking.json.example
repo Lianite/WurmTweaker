@@ -1,0 +1,452 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 8,
+    "name": "carving knife",
+    "plural": "carving knives",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Made for carving, this knife has a broad blade and half a hilt."
+    },
+    "itemTypes": [
+      13,
+      17,
+      11,
+      22,
+      38,
+      44,
+      97,
+      108,
+      119
+    ],
+    "imageNumber": 1201,
+    "behaviourType": 1,
+    "combatDamage": 1,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 10
+    },
+    "primarySkill": 10007,
+    "bodySpaces": [],
+    "modelName": "model.weapon.knife.carving.",
+    "difficulty": 10.0,
+    "weight": 400,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 93,
+    "name": "butchering knife",
+    "plural": "butchering knives",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A heavy knife with a bent blade perfect for butchering."
+    },
+    "itemTypes": [
+      13,
+      17,
+      22,
+      38,
+      44,
+      108,
+      147,
+      210
+    ],
+    "imageNumber": 755,
+    "behaviourType": 1,
+    "combatDamage": 1,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 21
+    },
+    "primarySkill": 10029,
+    "bodySpaces": [],
+    "modelName": "model.weapon.knife.butchering.",
+    "difficulty": 1.0,
+    "weight": 1200,
+    "material": 11,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 125,
+    "name": "butchering knife blade",
+    "plural": "butchering knife blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The bent blade of a butchering knife."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 735,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.blade.knife.butchering.",
+    "difficulty": 10.0,
+    "weight": 1100,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 126,
+    "name": "carving knife blade",
+    "plural": "carving knife blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The small, sharp blade of a carving knife."
+    },
+    "itemTypes": [
+      22,
+      44,
+      119
+    ],
+    "imageNumber": 1200,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.weapon.blade.knife.carving.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 390,
+    "name": "awl",
+    "plural": "awls",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thin pointy blade on a shaft, used to make small holes."
+    },
+    "itemTypes": [
+      13,
+      22,
+      38,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 754,
+    "behaviourType": 1,
+    "combatDamage": 1,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 15
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.awl.",
+    "difficulty": 7.0,
+    "weight": 400,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 391,
+    "name": "awl blade",
+    "plural": "awl blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small pointy, slightly conical blade the length of a hand."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 734,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.blade.awl.",
+    "difficulty": 3.0,
+    "weight": 300,
+    "material": 11,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 392,
+    "name": "leather knife",
+    "plural": "leather knives",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A very short and sharp curved blade on a shaft, used to carve in leather."
+    },
+    "itemTypes": [
+      13,
+      22,
+      38,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 766,
+    "behaviourType": 1,
+    "combatDamage": 1,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.leatherknife.",
+    "difficulty": 7.0,
+    "weight": 400,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 393,
+    "name": "leather knife blade",
+    "plural": "leather knife blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A very short and very sharp curved blade."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 720,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.blade.leatherknife.",
+    "difficulty": 3.0,
+    "weight": 300,
+    "material": 11,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 394,
+    "name": "scissors",
+    "plural": "scissors",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Rough and clumsy, but pretty sharp scissors."
+    },
+    "itemTypes": [
+      13,
+      22,
+      38,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 748,
+    "behaviourType": 1,
+    "combatDamage": 1,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.scissors.",
+    "difficulty": 7.0,
+    "weight": 400,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 395,
+    "name": "scissor blade",
+    "plural": "scissor blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "One half of a scissors."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 728,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.blade.scissors.",
+    "difficulty": 3.0,
+    "weight": 300,
+    "material": 11,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 396,
+    "name": "clay shaper",
+    "plural": "wooden clay shapers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small pointy wooden stick used to mould and make decorations in clay ."
+    },
+    "itemTypes": [
+      21,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 802,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.clayshaper.",
+    "difficulty": 3.0,
+    "weight": 100,
+    "material": 14,
+    "value": 1000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 397,
+    "name": "spatula",
+    "plural": "wooden spatulas",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small flat and smooth piece of wood used to mould clay and other greasy substances."
+    },
+    "itemTypes": [
+      21,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 808,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.spatula.",
+    "difficulty": 3.0,
+    "weight": 100,
+    "material": 14,
+    "value": 1000,
+    "isPurchased": true
+  }
+]

@@ -1,0 +1,253 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 94,
+    "name": "old fine fishing rod",
+    "plural": "old fine fishing rods",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A long pole with a string and a hook made of iron."
+    },
+    "itemTypes": [
+      21,
+      44,
+      108,
+      157
+    ],
+    "imageNumber": 786,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.fish.rod.ironhook.",
+    "difficulty": 1.0,
+    "weight": 1110,
+    "material": 14,
+    "value": 200,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 95,
+    "name": "old fine fishing hook",
+    "plural": "old fine fishing hooks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small sharp hook made from iron."
+    },
+    "itemTypes": [
+      22,
+      157
+    ],
+    "imageNumber": 785,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.fish.hook.",
+    "difficulty": 3.0,
+    "weight": 10,
+    "material": 11,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 96,
+    "name": "old fishing hook",
+    "plural": "old wooden fishing hooks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wood chip carved into a hook with a stone as sink."
+    },
+    "itemTypes": [
+      21,
+      157
+    ],
+    "imageNumber": 805,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.fish.hook.",
+    "difficulty": 4.0,
+    "weight": 5,
+    "material": 14,
+    "value": 10,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 150,
+    "name": "old fine fishing line",
+    "plural": "old fine fishing lines",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An iron fishing hook attached to a cotton string."
+    },
+    "itemTypes": [
+      21,
+      157
+    ],
+    "imageNumber": 785,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.fish.hookstring.",
+    "difficulty": 1.0,
+    "weight": 110,
+    "material": 11,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 151,
+    "name": "old fishing line",
+    "plural": "old fishing lines",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An wooden fishing hook with a stone sink, both attached to a cotton string."
+    },
+    "itemTypes": [
+      21,
+      157
+    ],
+    "imageNumber": 785,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.fish.hookstring.",
+    "difficulty": 1.0,
+    "weight": 105,
+    "material": 14,
+    "value": 50,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 152,
+    "name": "old fishing rod",
+    "plural": "old fishing rods",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A long pole with a string and a hook made of wood and a small stone as a sink."
+    },
+    "itemTypes": [
+      21,
+      44,
+      108,
+      157
+    ],
+    "imageNumber": 786,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.fish.rod.",
+    "difficulty": 3.0,
+    "weight": 1105,
+    "material": 14,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 780,
+    "name": "old unstrung fishing rod",
+    "plural": "old unstrung fishing rods",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A long pole that just needs a string and a hook in order to fish with."
+    },
+    "itemTypes": [
+      21,
+      44,
+      108,
+      157
+    ],
+    "imageNumber": 786,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.fish.rod.unstrung.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 14,
+    "value": 200,
+    "isPurchased": true
+  }
+]

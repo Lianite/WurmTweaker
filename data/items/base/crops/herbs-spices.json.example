@@ -1,0 +1,760 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 353,
+    "name": "lovage",
+    "plural": "lovage",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A tall plant with shiny, dark green leaves and hollow stems."
+    },
+    "itemTypes": [
+      5,
+      55,
+      78,
+      105,
+      146,
+      206,
+      221,
+      212
+    ],
+    "imageNumber": 711,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.lovage.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 354,
+    "name": "sage",
+    "plural": "sage",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An evergreen shrub that reaches about three feet in height with leaves that are velvety with long stalks."
+    },
+    "itemTypes": [
+      5,
+      55,
+      78,
+      104,
+      146,
+      206,
+      221,
+      212
+    ],
+    "imageNumber": 712,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.sage.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 357,
+    "name": "oregano",
+    "plural": "oregano",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sprawling plant with coarse leaves."
+    },
+    "itemTypes": [
+      5,
+      55,
+      78,
+      146,
+      206,
+      221,
+      212
+    ],
+    "imageNumber": 703,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.oregano.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 358,
+    "name": "parsley",
+    "plural": "parsley",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small but very tasty plant with curly, dark green foliage."
+    },
+    "itemTypes": [
+      5,
+      55,
+      78,
+      102,
+      146,
+      206,
+      221,
+      212
+    ],
+    "imageNumber": 704,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.parsley.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 359,
+    "name": "basil",
+    "plural": "basil",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This plant has light green leaves and small white flowers."
+    },
+    "itemTypes": [
+      5,
+      55,
+      78,
+      146,
+      206,
+      221,
+      212
+    ],
+    "imageNumber": 627,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.basil.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 360,
+    "name": "thyme",
+    "plural": "thyme",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A low-growing, wiry and woody plant with gray-green leaves."
+    },
+    "itemTypes": [
+      5,
+      55,
+      78,
+      146,
+      206,
+      221,
+      212
+    ],
+    "imageNumber": 705,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.thyme.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 361,
+    "name": "belladonna",
+    "plural": "belladonnas",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Bluish purple flowers in loose, drooping clusters on short stalks."
+    },
+    "itemTypes": [
+      5,
+      55,
+      78,
+      79,
+      146,
+      206,
+      221,
+      212
+    ],
+    "imageNumber": 680,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.belladonna.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 363,
+    "name": "rosemary",
+    "plural": "rosemary",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A herb with twig-like stems and small white flowers, as well as a very nice scent."
+    },
+    "itemTypes": [
+      5,
+      55,
+      78,
+      105,
+      146,
+      206,
+      221,
+      212
+    ],
+    "imageNumber": 706,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.rosemary.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 365,
+    "name": "nettles",
+    "plural": "nettles",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A long plant with soft, silky leaves that give skin rashes."
+    },
+    "itemTypes": [
+      5,
+      55,
+      78,
+      104,
+      146,
+      212
+    ],
+    "imageNumber": 527,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.nettles.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 366,
+    "name": "sassafras",
+    "plural": "sassafrases",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Dum de da, Dum de Da, Dum de Da dill - I love to climb up Sassafras Hill."
+    },
+    "itemTypes": [
+      5,
+      55,
+      78,
+      103,
+      146,
+      212
+    ],
+    "imageNumber": 710,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.sassafras.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1130,
+    "name": "mint",
+    "plural": "mint",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small but very aromatic plant with dark-green leaves that have serrated margin."
+    },
+    "itemTypes": [
+      5,
+      55,
+      78,
+      103,
+      146,
+      206,
+      221,
+      212
+    ],
+    "imageNumber": 701,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 2,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.mint.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1131,
+    "name": "fennel",
+    "plural": "fennel",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A highly aromatic and flavorful herb with yellow flowers and feathery leaves."
+    },
+    "itemTypes": [
+      5,
+      55,
+      78,
+      103,
+      146,
+      212,
+      217
+    ],
+    "imageNumber": 569,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 15
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.fennel.",
+    "difficulty": 100.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1132,
+    "name": "fennel plant",
+    "plural": "fennel plants",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A highly aromatic and flavorful herb with yellow flowers and feathery leaves."
+    },
+    "itemTypes": [
+      5,
+      78,
+      146,
+      221,
+      212
+    ],
+    "imageNumber": 569,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 15
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.fennelplant.",
+    "difficulty": 100.0,
+    "weight": 300,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1139,
+    "name": "sugar",
+    "plural": "sugar",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sweet, short-chain, soluble carbohydrate."
+    },
+    "itemTypes": [
+      5,
+      137,
+      146
+    ],
+    "imageNumber": 642,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.sugar.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1140,
+    "name": "cumin",
+    "plural": "cumins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A dried seed from the fruit of a flowering plant in the family of Aplaceae."
+    },
+    "itemTypes": [
+      5,
+      55,
+      205,
+      146,
+      206,
+      221,
+      212
+    ],
+    "imageNumber": 694,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 2,
+      "y": 3,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.spice.cumin.",
+    "difficulty": 1.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1141,
+    "name": "ginger",
+    "plural": "ginger",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A hot, fragrant kitchen spice."
+    },
+    "itemTypes": [
+      5,
+      55,
+      205,
+      146,
+      206,
+      221,
+      212
+    ],
+    "imageNumber": 696,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 3,
+      "y": 4,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.spice.ginger.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1142,
+    "name": "nutmeg",
+    "plural": "nutmeg",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A seed of a tree in the genus Myristica, how it got here is anyone guess."
+    },
+    "itemTypes": [
+      5,
+      55,
+      205,
+      105,
+      146,
+      212,
+      217
+    ],
+    "imageNumber": 697,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.spice.nutmeg.",
+    "difficulty": 5.0,
+    "weight": 50,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1143,
+    "name": "paprika",
+    "plural": "paprika",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Air-dried fruits of the chili pepper family of the species Capsicum annuum."
+    },
+    "itemTypes": [
+      5,
+      55,
+      205,
+      102,
+      146,
+      221,
+      212
+    ],
+    "imageNumber": 698,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 2,
+      "y": 3,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.spice.paprika.",
+    "difficulty": 4.0,
+    "weight": 100,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1144,
+    "name": "turmeric",
+    "plural": "turmeric",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A rhizomatous herbaceous perennial plant of the ginger family."
+    },
+    "itemTypes": [
+      5,
+      55,
+      205,
+      103,
+      146,
+      221,
+      212
+    ],
+    "imageNumber": 699,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 2,
+      "y": 3,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.spice.turmeric.",
+    "difficulty": 3.0,
+    "weight": 100,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  }
+]

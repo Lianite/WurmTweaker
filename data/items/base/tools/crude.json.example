@@ -1,0 +1,130 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 685,
+    "name": "crude knife",
+    "plural": "crude knives",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This piece of rock can barely be called a knife but it will do the trick."
+    },
+    "itemTypes": [
+      13,
+      17,
+      11,
+      25,
+      38,
+      97,
+      113,
+      151
+    ],
+    "imageNumber": 1201,
+    "behaviourType": 1,
+    "combatDamage": 1,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 10
+    },
+    "primarySkill": 10007,
+    "bodySpaces": [],
+    "modelName": "model.weapon.knife.crude.",
+    "difficulty": 1.0,
+    "weight": 600,
+    "material": 15,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 688,
+    "name": "branch",
+    "plural": "branches",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A one step long wooden branch that could be used to create a shaft."
+    },
+    "itemTypes": [
+      14,
+      21,
+      84,
+      113,
+      129,
+      133,
+      144,
+      146,
+      151,
+      175,
+      211
+    ],
+    "imageNumber": 646,
+    "behaviourType": 1,
+    "combatDamage": 3,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 3,
+      "y": 7,
+      "z": 100
+    },
+    "primarySkill": 1020,
+    "bodySpaces": [],
+    "modelName": "model.resource.shaft.crude.",
+    "difficulty": 1.0,
+    "weight": 2000,
+    "material": 14,
+    "value": 1,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 691,
+    "name": "crude shaft",
+    "plural": "crude shafts",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A one step long crooked wooden shaft that could be used to create a very simple tool or a weapon."
+    },
+    "itemTypes": [
+      14,
+      21,
+      84,
+      113,
+      129,
+      133,
+      144,
+      146,
+      157,
+      151
+    ],
+    "imageNumber": 646,
+    "behaviourType": 1,
+    "combatDamage": 1,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 3,
+      "y": 7,
+      "z": 100
+    },
+    "primarySkill": 1020,
+    "bodySpaces": [],
+    "modelName": "model.resource.shaft.crude",
+    "difficulty": 3.0,
+    "weight": 1000,
+    "material": 14,
+    "value": 1,
+    "isPurchased": false
+  }
+]

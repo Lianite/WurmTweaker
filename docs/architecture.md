@@ -78,13 +78,15 @@ Key packages used:
 
 ## JSON Format Convention
 
-Every JSON file must have a `"type"` field matching the content directory name:
+Every JSON object must have a `"json-type"` field whose value matches the handler name:
 
 ```json
 {
-  "type": "skill",
+  "json-type": "skill",
   ...fields...
 }
 ```
 
-This allows mixed-type files in the future and makes files self-describing.
+The field is named `"json-type"` — not `"type"` — to avoid collision with definition-level fields. `SkillDefinition` has its own `"type"` field for skill classification; `CreatureDefinition` has a `"types"` array for creature behavior flags; future definition classes may also use `"type"` for their own purposes.
+
+`JsonLoader.dispatchIfMatch()` reads the `"json-type"` key and calls the registered `ContentHandler` whose `getTypeName()` matches. This allows a single JSON file to contain objects of multiple types — each is routed independently.

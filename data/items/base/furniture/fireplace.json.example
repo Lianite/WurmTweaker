@@ -1,0 +1,50 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 889,
+    "name": "open fireplace",
+    "plural": "fireplaces",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A decorative open fireplace which provides light and warmth to those nearby."
+    },
+    "itemTypes": [
+      1,
+      25,
+      31,
+      44,
+      47,
+      51,
+      52,
+      59,
+      86,
+      108,
+      135,
+      176,
+      180,
+      199,
+      256
+    ],
+    "imageNumber": 60,
+    "behaviourType": 18,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 100,
+      "y": 150,
+      "z": 200
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.fireplace.open.decorative.",
+    "difficulty": 60.0,
+    "weight": 100000,
+    "material": 15,
+    "value": 10000,
+    "isPurchased": false
+  }
+]

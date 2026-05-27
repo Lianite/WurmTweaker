@@ -1,0 +1,1398 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 544,
+    "name": "rudder",
+    "plural": "rudders",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "This rudder consists of a flat area with a shaft attached."
+    },
+    "itemTypes": [
+      21,
+      44
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 60,
+      "z": 210
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.rudder.",
+    "difficulty": 17.0,
+    "weight": 13000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 545,
+    "name": "seat",
+    "plural": "seat",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "A thick plank intended to sit on in a boat."
+    },
+    "itemTypes": [
+      21,
+      44
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 60,
+      "z": 210
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.seat.",
+    "difficulty": 6.0,
+    "weight": 20000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 546,
+    "name": "hull plank",
+    "plural": "hull planks",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A six steps long wooden plank that could be used to build the hull of a boat."
+    },
+    "itemTypes": [
+      21,
+      129,
+      146
+    ],
+    "imageNumber": 626,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 400
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.plank.hull.",
+    "difficulty": 10.0,
+    "weight": 8000,
+    "material": 14,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 547,
+    "name": "anchor",
+    "plural": "anchors",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "A heavy anchor made from lead used to moor ships."
+    },
+    "itemTypes": [
+      22,
+      44
+    ],
+    "imageNumber": 460,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 60,
+      "z": 70
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.anchor.",
+    "difficulty": 47.0,
+    "weight": 20000,
+    "material": 12,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 548,
+    "name": "ship helm",
+    "plural": "ship helms",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "A ship wheel used to steer a large vessel."
+    },
+    "itemTypes": [
+      21,
+      44
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 80,
+      "z": 80
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.shipwheel.",
+    "difficulty": 57.0,
+    "weight": 20000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 549,
+    "name": "tackle",
+    "plural": "tackles",
+    "size": 2,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "A tackle used together with a rope will provide a powerful pull. This is a smaller type."
+    },
+    "itemTypes": [
+      21,
+      44,
+      146
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 5,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.tackle.small.",
+    "difficulty": 45.0,
+    "weight": 5000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 550,
+    "name": "tackle",
+    "plural": "tackles",
+    "size": 4,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "A tackle used together with a rope will provide a powerful pull. This is the large beefy type."
+    },
+    "itemTypes": [
+      21,
+      44,
+      146
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.tackle.large.",
+    "difficulty": 35.0,
+    "weight": 10000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 551,
+    "name": "tenon",
+    "plural": "tenons",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "These are used to link hull planks together."
+    },
+    "itemTypes": [
+      21,
+      129,
+      146
+    ],
+    "imageNumber": 666,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.tenon.",
+    "difficulty": 3.0,
+    "weight": 1000,
+    "material": 14,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 552,
+    "name": "tall mast",
+    "plural": "masts",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "A tall mast for a rig."
+    },
+    "itemTypes": [
+      21,
+      44
+    ],
+    "imageNumber": 646,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 610
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.mast.tall.",
+    "difficulty": 45.0,
+    "weight": 120000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 553,
+    "name": "stern",
+    "plural": "sterns",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "The stern of a ship, to be fitted on the hull."
+    },
+    "itemTypes": [
+      21,
+      44
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 200,
+      "z": 310
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.stern.",
+    "difficulty": 20.0,
+    "weight": 120000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 554,
+    "name": "triangular sail",
+    "plural": "sails",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "When examined, this sails seems to be of triangular shape."
+    },
+    "itemTypes": [
+      24,
+      44
+    ],
+    "imageNumber": 640,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 15,
+      "y": 25,
+      "z": 25
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.sail.triangle.",
+    "difficulty": 55.0,
+    "weight": 4300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 555,
+    "name": "square sail",
+    "plural": "sails",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This sail seems to be square in shape."
+    },
+    "itemTypes": [
+      24,
+      44
+    ],
+    "imageNumber": 640,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 15,
+      "y": 25,
+      "z": 25
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.sail.square.",
+    "difficulty": 65.0,
+    "weight": 5300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 556,
+    "name": "oar",
+    "plural": "oars",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "This is a standard oar, about the length of a tall man."
+    },
+    "itemTypes": [
+      21,
+      44,
+      146
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 5,
+      "y": 10,
+      "z": 190
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.oar.",
+    "difficulty": 25.0,
+    "weight": 5000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 557,
+    "name": "thick rope",
+    "plural": "thick ropes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A very thick rope commonly used on ships."
+    },
+    "itemTypes": [
+      46,
+      146,
+      147
+    ],
+    "imageNumber": 621,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 30,
+      "z": 40
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.wemprope.thick.",
+    "difficulty": 20.0,
+    "weight": 5500,
+    "material": 53,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 558,
+    "name": "mooring rope",
+    "plural": "mooring ropes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sturdy but lean rope used for the anchor and for mooring a ship."
+    },
+    "itemTypes": [
+      46,
+      146,
+      147
+    ],
+    "imageNumber": 621,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 30,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.wemprope.mooring.",
+    "difficulty": 30.0,
+    "weight": 500,
+    "material": 53,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 559,
+    "name": "cordage rope",
+    "plural": "cordage ropes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This rope is thinner and used for hoisting and lowering sails."
+    },
+    "itemTypes": [
+      46,
+      146,
+      147
+    ],
+    "imageNumber": 621,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.wemprope.cordage.",
+    "difficulty": 40.0,
+    "weight": 500,
+    "material": 53,
+    "value": 20000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 560,
+    "name": "keel section",
+    "plural": "keel sections",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "This is part of a keel. Put together several of these and you will have the keel of a ship."
+    },
+    "itemTypes": [
+      21,
+      44,
+      146
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 200,
+      "z": 210
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.keel.part.",
+    "difficulty": 30.0,
+    "weight": 60000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 561,
+    "name": "peg",
+    "plural": "pegs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "These pegs come in various shapes and sizes and are often used in carpentry and shipbuilding."
+    },
+    "itemTypes": [
+      21,
+      113,
+      129,
+      146
+    ],
+    "imageNumber": 666,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 2,
+      "y": 2,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.peg.",
+    "difficulty": 5.0,
+    "weight": 100,
+    "material": 14,
+    "value": 10,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 562,
+    "name": "keel",
+    "plural": "keels",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "Running all along the bottom this is the large beam around which the hull of a ship is built."
+    },
+    "itemTypes": [
+      21,
+      44
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 10,
+      "y": 200,
+      "z": 410
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.keel.",
+    "difficulty": 30.0,
+    "weight": 365000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 563,
+    "name": "triangular rig",
+    "plural": "triangular rigs",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "A tall mast, with a triangular sail and cordage."
+    },
+    "itemTypes": [
+      21
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 210
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.rig.triangular.",
+    "difficulty": 25.0,
+    "weight": 65000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 564,
+    "name": "square rig",
+    "plural": "square rigs",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "A tall mast, with a square sail and cordage."
+    },
+    "itemTypes": [
+      21
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 410
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.rig.square.",
+    "difficulty": 35.0,
+    "weight": 86000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 565,
+    "name": "mooring anchor",
+    "plural": "anchors",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A mooring rope tied to an anchor."
+    },
+    "itemTypes": [
+      22,
+      46,
+      146,
+      147
+    ],
+    "imageNumber": 461,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 60,
+      "z": 70
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.tool.anchor.rope.",
+    "difficulty": 1.0,
+    "weight": 20500,
+    "material": 12,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 566,
+    "name": "deck board",
+    "plural": "deck boards",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A fairly short wooden plank used on the board of a deck."
+    },
+    "itemTypes": [
+      21,
+      129,
+      146
+    ],
+    "imageNumber": 626,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 100
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.plank.deck.",
+    "difficulty": 27.0,
+    "weight": 4000,
+    "material": 14,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 567,
+    "name": "belaying pin",
+    "plural": "pins",
+    "size": 3,
+    "descriptions": {
+      "superb": "fresh",
+      "normal": "dry",
+      "bad": "brittle",
+      "rotten": "rotten",
+      "long": "A wooden shaft with a rounded part used both to tie ropes to as well as a weapon for drunk sailors."
+    },
+    "itemTypes": [
+      14,
+      21,
+      146,
+      147
+    ],
+    "imageNumber": 646,
+    "behaviourType": 1,
+    "combatDamage": 35,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 3,
+      "y": 5,
+      "z": 20
+    },
+    "primarySkill": 1025,
+    "bodySpaces": [],
+    "modelName": "model.tool.belaying.",
+    "difficulty": 5.0,
+    "weight": 500,
+    "material": 14,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 568,
+    "name": "boat lock",
+    "plural": "boat locks",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An ornate and intricate metal lock used to lock a boat."
+    },
+    "itemTypes": [
+      39,
+      40,
+      114,
+      108
+    ],
+    "imageNumber": 790,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 3,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.lock.boat.",
+    "difficulty": 40.0,
+    "weight": 800,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 581,
+    "name": "dredge",
+    "plural": "dredges",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A dirty sack with four metal blades along its rim. A rope is attached to it. The idea is that you drag it along the bottom and gather mud."
+    },
+    "itemTypes": [
+      1,
+      21,
+      33,
+      44,
+      52,
+      92,
+      108,
+      125,
+      139,
+      147,
+      247
+    ],
+    "imageNumber": 265,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 30,
+      "y": 30,
+      "z": 40
+    },
+    "primarySkill": 1020,
+    "bodySpaces": [],
+    "modelName": "model.container.dredge.",
+    "difficulty": 15.0,
+    "weight": 4500,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 582,
+    "name": "dredge scraping lip",
+    "plural": "dredge lips",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A hard metallic blade used to weight down a dredge and scrape the bottom."
+    },
+    "itemTypes": [
+      22,
+      44,
+      146
+    ],
+    "imageNumber": 556,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 5,
+      "z": 25
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.blade.dredgelip.",
+    "difficulty": 3.0,
+    "weight": 1000,
+    "material": 9,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 583,
+    "name": "crows nest",
+    "plural": "crows nests",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "The place where the lookout stands in the top of tall masts."
+    },
+    "itemTypes": [
+      21,
+      44,
+      51,
+      52,
+      108
+    ],
+    "imageNumber": 276,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 75,
+      "y": 75,
+      "z": 75
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.crowsnest.",
+    "difficulty": 45.0,
+    "weight": 40000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 584,
+    "name": "spinnaker rig",
+    "plural": "spinnaker rigs",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "A small pointy mast with a small square sail and cordage."
+    },
+    "itemTypes": [
+      21
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 210
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.rig.spinnaker.",
+    "difficulty": 30.0,
+    "weight": 66000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 585,
+    "name": "large square rig",
+    "plural": "large square rigs",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "A large mast with a square sail, cordage and a crows nest."
+    },
+    "itemTypes": [
+      21
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 510
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.rig.square.large.",
+    "difficulty": 45.0,
+    "weight": 106000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 586,
+    "name": "square yard rig",
+    "plural": "square yard rigs",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "A large sized mast with a large square sail and cordage."
+    },
+    "itemTypes": [
+      21
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 510
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.rig.square.yard.",
+    "difficulty": 55.0,
+    "weight": 106000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 587,
+    "name": "tall square rig",
+    "plural": "tall square rigs",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "A really tall mast with a square sail, cordage and a crows nest near the top."
+    },
+    "itemTypes": [
+      21
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 610
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.rig.square.tall.",
+    "difficulty": 65.0,
+    "weight": 166000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 588,
+    "name": "small mast",
+    "plural": "masts",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "A rather small mast for a rig."
+    },
+    "itemTypes": [
+      21,
+      44
+    ],
+    "imageNumber": 646,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 210
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.mast.small.",
+    "difficulty": 45.0,
+    "weight": 60000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 589,
+    "name": "medium mast",
+    "plural": "masts",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "A standard mast for a rig."
+    },
+    "itemTypes": [
+      21,
+      44
+    ],
+    "imageNumber": 646,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 410
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.mast.medium.",
+    "difficulty": 45.0,
+    "weight": 80000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 590,
+    "name": "large mast",
+    "plural": "masts",
+    "size": 3,
+    "descriptions": {
+      "superb": "fine",
+      "normal": "nice",
+      "bad": "mediocre",
+      "rotten": "poor",
+      "long": "A larger type of mast for a rig."
+    },
+    "itemTypes": [
+      21,
+      44
+    ],
+    "imageNumber": 646,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9072000,
+    "dimensions": {
+      "x": 20,
+      "y": 20,
+      "z": 510
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.mast.large.",
+    "difficulty": 45.0,
+    "weight": 100000,
+    "material": 14,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 591,
+    "name": "small square sail",
+    "plural": "sails",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This sail seems to be small and square in shape."
+    },
+    "itemTypes": [
+      24,
+      44
+    ],
+    "imageNumber": 640,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 15,
+      "y": 15,
+      "z": 15
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.part.sail.square.small.",
+    "difficulty": 50.0,
+    "weight": 4300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 597,
+    "name": "sheet",
+    "plural": "steel sheets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thin strong steel sheet."
+    },
+    "itemTypes": [
+      22,
+      146,
+      157,
+      158
+    ],
+    "imageNumber": 675,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sheet.",
+    "difficulty": 30.0,
+    "weight": 6000,
+    "material": 9,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 598,
+    "name": "sheet",
+    "plural": "silver sheets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thick dark silver sheet."
+    },
+    "itemTypes": [
+      22,
+      146,
+      157,
+      158
+    ],
+    "imageNumber": 676,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sheet.",
+    "difficulty": 30.0,
+    "weight": 6000,
+    "material": 8,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 599,
+    "name": "sheet",
+    "plural": "gold sheets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large thick glistening gold sheet."
+    },
+    "itemTypes": [
+      22,
+      146,
+      157,
+      158
+    ],
+    "imageNumber": 674,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.sheet.",
+    "difficulty": 30.0,
+    "weight": 6000,
+    "material": 7,
+    "value": 10000,
+    "isPurchased": true
+  }
+]

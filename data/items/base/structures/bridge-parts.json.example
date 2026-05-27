@@ -1,0 +1,247 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 1302,
+    "name": "slate keystone",
+    "plural": "slate keystones",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Slate chiselled into a keystone."
+    },
+    "itemTypes": [
+      25,
+      44,
+      51,
+      86,
+      135,
+      147,
+      158
+    ],
+    "imageNumber": 466,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 400
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.keystone.",
+    "difficulty": 20.0,
+    "weight": 80000,
+    "material": 61,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1303,
+    "name": "clay keystone",
+    "plural": "clay keystones",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "clay formed in a keystone shape"
+    },
+    "itemTypes": [
+      44,
+      108,
+      147,
+      196
+    ],
+    "imageNumber": 466,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 145
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.keystone.",
+    "difficulty": 20.0,
+    "weight": 80000,
+    "material": 18,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1304,
+    "name": "pottery keystone",
+    "plural": "pottery keystones",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A pottery verion of a keystone."
+    },
+    "itemTypes": [
+      25,
+      44,
+      51,
+      86,
+      135,
+      147,
+      158
+    ],
+    "imageNumber": 466,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 400
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.keystone.",
+    "difficulty": 20.0,
+    "weight": 80000,
+    "material": 19,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1305,
+    "name": "sandstone keystone",
+    "plural": "sandstone keystones",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Sandstone chiselled into a keystone."
+    },
+    "itemTypes": [
+      25,
+      44,
+      51,
+      86,
+      135,
+      147,
+      158
+    ],
+    "imageNumber": 466,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 400
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.keystone.",
+    "difficulty": 20.0,
+    "weight": 80000,
+    "material": 89,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 905,
+    "name": "stone keystone",
+    "plural": "stone keystones",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "stone chiselled into a keystone."
+    },
+    "itemTypes": [
+      1,
+      25,
+      44,
+      47,
+      51,
+      52,
+      86,
+      135,
+      147,
+      158,
+      199
+    ],
+    "imageNumber": 466,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 400
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.keystone.",
+    "difficulty": 20.0,
+    "weight": 80000,
+    "material": 15,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 906,
+    "name": "marble keystone",
+    "plural": "marble keystones",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Marble chiselled into a keystone."
+    },
+    "itemTypes": [
+      1,
+      25,
+      44,
+      47,
+      51,
+      52,
+      86,
+      135,
+      147,
+      158,
+      199
+    ],
+    "imageNumber": 466,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 10,
+      "y": 20,
+      "z": 400
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.keystone.",
+    "difficulty": 20.0,
+    "weight": 80000,
+    "material": 62,
+    "value": 0,
+    "isPurchased": false
+  }
+]

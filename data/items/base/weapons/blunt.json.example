@@ -1,0 +1,156 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 290,
+    "name": "maul",
+    "plural": "mauls",
+    "size": 4,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A huge spiked heavy clump of metal on a shaft. You'll need both hands free to wield this one."
+    },
+    "itemTypes": [
+      14,
+      22,
+      44,
+      84,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 1233,
+    "behaviourType": 1,
+    "combatDamage": 70,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 3,
+      "y": 10,
+      "z": 80
+    },
+    "primarySkill": 10061,
+    "bodySpaces": [],
+    "modelName": "model.weapon.maul.large.",
+    "difficulty": 30.0,
+    "weight": 5000,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 291,
+    "name": "maul",
+    "plural": "small mauls",
+    "size": 2,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A smooth heavy clump of metal on a shaft."
+    },
+    "itemTypes": [
+      14,
+      22,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 1213,
+    "behaviourType": 1,
+    "combatDamage": 30,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 7,
+      "z": 70
+    },
+    "primarySkill": 10063,
+    "bodySpaces": [],
+    "modelName": "model.weapon.maul.small.",
+    "difficulty": 11.0,
+    "weight": 3000,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 292,
+    "name": "maul",
+    "plural": "mauls",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large spiked heavy clump of metal on a shaft."
+    },
+    "itemTypes": [
+      14,
+      22,
+      44,
+      189,
+      108,
+      147
+    ],
+    "imageNumber": 1213,
+    "behaviourType": 1,
+    "combatDamage": 60,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 70
+    },
+    "primarySkill": 10062,
+    "bodySpaces": [],
+    "modelName": "model.weapon.maul.medium.",
+    "difficulty": 17.0,
+    "weight": 4000,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 314,
+    "name": "shod club",
+    "plural": "shod clubs",
+    "size": 5,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A huge metal shod gnarly branch, worn and strengthened by weather."
+    },
+    "itemTypes": [
+      14,
+      21,
+      84,
+      108
+    ],
+    "imageNumber": 1239,
+    "behaviourType": 1,
+    "combatDamage": 50,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 1,
+      "y": 20,
+      "z": 70
+    },
+    "primarySkill": 10064,
+    "bodySpaces": [],
+    "modelName": "model.weapon.club.huge.",
+    "difficulty": 20.0,
+    "weight": 15000,
+    "material": 14,
+    "value": 2,
+    "isPurchased": true
+  }
+]

@@ -1,0 +1,604 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 415,
+    "name": "maple syrup",
+    "plural": "maple syrup",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A thick, lightly golden syrup, with a delicate flavour and smooth texture."
+    },
+    "itemTypes": [
+      26,
+      88,
+      90
+    ],
+    "imageNumber": 587,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 3,
+      "y": 4,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.syrup.maple.",
+    "difficulty": 1.0,
+    "weight": 60,
+    "material": 26,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 416,
+    "name": "maple sap",
+    "plural": "maple sap",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A clear liquid with a slightly sweet taste."
+    },
+    "itemTypes": [
+      26,
+      211
+    ],
+    "imageNumber": 587,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.sap.maple.",
+    "difficulty": 10.0,
+    "weight": 1000,
+    "material": 26,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 417,
+    "name": "fruit juice",
+    "plural": "fruit juices",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The juice of a fruit."
+    },
+    "itemTypes": [
+      26,
+      88,
+      90,
+      216,
+      233
+    ],
+    "imageNumber": 582,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 3,
+      "y": 4,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.juice.",
+    "difficulty": 10.0,
+    "weight": 100,
+    "material": 26,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 428,
+    "name": "jam",
+    "plural": "jams",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Sweet delicious jam."
+    },
+    "itemTypes": [
+      5,
+      74,
+      108,
+      220,
+      233
+    ],
+    "imageNumber": 540,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 3,
+      "y": 4,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.jam.",
+    "difficulty": 5.0,
+    "weight": 60,
+    "material": 26,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 466,
+    "name": "easter egg",
+    "plural": "easter eggs",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large funny-coloured egg."
+    },
+    "itemTypes": [
+      52,
+      96,
+      237
+    ],
+    "imageNumber": 522,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3600,
+    "dimensions": {
+      "x": 3,
+      "y": 4,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.egg.easter.",
+    "difficulty": 200.0,
+    "weight": 100,
+    "material": 22,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1176,
+    "name": "fudge sauce",
+    "plural": "fudge sauce",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Hot fudge sauce."
+    },
+    "itemTypes": [
+      26,
+      55,
+      88,
+      129,
+      212,
+      219
+    ],
+    "imageNumber": 584,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.fudgesauce.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1205,
+    "name": "honey water",
+    "plural": "honey water",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A mixture of honey and water."
+    },
+    "itemTypes": [
+      26,
+      88,
+      108,
+      129,
+      212,
+      213
+    ],
+    "imageNumber": 587,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.honey.water.",
+    "difficulty": 15.0,
+    "weight": 1000,
+    "material": 29,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1206,
+    "name": "passata",
+    "plural": "passata",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A liquid tomato puree."
+    },
+    "itemTypes": [
+      26,
+      55,
+      88,
+      108,
+      129,
+      212
+    ],
+    "imageNumber": 582,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.passata.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1211,
+    "name": "tomato ketchup",
+    "plural": "tomato ketchup",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Used as a condiment with various dishes that are usually served hot."
+    },
+    "itemTypes": [
+      82,
+      74,
+      129,
+      222
+    ],
+    "imageNumber": 582,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.ketchup.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1212,
+    "name": "white sauce",
+    "plural": "white sauce",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Plain white sauce."
+    },
+    "itemTypes": [
+      82,
+      26,
+      55,
+      88,
+      129,
+      212,
+      233
+    ],
+    "imageNumber": 584,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.whitesauce.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1213,
+    "name": "wort",
+    "plural": "wort",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Non-fermented beer."
+    },
+    "itemTypes": [
+      26,
+      108,
+      129,
+      212,
+      213,
+      233
+    ],
+    "imageNumber": 587,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.wort.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1238,
+    "name": "rock salt",
+    "plural": "rock salts",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Lots of different sized rock salts."
+    },
+    "itemTypes": [
+      25,
+      48,
+      113,
+      129,
+      146,
+      175,
+      211
+    ],
+    "imageNumber": 610,
+    "behaviourType": 46,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 25,
+      "y": 25,
+      "z": 30
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.rocksalt.",
+    "difficulty": 5.0,
+    "weight": 20000,
+    "material": 36,
+    "value": 15,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1246,
+    "name": "vinegar",
+    "plural": "vinegar",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sour liquid containing acetic acid, produced by fermenting a solution, used as a condiment and preservative."
+    },
+    "itemTypes": [
+      26,
+      88,
+      108,
+      212,
+      233
+    ],
+    "imageNumber": 568,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.vinegar.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 26,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1249,
+    "name": "cream",
+    "plural": "cream",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A dairy product composed of the higher-butterfat layer skimmed from the top of milk."
+    },
+    "itemTypes": [
+      26,
+      88,
+      212,
+      233
+    ],
+    "imageNumber": 541,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.cream.",
+    "difficulty": 15.0,
+    "weight": 20,
+    "material": 28,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1250,
+    "name": "goblin skull",
+    "plural": "goblin skulls",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The skull from a goblin, looks like it could make a great drinking vessel."
+    },
+    "itemTypes": [
+      62,
+      187,
+      211
+    ],
+    "imageNumber": 296,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.skull.small.",
+    "difficulty": 200.0,
+    "weight": 1000,
+    "material": 35,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1276,
+    "name": "snowball",
+    "plural": "snowballs",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A ball of snow that someone makes usually for throwing."
+    },
+    "itemTypes": [
+      5,
+      27
+    ],
+    "imageNumber": 632,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3600,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.snowball.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 26,
+    "value": 100,
+    "isPurchased": true
+  }
+]

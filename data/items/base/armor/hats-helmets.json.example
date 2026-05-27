@@ -1,0 +1,1718 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 600,
+    "name": "summer hat",
+    "plural": "hats",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A beautiful hat, glistening in the sun. It is made from a strange green fabric and decorated with flowers that never seem to wither."
+    },
+    "itemTypes": [
+      4,
+      24,
+      42
+    ],
+    "imageNumber": 973,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 5,
+      "y": 20,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1
+    ],
+    "modelName": "model.armour.summerhat.",
+    "difficulty": 99.0,
+    "weight": 300,
+    "material": 8,
+    "value": 50000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 779,
+    "name": "blue cloth hood",
+    "plural": "blue cloth hoods",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A hood to shelter you from poor weather, glaring sun and glaring eyes."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.blue.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 17,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 791,
+    "name": "soft cap",
+    "plural": "caps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A fine soft cap that has a strange shimmer."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.clothing.head.cap.soft.",
+    "difficulty": 10.0,
+    "weight": 30,
+    "material": 17,
+    "value": 1,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 943,
+    "name": "peasant wool cap",
+    "plural": "peasant wool caps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A shabby wool cap."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      157
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.cap0.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 944,
+    "name": "yellow peasant wool cap",
+    "plural": "yellow peasant wool caps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A shabby yellow wool cap."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.cap0.yellow.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 945,
+    "name": "green peasant wool cap",
+    "plural": "green peasant wool caps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A shabby green wool cap."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.cap0.green.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 946,
+    "name": "red peasant wool cap",
+    "plural": "red peasant wool caps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A shabby red wool cap."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.cap0.red.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 947,
+    "name": "blue peasant wool cap",
+    "plural": "blue peasant wool caps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A shabby blue wool cap."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.cap0.blue.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 948,
+    "name": "common wool hat",
+    "plural": "common wool hats",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A common wool hat for all weathers."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      157
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat1.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 949,
+    "name": "dark common wool hat",
+    "plural": "dark common wool hats",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A dark common wool hat for all weathers."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      157
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat1.dark.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 950,
+    "name": "brown common wool hat",
+    "plural": "brown common wool hats",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A brown common wool hat for all weathers."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat1.brown.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 951,
+    "name": "green common wool hat",
+    "plural": "green common wool hats",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A green common wool hat for all weathers."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat1.green.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 952,
+    "name": "red common wool hat",
+    "plural": "red common wool hats",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A red common wool hat for all weathers."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat1.red.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 953,
+    "name": "blue common wool hat",
+    "plural": "blue common wool hats",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A blue common wool hat for all weathers."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat1.blue.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 954,
+    "name": "foresters wool hat",
+    "plural": "foresters wool hats",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A comfy but oddly shaped wool hat."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      157
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat2.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 955,
+    "name": "green foresters wool hat",
+    "plural": "green foresters wool hats",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A comfy but oddly shaped green wool hat."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat2.green.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 956,
+    "name": "dark foresters wool hat",
+    "plural": "dark foresters wool hats",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A comfy but oddly shaped dark wool hat."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat2.dark.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 957,
+    "name": "blue foresters wool hat",
+    "plural": "blue foresters wool hats",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A comfy but oddly shaped blue wool hat."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat2.blue.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 958,
+    "name": "red foresters wool hat",
+    "plural": "red foresters wool hats",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A comfy but oddly shaped red wool hat."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat2.red.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 959,
+    "name": "brown bear helm",
+    "plural": "brown bear helms",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A gorgeous head gear made from a mighty brown bear."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 1003,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.brownbear.",
+    "difficulty": 15.0,
+    "weight": 700,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 960,
+    "name": "leather adventurer hat",
+    "plural": "adventurer hats",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The leather hat to wear for all of your adventures."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      92,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.hat1.leather.",
+    "difficulty": 10.0,
+    "weight": 400,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 961,
+    "name": "squire wool cap",
+    "plural": "squire wool caps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A more robust wool cap commonly used by squires."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      92,
+      108,
+      157
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat3.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 962,
+    "name": "green squire wool cap",
+    "plural": "green squire wool caps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A more robust wool cap commonly used by squires."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat3.green.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 963,
+    "name": "blue squire wool cap",
+    "plural": "blue squire wool caps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A more robust wool cap commonly used by squires."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat3.blue.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 964,
+    "name": "black squire wool cap",
+    "plural": "black squire wool caps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A more robust wool cap commonly used by squires."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat3.black.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 965,
+    "name": "red squire wool cap",
+    "plural": "red squire wool caps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A more robust wool cap commonly used by squires."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat3.red.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 966,
+    "name": "yellow squire wool cap",
+    "plural": "yellow squire wool caps",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A more robust wool cap commonly used by squires."
+    },
+    "itemTypes": [
+      4,
+      24,
+      44,
+      108,
+      147
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.wool.hat3.yellow.",
+    "difficulty": 10.0,
+    "weight": 300,
+    "material": 69,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 973,
+    "name": "mask of the enlightened",
+    "plural": "masks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "At first glance the mask looks brittle, it's however surprisingly sturdy and the materials used are of the highest quality."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      108,
+      187
+    ],
+    "imageNumber": 465,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      29
+    ],
+    "modelName": "model.armour.head.mask.enlightened.",
+    "difficulty": 25.0,
+    "weight": 200,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 974,
+    "name": "mask of the ravager",
+    "plural": "masks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Strikingly intricate leatherwork makes this mask stand out as rare and of high quality."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      108,
+      187
+    ],
+    "imageNumber": 465,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      29
+    ],
+    "modelName": "model.armour.head.mask.ravager.",
+    "difficulty": 25.0,
+    "weight": 200,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 975,
+    "name": "pale mask",
+    "plural": "masks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The mask is made of light materials with a luxurious finish.."
+    },
+    "itemTypes": [
+      4,
+      30,
+      44,
+      108,
+      187
+    ],
+    "imageNumber": 465,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      29
+    ],
+    "modelName": "model.armour.head.mask.pale.",
+    "difficulty": 25.0,
+    "weight": 200,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 976,
+    "name": "mask of the shadow",
+    "plural": "masks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A dark mask concealing its wearers features."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      108,
+      187
+    ],
+    "imageNumber": 465,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      29
+    ],
+    "modelName": "model.armour.head.mask.shadow.",
+    "difficulty": 25.0,
+    "weight": 200,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 977,
+    "name": "mask of the challenger",
+    "plural": "masks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "The expression of the mask is that of a predator daring anyone to challenge the wearer in combat."
+    },
+    "itemTypes": [
+      4,
+      22,
+      44,
+      108,
+      187
+    ],
+    "imageNumber": 465,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      29
+    ],
+    "modelName": "model.armour.head.mask.challenge.",
+    "difficulty": 25.0,
+    "weight": 200,
+    "material": 8,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 978,
+    "name": "mask of the isles",
+    "plural": "masks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A mask."
+    },
+    "itemTypes": [
+      4,
+      30,
+      44,
+      108,
+      187
+    ],
+    "imageNumber": 465,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      29
+    ],
+    "modelName": "model.armour.head.mask.isles.",
+    "difficulty": 25.0,
+    "weight": 200,
+    "material": 19,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 979,
+    "name": "horned helmet of gold",
+    "plural": "horned helmets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A horned helmet that inspires respect. It looks dangerous, heavy and robust."
+    },
+    "itemTypes": [
+      4,
+      22,
+      44,
+      108
+    ],
+    "imageNumber": 968,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.greathelmHornedOfGold.",
+    "difficulty": 25.0,
+    "weight": 1700,
+    "material": 9,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 980,
+    "name": "plumed helm of the hunt",
+    "plural": "plumed helmets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An open-faced round-top helm."
+    },
+    "itemTypes": [
+      4,
+      22,
+      44,
+      108
+    ],
+    "imageNumber": 966,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.openhelmplumedhunt.",
+    "difficulty": 15.0,
+    "weight": 1100,
+    "material": 9,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 998,
+    "name": "cavalier helmet",
+    "plural": "cavalier helmets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "This special helmet is handed out to a limited number of cavaliers in order for them to inspire and lead their peers."
+    },
+    "itemTypes": [
+      4,
+      22,
+      44,
+      108,
+      157
+    ],
+    "imageNumber": 967,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.greathelmWolf.",
+    "difficulty": 95.0,
+    "weight": 1100,
+    "material": 9,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1014,
+    "name": "goblin war bonnet",
+    "plural": "war bonnets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sloppy looking headdress, the pinnacle of goblin craftsmanship."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      108
+    ],
+    "imageNumber": 1003,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.goblin.war.bonnet.",
+    "difficulty": 15.0,
+    "weight": 700,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1015,
+    "name": "crown of the troll king",
+    "plural": "troll crown",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A mouldy cow head, with some fleshy bits still attached to it."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      108,
+      157
+    ],
+    "imageNumber": 1003,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1,
+      28
+    ],
+    "modelName": "model.armour.head.troll.king.hat.",
+    "difficulty": 15.0,
+    "weight": 700,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1099,
+    "name": "mask of the returner",
+    "plural": "masks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A mask."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      108,
+      157,
+      187
+    ],
+    "imageNumber": 465,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      29
+    ],
+    "modelName": "model.armour.head.mask.returner.",
+    "difficulty": 25.0,
+    "weight": 200,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1321,
+    "name": "troll mask",
+    "plural": "masks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Quite an ugly mask that looks like it has been made by ripping the face off of a troll. Some bits of dried blood and flesh still hang from the back."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      108,
+      157,
+      187
+    ],
+    "imageNumber": 465,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      29
+    ],
+    "modelName": "model.armour.head.mask.troll.",
+    "difficulty": 25.0,
+    "weight": 200,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1428,
+    "name": "skull mask",
+    "plural": "masks",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A gruesome and scary mask with blood staining the front of it. It appears to have been fashioned from a face of a humanoid skull."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      108,
+      157,
+      187
+    ],
+    "imageNumber": 465,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      29
+    ],
+    "modelName": "model.armour.head.mask.skull.",
+    "difficulty": 25.0,
+    "weight": 200,
+    "material": 35,
+    "value": 10000,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1429,
+    "name": "witch's hat",
+    "plural": "hats",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A black pointed hat accented with a leather belt and golden buckle. Perfect attire for turning villagers into newts."
+    },
+    "itemTypes": [
+      4,
+      23,
+      44,
+      108,
+      157,
+      187
+    ],
+    "imageNumber": 963,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 1,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [
+      1
+    ],
+    "modelName": "model.armour.head.hat.witch.",
+    "difficulty": 25.0,
+    "weight": 200,
+    "material": 16,
+    "value": 10000,
+    "isPurchased": true
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 729,
+    "name": "cake",
+    "plural": "cakes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wonderful cake made purely of love."
+    },
+    "itemTypes": [
+      82,
+      32,
+      76,
+      220,
+      233
+    ],
+    "imageNumber": 530,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 25,
+      "z": 25
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.cake.",
+    "difficulty": 1.0,
+    "weight": 1200,
+    "material": 22,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 730,
+    "name": "cake slice",
+    "plural": "cake slices",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A slice of cake from a wonderful cake which was made purely of love."
+    },
+    "itemTypes": [
+      82,
+      74,
+      222,
+      220,
+      233
+    ],
+    "imageNumber": 530,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.cake.slice.",
+    "difficulty": 1.0,
+    "weight": 200,
+    "material": 22,
+    "value": 3,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1170,
+    "name": "slice of bread",
+    "plural": "slices of bread",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A slice of bread from a loaf."
+    },
+    "itemTypes": [
+      82,
+      74,
+      222
+    ],
+    "imageNumber": 505,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.bread.slice.",
+    "difficulty": 4.0,
+    "weight": 100,
+    "material": 22,
+    "value": 2,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1174,
+    "name": "batter",
+    "plural": "batter",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A mostly solid mixture of flour, milk and egg."
+    },
+    "itemTypes": [
+      5,
+      55,
+      108,
+      129,
+      212
+    ],
+    "imageNumber": 584,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 4,
+      "y": 5,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.liquid.batter.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1202,
+    "name": "biscuit",
+    "plural": "biscuits",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A nutritious, easy-to-store, easy-to-carry, and long-lasting food item."
+    },
+    "itemTypes": [
+      82,
+      76,
+      129,
+      222,
+      220,
+      233
+    ],
+    "imageNumber": 532,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 1209600,
+    "dimensions": {
+      "x": 2,
+      "y": 3,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.biscuit.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1208,
+    "name": "pastry",
+    "plural": "pastry",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Dough or paste consisting primarily of flour, water, and shortening that is baked and often used as a crust for foods such as pies and tarts."
+    },
+    "itemTypes": [
+      82,
+      75,
+      129,
+      222
+    ],
+    "imageNumber": 664,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.pastry.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1221,
+    "name": "cheesecake",
+    "plural": "cheesecake",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sweet dessert consisting of one or more layers."
+    },
+    "itemTypes": [
+      82,
+      76,
+      129,
+      222,
+      220,
+      233
+    ],
+    "imageNumber": 533,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.cheesecake.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1227,
+    "name": "scone",
+    "plural": "scones",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A single-serving cake or quick bread."
+    },
+    "itemTypes": [
+      82,
+      76,
+      129,
+      222,
+      220,
+      233
+    ],
+    "imageNumber": 1440,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.scone.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1228,
+    "name": "toast",
+    "plural": "toast",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A slice of bread that has been browned by exposure to radiant heat."
+    },
+    "itemTypes": [
+      82,
+      74,
+      129,
+      222,
+      233
+    ],
+    "imageNumber": 1444,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.bread.toast.",
+    "difficulty": 15.0,
+    "weight": 100,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1229,
+    "name": "pasty",
+    "plural": "pasty",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Handy travel food."
+    },
+    "itemTypes": [
+      82,
+      76,
+      129,
+      222,
+      219,
+      220,
+      233
+    ],
+    "imageNumber": 665,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 2,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.pasty.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1242,
+    "name": "cake mix",
+    "plural": "cake mixes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wonderful cake mix."
+    },
+    "itemTypes": [
+      5,
+      74
+    ],
+    "imageNumber": 525,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 3,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.cake.mix.",
+    "difficulty": 1.0,
+    "weight": 1200,
+    "material": 22,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1256,
+    "name": "biscuit mix",
+    "plural": "biscuit mixes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wonderful biscuit mix."
+    },
+    "itemTypes": [
+      5,
+      74
+    ],
+    "imageNumber": 525,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 3,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.biscuit.mix.",
+    "difficulty": 1.0,
+    "weight": 1200,
+    "material": 22,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1257,
+    "name": "scone mix",
+    "plural": "scone mixes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A wonderful scone mix."
+    },
+    "itemTypes": [
+      5,
+      74
+    ],
+    "imageNumber": 525,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 172800,
+    "dimensions": {
+      "x": 2,
+      "y": 3,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.scone.mix.",
+    "difficulty": 1.0,
+    "weight": 1200,
+    "material": 22,
+    "value": 20,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1258,
+    "name": "tart",
+    "plural": "tarts",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A pastry tart with a filling."
+    },
+    "itemTypes": [
+      82,
+      76,
+      129,
+      222,
+      219,
+      220,
+      233
+    ],
+    "imageNumber": 1442,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.tart.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1262,
+    "name": "pizza",
+    "plural": "pizzas",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A flatbread generally topped with tomato sauce and cheese and baked in an oven. It is commonly topped with a selection of meats, vegetables and condiments."
+    },
+    "itemTypes": [
+      82,
+      76,
+      129,
+      222,
+      219
+    ],
+    "imageNumber": 678,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.pizza.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1266,
+    "name": "pudding",
+    "plural": "puddings",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A sweet dish, often made from sugar, milk, flour, and flavoring, and usually eaten cold after a meal."
+    },
+    "itemTypes": [
+      82,
+      76,
+      129,
+      222,
+      220,
+      233
+    ],
+    "imageNumber": 679,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86400,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.pudding.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1282,
+    "name": "sweet",
+    "plural": "sweets",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A handfull of sweets typically eaten as a snack."
+    },
+    "itemTypes": [
+      82,
+      74,
+      212,
+      220,
+      233
+    ],
+    "imageNumber": 1442,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.sweet.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1287,
+    "name": "muffin",
+    "plural": "muffins",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Plain, unadorned muffins.  So sad."
+    },
+    "itemTypes": [
+      82,
+      76,
+      129,
+      222,
+      219,
+      233
+    ],
+    "imageNumber": 644,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 1209600,
+    "dimensions": {
+      "x": 2,
+      "y": 3,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.muffin.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1288,
+    "name": "cookie",
+    "plural": "cookies",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small, flat, sweet, baked biscuit."
+    },
+    "itemTypes": [
+      82,
+      76,
+      129,
+      222,
+      220,
+      233
+    ],
+    "imageNumber": 532,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 1209600,
+    "dimensions": {
+      "x": 2,
+      "y": 3,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.biscuit.cookie.",
+    "difficulty": 15.0,
+    "weight": 600,
+    "material": 22,
+    "value": 100,
+    "isPurchased": false
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 1026,
+    "name": "unstable source rift",
+    "plural": "rifts",
+    "size": 3,
+    "descriptions": {
+      "superb": "almost full",
+      "normal": "somewhat occupied",
+      "bad": "half-full",
+      "rotten": "emptyish",
+      "long": "A black hole with shimmering edges."
+    },
+    "itemTypes": [
+      1,
+      6,
+      31,
+      33,
+      44,
+      51,
+      52,
+      67,
+      86,
+      135,
+      176,
+      178
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 50,
+      "y": 150,
+      "z": 150
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.decoration.rift.unstable.",
+    "difficulty": 40.0,
+    "weight": 120000,
+    "material": 21,
+    "value": 0,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1045,
+    "name": "rift altar",
+    "plural": "altars",
+    "size": 3,
+    "descriptions": {
+      "superb": "solid",
+      "normal": "damaged",
+      "bad": "brittle",
+      "rotten": "fragile",
+      "long": "This thing seems to be stabilizing the Rift."
+    },
+    "itemTypes": [
+      31,
+      49,
+      52,
+      67,
+      123,
+      178
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 9223372036854775807,
+    "dimensions": {
+      "x": 500,
+      "y": 500,
+      "z": 1000
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.rift.altar.1.",
+    "difficulty": 99.0,
+    "weight": 2000000,
+    "material": 15,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1046,
+    "name": "rift device",
+    "plural": "devices",
+    "size": 3,
+    "descriptions": {
+      "superb": "solid",
+      "normal": "damaged",
+      "bad": "brittle",
+      "rotten": "fragile",
+      "long": "This seems to be a device for something."
+    },
+    "itemTypes": [
+      31,
+      49,
+      52,
+      67,
+      123,
+      178
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 500,
+      "y": 500,
+      "z": 1000
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.rift.altar.1.",
+    "difficulty": 99.0,
+    "weight": 2000000,
+    "material": 15,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1047,
+    "name": "rift device",
+    "plural": "devices",
+    "size": 3,
+    "descriptions": {
+      "superb": "solid",
+      "normal": "damaged",
+      "bad": "brittle",
+      "rotten": "fragile",
+      "long": "This seems to be a device for something."
+    },
+    "itemTypes": [
+      31,
+      49,
+      52,
+      67,
+      123,
+      178
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 500,
+      "y": 500,
+      "z": 1000
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.rift.altar.1.",
+    "difficulty": 99.0,
+    "weight": 2000000,
+    "material": 15,
+    "value": 10000,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 1048,
+    "name": "rift device",
+    "plural": "devices",
+    "size": 3,
+    "descriptions": {
+      "superb": "solid",
+      "normal": "damaged",
+      "bad": "brittle",
+      "rotten": "fragile",
+      "long": "This seems to be a device for something."
+    },
+    "itemTypes": [
+      31,
+      49,
+      52,
+      67,
+      123,
+      178
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 604800,
+    "dimensions": {
+      "x": 500,
+      "y": 500,
+      "z": 1000
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.structure.rift.altar.1.",
+    "difficulty": 99.0,
+    "weight": 2000000,
+    "material": 15,
+    "value": 10000,
+    "isPurchased": false
+  }
+]

@@ -1,0 +1,238 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 28,
+    "name": "barley",
+    "plural": "barley",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A few handfuls of barley. It is easy to farm, and some people prefer to brew beer with it."
+    },
+    "itemTypes": [
+      5,
+      20,
+      55,
+      103,
+      129,
+      146
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 6
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.barley.",
+    "difficulty": 200.0,
+    "weight": 300,
+    "material": 5,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 29,
+    "name": "wheat",
+    "plural": "wheat",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A few handfuls of wheat. Wheat is pretty sensitive as a crop. It is normally used to turn into flour and bake with or to sow with."
+    },
+    "itemTypes": [
+      5,
+      20,
+      55,
+      102,
+      129,
+      146
+    ],
+    "imageNumber": 481,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 6
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.wheat.",
+    "difficulty": 200.0,
+    "weight": 300,
+    "material": 6,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 30,
+    "name": "rye",
+    "plural": "rye",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A few handfuls of rye. Rye grows pretty much anywhere and is easy to farm. It is normally used to turn into flour and bake with or to sow with."
+    },
+    "itemTypes": [
+      5,
+      20,
+      55,
+      129,
+      146
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 6
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.rye.",
+    "difficulty": 200.0,
+    "weight": 300,
+    "material": 3,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 31,
+    "name": "oat",
+    "plural": "oat",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A few handfuls of oat. Oat is not the easiest of crops to grow. It is normally used to turn into flour and bake with or to sow with. It is also very tasteful as porridge."
+    },
+    "itemTypes": [
+      5,
+      20,
+      55,
+      129,
+      146
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 6
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.oat.",
+    "difficulty": 200.0,
+    "weight": 300,
+    "material": 4,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 32,
+    "name": "corn",
+    "plural": "corn",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A corn stick. Corn will be hard to grow in this environment. It is normally used to cook and eat, or to sow with."
+    },
+    "itemTypes": [
+      5,
+      20,
+      29,
+      55,
+      102,
+      129,
+      146,
+      212,
+      217,
+      223
+    ],
+    "imageNumber": 502,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 1,
+      "y": 3,
+      "z": 6
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.corn.",
+    "difficulty": 2.0,
+    "weight": 100,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 746,
+    "name": "rice",
+    "plural": "rice",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Some rice. Rice requires a lot of water to grow."
+    },
+    "itemTypes": [
+      5,
+      20,
+      55,
+      129,
+      146,
+      212
+    ],
+    "imageNumber": 480,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 7
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.rice.",
+    "difficulty": 3.0,
+    "weight": 100,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  }
+]

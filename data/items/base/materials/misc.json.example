@@ -1,0 +1,670 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 36,
+    "name": "kindling",
+    "plural": "kindling",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Small and large pieces of chopped wood, perfect for lighting a fire with."
+    },
+    "itemTypes": [
+      21,
+      46,
+      113,
+      129,
+      146
+    ],
+    "imageNumber": 686,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.kindling.",
+    "difficulty": 1.0,
+    "weight": 1500,
+    "material": 14,
+    "value": 100,
+    "isPurchased": false
+  },
+  {
+    "json-type": "item",
+    "templateId": 170,
+    "name": "scrap",
+    "plural": "iron scrap",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Scrap iron, with no obvious use except melting."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      129,
+      146,
+      157,
+      174
+    ],
+    "imageNumber": 653,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.scrap.",
+    "difficulty": 1.0,
+    "weight": 800,
+    "material": 11,
+    "value": 1,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 171,
+    "name": "rags",
+    "plural": "rags",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Cloth rags."
+    },
+    "itemTypes": [
+      24,
+      46,
+      92,
+      113,
+      129,
+      146,
+      157,
+      174
+    ],
+    "imageNumber": 600,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.scrap.",
+    "difficulty": 1.0,
+    "weight": 200,
+    "material": 17,
+    "value": 1,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 172,
+    "name": "leather pieces",
+    "plural": "leather pieces",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Small pieces of leather."
+    },
+    "itemTypes": [
+      23,
+      46,
+      113,
+      129,
+      146,
+      157,
+      174,
+      211
+    ],
+    "imageNumber": 623,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 20
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.scrap.",
+    "difficulty": 1.0,
+    "weight": 400,
+    "material": 16,
+    "value": 1,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 195,
+    "name": "scrap",
+    "plural": "copper scrap",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Scrap copper, with no obvious use except melting."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      129,
+      146,
+      157,
+      164,
+      174
+    ],
+    "imageNumber": 656,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.scrap.",
+    "difficulty": 1.0,
+    "weight": 800,
+    "material": 10,
+    "value": 20,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 196,
+    "name": "scrap",
+    "plural": "gold scrap",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Scrap gold, with no obvious use except melting."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      129,
+      146,
+      157,
+      174
+    ],
+    "imageNumber": 651,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.scrap.",
+    "difficulty": 1.0,
+    "weight": 50,
+    "material": 7,
+    "value": 20,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 197,
+    "name": "scrap",
+    "plural": "silver scrap",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Scrap silver, with no obvious use except melting."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      129,
+      146,
+      157,
+      174
+    ],
+    "imageNumber": 652,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.scrap.",
+    "difficulty": 1.0,
+    "weight": 50,
+    "material": 8,
+    "value": 20,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 198,
+    "name": "scrap",
+    "plural": "zinc scrap",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Scrap zinc, with no obvious use except melting."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      129,
+      146,
+      157,
+      174
+    ],
+    "imageNumber": 655,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.scrap.",
+    "difficulty": 1.0,
+    "weight": 800,
+    "material": 13,
+    "value": 20,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 199,
+    "name": "scrap",
+    "plural": "lead scrap",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Scrap lead, with no obvious use except melting."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      129,
+      146,
+      157
+    ],
+    "imageNumber": 654,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.scrap.",
+    "difficulty": 1.0,
+    "weight": 800,
+    "material": 12,
+    "value": 20,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 204,
+    "name": "charcoal",
+    "plural": "charcoal",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Black, sooty charcoal."
+    },
+    "itemTypes": [
+      46,
+      141,
+      146
+    ],
+    "imageNumber": 592,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.coal.",
+    "difficulty": 10.0,
+    "weight": 500,
+    "material": 27,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 206,
+    "name": "scrap",
+    "plural": "steel scrap",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Scrap steel, with no obvious use except melting."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      129,
+      146,
+      157,
+      174
+    ],
+    "imageNumber": 692,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.scrap.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 9,
+    "value": 40,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 222,
+    "name": "scrap",
+    "plural": "tin scrap",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Scrap tin, with no obvious use except melting."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      129,
+      146,
+      157,
+      174
+    ],
+    "imageNumber": 657,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.scrap.",
+    "difficulty": 1.0,
+    "weight": 400,
+    "material": 34,
+    "value": 1,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 224,
+    "name": "scrap",
+    "plural": "bronze scrap",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Scrap bronze, with no obvious use except melting."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      129,
+      146,
+      157,
+      174
+    ],
+    "imageNumber": 691,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.scrap.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 31,
+    "value": 40,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 225,
+    "name": "scrap",
+    "plural": "brass scrap",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Scrap brass, with no obvious use except melting."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      129,
+      146,
+      157,
+      174
+    ],
+    "imageNumber": 693,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 86401,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.scrap.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 30,
+    "value": 40,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 695,
+    "name": "scrap",
+    "plural": "adamantine scrap",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Scrap adamantine. The best and obvious use is melting it."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      146,
+      157
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.scrap.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 56,
+    "value": 40,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 699,
+    "name": "scrap",
+    "plural": "glimmersteel scrap",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "Scrap glimmersteel. The best and obvious use is melting it."
+    },
+    "itemTypes": [
+      22,
+      46,
+      113,
+      146,
+      157
+    ],
+    "imageNumber": 60,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.scrap.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 57,
+    "value": 40,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 859,
+    "name": "chain link",
+    "plural": "chain links",
+    "size": 4,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A large chain link."
+    },
+    "itemTypes": [
+      22,
+      146,
+      158
+    ],
+    "imageNumber": 470,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 3024000,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.largechain.iron.",
+    "difficulty": 28.0,
+    "weight": 1000,
+    "material": 11,
+    "value": 2000,
+    "isPurchased": false
+  }
+]

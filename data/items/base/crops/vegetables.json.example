@@ -1,0 +1,477 @@
+[
+  {
+    "json-type": "item",
+    "templateId": 33,
+    "name": "pumpkin",
+    "plural": "pumpkin",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A nice red pumpkin."
+    },
+    "itemTypes": [
+      5,
+      29,
+      55,
+      102,
+      129,
+      146,
+      212,
+      223
+    ],
+    "imageNumber": 501,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.pumpkin.",
+    "difficulty": 2.0,
+    "weight": 1000,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 35,
+    "name": "potato",
+    "plural": "potatoes",
+    "size": 3,
+    "descriptions": {
+      "superb": "superb",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A potato. potatoes can be pretty hard to grow to edible size."
+    },
+    "itemTypes": [
+      5,
+      20,
+      29,
+      55,
+      129,
+      146,
+      212,
+      223
+    ],
+    "imageNumber": 500,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 7
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.potato.",
+    "difficulty": 2.0,
+    "weight": 500,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 355,
+    "name": "onion",
+    "plural": "onions",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small yellow edible onion. You can plant this but it can be hard to keep alive."
+    },
+    "itemTypes": [
+      5,
+      20,
+      29,
+      55,
+      102,
+      146,
+      212,
+      223
+    ],
+    "imageNumber": 482,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 5,
+      "y": 5,
+      "z": 5
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.onion.",
+    "difficulty": 1.0,
+    "weight": 250,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 356,
+    "name": "garlic",
+    "plural": "garlics",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A cluster of white half-moons the size of a small child's hand. These can be planted but will be very hard to grow in this climate."
+    },
+    "itemTypes": [
+      5,
+      20,
+      29,
+      55,
+      103,
+      146,
+      212,
+      223
+    ],
+    "imageNumber": 483,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 1382400,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.herb.garlic.",
+    "difficulty": 1.0,
+    "weight": 50,
+    "material": 22,
+    "value": 10,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1133,
+    "name": "carrot",
+    "plural": "carrots",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An orange vegetable that some say helps you see in the dark."
+    },
+    "itemTypes": [
+      5,
+      29,
+      55,
+      146,
+      212,
+      223
+    ],
+    "imageNumber": 714,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.carrot.",
+    "difficulty": 1.0,
+    "weight": 500,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1134,
+    "name": "cabbage",
+    "plural": "cabbages",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A leafy green vegetable, grown for their dence leaved heads."
+    },
+    "itemTypes": [
+      5,
+      29,
+      55,
+      146,
+      212,
+      223
+    ],
+    "imageNumber": 715,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.cabbage.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1135,
+    "name": "tomato",
+    "plural": "tomatoes",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "An edible red berry-type fruit of the nightshade family."
+    },
+    "itemTypes": [
+      5,
+      29,
+      55,
+      146,
+      212,
+      223
+    ],
+    "imageNumber": 716,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 4,
+      "y": 4,
+      "z": 4
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.tomato.",
+    "difficulty": 1.0,
+    "weight": 500,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1136,
+    "name": "sugar beet",
+    "plural": "sugar beets",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A plant whose root contains a high concentration of sucrose."
+    },
+    "itemTypes": [
+      5,
+      55,
+      146,
+      212
+    ],
+    "imageNumber": 717,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.sugarbeet.",
+    "difficulty": 1.0,
+    "weight": 1000,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1137,
+    "name": "lettuce",
+    "plural": "lettuces",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A leaf vegetable of the daisy family Asteraceae."
+    },
+    "itemTypes": [
+      5,
+      29,
+      55,
+      146,
+      212,
+      223
+    ],
+    "imageNumber": 718,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.lettuce.",
+    "difficulty": 1.0,
+    "weight": 500,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1138,
+    "name": "pea pod",
+    "plural": "pea pods",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A seed-pod of the pod fruit Pisum sativum, can be used in salads or cooked."
+    },
+    "itemTypes": [
+      5,
+      29,
+      55,
+      146,
+      212,
+      223
+    ],
+    "imageNumber": 719,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 2,
+      "y": 4,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.peapod.",
+    "difficulty": 1.0,
+    "weight": 500,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1150,
+    "name": "pea",
+    "plural": "peas",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A small spherical seed of the pod fruit Pisum sativum."
+    },
+    "itemTypes": [
+      5,
+      20,
+      29,
+      55,
+      146,
+      212,
+      223
+    ],
+    "imageNumber": 683,
+    "behaviourType": 1,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 2,
+      "y": 2,
+      "z": 3
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.resource.peas.",
+    "difficulty": 1.0,
+    "weight": 100,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  },
+  {
+    "json-type": "item",
+    "templateId": 1247,
+    "name": "cucumber",
+    "plural": "cucumbers",
+    "size": 3,
+    "descriptions": {
+      "superb": "excellent",
+      "normal": "good",
+      "bad": "ok",
+      "rotten": "poor",
+      "long": "A widely cultivated plant in the gourd family."
+    },
+    "itemTypes": [
+      5,
+      29,
+      55,
+      146,
+      212,
+      223
+    ],
+    "imageNumber": 684,
+    "behaviourType": 16,
+    "combatDamage": 0,
+    "decayTime": 28800,
+    "dimensions": {
+      "x": 3,
+      "y": 3,
+      "z": 10
+    },
+    "primarySkill": -10,
+    "bodySpaces": [],
+    "modelName": "model.food.cucumber.",
+    "difficulty": 1.0,
+    "weight": 500,
+    "material": 22,
+    "value": 100,
+    "isPurchased": true
+  }
+]
