@@ -38,7 +38,17 @@
     "weight": 600,
     "material": 15,
     "value": 1,
-    "isPurchased": false
+    "isPurchased": false,
+    "weapon": {
+      "damage": 1.0,
+      "speed": 4.0,
+      "critChance": 0.0,
+      "reach": 1,
+      "weightGroup": 1,
+      "parryPercent": 0.0,
+      "skillPenalty": 3.0,
+      "damagedByMetal": false
+    }
   },
   {
     "json-type": "item",
@@ -82,7 +92,17 @@
     "weight": 2000,
     "material": 14,
     "value": 1,
-    "isPurchased": false
+    "isPurchased": false,
+    "weapon": {
+      "damage": 1.0,
+      "speed": 6.0,
+      "critChance": 0.0,
+      "reach": 1,
+      "weightGroup": 1,
+      "parryPercent": 0.0,
+      "skillPenalty": 3.0,
+      "damagedByMetal": false
+    }
   },
   {
     "json-type": "item",
@@ -125,6 +145,16 @@
     "weight": 1000,
     "material": 14,
     "value": 1,
-    "isPurchased": false
+    "isPurchased": false,
+    "weapon": {
+      "damage": 1.0,
+      "speed": 3.0,
+      "critChance": 0.0,
+      "reach": 1,
+      "weightGroup": 1,
+      "parryPercent": 0.0,
+      "skillPenalty": 5.0,
+      "damagedByMetal": false
+    }
   }
 ]

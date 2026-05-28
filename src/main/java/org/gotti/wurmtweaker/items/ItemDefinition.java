@@ -53,6 +53,9 @@ public class ItemDefinition {
     // Optional — direct field reflection (no setter)
     public Integer fragmentAmount;
 
+    // Weapon combat stats — optional; full replacement when present
+    public WeaponStats weapon;
+
     // Output only — written back by ItemHandler after creation; never used for routing or applying
     public Integer assignedTemplateId;
 
@@ -81,5 +84,16 @@ public class ItemDefinition {
         public Integer carbs;
         public Integer fats;
         public Integer proteins;
+    }
+
+    public static class WeaponStats {
+        public Float   damage;
+        public Float   speed;
+        public Float   critChance;
+        public Integer reach;
+        public Integer weightGroup;
+        public Float   parryPercent;
+        public Double  skillPenalty;
+        public Boolean damagedByMetal;
     }
 }

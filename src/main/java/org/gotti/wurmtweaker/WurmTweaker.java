@@ -64,6 +64,7 @@ public class WurmTweaker implements WurmServerMod, Configurable, Initable, Serve
             return;
         }
         creatureHandler.applyPostInit();
+        itemHandler.applyDeferredWeaponStats();
         jsonLoader.registerHandler(new SkillHandler());
         jsonLoader.loadType("skill");
     }

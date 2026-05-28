@@ -3,6 +3,7 @@ package org.gotti.wurmtweaker.items;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
+import com.wurmonline.server.combat.Weapon;
 import com.wurmonline.server.items.ItemTemplate;
 import com.wurmonline.server.items.ItemTemplateFactory;
 import org.gotti.wurmtweaker.json.ContentHandler;
@@ -17,12 +18,17 @@ import java.io.IOException;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.logging.Logger;
 
 public class ItemHandler implements ContentHandler<ItemDefinition> {
 
     private static final Logger logger = Logger.getLogger(ItemHandler.class.getName());
+
+    private final Map<Integer, ItemDefinition.WeaponStats> pendingWeaponStats =
+            new LinkedHashMap<Integer, ItemDefinition.WeaponStats>();
 
     @Override
     public String getTypeName() {
@@ -96,6 +102,8 @@ public class ItemHandler implements ContentHandler<ItemDefinition> {
 
         // Groups C + D — optional fields (shared with creation path)
         applyOptionalFields(template, def);
+
+        if (def.weapon != null) pendingWeaponStats.put(template.getTemplateId(), def.weapon);
 
         logger.info("WurmTweaker: modified item templateId="
                 + template.getTemplateId() + " (" + template.getName() + ")");
@@ -232,6 +240,7 @@ public class ItemHandler implements ContentHandler<ItemDefinition> {
                     .build();
 
             applyOptionalFields(template, def);
+            if (def.weapon != null) pendingWeaponStats.put(template.getTemplateId(), def.weapon);
 
             int assignedId = template.getTemplateId();
             logger.info("WurmTweaker: created item identifier='" + def.identifier
@@ -288,6 +297,36 @@ public class ItemHandler implements ContentHandler<ItemDefinition> {
         if (!element.isJsonObject()) return false;
         JsonElement idEl = element.getAsJsonObject().get("identifier");
         return idEl != null && identifier.equals(idEl.getAsString());
+    }
+
+    // --- Weapon stats ---
+
+    public void applyDeferredWeaponStats() {
+        for (Map.Entry<Integer, ItemDefinition.WeaponStats> entry : pendingWeaponStats.entrySet()) {
+            applyWeaponStats(entry.getKey(), entry.getValue());
+        }
+        pendingWeaponStats.clear();
+    }
+
+    private void applyWeaponStats(int templateId, ItemDefinition.WeaponStats ws) {
+        Weapon weapon = new Weapon(
+                templateId,
+                ws.damage,
+                ws.speed,
+                ws.critChance,
+                ws.reach,
+                ws.weightGroup,
+                ws.parryPercent,
+                ws.skillPenalty);
+        if (Boolean.TRUE.equals(ws.damagedByMetal)) {
+            try {
+                ReflectionUtil.callPrivateMethod(weapon,
+                        ReflectionUtil.getMethod(Weapon.class, "setDamagedByMetal"), true);
+            } catch (Exception e) {
+                logger.warning("WurmTweaker: could not set damagedByMetal on templateId="
+                        + templateId + ": " + e.getMessage());
+            }
+        }
     }
 
     // --- Reflection helpers ---

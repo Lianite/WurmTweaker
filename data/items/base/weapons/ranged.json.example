@@ -36,7 +36,17 @@
     "weight": 1000,
     "material": 14,
     "value": 100,
-    "isPurchased": true
+    "isPurchased": true,
+    "weapon": {
+      "damage": 0.0,
+      "speed": 5.0,
+      "critChance": 0.0,
+      "reach": 1,
+      "weightGroup": 5,
+      "parryPercent": 1.0,
+      "skillPenalty": 9.0,
+      "damagedByMetal": true
+    }
   },
   {
     "json-type": "item",
@@ -75,7 +85,17 @@
     "weight": 1000,
     "material": 14,
     "value": 100,
-    "isPurchased": true
+    "isPurchased": true,
+    "weapon": {
+      "damage": 0.0,
+      "speed": 5.0,
+      "critChance": 0.0,
+      "reach": 1,
+      "weightGroup": 5,
+      "parryPercent": 1.0,
+      "skillPenalty": 9.0,
+      "damagedByMetal": true
+    }
   },
   {
     "json-type": "item",
@@ -114,7 +134,17 @@
     "weight": 1000,
     "material": 14,
     "value": 100,
-    "isPurchased": true
+    "isPurchased": true,
+    "weapon": {
+      "damage": 0.0,
+      "speed": 5.0,
+      "critChance": 0.0,
+      "reach": 1,
+      "weightGroup": 5,
+      "parryPercent": 1.0,
+      "skillPenalty": 9.0,
+      "damagedByMetal": true
+    }
   },
   {
     "json-type": "item",
@@ -152,7 +182,17 @@
     "weight": 1000,
     "material": 14,
     "value": 50,
-    "isPurchased": true
+    "isPurchased": true,
+    "weapon": {
+      "damage": 0.0,
+      "speed": 5.0,
+      "critChance": 0.0,
+      "reach": 1,
+      "weightGroup": 5,
+      "parryPercent": 1.0,
+      "skillPenalty": 9.0,
+      "damagedByMetal": true
+    }
   },
   {
     "json-type": "item",
@@ -190,7 +230,17 @@
     "weight": 1000,
     "material": 14,
     "value": 50,
-    "isPurchased": true
+    "isPurchased": true,
+    "weapon": {
+      "damage": 0.0,
+      "speed": 5.0,
+      "critChance": 0.0,
+      "reach": 1,
+      "weightGroup": 5,
+      "parryPercent": 1.0,
+      "skillPenalty": 9.0,
+      "damagedByMetal": true
+    }
   },
   {
     "json-type": "item",
@@ -228,6 +278,16 @@
     "weight": 1000,
     "material": 14,
     "value": 50,
-    "isPurchased": true
+    "isPurchased": true,
+    "weapon": {
+      "damage": 0.0,
+      "speed": 5.0,
+      "critChance": 0.0,
+      "reach": 1,
+      "weightGroup": 5,
+      "parryPercent": 1.0,
+      "skillPenalty": 9.0,
+      "damagedByMetal": true
+    }
   }
 ]
