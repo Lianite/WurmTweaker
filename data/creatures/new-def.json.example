@@ -1,0 +1,200 @@
+[
+  {
+    "json-type": "creature",
+    "id": 200,
+    "name": "Hobgoblin",
+    "plural": "Hobgoblins",
+    "longDesc": "A hulking, warlike hobgoblin. Cunning and brutal, it patrols the forests and steppes with a chip on its shoulder and a blade in its hand.",
+    "modelName": "model.creature.humanoid.goblin.standard",
+
+    "bodyType": 0,
+    "sex": 0,
+    "vision": 6,
+    "meatMaterial": 81,
+    "maxAge": 180,
+
+    "types": [ 7, 6, 13, 16, 18, 29, 30, 32, 45, 60, 61 ],
+
+    "sizeInCentimeters": {
+      "high": 170,
+      "long": 40,
+      "wide": 35
+    },
+
+    "sounds": {
+      "deathMale":   "sound.death.goblin",
+      "deathFemale": "sound.death.goblin",
+      "hitMale":     "sound.combat.hit.goblin",
+      "hitFemale":   "sound.combat.hit.goblin"
+    },
+
+    "movement": {
+      "speed":    1.0,
+      "moveRate": 1600
+    },
+
+    "combat": {
+      "baseCombatRating":  9.0,
+      "bonusCombatRating": 3.0,
+      "maxGroupAttackSize": 4,
+      "maxHuntDistance":   12,
+      "aggressivity":      90,
+      "alignment":         -45.0,
+      "damageType":        2,
+      "combatMoves":       [ 1, 2, 3 ],
+      "armor": {
+        "naturalArmour": 0.55,
+        "armourType":    "ARMOUR_TYPE_LEATHER",
+        "resistances": {
+          "physical": 0.1,
+          "acid":     0.0,
+          "fire":     0.0,
+          "cold":     0.05,
+          "disease":  0.1,
+          "pierce":   0.05,
+          "slash":    0.0,
+          "crush":    0.1,
+          "bite":     0.05,
+          "poison":   0.0,
+          "water":    0.0,
+          "internal": 0.0
+        },
+        "vulnerabilities": {
+          "physical": 0.0,
+          "acid":     0.05,
+          "fire":     0.15,
+          "cold":     0.0,
+          "disease":  0.0,
+          "pierce":   0.0,
+          "slash":    0.1,
+          "crush":    0.0,
+          "bite":     0.0,
+          "poison":   0.1,
+          "water":    0.05,
+          "internal": 0.05
+        }
+      },
+      "attacks": {
+        "useNewSystem": true,
+        "legacy": {
+          "hand":         5.0,
+          "handString":   "claw",
+          "kick":         6.0,
+          "kickString":   "kick",
+          "kickPvp":      4,
+          "bite":         3.0,
+          "head":         0.0,
+          "headString":   "headbutt",
+          "breath":       0.0,
+          "breathString": ""
+        },
+        "primary": [
+          {
+            "name":       "slash",
+            "identifier": "AttackIdentifier.SLASH",
+            "values": {
+              "baseDamage":          6.0,
+              "criticalChance":      0.05,
+              "baseSpeed":           5.0,
+              "attackReach":         2,
+              "weightGroup":         1,
+              "damageType":          1,
+              "usesWeapon":          true,
+              "rounds":              3,
+              "waitUntilNextAttack": 1.5
+            }
+          },
+          {
+            "name":       "strike",
+            "identifier": "AttackIdentifier.STRIKE",
+            "values": {
+              "baseDamage":          5.0,
+              "criticalChance":      0.04,
+              "baseSpeed":           4.0,
+              "attackReach":         2,
+              "weightGroup":         1,
+              "damageType":          0,
+              "usesWeapon":          false,
+              "rounds":              2,
+              "waitUntilNextAttack": 1.6
+            }
+          }
+        ],
+        "secondary": [
+          {
+            "name":       "kick",
+            "identifier": "AttackIdentifier.KICK",
+            "values": {
+              "baseDamage":          3.0,
+              "criticalChance":      0.03,
+              "baseSpeed":           5.0,
+              "attackReach":         2,
+              "weightGroup":         1,
+              "damageType":          0,
+              "usesWeapon":          false,
+              "rounds":              2,
+              "waitUntilNextAttack": 2.0
+            }
+          }
+        ]
+      }
+    },
+
+    "boundsValues":  [ -0.4, -0.4, 0.4, 0.4 ],
+    "offZ":          0.0,
+    "drops":         [ 303, 1250 ],
+    "combatMoves":   [ 1, 2, 3 ],
+
+    "skills": {
+      "100":   15.0,
+      "101":   18.0,
+      "102":   30.0,
+      "103":   30.0,
+      "104":   20.0,
+      "105":   35.0,
+      "106":   10.0,
+      "10052": 25.0,
+      "10064": 40.0
+    },
+
+    "maxPercentOfCreatures": 0.04,
+    "hasHands":       true,
+    "isHorse":        false,
+    "keepSex":        false,
+    "glowing":        false,
+    "onFire":         false,
+    "fireRadius":     0,
+    "paintMode":      0,
+    "noSkillGain":    false,
+    "noServerSounds": false,
+    "subterranean":   false,
+    "tutorial":       false,
+
+    "eggLayer":             false,
+    "eggTemplateId":        205,
+    "childTemplateId":      202,
+    "mateTemplateId":       203,
+    "adultFemaleTemplateId": 204,
+    "adultMaleTemplateId":  200,
+    "leaderTemplateId":     201,
+
+    "denName":     "hobgoblin den",
+    "denMaterial": 15,
+    "corpseName":  "hobgoblin corpse",
+
+    "colourNames": [ "greenish", "sallow" ],
+    "color": {
+      "red":   80,
+      "green": 120,
+      "blue":  60
+    },
+
+    "spawns": [
+      { "tile": "tree",   "elevation": "ground", "count": 2, "chance": 4 },
+      { "tile": "steppe", "elevation": "ground", "count": 1, "chance": 2 }
+    ],
+
+    "creatureAI": "standard",
+    "note": "Custom hobgoblin — larger and more dangerous than a standard goblin. Reuses the goblin model scaled up via sizeInCentimeters."
+  }
+]

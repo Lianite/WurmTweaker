@@ -62,31 +62,6 @@ public class CreatureDefinition {
     public String   creatureAI;
     public String   note;
 
-    public Float physicalResistance;
-    public Float acidVulnerability;
-    public Float fireVulnerability;
-    public Float fireResistance;
-    public Float coldResistance;
-    public Float coldVulnerability;
-    public Float diseaseResistance;
-    public Float diseaseVulnerability;
-    public Float pierceResistance;
-    public Float pierceVulnerability;
-    public Float slashResistance;
-    public Float slashVulnerability;
-    public Float crushResistance;
-    public Float crushVulnerability;
-    public Float biteResistance;
-    public Float biteVulnerability;
-    public Float poisonResistance;
-    public Float poisonVulnerability;
-    public Float waterResistance;
-    public Float waterVulnerability;
-    public Float acidResistance;
-    public Float internalResistance;
-    public Float internalVulnerability;
-    public Float physicalVulnerability;
-
     public static class SizeInCentimeters {
         public Short high;
         @SerializedName("long") public Short length;
@@ -119,8 +94,40 @@ public class CreatureDefinition {
     }
 
     public static class Armor {
-        public Float  naturalArmour;
-        public String armourType;
+        public Float         naturalArmour;
+        public String        armourType;
+        public Resistances   resistances;
+        public Vulnerabilities vulnerabilities;
+    }
+
+    public static class Resistances {
+        public Float physical;
+        public Float acid;
+        public Float fire;
+        public Float cold;
+        public Float disease;
+        public Float pierce;
+        public Float slash;
+        public Float crush;
+        public Float bite;
+        public Float poison;
+        public Float water;
+        public Float internal;
+    }
+
+    public static class Vulnerabilities {
+        public Float physical;
+        public Float acid;
+        public Float fire;
+        public Float cold;
+        public Float disease;
+        public Float pierce;
+        public Float slash;
+        public Float crush;
+        public Float bite;
+        public Float poison;
+        public Float water;
+        public Float internal;
     }
 
     public static class Attacks {

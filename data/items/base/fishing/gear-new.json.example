@@ -35,7 +35,12 @@
     "weight": 860,
     "material": 14,
     "value": 100,
-    "isPurchased": true
+    "isPurchased": true,
+    "containerSize": {
+      "x": 1,
+      "y": 1,
+      "z": 21
+    }
   },
   {
     "json-type": "item",
@@ -107,7 +112,12 @@
     "weight": 1506,
     "material": 14,
     "value": 200,
-    "isPurchased": true
+    "isPurchased": true,
+    "containerSize": {
+      "x": 4,
+      "y": 4,
+      "z": 11
+    }
   },
   {
     "json-type": "item",
@@ -501,7 +511,12 @@
     "weight": 250,
     "material": 14,
     "value": 15,
-    "isPurchased": false
+    "isPurchased": false,
+    "containerSize": {
+      "x": 4,
+      "y": 4,
+      "z": 51
+    }
   },
   {
     "json-type": "item",
@@ -539,7 +554,12 @@
     "weight": 280,
     "material": 14,
     "value": 15,
-    "isPurchased": false
+    "isPurchased": false,
+    "containerSize": {
+      "x": 4,
+      "y": 4,
+      "z": 51
+    }
   },
   {
     "json-type": "item",
@@ -577,7 +597,12 @@
     "weight": 530,
     "material": 11,
     "value": 20,
-    "isPurchased": false
+    "isPurchased": false,
+    "containerSize": {
+      "x": 4,
+      "y": 4,
+      "z": 51
+    }
   },
   {
     "json-type": "item",
@@ -615,6 +640,11 @@
     "weight": 550,
     "material": 9,
     "value": 25,
-    "isPurchased": false
+    "isPurchased": false,
+    "containerSize": {
+      "x": 4,
+      "y": 4,
+      "z": 51
+    }
   }
 ]

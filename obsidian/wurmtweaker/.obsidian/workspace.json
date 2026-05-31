@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Base Game Items.md",
+                "file": "Reference/Item Template Fields.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Base Game Items"
+              "title": "Item Template Fields"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reference/Base Game Items.md",
+                "file": "Reference/Item Template Fields.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Base Game Items"
+              "title": "Backlinks for Item Template Fields"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reference/Base Game Items.md",
+                "file": "Reference/Item Template Fields.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Base Game Items"
+              "title": "Outgoing links from Item Template Fields"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reference/Base Game Items.md",
+                "file": "Reference/Item Template Fields.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Base Game Items"
+              "title": "Outline of Item Template Fields"
             }
           }
         ]
@@ -185,41 +185,41 @@
   },
   "active": "12d6dc4d63b9764d",
   "lastOpenFiles": [
-    "Reference/Base Game Items.md.tmp.4748.ce60d4c442cd",
-    "Tasks/TASK-005 Items.md",
-    "Reference/Item Types.md",
-    "Reference/Base Game Items.md.tmp.4748.643b771ad23a",
-    "Reference/Base Game Items.md.tmp.4748.92c7197f9c7d",
-    "Reference/Base Game Items.md.tmp.4748.2ac61baa066c",
-    "Reference/Base Game Items.md.tmp.4748.098efa3c0987",
-    "Reference/Base Game Items.md.tmp.4748.b0012ad0396f",
-    "Reference/Base Game Items.md.tmp.4748.ab60f2ae3e97",
-    "Reference/Base Game Items.md.tmp.4748.e59bdf2fd686",
-    "Reference/Base Game Items.md.tmp.4748.fd3c74a8e641",
-    "Reference/Base Game Items.md.tmp.4748.5e8eeb50a062",
-    "Reference/Base Game Items.md.tmp.4748.066dfede4188",
+    "Reference/Item Template Fields.md.tmp.41268.c95388e2e0a9",
+    "Reference/Item Template Fields.md.tmp.41268.6606d54b569b",
+    "Reference/Item Template Fields.md.tmp.41268.18e51caec1fa",
+    "Reference/Item Template Fields.md.tmp.41268.3cb3463e733c",
+    "Reference/Item Template Fields.md.tmp.41268.b83e9b8ce4d8",
+    "Reference/Item Template Fields.md.tmp.41268.87cdabf9a76b",
+    "Reference/Item Template Fields.md.tmp.41268.ead6c4c087f9",
+    "Reference/Item Template Fields.md.tmp.41268.6395e582a291",
+    "Reference/Item Template Fields.md.tmp.41268.670452f9c48b",
+    "Reference/Item Template Fields.md.tmp.41268.be7c1dd37d1f",
+    "Tasks/TASK-008 Crate Item Limits.md",
+    "Tasks/TASK-008 Crate Item Limits.md.tmp.41268.83dbee203280",
+    "Reference/Item Sizes.md",
     "Reference/Item Template Fields.md",
+    "Reference/Skill Template Fields.md",
+    "Reference/Item Materials.md",
+    "Reference/Skill IDs.md",
+    "Reference/Creature Template Fields.md",
+    "Reference/Creature Types.md",
+    "Tasks/TASK-006 Spawn Groups.md",
+    "Reference/Spawn Tiles.md",
+    "Tasks/TASK-007 Initial Containers.md",
+    "Tasks/TASK-004b Creatures Java Support.md",
+    "Reference/Item Types.md",
     "Reference/Base Game Items.md",
+    "Tasks/TASK-005 Items.md",
     "Design/North Star.md",
     "Design/Guardrails.md",
     "Design/Creature Template Decisions.md",
     "Design/Architecture.md",
-    "Reference/Item Sizes.md",
-    "Reference/Item Materials.md",
     "Tasks/TASK-004c Creature Spawns.md",
-    "Tasks/TASK-004b Creatures Java Support.md",
-    "Reference/Creature Types.md",
-    "Reference/Spawn Tiles.md",
-    "Tasks/TASK-006 Spawn Groups.md",
-    "Reference/Skill IDs.md",
     "Database/dbcreatures-table.md",
     "Database/dbcreatures.sql.md",
     "Design/Overview.md",
     "Tasks/TASK-004 Creatures.md",
-    "Tasks/TASK-003 Skills.md",
-    "Tasks/TASK-002 JSON Infrastructure.md",
-    "Tasks/TASK-001 Project Setup.md",
-    "TASK-001 Project Setup.md",
-    "Home.md"
+    "Tasks/TASK-003 Skills.md"
   ]
 }

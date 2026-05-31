@@ -222,7 +222,13 @@
     "weight": 200000,
     "material": 14,
     "value": 10000,
-    "isPurchased": true
+    "isPurchased": true,
+    "containerSize": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "maxItemCount": 6
   },
   {
     "json-type": "item",

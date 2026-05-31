@@ -168,7 +168,12 @@
     "weight": 240000,
     "material": 14,
     "value": 10000,
-    "isPurchased": true
+    "isPurchased": true,
+    "containerSize": {
+      "x": 120,
+      "y": 120,
+      "z": 410
+    }
   },
   {
     "json-type": "item",
@@ -217,7 +222,12 @@
     "weight": 240000,
     "material": 14,
     "value": 50000,
-    "isPurchased": true
+    "isPurchased": true,
+    "containerSize": {
+      "x": 200,
+      "y": 260,
+      "z": 400
+    }
   },
   {
     "json-type": "item",

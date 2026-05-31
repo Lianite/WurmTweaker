@@ -40,7 +40,12 @@
     "weight": 5500,
     "material": 16,
     "value": 2000,
-    "isPurchased": false
+    "isPurchased": false,
+    "containerSize": {
+      "x": 30,
+      "y": 40,
+      "z": 50
+    }
   },
   {
     "json-type": "item",

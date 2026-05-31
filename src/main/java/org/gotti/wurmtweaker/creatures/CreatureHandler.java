@@ -322,30 +322,36 @@ public class CreatureHandler implements ContentHandler<CreatureDefinition> {
         }
 
         // Resistance / vulnerability — public fields, direct assignment
-        if (def.physicalResistance    != null) template.physicalResistance    = def.physicalResistance;
-        if (def.physicalVulnerability != null) template.physicalVulnerability = def.physicalVulnerability;
-        if (def.acidResistance        != null) template.acidResistance        = def.acidResistance;
-        if (def.acidVulnerability     != null) template.acidVulnerability     = def.acidVulnerability;
-        if (def.fireResistance        != null) template.fireResistance        = def.fireResistance;
-        if (def.fireVulnerability     != null) template.fireVulnerability     = def.fireVulnerability;
-        if (def.coldResistance        != null) template.coldResistance        = def.coldResistance;
-        if (def.coldVulnerability     != null) template.coldVulnerability     = def.coldVulnerability;
-        if (def.diseaseResistance     != null) template.diseaseResistance     = def.diseaseResistance;
-        if (def.diseaseVulnerability  != null) template.diseaseVulnerability  = def.diseaseVulnerability;
-        if (def.pierceResistance      != null) template.pierceResistance      = def.pierceResistance;
-        if (def.pierceVulnerability   != null) template.pierceVulnerability   = def.pierceVulnerability;
-        if (def.slashResistance       != null) template.slashResistance       = def.slashResistance;
-        if (def.slashVulnerability    != null) template.slashVulnerability    = def.slashVulnerability;
-        if (def.crushResistance       != null) template.crushResistance       = def.crushResistance;
-        if (def.crushVulnerability    != null) template.crushVulnerability    = def.crushVulnerability;
-        if (def.biteResistance        != null) template.biteResistance        = def.biteResistance;
-        if (def.biteVulnerability     != null) template.biteVulnerability     = def.biteVulnerability;
-        if (def.poisonResistance      != null) template.poisonResistance      = def.poisonResistance;
-        if (def.poisonVulnerability   != null) template.poisonVulnerability   = def.poisonVulnerability;
-        if (def.waterResistance       != null) template.waterResistance       = def.waterResistance;
-        if (def.waterVulnerability    != null) template.waterVulnerability    = def.waterVulnerability;
-        if (def.internalResistance    != null) template.internalResistance    = def.internalResistance;
-        if (def.internalVulnerability != null) template.internalVulnerability = def.internalVulnerability;
+        if (arm != null && arm.resistances != null) {
+            CreatureDefinition.Resistances res = arm.resistances;
+            if (res.physical != null) template.physicalResistance  = res.physical;
+            if (res.acid     != null) template.acidResistance      = res.acid;
+            if (res.fire     != null) template.fireResistance      = res.fire;
+            if (res.cold     != null) template.coldResistance      = res.cold;
+            if (res.disease  != null) template.diseaseResistance   = res.disease;
+            if (res.pierce   != null) template.pierceResistance    = res.pierce;
+            if (res.slash    != null) template.slashResistance     = res.slash;
+            if (res.crush    != null) template.crushResistance     = res.crush;
+            if (res.bite     != null) template.biteResistance      = res.bite;
+            if (res.poison   != null) template.poisonResistance    = res.poison;
+            if (res.water    != null) template.waterResistance     = res.water;
+            if (res.internal != null) template.internalResistance  = res.internal;
+        }
+        if (arm != null && arm.vulnerabilities != null) {
+            CreatureDefinition.Vulnerabilities vuln = arm.vulnerabilities;
+            if (vuln.physical != null) template.physicalVulnerability  = vuln.physical;
+            if (vuln.acid     != null) template.acidVulnerability      = vuln.acid;
+            if (vuln.fire     != null) template.fireVulnerability      = vuln.fire;
+            if (vuln.cold     != null) template.coldVulnerability      = vuln.cold;
+            if (vuln.disease  != null) template.diseaseVulnerability   = vuln.disease;
+            if (vuln.pierce   != null) template.pierceVulnerability    = vuln.pierce;
+            if (vuln.slash    != null) template.slashVulnerability     = vuln.slash;
+            if (vuln.crush    != null) template.crushVulnerability     = vuln.crush;
+            if (vuln.bite     != null) template.biteVulnerability      = vuln.bite;
+            if (vuln.poison   != null) template.poisonVulnerability    = vuln.poison;
+            if (vuln.water    != null) template.waterVulnerability     = vuln.water;
+            if (vuln.internal != null) template.internalVulnerability  = vuln.internal;
+        }
 
         // Drops — butcheredItems is private final, override via reflection
         if (def.drops != null) setField(template, "butcheredItems", def.drops);

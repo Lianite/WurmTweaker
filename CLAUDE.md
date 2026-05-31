@@ -2,14 +2,16 @@
 
 A Java 8 server-side mod for Wurm Unlimited built on Ago's modloader. Admins customize game content — skills, creatures, items — by dropping JSON files in a `data/` folder. No SQL, no reflection hacks, no code changes required.
 
-See `docs/overview.md` for the full project description and `docs/north-star.md` for the design philosophy.
+Before starting any work, read:
+- `obsidian/wurmtweaker/Design/Overview.md` — what this project is and why
+- `obsidian/wurmtweaker/Design/North Star.md` — design philosophy; every decision should align with this
 
 ## Rules
 
 - **Java 8 only.** No language features from Java 9+.
-- **Never guess Wurm internals.** If you don't know the API, research it first. See `docs/guardrails.md`.
+- **Never guess Wurm internals.** If you don't know the API, research it first. Ask the user to provide source files — never decompile JARs.
 - **One phase at a time.** Skills → Creatures → Items. Don't start a phase until the previous one works end-to-end.
-- **Tasks live in `docs/tasks/`.** Read the task file before implementing anything.
+- **Tasks live in `obsidian/wurmtweaker/Tasks/`.** Read the task file before implementing anything.
 
 ## Build
 
@@ -72,25 +74,23 @@ The field is `"json-type"` — not `"type"` — to avoid collision with definiti
 }
 ```
 
-## Phase Roadmap
+## Obsidian Vault
 
-| Task | Description | Status |
-|---|---|---|
-| TASK-001 | Maven project skeleton + modloader wiring | Complete |
-| TASK-002 | JSON loading infrastructure | Complete |
-| TASK-003 | Skills — data model + stub (API research required) | Complete |
-| TASK-004 | Creatures — via `CreatureTemplateBuilder` | Planned |
-| TASK-005 | Items — via `ItemTemplateBuilder` + reflection fallback | Planned |
+An Obsidian knowledge vault lives at `obsidian/wurmtweaker/` in the repo root. It documents design decisions, reference tables, and tasks.
+
+- **Tasks:** `obsidian/wurmtweaker/Tasks/` — one file per task (TASK-001 through TASK-007+)
+- Task files use YAML frontmatter (`id`, `title`, `status`, `phase`, `tags`, `related`) followed by markdown sections (Goal, Deliverables, Research Findings, etc.)
+- When creating a new task, check the existing files to find the next available task number
+
 
 ## Key Files
 
 | File | Purpose |
 |---|---|
-| `docs/overview.md` | What this project is and why |
-| `docs/north-star.md` | Design philosophy (CDDA model) |
-| `docs/guardrails.md` | What NOT to do |
-| `docs/architecture.md` | Module structure, hook lifecycle, JSON conventions |
-| `docs/tasks/TASK-00N-*.md` | Detailed task specs |
+| `obsidian/wurmtweaker/Design/Overview.md` | What this project is and why |
+| `obsidian/wurmtweaker/Design/North Star.md` | Design philosophy — read before making any decisions |
+| `obsidian/wurmtweaker/Design/Architecture.md` | Module structure, hook lifecycle, JSON conventions |
+| `obsidian/wurmtweaker/Design/Guardrails.md` | What NOT to do |
 | `pom.xml` | Maven build |
 | `wurmtweaker.properties` | Modloader descriptor |
 | `src/main/java/org/gotti/wurmtweaker/WurmTweaker.java` | Main mod class |

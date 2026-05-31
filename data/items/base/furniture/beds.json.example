@@ -127,7 +127,12 @@
     "weight": 40000,
     "material": 14,
     "value": 10000,
-    "isPurchased": true
+    "isPurchased": true,
+    "containerSize": {
+      "x": 40,
+      "y": 60,
+      "z": 200
+    }
   },
   {
     "json-type": "item",
@@ -216,7 +221,12 @@
     "weight": 40000,
     "material": 14,
     "value": 20000,
-    "isPurchased": false
+    "isPurchased": false,
+    "containerSize": {
+      "x": 60,
+      "y": 180,
+      "z": 200
+    }
   },
   {
     "json-type": "item",

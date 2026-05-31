@@ -182,7 +182,12 @@
     "weight": 5,
     "material": 14,
     "value": 10,
-    "isPurchased": false
+    "isPurchased": false,
+    "containerSize": {
+      "x": 4,
+      "y": 7,
+      "z": 30
+    }
   },
   {
     "json-type": "item",
@@ -219,7 +224,12 @@
     "weight": 10,
     "material": 11,
     "value": 20,
-    "isPurchased": false
+    "isPurchased": false,
+    "containerSize": {
+      "x": 4,
+      "y": 7,
+      "z": 30
+    }
   },
   {
     "json-type": "item",
@@ -254,7 +264,12 @@
     "weight": 10,
     "material": 35,
     "value": 30,
-    "isPurchased": false
+    "isPurchased": false,
+    "containerSize": {
+      "x": 4,
+      "y": 7,
+      "z": 30
+    }
   },
   {
     "json-type": "item",

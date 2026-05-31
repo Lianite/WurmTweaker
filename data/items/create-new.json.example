@@ -1,27 +1,61 @@
-{
-  "json-type": "item",
-  "identifier": "wurmtweaker:runedblade",
-  "name": "runed blade",
-  "plural": "runed blades",
-  "descriptions": {
-    "superb": "A masterfully runed blade, crackling with energy.",
-    "normal": "A runed blade with faintly glowing inscriptions.",
-    "bad": "A runed blade, its inscriptions worn and faded.",
-    "rotten": "A ruined runed blade, barely holding together.",
-    "long": "A sword whose blade is etched with arcane runes."
-  },
-  "itemTypes": [2, 16, 35, 37],
-  "imageNumber": 128,
-  "behaviourType": 0,
-  "combatDamage": 28,
-  "decayTime": 9072000,
-  "dimensions": { "x": 4, "y": 90, "z": 1 },
-  "primarySkill": 102,
-  "bodySpaces": [],
-  "modelName": "model.weapon.sword.longsword",
-  "difficulty": 50.0,
-  "weight": 1100,
-  "material": 9,
-  "value": 40000,
-  "isPurchased": false
-}
+[
+  {
+    "json-type": "item",
+    "identifier": "wurmtweaker:runedblade",
+    "name": "runed blade",
+    "plural": "runed blades",
+    "size": 3,
+    "descriptions": {
+      "superb": "extraordinary",
+      "normal": "decent",
+      "bad": "rough",
+      "rotten": "shattered",
+      "long": "A sword whose blade is etched with arcane runes. This sword converts slashing damage to crushing damage."
+    },
+    "itemTypes": [
+      1,
+      14,
+      16,
+      33,
+      35,
+      37,
+      65,
+      108,
+      116,
+      156,
+      180
+    ],
+    "imageNumber": 1224,
+    "behaviourType": 1,
+    "combatDamage": 40,
+    "decayTime": 12096000,
+    "dimensions": {
+      "x": 1,
+      "y": 6,
+      "z": 110
+    },
+    "primarySkill": 10005,
+    "bodySpaces": [],
+    "modelName": "model.weapon.swordlong.",
+    "difficulty": 30.0,
+    "weight": 3000,
+    "material": 11,
+    "value": 10000,
+    "isPurchased": true,
+    "weapon": {
+      "damage": 5.5,
+      "speed": 3.75,
+      "critChance": 0.01,
+      "reach": 3,
+      "weightGroup": 3,
+      "parryPercent": 1.0,
+      "skillPenalty": 0.0,
+      "damagedByMetal": false
+    },
+    "containerSize": {
+      "x": 10,
+      "y": 10,
+      "z": 10
+    }
+  }
+]

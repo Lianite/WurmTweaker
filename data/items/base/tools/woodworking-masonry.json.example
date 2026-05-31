@@ -379,7 +379,12 @@
     "weight": 10000,
     "material": 11,
     "value": 10000,
-    "isPurchased": true
+    "isPurchased": true,
+    "containerSize": {
+      "x": 80,
+      "y": 40,
+      "z": 150
+    }
   },
   {
     "json-type": "item",

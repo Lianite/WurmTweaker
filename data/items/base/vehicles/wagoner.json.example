@@ -82,7 +82,12 @@
     "weight": 500,
     "material": 17,
     "value": 1,
-    "isPurchased": false
+    "isPurchased": false,
+    "containerSize": {
+      "x": 100,
+      "y": 200,
+      "z": 201
+    }
   },
   {
     "json-type": "item",

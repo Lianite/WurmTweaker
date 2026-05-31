@@ -45,6 +45,11 @@
     "weight": 100000,
     "material": 15,
     "value": 10000,
-    "isPurchased": false
+    "isPurchased": false,
+    "containerSize": {
+      "x": 40,
+      "y": 30,
+      "z": 200
+    }
   }
 ]
