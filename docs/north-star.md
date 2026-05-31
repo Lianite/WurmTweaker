@@ -13,9 +13,6 @@ WurmTweaker applies that same philosophy to Wurm Unlimited server administration
 ### JSON is the interface
 Server admins never touch Java. They drop a `.json` file in the right folder and restart. That's it.
 
-### One JSON file = one unit of content
-Each file should be focused and self-describing. A `longsword.json` file describes the longsword. A `mining.json` file describes the mining skill. No mega-files with hundreds of entries.
-
 ### The engine never hard-codes content
 If a skill property, creature stat, or item attribute can be expressed in JSON, it should be. The Java code is a generic loader — it should have no opinions about what a "good" sword weight is.
 
