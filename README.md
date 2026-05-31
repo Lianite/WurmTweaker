@@ -32,31 +32,3 @@ There is also an option in the wurmtweaker.properties file to specify your own d
 2. Start the server — WurmTweaker logs which files it loaded
 
 The distribution includes a `data/` folder with reference documentation and `.json.example` files showing every vanilla item and creature in WurmTweaker's JSON format.
-
----
-
-## Quick Example
-
-```json
-{
-  "json-type": "item",
-  "templateId": 21,
-  "difficulty": 35.0,
-  "weight": 2800
-}
-```
-
-Drop this in `data/items/` and restart. The longsword's crafting difficulty and weight change. Every other field stays vanilla. Only the fields you include are touched.
-
----
-
-## Documentation
-
-- **[[Skills]]** — JSON field reference for skill customization
-- **[[Creatures]]** — JSON field reference for creature customization
-- **[[Items]]** — JSON field reference for item customization, including creating new items
-- **[[Item Types]]** — Full `itemTypes` flag table
-- **[[Item Materials]]** — Material ID table
-- **[[Skill IDs]]** — Vanilla skill ID table
-- **[[Spawn Tiles]]** — Vanilla Spawning Locations
-- **[[Creature Types]]** — Vanilla Creature Type table
